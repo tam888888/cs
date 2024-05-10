@@ -1,0 +1,120 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Improving Distributional Similarity with Lessons Learned from Word Embeddings - ACL Anthology</title><meta name=generator content="Hugo 0.118.2"><link href=/aclicon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css><meta content="Improving Distributional Similarity with Lessons Learned from Word Embeddings" name=citation_title><meta content="Omer Levy" name=citation_author><meta content="Yoav Goldberg" name=citation_author><meta content="Ido Dagan" name=citation_author><meta content="Transactions of the Association for Computational Linguistics" name=citation_journal_title><meta content="3" name=citation_volume><meta content="2015" name=citation_publication_date><meta content="https://aclanthology.org/Q15-1016.pdf" name=citation_pdf_url><meta content="211" name=citation_firstpage><meta content="225" name=citation_lastpage><meta content="10.1162/tacl_a_00134" name=citation_doi><meta property="og:title" content="Improving Distributional Similarity with Lessons Learned from Word Embeddings"><meta property="og:image" content="https://aclanthology.org/thumb/Q15-1016.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/Q15-1016"><meta property="og:description" content="Omer Levy, Yoav Goldberg, Ido Dagan. Transactions of the Association for Computational Linguistics, Volume 3. 2015."><link rel=canonical href=https://aclanthology.org/Q15-1016></head><body><nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient-light shadow-sm py-0 mb-3 mb-md-4 mb-xl-5"><div id=navbar-container class=container><a class=navbar-brand href=/><img src=/images/acl-logo.svg width=56 alt="ACL Logo">
+<span class="d-inline pl-2">ACL Anthology</span></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent><ul class="navbar-nav flex-grow-1 pr-md-2"><li class=nav-item><a class=nav-link href=/faq/>FAQ<span class=sr-only>(current)</span></a></li><li class=nav-item><a class=nav-link href=/info/corrections/>Corrections<span class=sr-only>(current)</span></a></li><li class=nav-item><a class=nav-link href=/info/contrib/>Submissions<span class=sr-only>(current)</span></a></li><li class=nav-item><a class=nav-link href=https://github.com/acl-org/acl-anthology/><i class="fab fa-github pr-1"></i>Github</a></li></ul><form class="form-inline my-2 my-lg-0 flex-nowrap" action=/search/? method=get><input id=acl-search-box class="form-control mr-sm-2" name=q type=search placeholder=Search... aria-label=Search>
+<button class="btn btn-outline-primary" type=submit><i class="fas fa-search"></i></button></form></div></div></nav><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://aclanthology.org/Q15-1016.pdf>Improving Distributional Similarity with Lessons Learned from Word Embeddings</a></h2><p class=lead><a href=/people/o/omer-levy/>Omer Levy</a>,
+<a href=/people/y/yoav-goldberg/>Yoav Goldberg</a>,
+<a href=/people/i/ido-dagan/>Ido Dagan</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Recent trends suggest that neural-network-inspired word embedding models outperform traditional count-based distributional models on word similarity and analogy detection tasks. We reveal that much of the performance gains of word embeddings are due to certain system design choices and hyperparameter optimizations, rather than the embedding algorithms themselves. Furthermore, we show that these modifications can be transferred to traditional distributional models, yielding similar gains. In contrast to prior reports, we observe mostly local or insignificant performance differences between the methods, with no global advantage to any single approach over the others.</span></div></div><dl><dt>Anthology ID:</dt><dd>Q15-1016</dd><dt>Volume:</dt><dd><a href=/volumes/Q15-1/>Transactions of the Association for Computational Linguistics, Volume 3</a></dd><dt>Month:</dt><dd></dd><dt>Year:</dt><dd>2015</dd><dt>Address:</dt><dd>Cambridge, MA</dd><dt>Editors:</dt><dd><a href=/people/m/michael-collins/>Michael Collins</a>,
+<a href=/people/l/lillian-lee/>Lillian Lee</a></dd><dt>Venue:</dt><dd><a href=/venues/tacl/>TACL</a></dd><dt>SIG:</dt><dd></dd><dt>Publisher:</dt><dd>MIT Press</dd><dt>Note:</dt><dd></dd><dt>Pages:</dt><dd>211–225</dd><dt>Language:</dt><dd></dd><dt>URL:</dt><dd><a href=https://aclanthology.org/Q15-1016>https://aclanthology.org/Q15-1016</a></dd><dt>DOI:</dt><dd><a href=https://doi.org/10.1162/tacl_a_00134 title="To the current version of the paper by DOI">10.1162/tacl_a_00134</a></dd><dt class=acl-button-row>Bibkey:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citePaperBibkey><i class="far fa-clipboard"></i><span id=citePaperBibkey class="pl-2 text-monospace">levy-etal-2015-improving</span></button></dd><dt>Cite (ACL):</dt><dd><span id=citeACL>Omer Levy, Yoav Goldberg, and Ido Dagan. 2015. <a href=https://aclanthology.org/Q15-1016>Improving Distributional Similarity with Lessons Learned from Word Embeddings</a>. <i>Transactions of the Association for Computational Linguistics</i>, 3:211–225.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt>Cite (Informal):</dt><dd><span id=citeRichText><a href=https://aclanthology.org/Q15-1016>Improving Distributional Similarity with Lessons Learned from Word Embeddings</a> (Levy et al., TACL 2015)</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeRichText><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd><dt>PDF:</dt><dd><a href=https://aclanthology.org/Q15-1016.pdf>https://aclanthology.org/Q15-1016.pdf</a></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://aclanthology.org/Q15-1016.pdf title="Open PDF of 'Improving Distributional Similarity with Lessons Learned from Word Embeddings'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
+<a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Improving+Distributional+Similarity+with+Lessons+Learned+from+Word+Embeddings" title="Search for 'Improving Distributional Similarity with Lessons Learned from Word Embeddings' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{levy-etal-2015-improving,
+    title = &#34;Improving Distributional Similarity with Lessons Learned from Word Embeddings&#34;,
+    author = &#34;Levy, Omer  and
+      Goldberg, Yoav  and
+      Dagan, Ido&#34;,
+    editor = &#34;Collins, Michael  and
+      Lee, Lillian&#34;,
+    journal = &#34;Transactions of the Association for Computational Linguistics&#34;,
+    volume = &#34;3&#34;,
+    year = &#34;2015&#34;,
+    address = &#34;Cambridge, MA&#34;,
+    publisher = &#34;MIT Press&#34;,
+    url = &#34;https://aclanthology.org/Q15-1016&#34;,
+    doi = &#34;10.1162/tacl_a_00134&#34;,
+    pages = &#34;211--225&#34;,
+    abstract = &#34;Recent trends suggest that neural-network-inspired word embedding models outperform traditional count-based distributional models on word similarity and analogy detection tasks. We reveal that much of the performance gains of word embeddings are due to certain system design choices and hyperparameter optimizations, rather than the embedding algorithms themselves. Furthermore, we show that these modifications can be transferred to traditional distributional models, yielding similar gains. In contrast to prior reports, we observe mostly local or insignificant performance differences between the methods, with no global advantage to any single approach over the others.&#34;,
+}
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/Q15-1016.bib><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
+&lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
+&lt;mods ID=&#34;levy-etal-2015-improving&#34;&gt;
+    &lt;titleInfo&gt;
+        &lt;title&gt;Improving Distributional Similarity with Lessons Learned from Word Embeddings&lt;/title&gt;
+    &lt;/titleInfo&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Omer&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Levy&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yoav&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goldberg&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ido&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dagan&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;originInfo&gt;
+        &lt;dateIssued&gt;2015&lt;/dateIssued&gt;
+    &lt;/originInfo&gt;
+    &lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+    &lt;genre authority=&#34;bibutilsgt&#34;&gt;journal article&lt;/genre&gt;
+    &lt;relatedItem type=&#34;host&#34;&gt;
+        &lt;titleInfo&gt;
+            &lt;title&gt;Transactions of the Association for Computational Linguistics&lt;/title&gt;
+        &lt;/titleInfo&gt;
+        &lt;originInfo&gt;
+            &lt;issuance&gt;continuing&lt;/issuance&gt;
+            &lt;publisher&gt;MIT Press&lt;/publisher&gt;
+            &lt;place&gt;
+                &lt;placeTerm type=&#34;text&#34;&gt;Cambridge, MA&lt;/placeTerm&gt;
+            &lt;/place&gt;
+        &lt;/originInfo&gt;
+        &lt;genre authority=&#34;marcgt&#34;&gt;periodical&lt;/genre&gt;
+        &lt;genre authority=&#34;bibutilsgt&#34;&gt;academic journal&lt;/genre&gt;
+    &lt;/relatedItem&gt;
+    &lt;abstract&gt;Recent trends suggest that neural-network-inspired word embedding models outperform traditional count-based distributional models on word similarity and analogy detection tasks. We reveal that much of the performance gains of word embeddings are due to certain system design choices and hyperparameter optimizations, rather than the embedding algorithms themselves. Furthermore, we show that these modifications can be transferred to traditional distributional models, yielding similar gains. In contrast to prior reports, we observe mostly local or insignificant performance differences between the methods, with no global advantage to any single approach over the others.&lt;/abstract&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;levy-etal-2015-improving&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.1162/tacl_a_00134&lt;/identifier&gt;
+    &lt;location&gt;
+        &lt;url&gt;https://aclanthology.org/Q15-1016&lt;/url&gt;
+    &lt;/location&gt;
+    &lt;part&gt;
+        &lt;date&gt;2015&lt;/date&gt;
+        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;3&lt;/number&gt;&lt;/detail&gt;
+        &lt;extent unit=&#34;page&#34;&gt;
+            &lt;start&gt;211&lt;/start&gt;
+            &lt;end&gt;225&lt;/end&gt;
+        &lt;/extent&gt;
+    &lt;/part&gt;
+&lt;/mods&gt;
+&lt;/modsCollection&gt;
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/Q15-1016.xml><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
+%T Improving Distributional Similarity with Lessons Learned from Word Embeddings
+%A Levy, Omer
+%A Goldberg, Yoav
+%A Dagan, Ido
+%J Transactions of the Association for Computational Linguistics
+%D 2015
+%V 3
+%I MIT Press
+%C Cambridge, MA
+%F levy-etal-2015-improving
+%X Recent trends suggest that neural-network-inspired word embedding models outperform traditional count-based distributional models on word similarity and analogy detection tasks. We reveal that much of the performance gains of word embeddings are due to certain system design choices and hyperparameter optimizations, rather than the embedding algorithms themselves. Furthermore, we show that these modifications can be transferred to traditional distributional models, yielding similar gains. In contrast to prior reports, we observe mostly local or insignificant performance differences between the methods, with no global advantage to any single approach over the others.
+%R 10.1162/tacl_a_00134
+%U https://aclanthology.org/Q15-1016
+%U https://doi.org/10.1162/tacl_a_00134
+%P 211-225
+
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/Q15-1016.endf><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Improving Distributional Similarity with Lessons Learned from Word Embeddings](https://aclanthology.org/Q15-1016) (Levy et al., TACL 2015)</p><ul class=mt-2><li><a href=https://aclanthology.org/Q15-1016>Improving Distributional Similarity with Lessons Learned from Word Embeddings</a> (Levy et al., TACL 2015)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Omer Levy, Yoav Goldberg, and Ido Dagan. 2015. <a href=https://aclanthology.org/Q15-1016>Improving Distributional Similarity with Lessons Learned from Word Embeddings</a>. <i>Transactions of the Association for Computational Linguistics</i>, 3:211–225.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1"><span class="float-right mt-2 ml-2"><a rel=license href=http://creativecommons.org/licenses/by/4.0/><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by/4.0/88x31.png></a></span>
+ACL materials are Copyright ©&nbsp;1963&ndash;2024 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under the <a href=https://creativecommons.org/licenses/by-nc-sa/3.0/>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International License</a>. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on a <a href=https://creativecommons.org/licenses/by/4.0/>Creative Commons Attribution 4.0 International License</a>.</p><p class="text-muted small px-1">The ACL Anthology is managed and built by the <a href=/info/credits/>ACL Anthology team</a> of volunteers.</p><p class="text-muted small px-1"><i>Site last built on 09 May 2024 at 01:14 UTC with <a href=https://github.com/acl-org/acl-anthology/tree/c28bbfd1fbe4b49ddb919da0c808b45487d7b7ff>commit c28bbfd</a>.</i></p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script>
+<script>$(function(){$('[data-toggle="tooltip"]').tooltip(),$("#toggle-all-abstracts")&&($("#toggle-all-abstracts").click(function(){var e=$("#toggle-all-abstracts");e.attr("disabled",!0),e.attr("data-toggle-state")=="hide"?($(".abstract-collapse").collapse("show"),e.attr("data-toggle-state","show")):($(".abstract-collapse").collapse("hide"),e.attr("data-toggle-state","hide")),e.attr("disabled",!1)}),$("#toggle-all-abstracts").attr("disabled",!1))})</script><script src=/js/clipboard.min.js></script>
+<script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var t=$(e.trigger);t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check"),e.clearSelection(),setTimeout(function(){t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check")},2e3)};var e,t=new ClipboardJS(".btn-clipboard");t.on("success",success_fn),$(".btn-clipboard").removeClass("d-none"),e=new ClipboardJS(".btn-clipboard-outside",{text:function(e){var t=e.getAttribute("data-clipboard-target");return $(t).text()}}),e.on("success",success_fn),$(".btn-clipboard-outside").removeClass("d-none")}})</script></body></html>

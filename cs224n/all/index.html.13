@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YBX9BXR0MR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-YBX9BXR0MR');
+  </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Zhoujie Ding</title>
+  
+  <meta name="author" content="Zhoujie Ding">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" href="images/stanford_logo.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Zhoujie (Jason) Ding</name>
+              </p>
+              <p>I am currently a first-year MSCS student at <a href="https://www.stanford.edu/">Stanford University</a>. I received my B.A. in computer science and applied mathematics at <a href="https://www.berkeley.edu/">UC Berkeley</a>.
+              </p>
+              <p>
+                At Stanford, I am working on trustworthy machine learning with Professor <a href="https://cs.stanford.edu/~sanmi/index.html">Sanmi Koyejo</a> at <a href="https://stair.cs.stanford.edu/">Stanford Trustworthy AI Research</a>.
+              </p>
+              <p>
+                At Berkeley, I worked on the <a href="https://skyplane.org/">Skyplane</a> project at the <a href="https://sky.cs.berkeley.edu/">SkyLab</a> with Professor <a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph Gonzalez</a> and Professor <a href="http://people.eecs.berkeley.edu/~istoica/">Ion Stoica</a>. I also researched deep learning for code vulnerability detection under the supervision of Professor <a href="https://surrealyz.github.io/">Yizheng Chen</a> and Professor <a href="http://people.eecs.berkeley.edu/~daw/">David Wagner</a>.
+              </p>
+
+              <p style="text-align:center">
+                <a href="mailto:d1ng@stanford.edu">Email</a> &nbsp/&nbsp
+                <!-- <a href="https://drive.google.com/file/d/1wPk-Kuh3ZoL7QHME29QAeTtAbUJIZCZm/view?usp=sharing">CV</a> &nbsp/&nbsp -->
+                <a href="https://drive.google.com/file/d/1umixR3BUyzucBWLQuNPQ5jX4VI5gJUmo/view?usp=sharing">Resume</a> &nbsp/&nbsp
+                <!-- lilsheep -->
+                <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp -->
+                <a href="https://scholar.google.com/citations?user=FOXr4cwAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/zhoujie-ding-aa4b9a193">LinkedIn</a> &nbsp/&nbsp
+                <a href="https://github.com/JasonDing0401/">Github</a>
+                <!-- <a href="http://jd041.github.io">Old Website</a> -->
+              </p>
+            </td>
+            <td style="padding:2.5%;width:30%;max-width:30%">
+              <a href="images/JasonDing.JPG"><img style="width:95%;max-width:95%;border-radius:20%" alt="profile photo" src="images/JasonDing.JPG" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I am passionate about <b>building machine learning systems</b> and <b>studying responsible foundation models (especially large language models)</b>. In the past, I worked on machine learning systems and deep learning for security issues.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>DiverseVul: A New Vulnerable Source Code Dataset for Deep Learning Based Vulnerability Detection</papertitle>
+          <br>
+          <a href="https://surrealyz.github.io/">Yizheng Chen</a>,
+          <strong>Zhoujie Ding</strong>,
+          <a href="https://www.linkedin.com/in/lalowain/">Lamya Alowain</a>,
+          <a href="https://jungyhuk.github.io/">Xinyun Chen</a>,
+          <a href="http://people.eecs.berkeley.edu/~daw/">David Wagner</a>
+          <br>
+          In <em>the 26th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2023)</em>
+          <br>
+          <a href="https://arxiv.org/pdf/2304.00409.pdf">arXiv</a>, <a href="https://github.com/wagner-group/diversevul">dataset</a>
+          <p></p>
+          <p>
+            We propose and release a new vulnerable source code dataset. Our new dataset contains 18,945 vulnerable functions spanning 150 CWEs and 330,492 non-vulnerable functions extracted from 7,514 commits. It covers 295 more projects than all previous datasets combined.
+          </p>
+        </td>
+        </tr>
+            
+        <tr>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Continuous Learning for Android Malware Detection</papertitle>
+            <br>
+            <a href="https://surrealyz.github.io/">Yizheng Chen</a>,
+            <strong>Zhoujie Ding</strong>,
+            <a href="http://people.eecs.berkeley.edu/~daw/">David Wagner</a>
+            <br>
+            In <em>the 32th USENIX Security Symposium (USENIX Security 2023)</em>
+            <br>
+            <a href="https://arxiv.org/pdf/2302.04332.pdf">arXiv</a>
+            <br>
+            <strong>Top 10 Finalist of the CSAW'23 Applied Research Competition</strong>
+            <p>
+              We propose a new hierarchical contrastive learning with active learning to combat the concept drift problem of Android malware classifiers. Our approach reduces the false negative rate from 14% (for the best baseline) to 9%, while also reducing the false positive rate (from 0.86% to 0.48%).
+            </p>
+          </td>
+        </tr>
+        
+        <tr>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Kernel-as-a-Service: A Serverless Interface to GPUs</papertitle>
+              <br>
+              <a href="https://www.linkedin.com/in/nathan-pemberton-3566816/">Nathan Pemberton</a>,
+              <a href="https://www.linkedin.com/in/anton-zabreyko-06268b197/">Anton Zabreyko</a>,
+              <strong>Zhoujie Ding</strong>,
+              <a href="https://people.eecs.berkeley.edu/~randy/">Randy Katz</a>,
+              <a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph Gonzalez</a>
+              <br>
+              <em>Arxiv</em>, 2022
+              <br>
+              <a href="https://arxiv.org/pdf/2212.08146.pdf">arXiv</a>
+              <p></p>
+              <p>
+                We present Kernel-as-a-Service (KaaS), a serverless interface to GPUs. KaaS runs graphs of GPU-only code while host code is run on traditional functions. Our results show that KaaS is able to drive up to 50x higher throughput and 16x lower latency when GPU resources are contended.
+              </p>
+            </td>
+          </tr></tbody></table>
+					
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+            <tr>
+              <td>
+                <heading>Teaching</heading>
+              </td>
+            </tr>
+          </tbody></table>
+          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="images/stanford_cs.png", width="160">
+              </td>
+              <td width="75%" valign="center">
+                <p><strong>CS 224N: Natural Language Processing with Deep Learning
+                </strong></p>
+                <p><a href="https://web.stanford.edu/class/cs224n/">course website</a></p>
+                <p>TA, Spring 2024</p>
+                <p><strong>CS 229: Machine Learning</strong></p>
+                <p><a href="https://cs229.stanford.edu/">course website</a></p>
+                <p>Head TA, Winter 2024; TA, Fall 2023</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="images/berkeley_eecs.jpg", width="160">
+              </td>
+              <td width="75%" valign="center">
+                <p><strong>CS 189/289A: Introduction to Machine Learning</strong></p>
+                <p><a href="https://people.eecs.berkeley.edu/~jrs/189/">course website</a> / <a href="https://drive.google.com/drive/folders/1jctQE4gGFHphkXTDR0gMbmlU8XqYyI37?usp=sharing">my discussion session slides</a></p>
+                <p>TA, Spring 2023; Reader, Spring 2022</p>
+                <p><strong>CS194-26/294-26: Intro to Computer Vision and Computational Photography</strong></p>
+                <p><a href="https://inst.eecs.berkeley.edu/~cs194-26/fa22/">course website</a> / <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa22/hw/proj5/">class project I updated</a></p>
+                <p>Tutor, Fall 2022</p>
+                <p><strong>CS61C: Great Ideas in Computer Architecture (Machine Structures)</strong></p>
+                <p><a href="http://cs61c.org/">course website</a> / <a href="https://drive.google.com/drive/folders/1t6eSN9BZCW9PN8kqZMNPe93NOM747nX_?usp=sharing">my discussion session slides</a></p>
+                <p>Tutor, Fall 2021 and Spring 2021</p>
+              </td>
+            </tr>
+          </tbody></table>
+        
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Projects</heading>
+              <p>
+                <a href="https://jd041.github.io/Skyplane-Blog-Post/">Skyplane</a>
+              </p>
+              <p>
+                <a href="https://jd041.github.io/facial-key-points-detection/">Facial Keypoint Detection with Neural Networks</a>
+              </p>
+              <p>
+                <a href="https://jd041.github.io/tour-into-the-picture/">Tour into the Picture</a>
+              </p>
+              <p>
+                <a href="https://jd041.github.io/pintos/">Pintos</a>
+              </p>
+            </td>
+          </tr></tbody></table>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Misc</heading>
+            <p>
+              The pronunciation of my first name is "Chow-Jay". My Chinese name is 丁周节. I grew up in Hangzhou, China.
+            </p>
+            <p>
+              In my free time, I enjoy playing basketball, poker, and video games.
+            </p>
+          </td>
+        </tr></tbody></table>
+
+        <table class="sub-table" style="width: 200px;height: 100px;" align="center">
+          <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=BoJeodvXFCBKEkfICCgxb884J_QqVTEJJZmOT9D2zgQ&cl=ffffff&w=a"></script>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Thanks to <a href="https://github.com/jonbarron/website">Jon Barron</a> for the template
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

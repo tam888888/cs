@@ -1,0 +1,599 @@
+   <!--
+SFX (tm) menu HTML template
+Copyright Ex Libris Inc. (2004)
+Version: $Id: sfxmenu.tmpl,v 1.46 2010/05/03 09:19:28 erez Exp $
+//-->
+<HTML lang="en">
+<HEAD>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" >
+    <TITLE>Find it at Stanford (SFX Services)</TITLE>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+    <META HTTP-EQUIV="expires" CONTENT="Sat, 27 Sep 1980 08:21:57 GMT">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <META NAME="ROBOTS" CONTENT="NONE">
+    <META NAME="GOOGLEBOT" CONTENT="NOARCHIVE">
+    <LINK REL="stylesheet" TYPE="text/css" href="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/css/public/style.css">
+    <LINK REL="stylesheet" TYPE="text/css" href="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/css/bx/bx.css">
+    <SCRIPT type="text/javascript" LANGUAGE="JavaScript" src="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/js/sfxmenu/main.js"></SCRIPT>
+    <SCRIPT type="text/javascript" LANGUAGE="JavaScript" src="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/js/sfxmenu/gbs.js"></SCRIPT>
+    <!-- verde info button -->
+    <SCRIPT type="text/javascript" LANGUAGE="JavaScript" src="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/js/sfxmenu/Popup.js"></SCRIPT>
+    <!-- end verde info -->
+<!-- http://sfx-01stanford.hosted.exlibrisgroup.com/01stanford?genre=book //-->
+<!-- <ctx_object_1>$VAR1 = bless( {
+                 |sfx.show_availability| => |1|,
+                 |sfx.sid| => |DEFAULT|,
+                 |_stash| => {},
+                 |existing_ts_ids| => [
+                                        |111027614344001|,
+                                        |101950000000000025|,
+                                        |101950000000000055|,
+                                        |111026921949001|
+                                      ],
+                 |sfx.openurl| => |https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford?genre=book|,
+                 |@rfe_id| => [],
+                 |sfx.sourcename| => |DEFAULT|,
+                 |sfx.ignore_char_set| => 1,
+                 |@rft_id| => [],
+                 |rft.genre| => |book|,
+                 |req.session_id| => |sBFA1EFFE-0EBA-11EF-A587-E620344F8AF3|,
+                 |sfx.request_id| => 50584310
+               }, |ContextObject::Generic| );
+</ctx_object_1> //-->
+	<SCRIPT type="text/javascript" LANGUAGE="JavaScript" src="/01stanford/js/sfxmenu/open_link.js"></script>
+</HEAD>
+<BODY LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+    <!-- verde info button -->
+<div id="dragDiv"  class="Popup"></div>
+    <!-- end verde info -->
+<input type="hidden" id="basic_target_count" value=1>
+<input type="hidden" id="advanced_target_count" value=3>
+<input type="hidden" id="gbs_threshold_type" value=>
+<!-- in the next line, i removed the height info from the global version to get the maximize button to work properly. hjt 2/8/08 -->
+<TABLE CELLPADDING="0" CELLSPACING="0" BORDER=0 WIDTH="100%">
+     <TR>
+        <TD>
+
+
+<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%">
+        <TR height="38" bgcolor="FFFFFF"> 
+        <TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="http://library.stanford.edu" TARGET="_self" class="graphics"><IMG SRC="/01stanford/img/sfxmenu/logo.png" ALIGN="MIDDLE" WIDTH="158" HEIGHT="25" BORDER="0" ALT="Stanford Libraries"></a></TD>
+
+        </TR>
+</TABLE>
+
+    <TR>
+       <td>
+
+	<table width=100%><tr class="BlockSFXMenu">
+
+		<td style="padding-left:20px"><a href="http://library.stanford.edu" TARGET="_self">Home</a>&nbsp;&nbsp;&nbsp;&#62;&nbsp;&nbsp;&nbsp;<a href="http://library.stanford.edu/ejournals" TARGET="_self">eJournals</a>&nbsp;&nbsp;&nbsp;&#62;&nbsp;&nbsp;&nbsp;find it&nbsp; @&nbsp; Stanford</td>
+
+            	<td align="right" style="padding-right:35px"><a href="http://library.stanford.edu/ask/email/connection-problems" TARGET="_blank">Report a connection problem</a></td></tr></table>
+
+
+	</TD>
+
+    </TR>
+
+
+        </TD>
+    </TR>
+
+<!-- remove language menu
+    <TR>
+        <FORM name="lng_form">
+              <TD HEIGHT="18" ALIGN="RIGHT">
+                Language
+                <SELECT NAME="language" onChange=set_user_profile()>
+                    <OPTION value="English"SELECTED>English</OPTION>
+                    <OPTION value="Dutch">Dutch</OPTION>
+                    <OPTION value="Spanish">Spanish</OPTION>
+                </SELECT>
+        </TD>
+        </FORM>
+    </TR>
+end language menu -->
+
+
+    
+    <TR>
+        <TD style="padding-left:10px">
+            <table cellpadding=0 cellspacing=0 width="100%">
+
+		<tr><td colspan="2"><h1 class="PageTitleSFXMenu" style="font-size: 112%;">find it @ Stanford</h1></td></tr>
+	            <tr>
+	            	<td>
+	            <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
+	                
+    
+    <TR valign="top">
+        <TD><h1 class="Banner" style="font-weight:normal; font-size:98%; padding:0px 0px 0px 13px;">
+			
+				
+				   
+					  
+				   
+				
+			
+            </h1></TD></TR>
+            <TR><TD align="left" style="padding:0px 0px 3px 13px;">
+            
+            	
+            
+        </TD>
+    </TR>
+    <TR style="font-size:98%">
+        <TD align="left" style="padding:0px 0px 3px 13px;">
+            
+            
+
+            
+                
+            
+
+        </TD>
+    </TR>
+
+
+
+
+
+
+
+
+    <tr valign="top">
+    <td><class="Banner" colspan="2" style="font-weight:normal; font-size:98%; padding:0px 0px 3px 13px;">
+    <!-- COinS representation -->
+    <span class="Z3988" title="ctx_id=10_1&amp;ctx_enc=info%3Aofi%2Fenc%3AUTF-8&amp;ctx_ver=Z39.88-2004&amp;url_ver=Z39.88-2004&amp;rft.genre=book&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book"> </span>
+    </td>
+    </tr>
+
+
+
+	            </TABLE>
+	            	</td>
+		        	<td align="right">
+				        
+			        </td>			        
+				</tr>
+			</table>
+    
+        </TD>
+        
+    </TR>
+    
+        <TR>
+            <TD style="padding-left:10px; padding-top:5px">
+                
+                    
+    <table id="service_type_header_getMessageNoFullTxt" cellpadding="0" cellspacing="0" border="0" width="100%" align=center>
+    <tr>
+        <td><h2 class="BlockTitleSFXMenu" style="font-size: 112%;">Online full text</h2></td>
+    </tr>
+
+
+
+    <tr>
+        <td>
+            <table cellpadding="0" cellspacing="0" BORDER="0" width="100%">
+                
+    
+                    <form METHOD=GET
+                            ACTION="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/cgi/core/sfxresolver.cgi"
+                            NAME="basic1"
+                            TARGET="_blank">
+                        
+                        <tr id="tr_1_basic1" class="BlockSFXMenu" style="padding-left:28px">
+                            <td style="padding-left:28px">
+<!-- hidden fields section -->
+<!-- The hidden fields are fields sent by the cgi and are used by the
+     sfxresolver.cgi to present the actual target.
+-->
+                                <input type='hidden' name='tmp_ctx_obj_id' value='1'>
+<input type='hidden' name='tmp_ctx_svc_id' value='1'>
+<input type='hidden' name='request_id' value='50584310'>
+<input type='hidden' name='service_id' value='111026921949001'>
+
+<!-- end hidden fields section -->
+
+
+<!-- target name section -->
+<!-- The target name section is related to the target-specific html section by
+     the 'GO' button.  This button is dependent on the existence of the
+     target-specific information.  Please read the target-specific html section's
+     comment.
+-->
+                                <table border=0>
+                                    	<tr>
+<td nowrap width="1%" class="Label">
+
+Unavailable directly via Stanford's online subscriptions, but may be available through another option below.</span>
+
+</td>
+                                         
+                                        
+
+
+                                            <td class="siteDown">
+<!--
+                                                
+                                                    
+                                                
+                                            </td>
+
+
+
+                                        
+                                        
+                                          
+                                    </tr>
+                                </table>
+<!-- end target name section -->
+                            </td>
+                        </tr>
+
+<!-- object thresholds -->
+                        
+                        
+                        
+<!-- end object thresholds -->
+
+<!-- extra comments -->
+                        
+                        
+<!-- end extra comments -->
+
+<!-- target-specific html -->
+<!-- The target-specific html comes from the corresponding target displayer.
+     It is not always present, so it requires a TMPL_IF.  It is IMPORTANT TO NOTE
+     that if this is present the 'GO' button is printed right after it;  if not,
+     it is printed in the same line as the target name (see target name section).
+-->
+                        
+<!-- end target-specific html -->
+
+                        <tr>
+                            <td height="1">
+            <noscript><input title="(opens in a new window)" type="submit" value="&nbsp;Unavailable directly via Stanford&#39;s online subscriptions, but may be available through another option below."></noscript>
+                            
+                            </td>
+                        </tr>
+
+                    </form>
+                
+            </table>
+        <br></td>
+    </tr>
+
+</table>
+
+
+
+    <table id="service_type_header_getHolding" cellpadding="0" cellspacing="0" border="0" width="100%" align=center>
+    <tr>
+        <td><h2 class="BlockTitleSFXMenu" style="font-size: 112%;">Find it in print</h2></td>
+    </tr>
+
+
+
+    <tr>
+        <td>
+            <table cellpadding="0" cellspacing="0" BORDER="0" width="100%">
+                
+    
+                    <form METHOD=GET
+                            ACTION="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/cgi/core/sfxresolver.cgi"
+                            NAME="advanced1"
+                            TARGET="_blank">
+                        
+                        <tr id="tr_1_advanced1" class="BlockSFXMenu" style="padding-left:28px">
+                            <td style="padding-left:28px">
+<!-- hidden fields section -->
+<!-- The hidden fields are fields sent by the cgi and are used by the
+     sfxresolver.cgi to present the actual target.
+-->
+                                <input type='hidden' name='request_id' value='50584310'>
+<input type='hidden' name='service_id' value='101950000000000025'>
+<input type='hidden' name='tmp_ctx_svc_id' value='2'>
+<input type='hidden' name='tmp_ctx_obj_id' value='1'>
+
+<!-- end hidden fields section -->
+
+
+<!-- target name section -->
+<!-- The target name section is related to the target-specific html section by
+     the 'GO' button.  This button is dependent on the existence of the
+     target-specific information.  Please read the target-specific html section's
+     comment.
+-->
+                                <table border=0>
+                                    	<tr>
+<td nowrap width="1%" class="Label">
+
+<span class="LabelHighlightInnerJV"><A HREF="javascript:openSFXMenuLink(this,'advanced1');" title="(opens in a new window)">SearchWorks (Stanford catalog)</A></span>
+
+</td>
+                                         
+                                        
+
+
+                                            <td class="siteDown">
+<!--
+                                                
+                                                  <a class="graphics" href="javascript:openSFXMenuLink(this,'advanced1', undefined, '_blank');">&nbsp;&nbsp;<IMG
+                                                     SRC="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/img/sfxmenu/ico_go_top4.bmp"
+                                                     WIDTH="32" HEIGHT="22" BORDER="0" ALT="GO" align="top"></A>
+-->
+                                                
+                                            </td>
+
+
+
+                                        
+                                        
+                                          
+                                    </tr>
+                                </table>
+<!-- end target name section -->
+                            </td>
+                        </tr>
+
+<!-- object thresholds -->
+                        
+                        
+                        
+<!-- end object thresholds -->
+
+<!-- extra comments -->
+                        
+                        
+<!-- end extra comments -->
+
+<!-- target-specific html -->
+<!-- The target-specific html comes from the corresponding target displayer.
+     It is not always present, so it requires a TMPL_IF.  It is IMPORTANT TO NOTE
+     that if this is present the 'GO' button is printed right after it;  if not,
+     it is printed in the same line as the target name (see target name section).
+-->
+                        
+<!-- end target-specific html -->
+
+                        <tr>
+                            <td height="1">
+            <noscript><input title="(opens in a new window)" type="submit" value="&nbsp;SearchWorks (Stanford catalog)"></noscript>
+                            
+                            </td>
+                        </tr>
+
+                    </form>
+                
+            </table>
+        <br></td>
+    </tr>
+
+</table>
+
+    <table id="service_type_header_getDocumentDelivery" cellpadding="0" cellspacing="0" border="0" width="100%" align=center>
+    <tr>
+        <td><h2 class="BlockTitleSFXMenu" style="font-size: 112%;">Request from Stanford interlibrary service providers</h2></td>
+    </tr>
+
+
+
+    <tr>
+        <td>
+            <table cellpadding="0" cellspacing="0" BORDER="0" width="100%">
+                
+    
+                    <form METHOD=GET
+                            ACTION="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/cgi/core/sfxresolver.cgi"
+                            NAME="advanced2"
+                            TARGET="_blank">
+                        
+                        <tr id="tr_1_advanced2" class="BlockSFXMenu" style="padding-left:28px">
+                            <td style="padding-left:28px">
+<!-- hidden fields section -->
+<!-- The hidden fields are fields sent by the cgi and are used by the
+     sfxresolver.cgi to present the actual target.
+-->
+                                <input type='hidden' name='tmp_ctx_svc_id' value='3'>
+<input type='hidden' name='tmp_ctx_obj_id' value='1'>
+<input type='hidden' name='request_id' value='50584310'>
+<input type='hidden' name='service_id' value='111027614344001'>
+
+<!-- end hidden fields section -->
+
+
+<!-- target name section -->
+<!-- The target name section is related to the target-specific html section by
+     the 'GO' button.  This button is dependent on the existence of the
+     target-specific information.  Please read the target-specific html section's
+     comment.
+-->
+                                <table border=0>
+                                    	<tr>
+<td nowrap width="1%" class="Label">
+
+<span class="LabelHighlightInnerJV"><A HREF="javascript:openSFXMenuLink(this,'advanced2');" title="(opens in a new window)">Stanford University Libraries</A></span>
+for Stanford non-Medical Center affiliated researchers only<br>(requires SUNet login)
+</td>
+                                         
+                                        
+
+
+                                            <td class="siteDown">
+<!--
+                                                
+                                                  <a class="graphics" href="javascript:openSFXMenuLink(this,'advanced2', undefined, '_blank');">&nbsp;&nbsp;<IMG
+                                                     SRC="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/img/sfxmenu/ico_go_top4.bmp"
+                                                     WIDTH="32" HEIGHT="22" BORDER="0" ALT="GO" align="top"></A>
+-->
+                                                
+                                            </td>
+
+
+
+                                        
+                                        
+                                          
+                                    </tr>
+                                </table>
+<!-- end target name section -->
+                            </td>
+                        </tr>
+
+<!-- object thresholds -->
+                        
+                        
+                        
+<!-- end object thresholds -->
+
+<!-- extra comments -->
+                        
+                        
+<!-- end extra comments -->
+
+<!-- target-specific html -->
+<!-- The target-specific html comes from the corresponding target displayer.
+     It is not always present, so it requires a TMPL_IF.  It is IMPORTANT TO NOTE
+     that if this is present the 'GO' button is printed right after it;  if not,
+     it is printed in the same line as the target name (see target name section).
+-->
+                        
+<!-- end target-specific html -->
+
+                        <tr>
+                            <td height="1">
+            <noscript><input title="(opens in a new window)" type="submit" value="for Stanford non-Medical Center affiliated researchers only<br>(requires SUNet login)&nbsp;Stanford University Libraries"></noscript>
+                            
+                            </td>
+                        </tr>
+
+                    </form>
+                
+    
+                    <form METHOD=GET
+                            ACTION="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/cgi/core/sfxresolver.cgi"
+                            NAME="advanced3"
+                            TARGET="_blank">
+                        
+                        <tr id="tr_1_advanced3" class="BlockSFXMenu" style="padding-left:28px">
+                            <td style="padding-left:28px">
+<!-- hidden fields section -->
+<!-- The hidden fields are fields sent by the cgi and are used by the
+     sfxresolver.cgi to present the actual target.
+-->
+                                <input type='hidden' name='tmp_ctx_svc_id' value='4'>
+<input type='hidden' name='tmp_ctx_obj_id' value='1'>
+<input type='hidden' name='request_id' value='50584310'>
+<input type='hidden' name='service_id' value='101950000000000055'>
+
+<!-- end hidden fields section -->
+
+
+<!-- target name section -->
+<!-- The target name section is related to the target-specific html section by
+     the 'GO' button.  This button is dependent on the existence of the
+     target-specific information.  Please read the target-specific html section's
+     comment.
+-->
+                                <table border=0>
+                                    	<tr>
+<td nowrap width="1%" class="Label">
+
+<span class="LabelHighlightInnerJV"><A HREF="javascript:openSFXMenuLink(this,'advanced3');" title="(opens in a new window)">Lane Medical Library DocXpress</A></span>
+for Stanford School of Medicine & Medical Center affiliated researchers only<br>(requires registration for an account)
+</td>
+                                         
+                                        
+
+
+                                            <td class="siteDown">
+<!--
+                                                
+                                                  <a class="graphics" href="javascript:openSFXMenuLink(this,'advanced3', undefined, '_blank');">&nbsp;&nbsp;<IMG
+                                                     SRC="https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford/img/sfxmenu/ico_go_top4.bmp"
+                                                     WIDTH="32" HEIGHT="22" BORDER="0" ALT="GO" align="top"></A>
+-->
+                                                
+                                            </td>
+
+
+
+                                        
+                                        
+                                          
+                                    </tr>
+                                </table>
+<!-- end target name section -->
+                            </td>
+                        </tr>
+
+<!-- object thresholds -->
+                        
+                        
+                        
+<!-- end object thresholds -->
+
+<!-- extra comments -->
+                        
+                        
+<!-- end extra comments -->
+
+<!-- target-specific html -->
+<!-- The target-specific html comes from the corresponding target displayer.
+     It is not always present, so it requires a TMPL_IF.  It is IMPORTANT TO NOTE
+     that if this is present the 'GO' button is printed right after it;  if not,
+     it is printed in the same line as the target name (see target name section).
+-->
+                        
+<!-- end target-specific html -->
+
+                        <tr>
+                            <td height="1">
+            <noscript><input title="(opens in a new window)" type="submit" value="for Stanford School of Medicine & Medical Center affiliated researchers only<br>(requires registration for an account)&nbsp;Lane Medical Library DocXpress"></noscript>
+                            
+                            </td>
+                        </tr>
+
+                    </form>
+                
+            </table>
+        <br></td>
+    </tr>
+
+</table>
+
+
+
+
+                
+            </TD>
+        </TR>
+    
+
+        <TR>
+	<TD class="Footer" style="padding-left:29; font-style: italic;">
+        <!-- Added accessibility text per DLSS. smc 20231205 -->
+        If you cannot access content or use features on this website due to a disability, please <a href="mailto:library-accessibility-contact@lists.stanford.edu" TARGET="_blank">report your accessibility issue</a>.<br>
+	&copy; 2024 SFX by Ex Libris Inc.&nbsp;&nbsp;&nbsp;
+	<a href="https://library.stanford.edu/copyright-notice" TARGET="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="http://www.crossref.org" TARGET="_blank">CrossRef Enabled</a><br><br><br>
+	</TD>
+    </TR>
+</TABLE>
+
+    
+
+<script type="text/javascript">
+   var _mfq = _mfq || [];
+   (function() {
+       var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true;
+       mf.src = "//cdn.mouseflow.com/projects/7018c2f5-a161-4fec-9e2a-e9d7acc0cc75.js";
+       document.getElementsByTagName("head")[0].appendChild(mf);
+   })();
+</script>
+
+</BODY>
+</HTML>

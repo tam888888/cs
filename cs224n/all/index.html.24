@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SVYDKRWE05"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-SVYDKRWE05", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});</script>
+<link rel="canonical" href="https://oae.stanford.edu/" />
+<link rel="shortlink" href="https://oae.stanford.edu/" />
+<meta property="og:site_name" content="Office of Accessible Education" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://oae.stanford.edu/" />
+<meta property="og:title" content="Office of Accessible Education" />
+<meta property="og:image" content="https://oae.stanford.edu/sites/g/files/sbiybj19456/files/styles/large/public/media/image/563_salvatierra_walk_1.jpeg?itok=W3UtYNFE" />
+<meta property="og:image:url" content="https://oae.stanford.edu/sites/g/files/sbiybj19456/files/styles/large/public/media/image/563_salvatierra_walk_1.jpeg?itok=W3UtYNFE" />
+<meta property="og:image:alt" content="photograph of 563 Salvatierra Walk building" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Office of Accessible Education" />
+<meta name="twitter:image" content="https://oae.stanford.edu/sites/g/files/sbiybj19456/files/styles/large/public/media/image/563_salvatierra_walk_1.jpeg?itok=W3UtYNFE" />
+<meta name="twitter:image:alt" content="photograph of 563 Salvatierra Walk building" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/profiles/custom/stanford_profile/themes/stanford_basic/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <link rel="apple-touch-icon" sizes="60x60" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-180x180.png" />
+
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-192x192.png" sizes="192x192" />
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-128.png" sizes="128x128" />
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://www-media.stanford.edu/assets/favicon/favicon-16x16.png" sizes="16x16" />
+
+    <link rel="mask-icon" href="https://www-media.stanford.edu/assets/favicon/safari-pinned-tab.svg" color="#ffffff">
+    <meta name="application-name" content="Stanford University"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="https://www-media.stanford.edu/assets/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://www-media.stanford.edu/assets/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://www-media.stanford.edu/assets/favicon/mstile-150x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://www-media.stanford.edu/assets/favicon/mstile-310x310.png" />
+
+    <title>Office of Accessible Education</title>
+    <link rel="stylesheet" media="all" href="/sites/g/files/sbiybj19456/files/css/css_FMS2Sfrrofukgm_bsv6BI3ICqLEI9CMs8wXUA5tWksc.css?delta=0&amp;language=en&amp;theme=stanford_basic&amp;include=eJyNU9GS5CAI_CGjn2QxShLujFiKm83fn052Lslszc6-UHQDLRAychRYsfCCZjx8veKtw6LGNwm6zLSoiXkKaCFC2IRcMc-E-lOXVASy2ErmBgWvTICNq1y5M1DNiSNnb1stOZtgQitbwmIie9SP8NADR3LKPFLro8gWWuoL_mV-ggxThjTrjODE_sevS74GeRW-NGt_bPZ7qt7F9VhDGFbyMquyFcFlX-h1ReZuFX5KoPjX-FwTBP0Fvz86Y0iYTSFBWhr5gfr4eJXa-yKYYxuQHYSRuSF98n-xw3UrtG6TOrb46OpgdI2p3gKVGf0huaAnMJ5KahtQO2pv9BYcJCGO6oNwLeZu9cK-htM-Yg91Y5uw7KmW4kixTWuLyxzCXjo82GFnL5N3haEr6O7dpd4P7SD7i0ondvZ98fMx7fh0hoYjWsehLvEXcjeIsX2pczczZtbdPF-Paz83Rrke4D8ExKu0" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.13.1/css/v4-shims.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/sbiybj19456/files/css/css_OFb13-ISKy5dSi-o288vWjHn_RZ40KKxm32xIoQnI_E.css?delta=3&amp;language=en&amp;theme=stanford_basic&amp;include=eJyNU9GS5CAI_CGjn2QxShLujFiKm83fn052Lslszc6-UHQDLRAychRYsfCCZjx8veKtw6LGNwm6zLSoiXkKaCFC2IRcMc-E-lOXVASy2ErmBgWvTICNq1y5M1DNiSNnb1stOZtgQitbwmIie9SP8NADR3LKPFLro8gWWuoL_mV-ggxThjTrjODE_sevS74GeRW-NGt_bPZ7qt7F9VhDGFbyMquyFcFlX-h1ReZuFX5KoPjX-FwTBP0Fvz86Y0iYTSFBWhr5gfr4eJXa-yKYYxuQHYSRuSF98n-xw3UrtG6TOrb46OpgdI2p3gKVGf0huaAnMJ5KahtQO2pv9BYcJCGO6oNwLeZu9cK-htM-Yg91Y5uw7KmW4kixTWuLyxzCXjo82GFnL5N3haEr6O7dpd4P7SD7i0ondvZ98fMx7fh0hoYjWsehLvEXcjeIsX2pczczZtbdPF-Paz83Rrke4D8ExKu0" />
+<link rel="stylesheet" media="all" href="/sites/g/files/sbiybj19456/files/css/css_-lOjFKCCplGljRuVHp02U-mKiNm_xLBiGZ4vZqhm65E.css?delta=4&amp;language=en&amp;theme=stanford_basic&amp;include=eJyNU9GS5CAI_CGjn2QxShLujFiKm83fn052Lslszc6-UHQDLRAychRYsfCCZjx8veKtw6LGNwm6zLSoiXkKaCFC2IRcMc-E-lOXVASy2ErmBgWvTICNq1y5M1DNiSNnb1stOZtgQitbwmIie9SP8NADR3LKPFLro8gWWuoL_mV-ggxThjTrjODE_sevS74GeRW-NGt_bPZ7qt7F9VhDGFbyMquyFcFlX-h1ReZuFX5KoPjX-FwTBP0Fvz86Y0iYTSFBWhr5gfr4eJXa-yKYYxuQHYSRuSF98n-xw3UrtG6TOrb46OpgdI2p3gKVGf0huaAnMJ5KahtQO2pv9BYcJCGO6oNwLeZu9cK-htM-Yg91Y5uw7KmW4kixTWuLyxzCXjo82GFnL5N3haEr6O7dpd4P7SD7i0ondvZ98fMx7fh0hoYjWsehLvEXcjeIsX2pczczZtbdPF-Paz83Rrke4D8ExKu0" />
+<link rel="stylesheet" media="print" href="/sites/g/files/sbiybj19456/files/css/css_exH5cq1XGDFla3PCwwGhpQ4TZB8peGfsqrxWX1UTkgU.css?delta=5&amp;language=en&amp;theme=stanford_basic&amp;include=eJyNU9GS5CAI_CGjn2QxShLujFiKm83fn052Lslszc6-UHQDLRAychRYsfCCZjx8veKtw6LGNwm6zLSoiXkKaCFC2IRcMc-E-lOXVASy2ErmBgWvTICNq1y5M1DNiSNnb1stOZtgQitbwmIie9SP8NADR3LKPFLro8gWWuoL_mV-ggxThjTrjODE_sevS74GeRW-NGt_bPZ7qt7F9VhDGFbyMquyFcFlX-h1ReZuFX5KoPjX-FwTBP0Fvz86Y0iYTSFBWhr5gfr4eJXa-yKYYxuQHYSRuSF98n-xw3UrtG6TOrb46OpgdI2p3gKVGf0huaAnMJ5KahtQO2pv9BYcJCGO6oNwLeZu9cK-htM-Yg91Y5uw7KmW4kixTWuLyxzCXjo82GFnL5N3haEr6O7dpd4P7SD7i0ondvZ98fMx7fh0hoYjWsehLvEXcjeIsX2pczczZtbdPF-Paz83Rrke4D8ExKu0" />
+
+    <script src="/core/assets/vendor/modernizr/modernizr.min.js?v=3.11.7"></script>
+
+
+                      <script>
+          gtag('config', 'G-BECJQXLNCY');
+        </script>
+                </head>
+            <body class="front role--anonymous">
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<header class="su-masthead su-masthead--right">
+
+              <a href="#main-content" class="visually-hidden focusable su-skipnav su-skipnav--content">
+          Skip to main content
+        </a>
+        <a href="#secondary-navigation" class="visually-hidden focusable su-skipnav su-skipnav--secondary">
+          Skip to secondary navigation
+        </a>
+      
+      
+<div class="su-brand-bar su-brand-bar--default">
+  <div class="su-brand-bar__container"><a  class="su-brand-bar__logo" href="https://stanford.edu">Stanford University<span class="su-brand-bar__link--a11y"> (link is external)</span>
+  </a></div>
+</div>
+
+<section class="su-masthead--inner">
+        <div  id="block-stanford-basic-branding" class="su-lockup su-lockup--option-a">
+    <a href="https://oae.stanford.edu/" >
+  <div class="su-lockup__cell1">
+          <div class="su-lockup__wordmark-wrapper">
+      <span class="su-lockup__wordmark">Stanford</span>
+          </div>
+    </div>          <div class="su-lockup__cell2">
+            <span class="su-lockup__line1" >Office of Accessible Education</span>
+      
+      
+          </div>
+            </a>
+  </div>
+
+
+        
+<div  class="su-site-search su-site-search" role="search">
+ <form action="/search" method="get" accept-charset="UTF-8">
+  <label class="su-site-search__sr-label" for="key">Search this site</label>
+  <input  type="text" id="key" name="key" class="su-site-search__input" placeholder="Search this site" maxlength="128">
+  <button  type="submit" name="search" class="su-site-search__submit su-sr-only-text">Submit Search</button></form>
+</div>
+
+
+        <div id="block-stanford-basic-main-navigation" class="system-menu-block main">
+      <nav class="su-multi-menu--dropdowns su-multi-menu su-multi-menu--buttons su-multi-menu--right no-js" aria-label="main menu">
+    <button class="su-multi-menu__nav-toggle su-multi-menu__nav-toggle--right " aria-expanded="false">Menu</button>
+    <ul class="su-multi-menu__menu su-multi-menu__menu-lv1"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/"><span class="su-multi-menu__link-text-wrapper">Home</span></a></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/students/students/students/students"><span class="su-multi-menu__link-text-wrapper">Students</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv2"><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/students/students/students/students"><span class="su-multi-menu__link-text-wrapper">Getting Started</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv3"><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/students/students/register-oae"><span class="su-multi-menu__link-text-wrapper">Register with the OAE</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv4"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/register-oae/documentation-guidelines" data-toggle="tooltip" title="Documentation Guidelines"><span class="su-multi-menu__link-text-wrapper">Documentation Guidelines</span></a></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/getting-started/oae-and-your-privacy" data-toggle="tooltip" title="OAE and Your Privacy"><span class="su-multi-menu__link-text-wrapper">OAE &amp; Your Privacy</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv4"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/getting-started/oae-and-your-privacy/your-file-documentation"><span class="su-multi-menu__link-text-wrapper">Your File &amp; Documentation</span></a></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/students/students/prospective-students-faqs"><span class="su-multi-menu__link-text-wrapper">Prospective Students FAQs</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv4"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="https://vaden.stanford.edu/health-resources/transitioning-your-medical-and-mental-health-care" data-toggle="tooltip" title="Transitioning your Medical and Mental Health Care"><span class="su-multi-menu__link-text-wrapper">Transitioning Your Medical and Mental Health Care</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/prospective-students-faqs/transitioning-college-websites"><span class="su-multi-menu__link-text-wrapper">Transitioning to College Websites</span></a></li></ul></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/students/students/requesting-new-or-additional-accommodations"><span class="su-multi-menu__link-text-wrapper">Requesting New or Additional Accommodations</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/students/students/dispelling-myths-about-oae"><span class="su-multi-menu__link-text-wrapper">Dispelling Myths About the OAE</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/students/students/video-welcome-stanford-university"><span class="su-multi-menu__link-text-wrapper">Video: Welcome to Stanford University!</span></a></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/students/students/students/students"><span class="su-multi-menu__link-text-wrapper">Accommodations &amp; Services</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv3"><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/academic-accommodations"><span class="su-multi-menu__link-text-wrapper">Academic Accommodations</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv4"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/alternate-format-services"><span class="su-multi-menu__link-text-wrapper">Alternate Format Services</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/assignment-extensions"><span class="su-multi-menu__link-text-wrapper">Assignment Extensions</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/assistive-technology"><span class="su-multi-menu__link-text-wrapper">Assistive Technology</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/attendance-flexibility"><span class="su-multi-menu__link-text-wrapper">Attendance Flexibility</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/audio-recording-lectures"><span class="su-multi-menu__link-text-wrapper">Audio Recording Lectures</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/captioning-media-content"><span class="su-multi-menu__link-text-wrapper">Captioning Media Content</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/class-participation-accommodations"><span class="su-multi-menu__link-text-wrapper">Class Participation Accommodations</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/classroom-relocation"><span class="su-multi-menu__link-text-wrapper">Classroom Relocation</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/assistants"><span class="su-multi-menu__link-text-wrapper">Assistants</span></a></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/academic-accommodations/exam-accommodations-students"><span class="su-multi-menu__link-text-wrapper">Exam Accommodations for Students</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv5"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/ctc-SPR2024" data-toggle="tooltip" title="Centralized Testing Center (CTC) | Spring 2024"><span class="su-multi-menu__link-text-wrapper">Centralized Testing Center (CTC)</span></a></li></ul></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/live-captioning-and-sign-language-interpreting"><span class="su-multi-menu__link-text-wrapper">Live Captioning and Sign Language Interpreting</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/notetaker-services"><span class="su-multi-menu__link-text-wrapper">Notetaker Services</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations/reduced-courseload"><span class="su-multi-menu__link-text-wrapper">Reduced Courseload</span></a></li></ul></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/assistive-tech-evaluations"><span class="su-multi-menu__link-text-wrapper">Assistive Tech Evaluations</span></a></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/housing-accommodations"><span class="su-multi-menu__link-text-wrapper">Housing Accommodations</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv4"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/housing-accommodations/dining-meal-plan-accommodations"><span class="su-multi-menu__link-text-wrapper">Dining &amp; Meal Plan Accommodations</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/housing-accommodations/freshman-year-housing-accommodations"><span class="su-multi-menu__link-text-wrapper">Freshman Year Housing Accommodations</span></a></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/housing-accommodations/housing-assignment-accommodations"><span class="su-multi-menu__link-text-wrapper">Housing Assignment Accommodations</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv5"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/housing-accommodations/housing-assignment-accommodations/oae-undergraduate-housing"><span class="su-multi-menu__link-text-wrapper">OAE Undergraduate Housing Assignments</span></a></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/housing-accommodations/housing-assignment-accommodations/oae-graduate-housing-lottery"><span class="su-multi-menu__link-text-wrapper">OAE Graduate Housing Lottery</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv6"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/housing-accommodations/housing-assignment-accommodations/oae-graduate-housing-lottery-0" data-toggle="tooltip" title="Applying with a Friend in The OAE Graduate Housing Lottery"><span class="su-multi-menu__link-text-wrapper">Applying with a Friend</span></a></li></ul></li></ul></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/housing-accommodations/housing-facility-accommodations"><span class="su-multi-menu__link-text-wrapper">Housing Facility Accommodations</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/housing-accommodations/support-animals-stanford-student-housing"><span class="su-multi-menu__link-text-wrapper">Support Animals in Stanford Student Housing</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/being-neighborly-disability-inclusive-considerations-living-community" data-toggle="tooltip" title="Disability-Inclusive Considerations for Living in a Community"><span class="su-multi-menu__link-text-wrapper">Disability-Inclusive Considerations for Living in a Community</span></a></li></ul></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/parking-transportation"><span class="su-multi-menu__link-text-wrapper">Parking &amp; Transportation</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/study-abroad"><span class="su-multi-menu__link-text-wrapper">Study Abroad</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/non-academic-requests-facility-access"><span class="su-multi-menu__link-text-wrapper">Non-Academic Requests &amp; Facility Access</span></a></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/remote-learning-coping-during-covid-19"><span class="su-multi-menu__link-text-wrapper">Learning &amp; Coping During COVID-19</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv3"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/remote-learning-coping-during-covid-19/stanford-specific-support"><span class="su-multi-menu__link-text-wrapper">Stanford-Specific Support</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/remote-learning-coping-during-covid-19/guidance-exam-accommodations-during-remote"><span class="su-multi-menu__link-text-wrapper">Guidance on Exam Accommodations During Remote Instruction</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/remote-learning-coping-during-covid-19/guidance-faculty-recording-courses"><span class="su-multi-menu__link-text-wrapper">Guidance for Faculty on Recording Courses</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/remote-learning-coping-during-covid-19/accessible-online-learning"><span class="su-multi-menu__link-text-wrapper">Accessible Online Learning</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/remote-learning-coping-during-covid-19/assistive-technology-online-learning"><span class="su-multi-menu__link-text-wrapper">Assistive Technology for Online Learning</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/remote-learning-coping-during-covid-19/notetaking-strategies-tools"><span class="su-multi-menu__link-text-wrapper">Notetaking Strategies &amp; Tools</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/remote-learning-coping-during-covid-19/additional-considerations-people-disabilities"><span class="su-multi-menu__link-text-wrapper">Additional Considerations for People with Disabilities</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/remote-learning-coping-during-covid-19/health-well-being"><span class="su-multi-menu__link-text-wrapper">Health &amp; Well-Being</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/remote-learning-coping-during-covid-19/news"><span class="su-multi-menu__link-text-wrapper">In the News</span></a></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/students/students/students/students"><span class="su-multi-menu__link-text-wrapper">Resources</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv3"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/disability-access-symbols"><span class="su-multi-menu__link-text-wrapper">Disability Access Symbols</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/disability-related-scholarships"><span class="su-multi-menu__link-text-wrapper">Disability-Related Scholarships</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/emergency-preparedness-tips"><span class="su-multi-menu__link-text-wrapper">Emergency Preparedness Tips</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/deaf-or-hard-hearing"><span class="su-multi-menu__link-text-wrapper">For Deaf or Hard-of-Hearing</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/personal-care-attendants-pcas"><span class="su-multi-menu__link-text-wrapper">Personal Care Attendants</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/visually-impaired"><span class="su-multi-menu__link-text-wrapper">For the Visually Impaired</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/health-care-services"><span class="su-multi-menu__link-text-wrapper">Health Care Services</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/wheelchair-repair-medical-supplies"><span class="su-multi-menu__link-text-wrapper">Wheelchair Repair &amp; Medical Supplies</span></a></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/students/students/students/students/students"><span class="su-multi-menu__link-text-wrapper">Advocacy &amp; Community</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv3"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/students/students/campus-partners"><span class="su-multi-menu__link-text-wrapper">Campus Partners</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/stanford-disability-organizations"><span class="su-multi-menu__link-text-wrapper">Stanford Disability Organizations</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/students/students/national-disability-organizations-and-resources"><span class="su-multi-menu__link-text-wrapper">National Disability Organizations and Resources</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/being-neighborly-disability-inclusive-considerations-living-community"><span class="su-multi-menu__link-text-wrapper">Being Neighborly: Disability-Inclusive Considerations for Living in a Community</span></a></li></ul></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/grievance-complaint-resolution"><span class="su-multi-menu__link-text-wrapper">Grievance &amp; Complaint Resolution</span></a></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/faculty-staff/faculty-staff/faculty-staff/faculty-staff/faculty-staff"><span class="su-multi-menu__link-text-wrapper">Faculty &amp; Staff</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv2"><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/faculty-staff/faculty-staff/faculty-staff/faculty-staff/faculty-staff"><span class="su-multi-menu__link-text-wrapper">Faculty &amp; Teaching Staff</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv3"><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/faculty-staff/faculty-teaching-staff-role"><span class="su-multi-menu__link-text-wrapper">Faculty &amp; Teaching Staff Role</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv4"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/faculty-teaching-staff-role/faculty-faqs"><span class="su-multi-menu__link-text-wrapper">Faculty FAQs</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/faculty-teaching-staff-role/concerns-complaints"><span class="su-multi-menu__link-text-wrapper">Concerns &amp; Complaints</span></a></li></ul></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/syllabus-statement"><span class="su-multi-menu__link-text-wrapper">Syllabus Statement</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/students/academic-accommodations" data-toggle="tooltip" title="Academic Accommodations"><span class="su-multi-menu__link-text-wrapper">Academic Accommodations</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/determining-essential-requirements-coursesprograms"><span class="su-multi-menu__link-text-wrapper">Determining Essential Requirements for Courses/Programs</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/exam-accommodations-distraction-reduced-seating"><span class="su-multi-menu__link-text-wrapper">Exam Accommodations: Distraction-Reduced Seating</span></a></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/faculty-staff/faculty-staff/faculty-staff/captioning-classroom"><span class="su-multi-menu__link-text-wrapper">Captioning in the Classroom</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv4"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-teaching-staff/captioning-classroom/helpful-hints"><span class="su-multi-menu__link-text-wrapper">Helpful Hints for Instructors</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-teaching-staff/captioning-classroom/assign-captioner"><span class="su-multi-menu__link-text-wrapper">How To: Assign a Captioner in Zoom</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/captioning-classroom/how-add-captions-canvas-course-videos"><span class="su-multi-menu__link-text-wrapper">How To: Add Captions in Canvas - Course Videos</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/captioning-classroom/how-add-captions-canvas-files"><span class="su-multi-menu__link-text-wrapper">How To: Add Captions in Canvas - Files</span></a></li></ul></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/document-remediation-oaes-alternate-format-team"><span class="su-multi-menu__link-text-wrapper">Document Remediation by OAE’s Alternate Format Team</span></a></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/faculty-staff/faculty-staff/faculty-staff/faculty-staff/faculty-staff"><span class="su-multi-menu__link-text-wrapper">Rights and Responsibilities</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv3"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/students"><span class="su-multi-menu__link-text-wrapper">For Students</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/faculty-responsibilities"><span class="su-multi-menu__link-text-wrapper">Faculty Responsibilities</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/faculty-rights"><span class="su-multi-menu__link-text-wrapper">Faculty Rights</span></a></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/faculty-staff/faculty-staff/faculty-staff/faculty-staff/faculty-staff"><span class="su-multi-menu__link-text-wrapper">Resources</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv3"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/resources/connections"><span class="su-multi-menu__link-text-wrapper">OAE Connections Newsletter</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/faculty-staff/video-resource-teaching-assistants"><span class="su-multi-menu__link-text-wrapper">Video: A Resource for Teaching Assistants</span></a></li></ul></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/accessibility-resources"><span class="su-multi-menu__link-text-wrapper">Accessibility Resources</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv2"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="https://oaed8.sites.stanford.edu/accessibility-resources" data-toggle="tooltip" title="Event Accessibility &amp; Inclusion"><span class="su-multi-menu__link-text-wrapper">Event Accessibility &amp; Inclusion</span></a></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/accessibility-resources/scribe"><span class="su-multi-menu__link-text-wrapper">SCRIBE</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv3"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/accessibility-resources/scribe/convert-file"><span class="su-multi-menu__link-text-wrapper">Convert a File</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/accessibility-resources/scribe/conversion-options"><span class="su-multi-menu__link-text-wrapper">Conversion Options</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/accessibility-resources/scribe/best-practices"><span class="su-multi-menu__link-text-wrapper">Best Practices</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/accessibility-resources/scribe/scribe-sensusaccess-e-learning-course"><span class="su-multi-menu__link-text-wrapper">SCRIBE (SensusAccess) E-Learning Course</span></a></li></ul></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/accessibility-resources/speechify-frequently-asked-questions"><span class="su-multi-menu__link-text-wrapper">Speechify FAQs</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="https://oaed8.sites.stanford.edu/accessibility-resources" data-toggle="tooltip" title="Creating Accessible Content"><span class="su-multi-menu__link-text-wrapper">Creating Accessible Content</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="https://oaed8.sites.stanford.edu/accessibility-resources" data-toggle="tooltip" title="Digital Accessibility"><span class="su-multi-menu__link-text-wrapper">Digital Accessibility</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="https://oaed8.sites.stanford.edu/accessibility-resources" data-toggle="tooltip" title="Disability Language"><span class="su-multi-menu__link-text-wrapper">Disability Language</span></a></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/about-us"><span class="su-multi-menu__link-text-wrapper">About Us</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv2"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="https://stanfordadvising.my.site.com/OAE/s/contact"><span class="su-multi-menu__link-text-wrapper">Contact</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="https://stanfordadvising.my.site.com/OAE/s/directions"><span class="su-multi-menu__link-text-wrapper">Driving Directions</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/about-us/news"><span class="su-multi-menu__link-text-wrapper">News</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/about-us/events-0"><span class="su-multi-menu__link-text-wrapper">Events</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="https://stanfordcommunity.force.com/OAE/s/SSP"><span class="su-multi-menu__link-text-wrapper">Student Opportunities at the OAE</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/about-us/expectations-responsibilities"><span class="su-multi-menu__link-text-wrapper">Expectations &amp; Responsibilities</span></a></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/about-us/people"><span class="su-multi-menu__link-text-wrapper">People</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv3"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/about-us/people/disability-advisers"><span class="su-multi-menu__link-text-wrapper">Disability Advisers</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/about-us/people/accommodations-and-admin-team"><span class="su-multi-menu__link-text-wrapper">Accommodation and Admin Team</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/about-us/people/alternate-format-production-team"><span class="su-multi-menu__link-text-wrapper">Alternate Format Production Team</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/about-us/people/directors-managers"><span class="su-multi-menu__link-text-wrapper">Directors &amp; Managers</span></a></li></ul></li></ul></li><li class="su-multi-menu__item su-multi-menu__item--parent"><a class="su-multi-menu__link" href="/black-disabled-lives-matter"><span class="su-multi-menu__link-text-wrapper">Black Disabled Lives Matter</span></a><ul class="su-multi-menu__menu su-multi-menu__menu-lv2"><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/black-disabled-lives-matter/suggested-reading-disability-racial-justice"><span class="su-multi-menu__link-text-wrapper">Suggested Reading for Disability &amp; Racial Justice</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="https://oaed8.sites.stanford.edu/news/black-disabled-lives-matter"><span class="su-multi-menu__link-text-wrapper">OAE &amp; Black Disabled Intersectionality</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/black-disabled-lives-matter/conversation-tl-lewis"><span class="su-multi-menu__link-text-wrapper">A Conversation with TL Lewis</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/black-disabled-lives-matter/blackness-and-disability-experience"><span class="su-multi-menu__link-text-wrapper">Blackness and the Disability Experience</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="/black-disabled-lives-matter/racial-trauma-real-and-valid"><span class="su-multi-menu__link-text-wrapper">Racial Trauma is Real and Valid</span></a></li><li class="su-multi-menu__item"><a class="su-multi-menu__link" href="https://cardinalatwork.stanford.edu/manager-toolkit/engage/ideal-engage/anti-racism-toolkit" data-toggle="tooltip" title="Anti-Racism Toolkit"><span class="su-multi-menu__link-text-wrapper">Anti-Racism Toolkit</span></a></li></ul></li></ul></nav>
+
+  </div>
+
+
+      </section>
+    </header><main class="page-content" id="page-content"><div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-stanford-basic-content" class="system-main-block block-system block-stanford-basic-content">
+  
+    
+      
+
+<section class="node basic-page node--layout-full">
+      <div class="content">
+    
+
+
+  
+
+<div class="jumpstart-ui--one-column centered-container">
+    <div  class="main-region flex-12-of-12">
+      
+
+<div class="inline-block stanford-component-block block-layout-builder">
+  
+    
+      
+
+
+
+
+      <div class="su-intro su-margin-bottom-3 block-content stanford-component-block su-component entity-reference-revisions label-hidden">
+              <div class="paragraph-item ptype-stanford-wysiwyg">  <div class="ptype-stanford-wysiwyg paragraph paragraph--type--stanford-wysiwyg paragraph--view-mode--default">
+          
+
+
+
+
+            <div class="su-wysiwyg-text paragraph stanford-wysiwyg text-long label-hidden"><p class="text-align-center">&nbsp;</p>
+
+<h2 class="text-align-center">Welcome to the OAE!</h2>
+
+<p class="text-align-center">The mission of the Office of Accessible Education (OAE) is to promote an accessible and inclusive environment for all students with disabilities. Through both&nbsp;academic and housing accommodations, we work to mitigate physical and attitudinal barriers that students might face. We are dedicated to supporting students with disabilities to give them the opportunity to perform at their highest academic potential. We also strive to promote the inclusive environment they need to experience full membership in our diverse Stanford community.</p></div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+
+    </div>
+</div>
+
+
+
+
+
+<div class="jumpstart-ui--one-column">
+    <div  class="main-region">
+      
+
+<div class="field-block node-stanford-page-su-page-banner block-layout-builder">
+  
+    
+      
+
+
+
+
+            <div class="node stanford-page su-page-banner entity-reference-revisions label-hidden"><div class="ptype-stanford-banner">
+<div class="overlay-left ds-entity--paragraph ds-entity--stanford-banner">
+  <div data-contextual-id="paragraph:root_parent_type=node&amp;root_parent=46&amp;paragraph=76:changed=1697484857&amp;ds_bundle=stanford_banner&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="9dgmEDZS7mQD0xJvmCzkbASq0rio7TaK-xK4umNDSQc" data-drupal-ajax-container=""></div>
+<div class="su-hero overlay-left">
+
+        <div class="su-hero__media">
+            <div class="media-entity-wrapper image">
+  
+  
+
+
+
+
+            <div class="media image field-media-image label-hidden">    <picture>
+                  <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_2xl_1x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=rsjYuJaB 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_2xl_2x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=X8EayFg- 2x" media="screen and (min-width: 1500px)" type="image/webp" width="365" height="138"/>
+              <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_2xl_1x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=rsjYuJaB 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_2xl_2x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=X8EayFg- 2x" media="screen and (min-width: 1200px)" type="image/webp" width="365" height="138"/>
+              <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_xl_1x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=N_waZXAu 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_xl_2x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=dnnTJq_R 2x" media="screen and (min-width: 992px)" type="image/webp" width="365" height="138"/>
+              <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_lg_1x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=-5_-hN2S 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_lg_2x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=KYUaeIpa 2x" media="screen and (min-width: 768px)" type="image/webp" width="365" height="138"/>
+              <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_md_1x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=5RNdPZhi 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_md_2x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=a1FoxjZ1 2x" media="screen and (min-width: 576px)" type="image/webp" width="365" height="138"/>
+              <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_sm_1x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=rfwk1FvT 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_sm_2x/public/media/image/563_salvatierra_walk_1.jpeg.webp?itok=UZ6NpAmZ 2x" media="(min-width: 0em)" type="image/webp" width="365" height="138"/>
+              <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_2xl_1x/public/media/image/563_salvatierra_walk_1.jpeg?itok=rsjYuJaB 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_2xl_2x/public/media/image/563_salvatierra_walk_1.jpeg?itok=X8EayFg- 2x" media="screen and (min-width: 1500px)" type="image/jpeg" width="365" height="138"/>
+              <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_2xl_1x/public/media/image/563_salvatierra_walk_1.jpeg?itok=rsjYuJaB 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_2xl_2x/public/media/image/563_salvatierra_walk_1.jpeg?itok=X8EayFg- 2x" media="screen and (min-width: 1200px)" type="image/jpeg" width="365" height="138"/>
+              <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_xl_1x/public/media/image/563_salvatierra_walk_1.jpeg?itok=N_waZXAu 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_xl_2x/public/media/image/563_salvatierra_walk_1.jpeg?itok=dnnTJq_R 2x" media="screen and (min-width: 992px)" type="image/jpeg" width="365" height="138"/>
+              <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_lg_1x/public/media/image/563_salvatierra_walk_1.jpeg?itok=-5_-hN2S 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_lg_2x/public/media/image/563_salvatierra_walk_1.jpeg?itok=KYUaeIpa 2x" media="screen and (min-width: 768px)" type="image/jpeg" width="365" height="138"/>
+              <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_md_1x/public/media/image/563_salvatierra_walk_1.jpeg?itok=5RNdPZhi 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_md_2x/public/media/image/563_salvatierra_walk_1.jpeg?itok=a1FoxjZ1 2x" media="screen and (min-width: 576px)" type="image/jpeg" width="365" height="138"/>
+              <source srcset="/sites/g/files/sbiybj19456/files/styles/breakpoint_sm_1x/public/media/image/563_salvatierra_walk_1.jpeg?itok=rfwk1FvT 1x, /sites/g/files/sbiybj19456/files/styles/breakpoint_sm_2x/public/media/image/563_salvatierra_walk_1.jpeg?itok=UZ6NpAmZ 2x" media="(min-width: 0em)" type="image/jpeg" width="365" height="138"/>
+                  <img loading="lazy" src="/sites/g/files/sbiybj19456/files/styles/breakpoint_2xl_2x/public/media/image/563_salvatierra_walk_1.jpeg?itok=X8EayFg-" width="365" height="138" alt="photograph of 563 Salvatierra Walk building" />
+
+  </picture>
+
+</div>
+      
+</div>
+
+      </div>
+    
+      <article  class="su-card su-hero__card">
+    
+  
+<section class="su-card__contents">
+                      
+                  <div class="su-card__button">
+          <a href="https://stanfordcommunity.force.com/OAE/s/directions" class="su-link su-button">
+            Our Office is Open Monday - Friday from 9:00 am - 5:00 pm
+          </a>
+        </div>
+      </section></article>
+</div>
+
+</div>
+</div>
+</div>
+      
+  </div>
+
+    </div>
+</div>
+
+
+
+  
+
+<div class="jumpstart-ui--one-column centered-container">
+    <div  class="main-region flex-12-of-12">
+      
+
+<div class="field-block node-stanford-page-title block-layout-builder">
+  
+    
+      
+  </div>
+
+
+<div class="field-block node-stanford-page-su-page-components block-layout-builder">
+  
+    
+      
+
+
+
+
+      <div class="node stanford-page su-page-components entity-reference-revisions label-hidden">
+              <div class="paragraph-item ptype-stanford-layout">  <div class="ptype-stanford-layout paragraph paragraph--type--stanford-layout paragraph--view-mode--default">
+          
+  <div class="layout layout--layout-paragraphs-one-column">
+
+          <div  class="layout__region layout__region--main">
+        <div class="ptype-stanford-card">
+<div class="ds-entity--paragraph ds-entity--stanford-card">
+  <div data-contextual-id="paragraph:root_parent_type=node&amp;root_parent=46&amp;paragraph=476:changed=1697484857&amp;ds_bundle=stanford_card&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="VbzF6LEyBh_ChwGz9JUEmnOP_AuHpf81WST7dh_0D5g" data-drupal-ajax-container=""></div><article  class="su-card ">
+    
+  
+<section class="su-card__contents">
+                  <div class="su-card__superhead"></div>
+              <h2>What is a disability?</h2>
+                  <p>Disability occurs on a spectrum. An individual with a disability is defined as someone with a physical or mental impairment which impacts that person’s major life activities. There isn’t an exhaustive list of disabilities; if you are experiencing limitations because of an impairment, you should get in touch with our office. Sometimes disability-related accommodations are simple -- a power door, for example. Sometimes the accommodation(s) can be complex; our job is to work with you so that together we maximize your access.</p>
+
+<p>Disabilities can be visible when someone uses a wheelchair, hearing aids, or cane. The majority of disabilities are invisible and include broad categories of learning disabilities, psychological, and chronic illnesses. Whether your disabilities are visible or invisible, temporary or chronic, the OAE wants to assist each individual find accommodations which work for them in a completely individualized process.</p>
+          </section></article>
+
+</div>
+</div>
+
+      </div>
+    
+  </div>
+
+
+      </div>
+</div>
+          </div>
+  
+  </div>
+
+    </div>
+</div>
+
+
+    
+<div class="jumpstart-ui--two-column flex-container centered-container">
+
+      <div  class="left-region flex-lg-3-of-12">
+      
+
+<div class="inline-block stanford-component-block block-layout-builder">
+  
+      <h2 class="block__title">Quick Links</h2>
+    
+      
+
+
+
+
+      <div class="su-intro su-margin-bottom-3 block-content stanford-component-block su-component entity-reference-revisions label-hidden">
+              <div class="paragraph-item ptype-stanford-wysiwyg">  <div class="ptype-stanford-wysiwyg paragraph paragraph--type--stanford-wysiwyg paragraph--view-mode--default">
+          
+
+
+
+
+            <div class="su-wysiwyg-text paragraph stanford-wysiwyg text-long label-hidden"><ul>
+	<li>Register here:&nbsp;<a href="https://oaeconnect.stanford.edu/">OAE | CONNECT</a>&nbsp;</li>
+	<li><a class="su-link--action" href="https://oaed8.sites.stanford.edu/students/getting-started/prospective-students-faqs">Prospective Students FAQ</a></li>
+	<li><a href="https://oae.stanford.edu/students/getting-started/register-oae/documentation-guidelines">Documentation Guidelines</a></li>
+	<li><a href="https://stanfordcommunity.force.com/OAE/s/SSP">Student Opportunities with OAE</a></li>
+	<li><a href="https://disability.stanford.edu/">Stanford Disability&nbsp;Initiative</a></li>
+	<li><a class="su-link--action" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="72f1a8c9-559a-4191-be5d-0ba8ad1b57a8" href="/students/emergency-preparedness-tips" title="Emergency Preparedness Tips">Emergency Preparedness</a></li>
+</ul></div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+
+
+<div class="inline-block stanford-component-block block-layout-builder">
+  
+    
+      
+
+
+
+
+      <div class="su-intro su-margin-bottom-3 block-content stanford-component-block su-component entity-reference-revisions label-hidden">
+              <div class="paragraph-item ptype-stanford-card"><div class="ptype-stanford-card">
+<div class="ds-entity--paragraph ds-entity--stanford-card">
+  <div data-contextual-id="paragraph:root_parent_type=block_content&amp;root_parent=21&amp;paragraph=1516:changed=1616084208&amp;ds_bundle=stanford_card&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="nixLf87Dm1077ujkdbNYR_TUUz_VLcFjkFNphFT8rbg" data-drupal-ajax-container=""></div><article  class="su-card ">
+    
+  
+<section class="su-card__contents">
+                  <div class="su-card__superhead"></div>
+              <h2>About</h2>
+                  <p>Stanford University has a strong commitment to maintaining a diverse and stimulating academic community, representing a broad spectrum of talents and experiences. Students with disabilities&nbsp;actively participating in the various aspects of life at Stanford are an essential part of that diversity.</p>
+                  <a href="/about-us" class="su-link su-card__link su-link--action">
+          About Us
+        </a>
+      </section></article>
+
+</div>
+</div>
+</div>
+          </div>
+  
+  </div>
+
+    </div>
+  
+      <div  class="flex-lg-9-of-12 main-region">
+      <div class="jumpstart-ui-skipnav-main-anchor block-jumpstart-ui">
+  
+    
+      <div id="main-content" tabindex="-1" class="visually-hidden focusable">Main content start</div>
+
+  </div>
+<div class="views-element-container views-block stanford-news-block-1 block-views">
+  
+      <h2 class="block__title">Recent News</h2>
+    
+      <div><div class="view stanford-news block-1 js-view-dom-id-22817c8fbf6c90c2fd37a15d0ed21f8eba2497cc85347639f66434b0ed158736">
+  
+  
+  
+
+  
+  
+  
+
+  <div data-drupal-views-infinite-scroll-content-wrapper class="views-infinite-scroll-content-wrapper clearfix"><div>
+  
+  <ul class="su-list-unstyled">
+
+          <li class="su-news-list">
+
+  
+
+<article class="su-news-article" aria-labelledby="oae-admit-weekend-open-house-is-fri-april-26-from-200-400-pm--2">
+
+          <header class="su-news-list__header">
+      <div class="su-news-list__headline-dek">
+        <a  href="/news/oae-admit-weekend-open-house-fri-april-26-200-400-pm">          <h3 id="oae-admit-weekend-open-house-is-fri-april-26-from-200-400-pm--2">
+OAE Admit Weekend Open House is Fri April 26 from 2:00 - 4:00 pm</h3>
+        </a>              </div>
+
+        <a  href="/news/oae-admit-weekend-open-house-fri-april-26-200-400-pm" aria-hidden="true" tabindex="-1">
+<div class="media-entity-wrapper image">
+  
+  
+
+
+
+
+            <div class="media image field-media-image label-hidden">  <img loading="lazy" src="/sites/g/files/sbiybj19456/files/styles/su_news_list/public/media/image/563_salvatierra_walk_1.jpeg?itok=hOtnKlTt" width="280" height="132" alt="photograph of 563 Salvatierra Walk building" />
+
+
+</div>
+      
+</div>
+</a>            <div class="su-news-list__item-date">
+                  <p>April 25, 2024</p>
+        </div>
+    </header>
+  </article>
+
+</li>
+          <li class="su-news-list">
+
+  
+
+<article class="su-news-article" aria-labelledby="thurs-523-oae-will-be-closed-from-1100-am-300-pm-for-a-student-affairs-staff-event--2">
+
+          <header class="su-news-list__header">
+      <div class="su-news-list__headline-dek">
+        <a  href="/news/thurs-523-oae-will-be-closed-1100-am-300-pm-student-affairs-staff-event">          <h3 id="thurs-523-oae-will-be-closed-from-1100-am-300-pm-for-a-student-affairs-staff-event--2">
+Thurs, 5/23: OAE will be closed from 11:00 am - 3:00 pm for a Student Affairs staff event</h3>
+        </a>              </div>
+
+        <a  href="/news/thurs-523-oae-will-be-closed-1100-am-300-pm-student-affairs-staff-event" aria-hidden="true" tabindex="-1">
+<div class="media-entity-wrapper image">
+  
+  
+
+
+
+
+            <div class="media image field-media-image label-hidden">  <img loading="lazy" src="/sites/g/files/sbiybj19456/files/styles/su_news_list/public/media/image/600_gear_s_transparent_bkgrd_5.png?itok=6YK9f6bh" width="280" height="132" alt="Grey circular gear with red Stanford S in center; S includes vertical white tree" />
+
+
+</div>
+      
+</div>
+</a>            <div class="su-news-list__item-date">
+                  <p>April 17, 2024</p>
+        </div>
+    </header>
+  </article>
+
+</li>
+          <li class="su-news-list">
+
+  
+
+<article class="su-news-article" aria-labelledby="wed-327-oae-will-be-closed-from-1100-am-100-pm-due-to-a-staff-event--2">
+
+          <header class="su-news-list__header">
+      <div class="su-news-list__headline-dek">
+        <a  href="/news/wed-327-oae-will-be-closed-1100-am-100-pm-due-staff-event">          <h3 id="wed-327-oae-will-be-closed-from-1100-am-100-pm-due-to-a-staff-event--2">
+Wed, 3/27: OAE will be closed from 11:00 am - 1:00 pm due to a staff event</h3>
+        </a>              </div>
+
+        <a  href="/news/wed-327-oae-will-be-closed-1100-am-100-pm-due-staff-event" aria-hidden="true" tabindex="-1">
+<div class="media-entity-wrapper image">
+  
+  
+
+
+
+
+            <div class="media image field-media-image label-hidden">  <img loading="lazy" src="/sites/g/files/sbiybj19456/files/styles/su_news_list/public/media/image/600_gear_s_transparent_bkgrd_5.png?itok=6YK9f6bh" width="280" height="132" alt="Grey circular gear with red Stanford S in center; S includes vertical white tree" />
+
+
+</div>
+      
+</div>
+</a>            <div class="su-news-list__item-date">
+                  <p>March 21, 2024</p>
+        </div>
+    </header>
+  </article>
+
+</li>
+          <li class="su-news-list">
+
+  
+
+<article class="su-news-article" aria-labelledby="oae039s-hours-are-changing-on-mon-march-25--2">
+
+          <header class="su-news-list__header">
+      <div class="su-news-list__headline-dek">
+        <a  href="/news/oaes-hours-are-changing-mon-march-25">          <h3 id="oae039s-hours-are-changing-on-mon-march-25--2">
+OAE&#039;s hours are changing on Mon March 25</h3>
+        </a>              </div>
+
+        <a  href="/news/oaes-hours-are-changing-mon-march-25" aria-hidden="true" tabindex="-1">
+<div class="media-entity-wrapper image">
+  
+  
+
+
+
+
+            <div class="media image field-media-image label-hidden">  <img loading="lazy" src="/sites/g/files/sbiybj19456/files/styles/su_news_list/public/media/image/600_gear_s_transparent_bkgrd_5.png?itok=6YK9f6bh" width="280" height="132" alt="Grey circular gear with red Stanford S in center; S includes vertical white tree" />
+
+
+</div>
+      
+</div>
+</a>            <div class="su-news-list__item-date">
+                  <p>March 14, 2024</p>
+        </div>
+    </header>
+  </article>
+
+</li>
+          <li class="su-news-list">
+
+  
+
+<article class="su-news-article" aria-labelledby="spring-quarter-course-the-art-of-access-disability-creativity-communication--2">
+
+          <header class="su-news-list__header">
+      <div class="su-news-list__headline-dek">
+        <a  href="/news/spring-quarter-course-art-access-disability-creativity-communication">          <h3 id="spring-quarter-course-the-art-of-access-disability-creativity-communication--2">
+Spring quarter course: The Art of Access: Disability, Creativity, Communication   </h3>
+        </a>              </div>
+
+        <a  href="/news/spring-quarter-course-art-access-disability-creativity-communication" aria-hidden="true" tabindex="-1">
+<div class="media-entity-wrapper image">
+  
+  
+
+
+
+
+            <div class="media image field-media-image label-hidden">  <img loading="lazy" src="/sites/g/files/sbiybj19456/files/styles/su_news_list/public/media/image/pwr91lf_poster_1_0.png?itok=XRy6nzvX" width="280" height="132" alt="From left to right, a student in a wheelchair, a woman standing and a man standing face a wall of swirling colors" />
+
+
+</div>
+      
+</div>
+</a>            <div class="su-news-list__item-date">
+                  <p>March 05, 2024</p>
+        </div>
+    </header>
+  </article>
+
+</li>
+          <li class="su-news-list">
+
+  
+
+<article class="su-news-article" aria-labelledby="sofa-sessions-march-12-530-630-pm--2">
+
+          <header class="su-news-list__header">
+      <div class="su-news-list__headline-dek">
+        <a  href="/news/sofa-sessions-march-12-530-630-pm">          <h3 id="sofa-sessions-march-12-530-630-pm--2">
+Sofa Sessions | March 12, 5:30 - 6:30 pm</h3>
+        </a>              </div>
+
+        <a  href="/news/sofa-sessions-march-12-530-630-pm" aria-hidden="true" tabindex="-1">
+<div class="media-entity-wrapper image">
+  
+  
+
+
+
+
+            <div class="media image field-media-image label-hidden">  <img loading="lazy" src="/sites/g/files/sbiybj19456/files/styles/su_news_list/public/media/image/600_gear_s_transparent_bkgrd_5.png?itok=6YK9f6bh" width="280" height="132" alt="Grey circular gear with red Stanford S in center; S includes vertical white tree" />
+
+
+</div>
+      
+</div>
+</a>            <div class="su-news-list__item-date">
+                  <p>February 15, 2024</p>
+        </div>
+    </header>
+  </article>
+
+</li>
+    
+  </ul>
+
+</div>
+</div>
+
+    
+<div class="js-pager__items pager" data-drupal-views-infinite-scroll-pager>
+  <div class="pager__item">
+    <a class="button" href="?page=1" title="Load more items" rel="next">Load More News</a>
+  </div>
+</div>
+
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+    </div>
+  
+</div>
+
+
+
+  
+
+<div class="jumpstart-ui--one-column centered-container">
+    <div  class="main-region flex-12-of-12">
+      
+
+<div class="inline-block stanford-component-block block-layout-builder">
+  
+    
+      
+
+
+
+
+      <div class="su-intro su-margin-bottom-3 block-content stanford-component-block su-component entity-reference-revisions label-hidden">
+              <div class="paragraph-item ptype-stanford-wysiwyg">  <div class="ptype-stanford-wysiwyg paragraph paragraph--type--stanford-wysiwyg paragraph--view-mode--default">
+          
+
+
+
+
+            <div class="su-wysiwyg-text paragraph stanford-wysiwyg text-long label-hidden"><div class="align-center media-entity-wrapper embeddable">
+  
+  
+
+
+
+
+  <div class="media embeddable field-media-embeddable-code string-long label-visually-hidden">
+    <div class="visually-hidden">Embed Code</div>
+                  <div><div class="embeddable-content"><div class="taggbox-container"><div class="taggbox-socialwall" data-wall-id="52567" view-url="https://widget.taggbox.com/52567">  </div><script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script></div></div></div>
+              </div>
+
+</div></div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+
+    </div>
+</div>
+
+  </div><!-- /.content --></section><!-- /.node as page -->
+
+  </div>
+
+</main>
+
+<footer id="footer">
+    <div id="block-config-pages" class="config-pages-block block-config-pages">
+  
+    
+      
+<div class="ds-entity--config-pages ds-entity--stanford-local-footer">
+  <div data-contextual-id="config_pages:config_pages=1:changed=1696974390&amp;ds_bundle=stanford_local_footer&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="0746Yk_7VW1XgWaCKTLWObc0zSXofuqZCwf9Y9GeFgA" data-drupal-ajax-container=""></div><div  class="su-local-footer ">
+      <div class="su-local-footer__header">
+              <div  class="su-lockup su-lockup--option-a">
+  <div class="su-lockup__cell1">
+          <div class="su-lockup__wordmark-wrapper">
+        <span class="su-lockup__wordmark">Stanford</span>
+              </div>
+      </div>    <div class="su-lockup__cell2">
+        <span class="su-lockup__line1" >Office of Accessible Education</span>
+    
+    
+      </div>
+      </div>
+                <a href="/saml/login?destination=/" class="su-link su-link--internal">
+        Web Login
+      </a>
+            
+  </div>
+      <div class="su-local-footer__columns">
+        <div class="su-local-footer__cell1">
+                              <h2 class="su-sr-only-element">Address</h2>
+      <address class="su-local-footer__address">
+        
+
+
+
+
+            <div class="config-pages stanford-local-footer su-local-foot-address address label-hidden"><p class="address" translate="no"><span class="organization">Office of Accessible Education</span><br>
+<span class="address-line1">563 Salvatierra Walk </span><br>
+<span class="locality">Stanford</span>, <span class="administrative-area">CA</span> <span class="postal-code">94305</span><br>
+<span class="country">United States</span></p></div>
+      
+      </address>
+                        <ul class="su-local-footer__action-links">
+                    
+                                                                                                                                                                                                                                                                            <li >
+          <a href="mailto:oae-contactus@stanford.edu">oae-contactus@stanford.edu </a>
+        </li>
+                                            
+  
+              </ul>
+                        <ul class="su-local-footer__social-links">
+                    
+        
+                            <li >
+      <a href="https://www.facebook.com/stanfordoae/" class="su-local-footer__social-facebook" >
+        <i aria-hidden='true'></i>
+        <span>Stanford Facebook</span>
+      </a>
+    </li>
+                            <li >
+      <a href="https://www.instagram.com/stanfordoae/" class="su-local-footer__social-instagram" >
+        <i aria-hidden='true'></i>
+        <span>Stanford Instagram</span>
+      </a>
+    </li>
+  
+  
+              </ul>
+                        
+
+
+
+
+            <div class="su-wysiwyg-text config-pages stanford-local-footer su-local-foot-pr-co text-long label-hidden"><p><a href="https://stanfordadvising.my.site.com/OAE/s/contact">Contact Us</a><br><a href="http://campus-map.stanford.edu/?id=&amp;lat=37.4226913769&amp;lng=-122.166860794&amp;zoom=17&amp;srch=Student%20Services%20Building">Campus Map</a></p></div>
+      
+    </div>
+        <div class="su-local-footer__cell2">
+                              <nav aria-label="footer primary nav">
+                <h2 class="su-local-footer__list-heading">Important Links</h2>
+                <ul class="su-local-footer__primary-links">
+                                  
+                                                                                                                                                                                                                                                                            <li >
+          <a href="https://studentaffairs.stanford.edu/">Student Affairs</a>
+        </li>
+                              <li >
+          <a href="https://studentaffairs.stanford.edu/about-student-affairs/updates-student-affairs">Updates from Student Affairs</a>
+        </li>
+                              <li >
+          <a href="http://sawebhelp.stanford.edu/">Report a Website Problem</a>
+        </li>
+                              <li >
+          <a href="https://redfolder.stanford.edu/">Red Folder</a>
+        </li>
+                                            
+  
+                  </ul>
+      </nav>
+                        <nav aria-label="footer secondary nav">
+                <h2 class="su-local-footer__list-heading">Dean of Students Units</h2>
+                <ul class="su-local-footer__secondary-links">
+                                  
+                                                                                                                                                                                                                                                                            <li >
+          <a href="https://deanofstudents.stanford.edu/">Dean of Students</a>
+        </li>
+                              <li >
+          <a href="https://glo.stanford.edu/">Graduate Life Office</a>
+        </li>
+                              <li >
+          <a href="https://oae.stanford.edu/">Office of Accessible Education</a>
+        </li>
+                              <li >
+          <a href="https://communitystandards.stanford.edu/">Office of Community Standards</a>
+        </li>
+                              <li >
+          <a href="https://resed.stanford.edu/">Residential Education</a>
+        </li>
+                                            
+  
+                  </ul>
+      </nav>
+                        
+    </div>
+        <div class="su-local-footer__cell3">
+                                          
+
+
+
+
+            <div class="su-wysiwyg-text config-pages stanford-local-footer su-local-foot-tr-co text-long label-hidden"><p>The Office of Accessible Education is proud to be part of&nbsp;<a href="https://studentaffairs.stanford.edu/">Student Affairs</a>, which&nbsp;educates students to make meaningful contributions as citizens of a complex world.</p></div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+  </div>
+
+
+<div class="su-global-footer ">
+  <div class="su-global-footer__container">
+    <div class="su-global-footer__brand">
+<a  id="su-logo" class="su-logo " aria-hidden="true" tabindex="-1" href="https://www.stanford.edu">Stanford<br>University<span class="su-global-footer__link-a11y"> (link is external)</span>
+  </a>
+</div>
+    <div class="su-global-footer__content">
+      <nav aria-label="global footer menu">
+        <ul class="su-global-footer__menu su-global-footer__menu--global">
+          <li><a href="https://www.stanford.edu" rel="nofollow">Stanford Home<span class="su-global-footer__link-a11y"> (link is external)</span>
+  </a></li>
+          <li><a href="https://visit.stanford.edu/basics/" rel="nofollow">Maps &amp; Directions<span class="su-global-footer__link-a11y"> (link is external)</span>
+  </a></li>
+          <li><a href="https://www.stanford.edu/search/" rel="nofollow">Search Stanford<span class="su-global-footer__link-a11y"> (link is external)</span>
+  </a></li>
+          <li><a href="https://emergency.stanford.edu" rel="nofollow">Emergency Info<span class="su-global-footer__link-a11y"> (link is external)</span>
+  </a></li>
+        </ul>
+        <ul class="su-global-footer__menu su-global-footer__menu--policy">
+          <li><a href="https://www.stanford.edu/site/terms/" rel="nofollow"
+                 title="Terms of use for sites">Terms of Use<span class="su-global-footer__link-a11y"> (link is external)</span>
+  </a></li>
+          <li><a href="https://www.stanford.edu/site/privacy/" rel="nofollow"
+                 title="Privacy and cookie policy">Privacy<span class="su-global-footer__link-a11y"> (link is external)</span>
+  </a></li>
+          <li><a href="https://uit.stanford.edu/security/copyright-infringement" rel="nofollow"
+                 title="Report alleged copyright infringement">Copyright<span class="su-global-footer__link-a11y"> (link is external)</span>
+  </a></li>
+          <li><a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" rel="nofollow"
+                 title="Ownership and use of Stanford trademarks and images">Trademarks<span class="su-global-footer__link-a11y"> (link is external)</span>
+  </a></li>
+          <li><a href="https://non-discrimination.stanford.edu/" rel="nofollow"
+                 title="Non-discrimination policy">Non-Discrimination<span class="su-global-footer__link-a11y"> (link is external)</span>
+  </a></li>
+          <li><a href="https://www.stanford.edu/site/accessibility" rel="nofollow"
+                 title="Report web accessibility issues">Accessibility<span class="su-global-footer__link-a11y"> (link is external)</span>
+  </a></li>
+        </ul>
+      </nav>
+      <div class="su-global-footer__copyright">
+        <span>&copy; Stanford University.</span>
+        <span>&nbsp; Stanford, California 94305.</span>
+      </div>
+    </div>
+  </div>
+</div> <!-- su-global-footer end -->
+</footer><button id="back-to-top">
+  <span class="fas fa-chevron-up"></span>
+  Back to Top
+</button>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/46","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJyNkmGSgyAMhS-kcCQmhajZjcAQqOvtF8u2anc67Z8MfDwgDx7-ZCb_rV0qEVhhm3ZD8BkWlDCjPozVgpdtKm8FSiaauzGEkdGAB14zWdHPoPsqc5QMKZtC-gKCZ3KcnFcY1lByN6Mj0ANxxqQsxEzBdxESjAniJHdfO1HFx3JhkgldV0_zQ0jO1JvJ6lt9hrbaQZ_VA0cY8Ul0YyavEUX74PAh7s_i1rQ59Bc8Ghu4zH5XNU-OJFb9jj0u9fRaTO0-7zymUP2jmZAjJi2UkeYKr6j2d_6nlrxy7fbvGV8tn8w8OX8rVe1wNRTmfiGXp5ebHy-iLuA9pg-EFpL7QPbG4C5MCPb4NR9sWVahZR1fKl_wTlbJOLe4F6p35ppeL3qz1Hwd6YQpqK2cKAcLPISw5f4wPmm2sPRbWNQ2uqXmSluKblXNwRXGhgz5gXyNjhGbAnOT9HfaN_oLSU2rtA","theme":"stanford_basic","theme_token":null},"ajaxTrustedUrl":[],"google_analytics":{"account":"G-SVYDKRWE05","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true},"data":{"extlink":{"extTarget":false,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"su-link su-link--external","extLabel":" (link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":".localist-widget, #lclst_widget_footer, .oembed-lazyload__button","extCssExplicit":"#page-content, .su-local-footer","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":" (link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"stanford_basic":{"nav_dropdown_enabled":true},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:22817c8fbf6c90c2fd37a15d0ed21f8eba2497cc85347639f66434b0ed158736":{"view_name":"stanford_news","view_display_id":"block_1","view_args":"all","view_path":"\/node\/46","view_base_path":null,"view_dom_id":"22817c8fbf6c90c2fd37a15d0ed21f8eba2497cc85347639f66434b0ed158736","pager_element":0}}},"user":{"uid":0,"permissionsHash":"817431599027b24dfa01f002ed0bee6e448ec40392470520c232c6908f04d27e"}}</script>
+<script src="/sites/g/files/sbiybj19456/files/js/js_ibMe_XH_XscyqW8W0paugWumIVR5GUih6zAUNnLGjpQ.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=stanford_basic&amp;include=eJyNU9GS5CAI_CGjn2QxShLujFiKm83fn052Lslszc6-UHQDLRAychRYsfCCZjx8veKtw6LGNwm6zLSoiXkKaCFC2IRcMc-E-lOXVASy2ErmBgWvTICNq1y5M1DNiSNnb1stOZtgQitbwmIie9SP8NADR3LKPFLro8gWWuoL_mV-ggxThjTrjODE_sevS74GeRW-NGt_bPZ7qt7F9VhDGFbyMquyFcFlX-h1ReZuFX5KoPjX-FwTBP0Fvz86Y0iYTSFBWhr5gfr4eJXa-yKYYxuQHYSRuSF98n-xw3UrtG6TOrb46OpgdI2p3gKVGf0huaAnMJ5KahtQO2pv9BYcJCGO6oNwLeZu9cK-htM-Yg91Y5uw7KmW4kixTWuLyxzCXjo82GFnL5N3haEr6O7dpd4P7SD7i0ondvZ98fMx7fh0hoYjWsehLvEXcjeIsX2pczczZtbdPF-Paz83Rrke4D8ExKu0"></script>
+
+      </body>
+</html>

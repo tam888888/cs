@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Natural Language Processing with Transformers Book</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Natural Language Processing with Transformers Book" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://transformersbook.com/" />
+<meta property="og:url" content="https://transformersbook.com/" />
+<meta property="og:site_name" content="Natural Language Processing with Transformers Book" />
+<meta property="og:image" content="https://transformersbook.com/images/logo.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://transformersbook.com/images/logo.png" />
+<meta property="twitter:title" content="Natural Language Processing with Transformers Book" />
+<script type="application/ld+json">
+{"headline":"Natural Language Processing with Transformers Book","url":"https://transformersbook.com/","@type":"WebSite","image":"https://transformersbook.com/images/logo.png","name":"Natural Language Processing with Transformers Book","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://transformersbook.com/feed.xml" title="Natural Language Processing with Transformers Book" /><link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Natural Language Processing with Transformers Book</a></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home"><p><img src="/images/book_cover.jpg" alt="" title="https://learning.oreilly.com/library/view/natural-language-processing/9781098103231/" /></p>
+
+<blockquote>
+  <p>“The preeminent book for the preeminent transformers library—a model of clarity!”
+—Jeremy Howard, cofounder of fast.ai and professor at University of Queensland</p>
+</blockquote>
+
+<blockquote>
+  <p>“A wonderfully clear and incisive guide to modern NLP’s most essential library. Recommended!”
+—Christopher Manning, Thomas M. Siebel Professor in Machine Learning, Stanford University</p>
+</blockquote>
+
+<p><a class="btn btn-secondary" href="https://www.amazon.com/Natural-Language-Processing-Transformers-Revised/dp/1098136799/ref=sr_1_2?keywords=natural+language+processing+with+transformers&amp;qid=1655452281&amp;s=books&amp;sprefix=natural+lan%2Cstripbooks-intl-ship%2C266&amp;sr=1-2">Buy the book on Amazon</a>
+<a class="btn btn-secondary" href="https://learning.oreilly.com/library/view/natural-language-processing/9781098136789/">Read the book online at O’Reilly</a>
+<a class="btn btn-secondary" href="https://github.com/nlp-with-transformers/notebooks">Download the book’s code</a></p>
+
+<p>Since their introduction in 2017, transformers have quickly become the dominant architecture for achieving state-of-the-art results on a variety of natural language processing tasks. If you’re a data scientist or coder, this practical book shows you how to train and scale these large models using Hugging Face Transformers, a Python-based deep learning library.</p>
+
+<p>Transformers have been used to write realistic news stories, improve Google Search queries, and even create chatbots that tell corny jokes. In this guide, authors <a href="https://twitter.com/_lewtun">Lewis Tunstall</a>, <a href="https://twitter.com/lvwerra">Leandro von Werra</a>, and <a href="https://twitter.com/Thom_Wolf">Thomas Wolf</a> use a hands-on approach to teach you how transformers work and how to integrate them in your applications. You’ll quickly learn a variety of tasks they can help you solve.</p>
+
+<ul>
+  <li>Build, debug, and optimize transformer models for core NLP tasks, such as text classification, named entity recognition, and question answering</li>
+  <li>Learn how transformers can be used for cross-lingual transfer learning</li>
+  <li>Apply transformers in real-world scenarios where labeled data is scarce</li>
+  <li>Make transformer models efficient for deployment using techniques such as distillation, pruning, and quantization</li>
+  <li>Train transformers from scratch and learn how to scale to multiple GPUs and distributed environments</li>
+</ul>
+
+<h1 id="news-️">News 🗞️</h1>
+
+<h3 id="january-31-2022">January 31, 2022</h3>
+<p>Lewis will be joining <a href="https://twitter.com/abhi1thakur">Abhishek Thakur</a> to talk about the book and various techniques you can use to optimize Transformer models for production environments. We’ll also be giving away 5 copies of the book – join the event <a href="https://www.youtube.com/watch?v=5E0nlHWgMMU">here</a>!</p>
+
+<h3 id="june-17-2022">June 17, 2022</h3>
+<p>Due to the popularity of the book, O’Reilly has decided to print it in <strong>full color</strong> from now on in the <a href="https://www.amazon.com/Natural-Language-Processing-Transformers-Revised/dp/1098136799/ref=sr_1_2?keywords=natural+language+processing+with+transformers&amp;qid=1655452281&amp;s=books&amp;sprefix=natural+lan%2Cstripbooks-intl-ship%2C266&amp;sr=1-2">revised edition</a> 🥳. Thank you to everyone who helped make this happen!</p>
+
+<h3 id="june-29-2022">June 29, 2022</h3>
+<p>Lewis will be presenting at Munich NLP to talk about the book and various techniques you can use to optimize Transformer models for production environments. We’ll also be giving away 3 electronic copies of the book – join the event <a href="https://discord.com/invite/EFZgxYRfTN?event=987395866807648286">here</a>!</p>
+
+<h1 id="contact">Contact</h1>
+
+<p>For questions, comments, or requests to interview the authors, please send an email to <a href="mailto:contact@transformersbook.com">contact@transformersbook.com</a>.</p>
+
+<p>To submit errata or errors in the book, please do so via the <a href="https://www.oreilly.com/catalog/errata.csp?isbn=0636920512424">O’Reilly platform</a>.</p>
+
+
+
+  
+
+  <!-- Hide posts if front matter flag hide:true -->
+  
+  
+
+  <!-- Sort posts by rank, then date -->
+  
+  
+  
+
+ 
+  
+
+   <!-- Assemble final sorted posts array -->
+  
+  </div>
+      </div>
+    </main><footer class="site-footer h-card">
+    <data class="u-url" href="/"></data>
+  
+    <div class="wrapper">
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+        </div>
+        <div class="footer-col">
+          <p></p>
+        </div>
+      </div>
+  
+      <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/nlp-with-transformers" target="_blank" title="nlp-with-transformers"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+  
+    </div>
+  
+  </footer></body>
+
+</html>

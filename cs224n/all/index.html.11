@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!--Meta tags-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="I am a Master’s student in Computer Science at Stanford University. Previously, I was a Pre-Doctoral Researcher at Google Research. I graduated from IIT Bombay with B.Tech in Computer Science and a Minor in Statistics.">
+<link rel="canonical" href="https://soumyac1999.github.io/">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132547290-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132547290-1');
+</script>
+
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" async>
+<noscript>
+<!--Font Awesome-->
+<link rel="preconnect" href="https://use.fontawesome.com/">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!--Some additional CSS-->
+</noscript>
+<!--Academicons-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<link rel="stylesheet" href="css/styles.css" async>
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<title> Soumya Chatterjee </title>
+
+	<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Soumya Chatterjee | MS CS Student at Stanford</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Soumya Chatterjee" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I am a Master’s student in Computer Science at Stanford University. Previously, I was a Pre-Doctoral Researcher at Google Research. I graduated from IIT Bombay with B.Tech in Computer Science and a Minor in Statistics." />
+<meta property="og:description" content="I am a Master’s student in Computer Science at Stanford University. Previously, I was a Pre-Doctoral Researcher at Google Research. I graduated from IIT Bombay with B.Tech in Computer Science and a Minor in Statistics." />
+<link rel="canonical" href="https://soumyac1999.github.io/" />
+<meta property="og:url" content="https://soumyac1999.github.io/" />
+<meta property="og:site_name" content="Soumya Chatterjee" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Soumya Chatterjee" />
+<meta name="twitter:site" content="@soumyachat" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"I am a Master’s student in Computer Science at Stanford University. Previously, I was a Pre-Doctoral Researcher at Google Research. I graduated from IIT Bombay with B.Tech in Computer Science and a Minor in Statistics.","headline":"Soumya Chatterjee","name":"Soumya Chatterjee","sameAs":["https://twitter.com/soumyachat","https://www.linkedin.com/in/soumyach/","https://github.com/soumyac1999","https://scholar.google.com/citations?user=Zz1XFQ4AAAAJ"],"url":"https://soumyac1999.github.io/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    </head>
+    
+    <body>
+        <script>
+        // localStorage.dark_mode = 0;
+        if(parseInt(localStorage.dark_mode) == 1 || (localStorage.dark_mode == null && window.matchMedia('(prefers-color-scheme: dark)').matches)){
+            document.body.classList.add("dark");
+        }
+        </script>
+
+        <div class="container page" style="padding-top: 40px;">
+            <div class="row my-3 py-md-3 justify-content-center">
+	<!-- <div class="col-12 px-5">
+		<a class="js-dark-toggle float-right text-muted" href='' id="dark-mode"><i class="fas fa-sun"></i></a>
+	</div> -->
+	<div class="col-12 col-sm-8">
+		<h2 class="section-header"> Soumya Chatterjee </h4>
+		<p class="mb-0 text-muted pb-3">soumyac [at] stanford.edu</p>
+		<img style="float: right; width: 35%; padding: 6px;" class="d-sm-none" src="https://avatars.githubusercontent.com/u/33203398?v=4">
+		
+		<p>I am a second year Computer Science Master’s student at <a href="https://www.stanford.edu/">Stanford University</a>.</p>
+
+<p>I received my bachelor’s in Computer Science from <a href="https://www.cse.iitb.ac.in">IIT Bombay</a>. In the past, I was an AI Resident at <a href="https://research.google/teams/india-research-lab/">Google Research</a> and have done internships at <a href="https://www.apple.com/">Apple</a>, <a href="https://research.google">Google Research</a>, <a href="https://awl.co.jp/en/">AWL</a> and <a href="https://www.crunchbase.com/organization/greyatom">GreyAtom</a>.</p>
+
+<p>My research interests include Natural Language Processing and Systems for Machine Learning.</p>
+
+<p>Share your thoughts or feedback with me (anonymously) <a href="https://soumyac1999.github.io/contact">here</a>.</p>
+
+		<div style="margin-bottom: 20px;">
+			<a href="resume.pdf"><i class="ai ai-cv-square icon"></i></a>
+			<a rel="noreferrer" href="https://scholar.google.com/citations?user=Zz1XFQ4AAAAJ"><i
+					class="ai ai-google-scholar-square icon"></i> </a>
+			<a rel="noreferrer" href="https://in.linkedin.com/in/soumyach"><i class="fab fa-linkedin icon"></i></a>
+			<a rel="noreferrer" href="https://github.com/soumyac1999"><i class="fab fa-github icon"></i></a>
+			<a rel="noreferrer" href="mailto:soumyac@stanford.edu"><i class="fas fa-envelope icon"></i></a>
+		</div>
+	</div>
+	<div class="col-8 col-sm-4 align-self-center d-none d-sm-block">
+		<div style="width: 95%; background-color: rgba(255, 255, 255, 0.1)" class="border rounded">
+			<img class="rounded" src="https://avatars.githubusercontent.com/u/33203398?v=4" style="width:100%">
+		</div>
+	</div>
+</div>
+
+<div class="row pt-2 mt-3">
+	<div class="col-12">
+		<h4 class="section-header"> Updates </h4>
+		<hr>
+	</div>
+</div>
+<div class="updates container-fluid p-1 col-12 mb-2">
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Jun 2023 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			Started internship at Apple in the Machine Translation team
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Jun 2023 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			New <a href="https://arxiv.org/abs/2306.12601">preprint</a> on information retrieval from different data sources
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Sep 2022 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			Started MS in Computer Science at Stanford University
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Apr 2022 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			<a href="https://escholarship.org/uc/item/0h68d9qx">Paper</a> improving re-estimation reliability of human behavioural metrics via temporal modelling to appear at CogSci 2022
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Feb 2022 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			<a href="https://openreview.net/forum?id=i6XKizCSIH3">Paper</a> on word alignments and use in lexically contrained translation to appear at ACL 2022
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Aug 2021 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			Graduated from IIT Bombay with a B.Tech in Computer Science
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Jul 2021 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			Joined Google Research as an AI Resident
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Jan 2021 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			Paper on <a href="https://arxiv.org/abs/2101.04997">Joint Learning of Hyperbolic Label Embeddings for Hierarchical Multi-label Classification</a> to appear at EACL 2021
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Dec 2020 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			Paper on <a href="https://arxiv.org/abs/2012.04858">Model-agnostic Fits for Understanding Information Seeking Patterns in Humans</a> to appear at AAAI 2021
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> May 2020 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			Started internship at Google Research India
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Dec 2019 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			Started internship at AWL Inc
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Sep 2019 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			Paper on <a href="https://link.springer.com/chapter/10.1007/978-3-030-37731-1_55">Thermal Face Recognition</a> to appear at <a href="http://mmm2020.kr">MMM 2020</a>
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> May 2019 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			Started internship at National Chung Cheng University
+ 
+		</div>
+	</div>
+	
+	<div class="row mb-2">
+		<div class="col-2 col-lg-1 mr-2"> 
+			<span class="badge" style="width: 6em; transition: none; --webkit-transition: none;"> Nov 2018 </span>
+		</div>
+		<div class="col-12 col-lg-10">
+			Started internship at GreyAtom EduTech
+ 
+		</div>
+	</div>
+	
+</div>
+
+<div class="row mt-5">
+	<div class="col-12">
+		<h4 class="section-header" id="pubs"> Publications </h4>
+		<hr>
+	</div>
+</div>
+<div class="pubs container-fluid p-1 col-12 pb-2">
+	
+	<div class="row mb-2 year-2022 align-items-center">
+		<div class="col-0 col-md-3">
+			
+			<img src="images/postaln.png" class="rounded align-self-center d-none d-md-block" style="width: 100%">
+			
+		</div>
+		<div class="col-12 col-md-9 py-2 px-2 pr-3">
+			<a class="pub-title" href="https://aclanthology.org/2022.acl-long.460/"> Accurate Online Posterior Alignments for Principled Lexically-Constrained Decoding </a>
+			<div class="pub-metadata">
+				<span class="authors"> <strong>Soumya Chatterjee</strong>, Sunita Sarawagi, Preethi Jyothi
+ </span>
+				<br>
+				<span class="venue"><i> Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), 2022
+ </i></span>
+			</div>
+			<div class="pub-links pt-0">
+				
+				<a href="https://aclanthology.org/2022.acl-long.460/">paper</a>					
+				
+				
+				
+				/
+				
+				<a href="https://arxiv.org/abs/2204.00871">arXiv</a>					
+				
+				
+				
+				/
+				
+				<a href="files/presentation.pdf">slides</a>					
+				
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="row mb-2 year-2022 align-items-center">
+		<div class="col-0 col-md-3">
+			
+			<img src="images/reliability.png" class="rounded align-self-center d-none d-md-block" style="width: 100%">
+			
+		</div>
+		<div class="col-12 col-md-9 py-2 px-2 pr-3">
+			<a class="pub-title" href="https://escholarship.org/uc/item/0h68d9qx"> Meta-Learning of Dynamic Policy Adjustments in Inhibitory Control Tasks </a>
+			<div class="pub-metadata">
+				<span class="authors"> <strong>Soumya Chatterjee</strong>*, Aakriti Kumar*, Pradeep Shenoy
+ </span>
+				<br>
+				<span class="venue"><i> Annual Meeting of the Cognitive Science Society (<strong>CogSci</strong>), 2022
+ </i></span>
+			</div>
+			<div class="pub-links pt-0">
+				
+				<a href="https://escholarship.org/uc/item/0h68d9qx">paper</a>					
+				
+				
+				
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="row mb-2 year-2021 align-items-center">
+		<div class="col-0 col-md-3">
+			
+			<img src="images/eacl21.png" class="rounded align-self-center d-none d-md-block" style="width: 100%">
+			
+		</div>
+		<div class="col-12 col-md-9 py-2 px-2 pr-3">
+			<a class="pub-title" href="https://aclanthology.org/2021.eacl-main.247/"> Joint Learning of Hyperbolic Label Embeddings for Hierarchical Multi-label Classification </a>
+			<div class="pub-metadata">
+				<span class="authors"> <strong>Soumya Chatterjee</strong>*, Ayush Maheshwari*, Ganesh Ramakrishnan, J. Saketha Nath
+ </span>
+				<br>
+				<span class="venue"><i> European Chapter of the Association for Computational Linguistics (<strong>EACL</strong>), 2021
+ </i></span>
+			</div>
+			<div class="pub-links pt-0">
+				
+				<a href="https://aclanthology.org/2021.eacl-main.247/">paper</a>					
+				
+				
+				
+				/
+				
+				<a href="https://arxiv.org/abs/2101.04997">arXiv</a>					
+				
+				
+				
+				
+				/
+				
+				<a href="https://github.com/soumyac1999/hyperbolic-label-emb-for-hmc">code</a>					
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="row mb-2 year-2021 align-items-center">
+		<div class="col-0 col-md-3">
+			
+			<img src="images/infoseek.png" class="rounded align-self-center d-none d-md-block" style="width: 100%">
+			
+		</div>
+		<div class="col-12 col-md-9 py-2 px-2 pr-3">
+			<a class="pub-title" href="https://ojs.aaai.org/index.php/AAAI/article/view/16160"> Model-agnostic Fits for Understanding Information Seeking Patterns in Humans </a>
+			<div class="pub-metadata">
+				<span class="authors"> <strong>Soumya Chatterjee</strong>, Pradeep Shenoy
+ </span>
+				<br>
+				<span class="venue"><i> AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2021
+ </i></span>
+			</div>
+			<div class="pub-links pt-0">
+				
+				<a href="https://ojs.aaai.org/index.php/AAAI/article/view/16160">paper</a>					
+				
+				
+				
+				/
+				
+				<a href="https://arxiv.org/abs/2012.04858">arXiv</a>					
+				
+				
+				
+				/
+				
+				<a href="files/aaai21/presentation.pdf">slides</a>					
+				
+				
+				
+				/
+				
+				<a href="https://github.com/soumyac1999/infoseek">code</a>					
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="row mb-2 year-2020 align-items-center">
+		<div class="col-0 col-md-3">
+			
+			<img src="images/thermal_face_pub.png" class="rounded align-self-center d-none d-md-block" style="width: 100%">
+			
+		</div>
+		<div class="col-12 col-md-9 py-2 px-2 pr-3">
+			<a class="pub-title" href="https://link.springer.com/chapter/10.1007/978-3-030-37731-1_55"> Thermal Face Recognition Based on Transformation by Residual U-Net and Pixel Shuffle Upsampling </a>
+			<div class="pub-metadata">
+				<span class="authors"> <strong>Soumya Chatterjee</strong>, Wei-Ta Chu
+ </span>
+				<br>
+				<span class="venue"><i> International Conference on Multimedia Modeling (MMM), 2020
+ </i></span>
+			</div>
+			<div class="pub-links pt-0">
+				
+				<a href="https://link.springer.com/chapter/10.1007/978-3-030-37731-1_55">paper</a>					
+				
+				
+				
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<div class="row mt-1">
+	<div class="col-12">
+		<h5 class="section-header pubs"> Preprints </h5>
+	</div>
+</div>
+<div class="pubs container-fluid p-1 col-12 pb-2">
+	
+	<div class="row mb-2 year-2023 align-items-center">
+		<div class="col-0 col-md-3">
+			
+			<img src="images/reml.png" class="rounded align-self-center d-none d-md-block" style="width: 100%">
+			
+		</div>
+		<div class="col-12 col-md-9 py-2 px-2 pr-3">
+			<a class="pub-title" href="https://arxiv.org/abs/2306.12601"> Resources and Evaluations for Multi-Distribution Dense Information Retrieval </a>
+			<div class="pub-metadata">
+				<span class="authors"> <strong>Soumya Chatterjee</strong>, Omar Khattab, Simran Arora
+ </span>
+				<br>
+				<span class="venue"><i> Retrieval-Enhanced Machine Learning (REML) Workshop at SIGIR 2023
+ </i></span>
+			</div>
+			<div class="pub-links pt-0">
+				
+				<a href="https://arxiv.org/abs/2306.12601">paper</a>					
+				
+				
+				
+				/
+				
+				<a href="https://arxiv.org/abs/2306.12601">arXiv</a>					
+				
+				
+				
+				
+				/
+				
+				<a href="https://github.com/stanfordnlp/multi-distribution-retrieval">code</a>					
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="row mb-2 year-2022 align-items-center">
+		<div class="col-0 col-md-3">
+			
+			<img src="images/oihrl.png" class="rounded align-self-center d-none d-md-block" style="width: 100%">
+			
+		</div>
+		<div class="col-12 col-md-9 py-2 px-2 pr-3">
+			<a class="pub-title" href="https://arxiv.org/abs/2206.05750"> Matching options to tasks using Option-Indexed Hierarchical Reinforcement Learning </a>
+			<div class="pub-metadata">
+				<span class="authors"> Kushal Chauhan, <strong>Soumya Chatterjee</strong>, Akash Reddy, Balaraman Ravindran, Pradeep Shenoy
+ </span>
+				<br>
+				<span class="venue"><i> NeurIPS 2021 Workshop on Ecological Theory of Reinforcement Learning
+ </i></span>
+			</div>
+			<div class="pub-links pt-0">
+				
+				<a href="https://arxiv.org/abs/2206.05750">paper</a>					
+				
+				
+				
+				/
+				
+				<a href="https://arxiv.org/abs/2206.05750">arXiv</a>					
+				
+				
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+
+
+<!-- <div class="row mt-4">
+	<div class="col-12 col-lg-9">
+		<h4 class="section-header"> Projects </h4>
+		<hr>
+	</div>
+</div>
+<div class="container-fluid p-1 col-12 col-lg-12 pb-2">
+	
+	
+	<div class="row mb-2">
+		<div class="col-3 col-md-2">
+			<img src="images/awl.png" class="rounded align-self-center" style="width: 100%">
+		</div>
+		<div class="col-9 col-md-10 align-self-center">
+			<div>Object Detection in 360° Videos</div>
+			<small>
+				<div><i>AWL Inc., Japan</i></div>
+				<div>
+					
+					
+					
+					
+					<a href="files/AWL_Presentation.pdf">[Slides]</a>
+					
+				</div>
+			</small>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="row m-1">
+		<a href="projects"> [Other Projects] </a>
+	</div>
+</div> -->
+<div class="my-5"></div>
+
+        </div>
+
+        <script type="text/javascript">
+var css2 = document.createElement('link');
+css2.rel = 'stylesheet';
+css2.href = 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+css2.type = 'text/css';
+var defer2 = document.getElementsByTagName('link')[1];
+defer2.parentNode.insertBefore(css2, defer2);
+</script>
+
+<!--Javascript and dependencies, jQuery, Popper.js, Bootstrap JS-->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<!-- <script src="js\popperjs.min.js"></script> -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" delay></script>
+<script src="js\custom.js"></script>
+<!-- <script src="js\progressbar.min.js"></script> -->
+<!-- Scrolling Progress Bar -->
+<!-- <script type="text/javascript">
+$(document).ready(function() {
+  var progressBar = $('.progress-bar');
+  var getMax = function() { return $(document).height() - $(window).height(); }
+  var getValue = function() { return $(window).scrollTop(); }   
+  var max = getMax();
+  var getWidth = function() {
+    value = getValue();
+    width = (value/max) * 100;
+    width = width + '%';
+    return width;
+  }
+  var setWidth = function() { progressBar.css({ width: getWidth()}); };
+  setWidth();
+  $(document).on('scroll', setWidth);
+  $(window).on('resize', function() {
+    max = getMax();
+    setWidth();
+  });
+});
+</script> -->
+<!-- <nav class="navbar navbar-expand-sm bg-primary sticky-bottom">
+</nav> -->
+
+    </body>
+</html>

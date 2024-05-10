@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+  <title>CS 224N  | Project</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  <!-- Google Analytics -->
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60458624-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+<script src="header.js"></script>
+
+<div class="sec">
+<div class="container sec" id="overview">
+  <h2>Final Project Reports for 2019</h2>
+  <p>
+    There were two options for the course project. Students either chose their own topic (<a href="#custom">"Custom Project"</a>), or took part in a competition to build Question Answering models for the <a href=https://rajpurkar.github.io/SQuAD-explorer/>SQuAD</a> 2.0 challenge (<a href="#default">"Default Project"</a>).
+  </p>
+  <p>
+    You can find links to previous years' reports under <i>Previous Offerings</i> on the <a href="index.html#content">homepage</a>.
+  </p>
+</div>
+</div>
+
+<div class="sechighlight">
+<div class="container sec" id="prizes">
+  <h2>Prize Winners</h2>
+  Congratulations to the following teams, who produced exceptional prize-winning projects! Thank you also to our sponsors, who generously donated prizes.
+
+  <h4>Prizes for Best Custom Project Posters</h4>
+  <ol>
+      <li>
+        <a href="reports/custom/15742249.pdf">Quantized Transformer</a> (<a href="posters/15742249.pdf">poster</a>), Chaofei Fan
+      </li>
+      <li>
+        <a href="reports/custom/15844523.pdf">Sequence-to-Sequence Generative Argumentative Dialogue Systems with Self-Attention</a> (<a href="posters/15844523.pdf">poster</a>), Ademi Adeniji, Nate Lee, Vincent Liu
+      </li>
+      <li>
+        <a href="reports/custom/15721959.pdf">Effect of translationese on machine translation quality</a> (<a href="posters/15721959.pdf">poster</a>), Stephanie Chen
+      </li>
+  </ol>
+
+  <h4>Prizes for Best Default Project Posters</h4>
+  <ol>
+      <li>
+        <a href="reports/default/15845024.pdf">Ensemble BERT with Data Augmentation and Linguistic Knowledge on SQuAD 2.0</a> (<a href="posters/15845024.pdf">poster</a>), Wen Zhou, Xianzhe Zhang, Hang Jiang
+      </li>
+      <li>
+        <a href="reports/default/15846673.pdf">Diverse Ensembling with Bert and its variations for Question Answering on SQuAD 2.0</a> (<a href="posters/15846673.pdf">poster</a>), Zhen Qin, Weiquan Mao, Zhining (Anna) Zhu
+      </li>
+      <li>
+        <a href="reports/default/15709102.pdf">Ruminating QANet</a> (<a href="posters/15709102.pdf">poster</a>), Rafael Rafailov
+      </li>
+  </ol>
+
+  <h4>Audience Selection Prize for Best Poster</h4>
+  <ul>
+      <li>
+        <a href="reports/custom/15739845.pdf">Identifying Russian Trolls on Reddit with Deep Learning and BERT Word Embeddings</a> (<a href="posters/15739845.pdf">poster</a>), Henry Weller, Jeffrey Woo
+      </li>
+  </ul>
+
+  <h4>Sponsors' Prize for Best Poster</h4>
+  <ul>
+      <li>
+        <a href="reports/custom/15784595.pdf">Transformers and Pointer-Generator Networks for Abstractive Summarization</a> (<a href="posters/15784595.pdf">poster</a>), Jon Deaton, Austin Jacobs, Kathleen Kenealy
+      </li>
+  </ul>
+
+  <h4>Prizes for Best Custom Project Reports</h4>
+  <ol>
+      <li>
+        <a href="reports/custom/15744425.pdf">Deep Retriever: Information Retrieval for Multi-hop Question Answering</a> (<a href="posters/15744425.pdf">poster</a>), Zijian Wang, Vera Lin, Leo Mehr <b>(prize sponsored by Oracle)</b>
+      </li>
+      <li>
+        <a href="reports/custom/15763707.pdf">transformers.zip: Compressing Transformers with Pruning and Quantization</a> (<a href="posters/15763707.pdf">poster</a>), Robin Cheong, Robel Daniel <b>(prize sponsored by Oracle)</b>
+      </li>
+      <li>
+        <a href="reports/custom/15811193.pdf">VaLaR NMT: Vastly Lacking Resources Neural Machine Translation</a> (<a href="posters/15811193.pdf">poster</a>), Minhyung Kang, Kais Kudrolli
+      </li>
+  </ol>
+
+  <h4>Prizes for Best Default Project Reports</h4>
+  <ol>
+      <li>
+        <a href="reports/default/15848417.pdf">BERT-A: Fine-tuning BERT with Adapters and Data Augmentation</a> (<a href="posters/15848417.pdf">poster</a>), Sina J. Semnani, Kaushik Ram Sadagopan, Fatma Tlili
+      </li>
+      <li>
+        Chained Self-Attention, Jai Gupta
+      </li>
+      <li>
+        Dynamic Curriculum on SQuAD 2.0, Jiacheng Zou
+      </li>
+  </ol>
+
+  <h4>Runner-Up Prizes for Best Reports (prizes sponsored by Adobe)</h4>
+  <ul>
+      <li>
+        <a href="reports/custom/15786023.pdf">seq2graph: A Neural Approach to Scene Graph Generation from Natural Language</a> (<a href="posters/15786023.pdf">poster</a>), Frits van Paasschen, Isaac Kasevich
+      </li>
+      <li>
+        <a href="reports/default/15704931.pdf">BERTQA - Attention on Steroids</a> (<a href="posters/15704931.pdf">poster</a>), Ankit Rakesh Chadha, Rewa Rohit Sood
+      </li>
+      <li>
+        <a href="reports/custom/15848478.pdf">Adversarial Stability Training in Neural Machine Translation of Chinese-to-English Text</a> (<a href="posters/15848478.pdf">poster</a>), Mandy Lu, Kaylie Zhu
+      </li>
+      <li>
+        <a href="reports/default/15810210.pdf">Accelerated and Accurate Question Answering</a> (<a href="posters/15810210.pdf">poster</a>), Xiao Wang, Kuangcong Liu, Haoshen Hong
+      </li>
+      <li>
+        Massively Multitask Learning for NLP, Clara H. McCreery
+      </li>
+  </ul>
+</div>
+</div>
+
+<div class="container sec" id="custom">
+  <h2>Custom Projects</h2>
+  <table class="table">
+    <colgroup>
+      <col style="width:60%">
+      <col style="width:40%">
+    </colgroup>
+    <tr class="active">
+      <th>Project Name</th><th>Authors</th>
+    </tr>
+    <tr><td><a href="reports/custom/15844243.pdf">A Deep Learning Approach for Identification of Confusion in Unstructured Crowdsourced Annotations</a> (<a href="posters/15844243.pdf">poster</a>) </td><td>Rachel Gardner, Maya Varma, Clare Zhu</td></tr>
+    <tr><td><a href="reports/custom/15704570.pdf">A neural architecture to learn image-text joint embedding</a> (<a href="posters/15704570.pdf">poster</a>) </td><td>Hareesh Kolluru</td></tr>
+    <tr><td><a href="reports/custom/15704644.pdf">A text-based forecasting model for equity trading</a>  (<a href="posters/15704644.pdf">poster</a>) </td><td>Oleg Mitsik</td></tr>
+    <tr><td><a href="reports/custom/15792047.pdf">Accent Detection Within the Amateur Singing Voice</a>  (<a href="posters/15792047.pdf">poster</a>) </td><td>Camille Noufi, Sarah Ciresi, Vidya Rangasayee</td></tr>
+    <tr><td><a href="reports/custom/15720509.pdf">Adversarial Examples for Neural Automatic Essay Scoring Systems</a>  (<a href="posters/15720509.pdf">poster</a>) </td><td>Klint Kanopka, David Lang</td></tr>
+    <tr><td><a href="reports/custom/15815037.pdf">Adversarially Improving Adversarial Performance of QA models</a>  (<a href="posters/15815037.pdf">poster</a>) </td><td>Yoni Lerner</td></tr>
+    <tr><td><a href="reports/custom/15792066.pdf">An Ernie-st Attempt at Pun Recognition</a>  (<a href="posters/15792066.pdf">poster</a>) </td><td>Amy Wang, Zheng Yan</td></tr>
+    <tr><td><a href="reports/custom/15846255.pdf">An Exploration in L2 Word Embedding Alignment</a>  (<a href="posters/15846255.pdf">poster</a>) </td><td>Peiyu Liao</td></tr>
+    <tr><td><a href="reports/custom/15705347.pdf">Analysis of Learning Cooperative Visual Dialog Agents</a>  (<a href="posters/15705347.pdf">poster</a>) </td><td>Juanita Ordonez</td></tr>
+    <tr><td><a href="reports/custom/15680355.pdf">Analyzing the U.S. Federal Legislation Texts: A Deep Learning Approach</a>  (<a href="posters/15680355.pdf">poster</a>) </td><td>Hyoungju Seo, Tom Yu</td></tr>
+    <tr><td><a href="reports/custom/15751328.pdf">Attention-based Stock Price Movement Prediction Using 8-K Filings</a>  (<a href="posters/15751328.pdf">poster</a>) </td><td>Mohamed Masoud</td></tr>
+    <tr><td><a href="reports/custom/15722887.pdf">Automated Essay Scoring: My Way or the Highway!</a>  (<a href="posters/15722887.pdf">poster</a>) </td><td>Alexander Hurtado, Vamsi Saladi</td></tr>
+    <tr><td><a href="reports/custom/15811430.pdf">Automatic Extraction of Textbook Glossaries Using Deep Learning</a>  (<a href="posters/15811430.pdf">poster</a>) </td><td>Manish Singh, Matt Boggess</td></tr>
+    <tr><td><a href="reports/custom/15735157.pdf">BERT for Coreference Resolution</a>  (<a href="posters/15735157.pdf">poster</a>) </td><td>Arthi Suresh</td></tr>
+    <tr><td><a href="reports/custom/15815045.pdf">BERT-Supervised Encoder-Decoder for Restaurant Summarization with Synthetic Parallel Corpus</a>  (<a href="posters/15815045.pdf">poster</a>) </td><td>Lily Cheng</td></tr>
+    <tr><td><a href="reports/custom/15696455.pdf">BiLSTM-CRF and BiGRU-CRF for Thai Segmentation</a>  (<a href="posters/15696455.pdf">poster</a>) </td><td>Nick Tantivasadakarn, Armando Banuelos</td></tr>
+    <tr><td><a href="reports/custom/15743952.pdf">Biomedical Question Answering with SDNet</a>  (<a href="posters/15743952.pdf">poster</a>) </td><td>Lu Yang, Sophia Lu, Erin Brown</td></tr>
+    <tr><td><a href="reports/custom/15848308.pdf">Biomedical relation inference via embeddings</a>  (<a href="posters/15848308.pdf">poster</a>) </td><td>Alex Derry</td></tr>
+    <tr><td><a href="reports/custom/15792062.pdf">Blending approaches to Abstractive Summarization</a>  (<a href="posters/15792062.pdf">poster</a>) </td><td>David Dowey</td></tr>
+    <tr><td><a href="reports/custom/15577251.pdf">Building NLP Classifiers Cheaply with Transfer Learning and Weak Supervision</a>  (<a href="posters/15577251.pdf">poster</a>) </td><td>Abraham Starosta</td></tr>
+    <tr><td><a href="reports/custom/15709283.pdf">Bumblebee: Text-to-Image Generation with Transformers</a>  (<a href="posters/15709283.pdf">poster</a>) </td><td>Nathan A. Fotedar, Julia Wang</td></tr>
+    <tr><td><a href="reports/custom/15722323.pdf">CS 224N: Final Paper</a>  (<a href="posters/15722323.pdf">poster</a>) </td><td>Aakarshan Dhakal, Dhruv Kedia</td></tr>
+    <tr><td><a href="reports/custom/15722763.pdf">Characterizing a New Taxonomy of Mental Disorders from Natural Language on Reddit</a>  (<a href="posters/15722763.pdf">poster</a>) </td><td>Scott L. Fleming</td></tr>
+    <tr><td><a href="reports/custom/15707206.pdf">CircumplexSentiNet - BiLSTM-CNN for Affective Circumplex Sentiment Analysis</a>  (<a href="posters/15707206.pdf">poster</a>) </td><td>Daniel Shan-Shea Chen</td></tr>
+    <tr><td><a href="reports/custom/15791768.pdf">Cloze Answer Generator</a>  (<a href="posters/15791768.pdf">poster</a>) </td><td>Jimmy Zhou, Javen Xu, Jing Bo Yang</td></tr>
+    <tr><td><a href="reports/custom/15827016.pdf">Communication and Language Emergence Among Populations and Clusters of Agents</a>  (<a href="posters/15827016.pdf">poster</a>) </td><td>Graham D Todd</td></tr>
+    <tr><td><a href="reports/custom/15721427.pdf">Comparing Attention-based Neural Architectures for Video Captioning</a>  (<a href="posters/15721427.pdf">poster</a>) </td><td>Jason Li, Helen Qiu</td></tr>
+    <tr><td><a href="reports/custom/15723084.pdf">Compositional Pre-Training for Semantic Parsing with BERT</a>  (<a href="posters/15723084.pdf">poster</a>) </td><td>Arnaud Autef, Simon Hagege</td></tr>
+    <tr><td><a href="reports/custom/15721468.pdf">Compositional pre-training for neural semantic parsing</a>  (<a href="posters/15721468.pdf">poster</a>) </td><td>Amir Ziai</td></tr>
+    <tr><td><a href="reports/custom/15665491.pdf">ConvoBot: A Conversational Bot via Deep Q-Learning and Query Simulation</a>  (<a href="posters/15665491.pdf">poster</a>) </td><td>Vidush Mukund, Brian Wilcox</td></tr>
+    <tr><td><a href="reports/custom/15722072.png">Could you elaborate? Generating News Articles from Summaries</a>  (<a href="posters/15722072.pdf">poster</a>) </td><td>Angelica Willis, Miles Hutson</td></tr>
+    <tr><td><a href="reports/custom/15722645.pdf">Deception Detection in Online Mafia Game Interactions</a>  (<a href="posters/15722645.pdf">poster</a>) </td><td>Lisa Fu</td></tr>
+    <tr><td><a href="reports/custom/15787612.pdf">Deep & Machine Learning Approaches to Analyzing Gender Representations in Journalism</a>  (<a href="posters/15787612.pdf">poster</a>) </td><td>Stephanie Campa, Maggie Davis, Daniela Gonzalez</td></tr>
+    <tr><td><a href="reports/custom/15709673.pdf">Deep Learning Humor Classification on Yelp reviews</a>  (<a href="posters/15709673.pdf">poster</a>) </td><td>Rohan Bais, Marcos Torres</td></tr>
+    <tr><td><a href="reports/custom/15664689.pdf">Deep Neural SCOTUS: A Comparative Analysis of Language-Modeling Techniques for US Supreme Court Opinions</a>  (<a href="posters/15664689.pdf">poster</a>) </td><td>Andrew Atticus Miller-Smith</td></tr>
+    <tr><td><a href="reports/custom/15842265.pdf">Deep Reinforcement Learning for Task-Oriented Dialogue</a>  (<a href="posters/15842265.pdf">poster</a>) </td><td>Nnamdi Iregbulem, Sahil Yakhmi</td></tr>
+    <tr><td><a href="reports/custom/15791789.pdf">DeepBLEU</a>  (<a href="posters/15791789.pdf">poster</a>) </td><td>Austin Narcomey, Andrew Narcomey, Khalid Ahmad</td></tr>
+    <tr><td><a href="reports/custom/15848426.pdf">DeepDoc: Natural Language Processing with Deep Neural Networks for the American Board of Internal Medicine Certification Exam</a>  (<a href="posters/15848426.pdf">poster</a>) </td><td>Jonathan Wang, Britni Chau, Kinbert Chou</td></tr>
+    <tr><td><a href="reports/custom/15842506.pdf">Detecting Duplicate Questions</a></td><td>Alfonce Nzioka</td></tr>
+    <tr><td><a href="reports/custom/15792239.pdf">Digital "Mad Men": Training RNN as an Ad Copywriter</a>  (<a href="posters/15792239.pdf">poster</a>) </td><td>Paul Shved, Christina Lin, Sridatta Thatipamala</td></tr>
+    <tr><td><a href="reports/custom/15846252.pdf">Embedding Methods for HER Data and the Utility of Clinical Text</a>  (<a href="posters/15846252.pdf">poster</a>) </td><td>Conor K. Corbin, Gautam B. Machiraju</td></tr>
+    <tr><td><a href="reports/custom/15763319.pdf">EmoNet: Reconstruction of Emotion As People Read Using Deep Neural Network with Attention</a>  (<a href="posters/15763319.pdf">poster</a>) </td><td>Zhengxuan Wu, Sherine Zhang, Xuan Zhang</td></tr>
+    <tr><td><a href="reports/custom/15791445.pdf">Exploring techniques to improve RNN translation performance</a>  (<a href="posters/15791445.pdf">poster</a>) </td><td>Patrick Kelly, Katie Fo</td></tr>
+    <tr><td><a href="reports/custom/15722831.pdf">Fast Fourier Transformed Transformers: Circulant Weight Matrices for NMT Compression</a>  (<a href="posters/15722831.pdf">poster</a>) </td><td>Scott Reid, Matthew Mistele</td></tr>
+    <tr><td><a href="reports/custom/15776950.pdf">Faster Transformers for Document Summarization</a>  (<a href="posters/15776950.pdf">poster</a>) </td><td>Dian Ang Yap, Vineet Kosaraju, Zaid Nabulsi</td></tr>
+    <tr><td><a href="reports/custom/15839671.pdf">Faster Transformers for Text Summarization</a>  (<a href="posters/15839671.pdf">poster</a>) </td><td>Amaury Sabran, Alexandre Matton</td></tr>
+    <tr><td><a href="reports/custom/15848334.pdf">Featureless Deep Learning Methods for Automated Key-Term Extraction</a>  (<a href="posters/15848334.pdf">poster</a>) </td><td>Kush Khosla, Robbie Jones, Nicholas Bowman</td></tr>
+    <tr><td><a href="reports/custom/15732365.pdf">Financial News in Predicting Investment Themes</a>  (<a href="posters/15732365.pdf">poster</a>) </td><td>Andrew Han</td></tr>
+    <tr><td><a href="reports/custom/15837243.pdf">From Audio to Symbolic Encoding</a>  (<a href="posters/15837243.pdf">poster</a>) </td><td>Shenli Yuan, Lingjie Kong, Jiushuang Guo</td></tr>
+    <tr><td><a href="reports/custom/15846208.pdf">From Note2Vec to Chord2Vec</a>  (<a href="posters/15846208.pdf">poster</a>) </td><td>Phil Chen, Edward Xu</td></tr>
+    <tr><td><a href="reports/custom/15723480.pdf">Gender Balanced Coreference Resolution</a>  (<a href="posters/15723480.pdf">poster</a>) </td><td>Nicholas Tan, Hongshen Zhao</td></tr>
+    <tr><td><a href="reports/custom/15740809.pdf">Gendered Pronoun Resolution</a>  (<a href="posters/15740809.pdf">poster</a>) </td><td>Apoorv Chaudhary</td></tr>
+    <tr><td><a href="reports/custom/15785384.pdf">Gendered Pronoun Resolution</a>  (<a href="posters/15785384.pdf">poster</a>) </td><td>Mustafa Abdool, Sarah Egler</td></tr>
+    <tr><td><a href="reports/custom/15722784.pdf">Generalized Textual and Visual Question Answering using Combined Image-Context Embeddings</a>  (<a href="posters/15722784.pdf">poster</a>) </td><td>Manan Rai</td></tr>
+    <tr><td><a href="reports/custom/15706464.pdf">Generating Arabic News Headlines</a>  (<a href="posters/15706464.pdf">poster</a>) </td><td>Omar Alhadlaq</td></tr>
+    <tr><td><a href="reports/custom/15723716.pdf">Generating Football Match Summaries with NMT</a>  (<a href="posters/15723716.pdf">poster</a>) </td><td>Miguel Ayala</td></tr>
+    <tr><td><a href="reports/custom/15709790.pdf">Generating natural language answers</a></td><td>Madhav Sharan</td></tr>
+    <tr><td><a href="reports/custom/15722927.pdf">Generative Multi-Hop Question Answering with Compositional Attention Networks</a>  (<a href="posters/15722927.pdf">poster</a>) </td><td>Ammar Al-Qatari</td></tr>
+    <tr><td><a href="reports/custom/15744013.pdf">Hierarchy or Heuristic? Examining hierarchical structure and the poverty of the stimulus in recurrent neural networks</a>  (<a href="posters/15744013.pdf">poster</a>) </td><td>Isabel Papadimitriou</td></tr>
+    <tr><td><a href="reports/custom/15841116.pdf">HorrifAI: Using AI to Generate Two-Sentence Horror</a>  (<a href="posters/15841116.pdf">poster</a>) </td><td>Adam Keppler, Jennie Chen</td></tr>
+    <tr><td><a href="reports/custom/15712307.pdf">Identifying Depression on Social Media</a>  (<a href="posters/15712307.pdf">poster</a>) </td><td>Kali Cornn</td></tr>
+    <tr><td><a href="reports/custom/15717478.pdf">Identifying Linguistic Innovators in the Business Community</a>  (<a href="posters/15717478.pdf">poster</a>) </td><td>Paul Vicinanza</td></tr>
+    <tr><td><a href="reports/custom/15709706.pdf">Improved Beam Search Diversity for Neural Machine Translation with k-DPP Sampling</a>  (<a href="posters/15709706.pdf">poster</a>) </td><td>Max Spero, Jon Braatz</td></tr>
+    <tr><td><a href="reports/custom/15719074.pdf">Improving English to Arabic Machine Translation</a>  (<a href="posters/15719074.pdf">poster</a>) </td><td>Wael Abid, Younes Bensouda Mourri</td></tr>
+    <tr><td><a href="reports/custom/15794705.pdf">Interpreting Self-Attention Weights</a>  (<a href="posters/15794705.pdf">poster</a>) </td><td>Chris Varano</td></tr>
+    <tr><td><a href="reports/custom/15721555.pdf">Intrinsic Curiosity in 3D Task-Oriented Language Grounding</a>  (<a href="posters/15721555.pdf">poster</a>) </td><td>Daniel Do</td></tr>
+    <tr><td><a href="reports/custom/15763730.pdf">Is this question sincere? Identifying insincere questions on Quora using BERT and variations</a>  (<a href="posters/15763730.pdf">poster</a>) </td><td>Alex Wang, Vince Ranganathan</td></tr>
+    <tr><td><a href="reports/custom/15743318.pdf">JAM for HotpotQA</a>  (<a href="posters/15743318.pdf">poster</a>) </td><td>Mars Huang, Ashton Teng, Juan Manuel Zambrano</td></tr>
+    <tr><td><a href="reports/custom/15720251.pdf">Just News It: Abstractive Text Summarization with a Pointer-Generator Transformer</a>  (<a href="posters/15720251.pdf">poster</a>) </td><td>Vrinda Vasavada, Alexandre Bucquet</td></tr>
+    <tr><td><a href="reports/custom/15791516.pdf">LMAONet - LSTM Model for Automated Objective Humor Scoring and Joke Generation</a>  (<a href="posters/15791516.jpg">poster</a>) </td><td>Zen Simone, Cameron Cruz</td></tr>
+    <tr><td><a href="reports/custom/15818798.pdf">Learning Private CNN Language Models</a>  (<a href="posters/15818798.pdf">poster</a>) </td><td>Mila Faye Schultz</td></tr>
+    <tr><td><a href="reports/custom/15845830.pdf">Learning the Rulebook: Challenges Facing NLP in Legal Contexts</a>  (<a href="posters/15845830.pdf">poster</a>) </td><td>Mark S. Krass</td></tr>
+    <tr><td><a href="reports/custom/15846784.pdf">Low Resource Text Classification with Backtranslation</a>  (<a href="posters/15846784.pdf">poster</a>) </td><td>Sam Shleifer</td></tr>
+    <tr><td><a href="reports/custom/15721508.pdf">MeltingpotQA: Multi-hop Question Answering</a>  (<a href="posters/15721508.pdf">poster</a>) </td><td>Nathan Dass, Saelig Khattar, Ankit Mathur</td></tr>
+    <tr><td><a href="reports/custom/15778933.pdf">Memory Transformer Networks</a>  (<a href="posters/15778933.pdf">poster</a>) </td><td>Jonas Metzger</td></tr>
+    <tr><td>Mindstone: DeepIR with contextualized attention-based network for open-domain QA</td><td>Madhulima Pandey</td></tr>
+    <tr><td><a href="reports/custom/15742463.pdf">Multi-Hop Question Answering with Bi-Attention Processing and CNNs</a>  (<a href="posters/15742463.pdf">poster</a>) </td><td>Laura Cruz-Albrecht, Krishna Patel</td></tr>
+    <tr><td><a href="reports/custom/15773294.pdf">Multi-hop Question Answering on HotpotQA</a>  (<a href="posters/15773294.pdf">poster</a>) </td><td>Chris Wang,Yilun Xu,Iris Wang</td></tr>
+    <tr><td><a href="reports/custom/15709728.pdf">Natural Language Generation of The Office Using a Neural Machine Translation Context</a>  (<a href="posters/15709728.pdf">poster</a>) </td><td>Samuel Kwong, Winton Yee</td></tr>
+    <tr><td><a href="reports/custom/15722650.pdf">Neural Abstractive Summarization on the Gigaword Dataset</a>  (<a href="posters/15722650.pdf">poster</a>) </td><td>Joseph Okonda, Robert Kinini, Peter Wang</td></tr>
+    <tr><td><a href="reports/custom/15789074.pdf">Neural Abstractive Text Summarization and Fake News Detection</a>  (<a href="posters/15789074.pdf">poster</a>) </td><td>Soheil Esmaeilzadeh, Gao Xian Peh, Angela Xu</td></tr>
+    <tr><td><a href="reports/custom/15720965.pdf">Neural Backdoors in NLP</a>  (<a href="posters/15720965.pdf">poster</a>) </td><td>Andrew Guan, Kristy Duong</td></tr>
+    <tr><td><a href="reports/custom/15709133.pdf">Neural ODEs for Machine Translation</a>  (<a href="posters/15709133.pdf">poster</a>) </td><td>Enrique De Alba, Gleb Stronov</td></tr>
+    <tr><td><a href="reports/custom/15787311.pdf">Neural based event-driven stock rally prediction using SEC filings and Twitter data</a>  (<a href="posters/15787311.pdf">poster</a>) </td><td>Magdy Saleh, Surag Nair</td></tr>
+    <tr><td><a href="reports/custom/15841017.pdf">Neural code summarization: Experiments in Python and Bash</a>  (<a href="posters/15841017.pdf">poster</a>) </td><td>Benjamin N. Peloquin</td></tr>
+    <tr><td><a href="reports/custom/15722889.pdf">Non-Parallel Many-to-Many Cross-Lingual Voice Conversion</a>  (<a href="posters/15722889.pdf">poster</a>) </td><td>Michael Vobejda</td></tr>
+    <tr><td><a href="reports/custom/15744676.pdf">On the Automatic Generation of FDG-PET-CT Reports</a>  (<a href="posters/15744676.pdf">poster</a>) </td><td>Sabri Eyuboglu</td></tr>
+    <tr><td><a href="reports/custom/15709577.pdf">Patent Citation Prediction with Content and Network Features</a>  (<a href="posters/15709577.pdf">poster</a>) </td><td>John Knowles, Sam Premutico</td></tr>
+    <tr><td><a href="reports/custom/15709594.pdf">Predicting Audience Reactions to a Speech</a>  (<a href="posters/15709594.pdf">poster</a>) </td><td>Samuel Lurye</td></tr>
+    <tr><td><a href="reports/custom/15815535.pdf">Prescient Language Models: Multitask Learning for Long-term Planning in LSTMs</a>  (<a href="posters/15815535.pdf">poster</a>) </td><td>Joyce Xu</td></tr>
+    <tr><td><a href="reports/custom/15845084.pdf">PubMeSH: Extreme Multi-label Classification of Biomedical Research</a>  (<a href="posters/15845084.pdf">poster</a>) </td><td>Kevin Thomas, Rohan Paul, Mia Kanzawa</td></tr>
+    <tr><td><a href="reports/custom/15737727.pdf">QA with Wiki: improving information retrieval and machine comprehension</a>  (<a href="posters/15737727.pdf">poster</a>) </td><td>Rohan Sampath, Puyang Ma</td></tr>
+    <tr><td><a href="reports/custom/15848474.pdf">Quantized Transformer</a>  (<a href="posters/15848474.pdf">poster</a>) </td><td>Andrew Philip Tierno</td></tr>
+    <tr><td><a href="reports/custom/15791880.pdf">Question Answering on Natural Questions</a>  (<a href="posters/15791880.pdf">poster</a>) </td><td>Yiling Chen, Rena Sha</td></tr>
+    <tr><td><a href="reports/custom/15839789.pdf">Real World Graphical Reasoning and Compositional Question Answering</a>  (<a href="posters/15839789.pdf">poster</a>) </td><td>Henry Friedlander, Preston Ng</td></tr>
+    <tr><td><a href="reports/custom/15790487.pdf">Reasoning on Multi-Hop Questions with HotpotQA</a>  (<a href="posters/15790487.pdf">poster</a>) </td><td>Jamil Dhanani, Suma Kasa, Suprita Shankar</td></tr>
+    <tr><td><a href="reports/custom/15792318.pdf">Robust Unsupervised Style Transfer Architecture for Complex Discrete Structures and Varying Styles</a>  (<a href="posters/15792318.pdf">poster</a>) </td><td>Cairo Mo, Cherie Xu, Alice Yang</td></tr>
+    <tr><td><a href="reports/custom/15791781.pdf">Sarcasm Detection</a>  (<a href="posters/15791781.pdf">poster</a>) </td><td>Lydia Xu, Vera Xu</td></tr>
+    <tr><td><a href="reports/custom/15709203.pdf">Search Like a Human: Neural Machine Translation for Database Search</a>  (<a href="posters/15709203.pdf">poster</a>) </td><td>Geoffrey B. Boullanger, Maxime Dumonal</td></tr>
+    <tr><td><a href="reports/custom/15709588.pdf">Semi-Supervised Question Answering</a>  (<a href="posters/15709588.pdf">poster</a>) </td><td>Niki Agrawal, Mayuka Sarukkai</td></tr>
+    <tr><td><a href="reports/custom/15838949.pdf">Sentence Simplification with Transformer-XL and Paraphrase Rules</a>  (<a href="posters/15838949.pdf">poster</a>) </td><td>Fei Fang, Matthew Stevens</td></tr>
+    <tr><td><a href="reports/custom/15791891.pdf">Sentence Unscrambler: Exploring Deep Learning Models for Word Linearization</a>  (<a href="posters/15791891.pdf">poster</a>) </td><td>Kent Vainio, Jason Zheng, Sonja Johnson-Yu</td></tr>
+    <tr><td><a href="reports/custom/15790001.pdf">Sentence-Level Extractive Text Summarization</a>  (<a href="posters/15790001.pdf">poster</a>) </td><td>Nathan Zhao, Yijun Jiang, Yi Liu</td></tr>
+    <tr><td><a href="reports/custom/15786247.pdf">Sentiment Analysis of Tweets using Deep Neural Architectures</a>  (<a href="posters/15786247.jpg">poster</a>) </td><td>Michael Liwei Cai</td></tr>
+    <tr><td><a href="reports/custom/15843468.pdf">Simple Mathematical Word Problems Solving with Deep Learning</a>  (<a href="posters/15843468.pdf">poster</a>) </td><td>Sizhu Cheng, Nicolas Chung</td></tr>
+    <tr><td><a href="reports/custom/15789477.pdf">Skeleton-based Coherence Modeling in Narratives</a>  (<a href="posters/15789477.pdf">poster</a>) </td><td>Nishit Asnani, Rohan Badlani</td></tr>
+    <tr><td><a href="reports/custom/15792101.pdf">Smart Vet: Autocompleting Sentences in Veterinary Medical Records</a>  (<a href="posters/15792101.pdf">poster</a>) </td><td>Sam Solomon Ginn</td></tr>
+    <tr><td><a href="reports/custom/15840260.pdf">Solving Biology Analogies with Deep Learning</a>  (<a href="posters/15840260.pdf">poster</a>) </td><td>Justin Xu, Han Lin Aung, Sajana Weerawardhena</td></tr>
+    <tr><td><a href="reports/custom/15722067.pdf">Stylized Text-to-Image Generation</a>  (<a href="posters/15722067.pdf">poster</a>) </td><td>Eric Vincent</td></tr>
+    <tr><td><a href="reports/custom/15791700.pdf">Supervised Fact Extraction from Web Pages</a>  (<a href="posters/15791700.pdf">poster</a>) </td><td>Tom Sandell, Waleed Malik, Junaid Ahmed</td></tr>
+    <tr><td><a href="reports/custom/15844304.pdf">Text-to-SQL Translation with Various Neural Networks</a>  (<a href="posters/15844304.pdf">poster</a>) </td><td>Yipeng He, Di Bai, Wantong Jiang</td></tr>
+    <tr><td><a href="reports/custom/15721657.pdf">TongAI: Helping Neuroradiologists Do Better Things</a>  (<a href="posters/15721657.pdf">poster</a>) </td><td>Nikita Demir, Jose Giron</td></tr>
+    <tr><td><a href="reports/custom/15792004.pdf">Towards Better Character-based Word Vectors</a>  (<a href="posters/15792004.pdf">poster</a>) </td><td>Luoshu Wang</td></tr>
+    <tr><td><a href="reports/custom/15744362.pdf">Toxic Speech Detection</a>  (<a href="posters/15744362.pdf">poster</a>) </td><td>Animesh Koratana, Kevin Hu</td></tr>
+    <tr><td><a href="reports/custom/15792201.pdf">Transforming Second Language Acquisition Modeling</a>  (<a href="posters/15792201.pdf">poster</a>) </td><td>Nathan Dalal, Nidhi Manoj, Arjun Manoj (External Collaborator)</td></tr>
+    <tr><td><a href="reports/custom/15785631.pdf">Tweets Classification with BERT in the Field of Disaster Management</a>  (<a href="posters/15785631.pdf">poster</a>) </td><td>Guoqin Ma</td></tr>
+    <tr><td><a href="reports/custom/15894480.pdf">Understanding Multitask Learning with Transfer Learning</a>  (<a href="posters/15894480.pdf">poster</a>) </td><td>Abhishek Sharma</td></tr>
+    <tr><td><a href="reports/custom/15842954.pdf">Understanding the Sentiment of Clinical Notes</a></td><td>Jiaming Zeng</td></tr>
+    <tr><td><a href="reports/custom/15842215.pdf">uRNN: An Approach to Bounded Gradients</a>  (<a href="posters/15842215.pdf">poster</a>) </td><td>David Kewei Lin, Jensen Jinhui Wang</td></tr>
+    <tr><td><a href="reports/custom/15744462.pdf">Using news titles and financial features to predict intraday movements of the DJIA</a>  (<a href="posters/15744462.pdf">poster</a>) </td><td>Arjun Arora, Avoy Datta, Victoria Ding</td></tr>
+    <tr><td><a href="reports/custom/15825324.png">Visual QA based on Attributes and External Knowledge</a>  (<a href="posters/15825324.pdf">poster</a>) </td><td>Sarah Radzihovsky, Weiying Goh, Jing Lim</td></tr>
+    <tr><td><a href="reports/custom/15709925.pdf">Visual Question Answering via Dense Captioning</a>  (<a href="posters/15709925.pdf">poster</a>) </td><td>Vinay Sriram, Neel Ramachandran, Emmie Kehoe</td></tr>
+    <tr><td><a href="reports/custom/15842809.pdf">Wikipedia Sentence Simplification</a>  (<a href="posters/15842809.pdf">poster</a>) </td><td>Alexander Wang, Ryan Kurohara, David Liang</td></tr>
+  </table>
+</div>
+
+<div class="container sec" id="default">
+  <h2>Default Projects</h2>
+  <table class="table">
+    <colgroup>
+      <col style="width:60%">
+      <col style="width:40%">
+    </colgroup>
+    <tr class="active">
+      <th>Project Name</th><th>Authors</th>
+    </tr>
+    <tr><td><a href="reports/default/15730314.pdf">A Transformer Augmentation of BiDAF</a></td><td>Steven Zheng</td></tr>
+    <tr><td><a href="reports/default/15709226.pdf">A Variation on the Theme: SQuAD</a>  (<a href="posters/15709226.pdf">poster</a>) </td><td>Gawan Fiore</td></tr>
+    <tr><td><a href="reports/default/15722686.pdf">Adapting Transformer-XL Techniques to QANet Architecture for SQuAD 2.0 Challenge</a>  (<a href="posters/15722686.pdf">poster</a>) </td><td>Lorraine Zhang</td></tr>
+    <tr><td><a href="reports/default/15744501.pdf">Advancing with Adversaries: Comparing LSTMs Across Adversarial Inputs</a>  (<a href="posters/15744501.pdf">poster</a>) </td><td>Darian Shane Martos, Angela Chen, Jerold Yu</td></tr>
+    <tr><td><a href="reports/default/15744591.pdf">An Analysis of the PointNet Architecture and Word-Dropout Applied to Question Answering</a>  (<a href="posters/15744591.pdf">poster</a>) </td><td>Mason Riley Swofford, JC Charles Peruzzi</td></tr>
+    <tr><td><a href="reports/default/15848660.pdf">Analyzing BERT with Pre-train on SQuAD 2.0</a>  (<a href="posters/15848660.pdf">poster</a>) </td><td>Chenchen Pan, Liang Xu</td></tr>
+    <tr><td><a href="reports/default/15791435.pdf">Answer Pointer Alternatives for Unanswerable Questions in SQuAD2.0</a>  (<a href="posters/15791435.pdf">poster</a>) </td><td>Evin YuDong Yang</td></tr>
+    <tr><td><a href="reports/default/15743593.pdf">Answer Validation for SQuAD 2.0</a>  (<a href="posters/15743593.pdf">poster</a>) </td><td>Ruben Ignacio Contesti, Demetrios Fassois, Kade Keith</td></tr>
+    <tr><td><a href="reports/default/15775971.pdf">Applying Ensembling Methods to BERT to Boost Model Performance</a>  (<a href="posters/15775971.pdf">poster</a>) </td><td>Sol Xavier Barth, Zoe Solis, Charlie Weiwen Xu</td></tr>
+    <tr><td><a href="reports/default/15785392.pdf">Applying QANet to SQuAD 2.0</a>  (<a href="posters/15785392.pdf">poster</a>) </td><td>Nolan Handali, Andrew James Zhang, Aleksander Dash</td></tr>
+    <tr><td><a href="reports/default/15766157.pdf">Applying Transformer-XL to Q&A</a>  (<a href="posters/15766157.pdf">poster</a>) </td><td>Sam Xu</td></tr>
+    <tr><td><a href="reports/default/15705542.pdf">Attention and CNN empowered BiDAF for SQuAD</a>  (<a href="posters/15705542.pdf">poster</a>) </td><td>Haojun Li</td></tr>
+    <tr><td><a href="reports/default/15763126.pdf">BERT + Verify</a>  (<a href="posters/15763126.pdf">poster</a>) </td><td>Kai Marshland</td></tr>
+    <tr><td><a href="reports/default/15740811.pdf">BERT Squared: Read + Verify System for SQuAD 2.0</a>  (<a href="posters/15740811.pdf">poster</a>) </td><td>Jiayu Lou</td></tr>
+    <tr><td><a href="reports/default/15848021.pdf">BERT for Question Answering on SQuAD 2.0</a>  (<a href="posters/15848021.pdf">poster</a>) </td><td>Yuwen Zhang, Zhaozhuo Xu</td></tr>
+    <tr><td><a href="reports/default/15790311.pdf">BERT++: Reading Comprehension on SQuAD</a>  (<a href="posters/15790311.pdf">poster</a>) </td><td>Lirong Yuan</td></tr>
+    <tr><td><a href="reports/default/15784576.pdf">BERTNet</a>  (<a href="posters/15784576.pdf">poster</a>) </td><td>Yang Wang, Hongtao Sun, Brett Szalapski</td></tr>
+    <tr><td><a href="reports/default/15837192.pdf">Bariants of Attention for Neural Question Answering</a>  (<a href="posters/15837192.pdf">poster</a>) </td><td>Spenser Anderson</td></tr>
+    <tr><td><a href="reports/default/15744346.pdf">Bert++</a>  (<a href="posters/15744346.pdf">poster</a>) </td><td>Sophia Papoulias Barton, Juliet Nkechiyere Okwara, Lea Jabbour</td></tr>
+    <tr><td><a href="reports/default/15783457.pdf">BertNet: Combining BERT language representation with Attention and CNN for Reading Comprehension</a>  (<a href="posters/15783457.pdf">poster</a>) </td><td>Manish Pandit, Girish S Limaye, Vinay Sawal</td></tr>
+    <tr><td><a href="reports/default/15722871.pdf">BiDAF Model Optimization and QANet Model Re-implementation on SQuAD 2.0</a>  (<a href="posters/15722871.pdf">poster</a>) </td><td>Yulian Zhou</td></tr>
+    <tr><td><a href="reports/default/15756347.pdf">CNN and RNN Hybrid Reading Comprehension Systems</a>  (<a href="posters/15756347.pdf">poster</a>) </td><td>Victor Liang, Siyu Yang</td></tr>
+    <tr><td><a href="reports/default/15709788.pdf">CS 224N Final Project Report</a>  (<a href="posters/15709788.pdf">poster</a>) </td><td>Nick Allan Steele, Gabriel Francis Voorhis-Allen</td></tr>
+    <tr><td><a href="reports/default/15711855.png">CS224N Final Paper</a>  (<a href="posters/15711855.pdf">poster</a>) </td><td>Luis Varela Eleta, Alejandro Dobles, Tevon Clarence Strand-Brown</td></tr>
+    <tr><td><a href="reports/default/15709186.pdf">CharBiDAF with Self-Attention for SQuAD</a>  (<a href="posters/15709186.pdf">poster</a>) </td><td>Zahra Abdullah, Darrith Bin Phan</td></tr>
+    <tr><td><a href="reports/default/15744020.pdf">Contextual Aware Joint Probability Model Towards Question Answering System</a>  (<a href="posters/15744020.pdf">poster</a>) </td><td>Lijing Song, Liu Yang</td></tr>
+    <tr><td><a href="reports/default/15744378.pdf">EANet: Enhanced Attention Network for Question Answering System</a>  (<a href="posters/15744378.pdf">poster</a>) </td><td>Insop Song</td></tr>
+    <tr><td><a href="reports/default/15823115.pdf">ECNet: Early Attention and Local Convolution for Machine Comprehension</a>  (<a href="posters/15823115.pdf">poster</a>) </td><td>Abhishek Goswami</td></tr>
+    <tr><td><a href="reports/default/15791074.pdf">Enhancing BiDAF with BERT Embeddings, and Exploring Real-World Data</a>  (<a href="posters/15791074.pdf">poster</a>) </td><td>Ryan Gian-Meun Mui, Priyanka Puram Sekhar, Sumit Minocha</td></tr>
+    <tr><td><a href="reports/default/15831868.pdf">Evaluating QANet on SQuAD 2.0</a>  (<a href="posters/15831868.pdf">poster</a>) </td><td>Parthasarathy Suryanarayanan, Yash Mangilal Jain</td></tr>
+    <tr><td><a href="reports/default/15818791.pdf">Explicitly Learning Implicit Classification</a>  (<a href="posters/15818791.pdf">poster</a>) </td><td>Sai Kandallu</td></tr>
+    <tr><td><a href="reports/default/15830848.pdf">Exploring Embedding and Attention Improvements to BiDAF SQuAD Model</a>  (<a href="posters/15830848.pdf">poster</a>) </td><td>Colin James Dolese</td></tr>
+    <tr><td><a href="reports/default/15847973.pdf">Extended QANet and Application on SQuAD 2.0</a>  (<a href="posters/15847973.pdf">poster</a>) </td><td>Larry Jin, Yimin Liu, Su Jiang</td></tr>
+    <tr><td><a href="reports/default/15743247.pdf">Extending Answer Prediction for Deep Bi-directional Transformers</a>  (<a href="posters/15743247.pdf">poster</a>) </td><td>David Y. Zhao, Peter Dun, Lauren Zhu</td></tr>
+    <tr><td><a href="reports/default/15708303.pdf">Final Default Project</a>  (<a href="posters/15708303.pdf">poster</a>) </td><td>Charlie Furrer, Priya Ravi Chatwani, Charles Michael Vidrine</td></tr>
+    <tr><td><a href="reports/default/15848202.pdf">Final Report for CS224N Default Project</a>  (<a href="posters/15848202.pdf">poster</a>) </td><td>Zhihan Jiang, Wensi Yin</td></tr>
+    <tr><td><a href="reports/default/15832129.pdf">Hierarchical Attention Fusion Network for Question Answering</a>  (<a href="posters/15832129.pdf">poster</a>) </td><td>Yang Chen, Marius Seritan</td></tr>
+    <tr><td><a href="reports/default/15734514.pdf">Improved BiDAF with Self-Attention</a>  (<a href="posters/15734514.pdf">poster</a>) </td><td>Zixuan Zhou, Mingchen Li, Gendong Zhang</td></tr>
+    <tr><td><a href="reports/default/15832916.pdf">Improving Bi-Directional Attention Flow for Machine Comprehension</a>  (<a href="posters/15832916.pdf">poster</a>) </td><td>Bosen Ding, Yue Wang</td></tr>
+    <tr><td><a href="reports/default/15737384.pdf">Improving SQUAD 2.0 Performance using BERT + X</a>  (<a href="posters/15737384.pdf">poster</a>) </td><td>Kevin Tran, Danny Jay Takeuchi</td></tr>
+    <tr><td><a href="reports/default/15787910.pdf">Machine Reading Comprehension on SQuAD 2.0</a>  (<a href="posters/15787910.pdf">poster</a>) </td><td>Yiyang Li, Shichang Zhang, Yancheng Li</td></tr>
+    <tr><td><a href="reports/default/15788255.pdf">Megatron: Using Self-Attended Residual Bi-Directional Attention Flow (Res-BiDAF) to Improve Quality and Robustness of a BiDAF-based Question-Answering System</a>  (<a href="posters/15788255.pdf">poster</a>) </td><td>Zheng Nie, Matt Linker, Jerry Zhilin Jiang</td></tr>
+    <tr><td><a href="reports/default/15734641.pdf">Multi-Task Deep Neural Networks for Generalized Text Understanding</a>  (<a href="posters/15734641.pdf">poster</a>) </td><td>George Zhixuan He</td></tr>
+    <tr><td><a href="reports/default/15743508.pdf">No RNN SQuAD</a>  (<a href="posters/15743508.pdf">poster</a>) </td><td>Chase Simeon Davis, Amanda Nicole Jacquez, Vikas Venkatanarasimha Munukutla</td></tr>
+    <tr><td><a href="reports/default/15759228.pdf">One Step at a Time with SQuAD 2.0</a>  (<a href="posters/15759228.pdf">poster</a>) </td><td>Somnath Purkayastha</td></tr>
+    <tr><td><a href="reports/default/15708637.pdf">Orchestra: An Ensemble Approach to SQuAD 2.0</a>  (<a href="posters/15708637.pdf">poster</a>) </td><td>Aaron Sanford Levett, Taide Ding</td></tr>
+    <tr><td><a href="reports/default/15791397.pdf">Positioning Self in SQuAD</a>  (<a href="posters/15791397.pdf">poster</a>) </td><td>Neel Chowdary Yerneni, Ankit Singh Baghel</td></tr>
+    <tr><td><a href="reports/default/15740578.pdf">QANet Analysis: CS224N Milestone Default Project (non-PCE)</a>  (<a href="posters/15740578.pdf">poster</a>) </td><td>Timothy Quang-Tin Le</td></tr>
+    <tr><td><a href="reports/default/15846237.pdf">QANet for SQuAD 2.0</a>  (<a href="posters/15846237.pdf">poster</a>) </td><td>Anuprit Kale, Edgar G. Velasco</td></tr>
+    <tr><td><a href="reports/default/15744474.pdf">QANet with Universal Transformer</a>  (<a href="posters/15744474.pdf">poster</a>) </td><td>Kongphop Wongpattananukul</td></tr>
+    <tr><td><a href="reports/default/15809186.pdf">QANet-XL: Applying Transformer-XL to QANet</a>  (<a href="posters/15809186.jpg">poster</a>) </td><td>Ryan Cole</td></tr>
+    <tr><td><a href="reports/default/15840373.pdf">QANet: Convolutions and Attention are All you Need</a>  (<a href="posters/15840373.pdf">poster</a>) </td><td>Anirudh Rajiv Joshi</td></tr>
+    <tr><td><a href="reports/default/15721225.pdf">QuAVONet: Answering Questions on the SQuAD Dataset with QANet and Answer Verifier</a>  (<a href="posters/15721225.pdf">poster</a>) </td><td>Jesus Enrique Cervantes</td></tr>
+    <tr><td><a href="reports/default/15843151.pdf">Question Answering Models for SQuAD 2.0</a>  (<a href="posters/15843151.pdf">poster</a>) </td><td>Ryle Zhou</td></tr>
+    <tr><td><a href="reports/default/15791892.pdf">Question Answering System on SQuAD dataset</a>  (<a href="posters/15791892.pdf">poster</a>) </td><td>Liuming Zhao, Taiming Zhang</td></tr>
+    <tr><td><a href="reports/default/15669309.pdf">Question Answering System on The SQuAD Dataset</a>  (<a href="posters/15669309.pdf">poster</a>) </td><td>Gevorg Khondkaryan</td></tr>
+    <tr><td><a href="reports/default/15848298.pdf">Question Answering Training on SQuAD (QATS)</a>  (<a href="posters/15848298.pdf">poster</a>) </td><td>Carson Zhao, Louise Huang, Mi Jeremy Yu</td></tr>
+    <tr><td><a href="reports/default/15791631.pdf">Question Answering for SQuAD 2.0</a></td><td>Andrew Brian Deveau</td></tr>
+    <tr><td><a href="reports/default/15848195.pdf">Question Answering on SQuAD 2.0 Dataset</a>  (<a href="posters/15848195.pdf">poster</a>) </td><td>Yuanjun Li, Yuzhu (Ariel) Zhang</td></tr>
+    <tr><td><a href="reports/default/15840135.pdf">Question Answering on SQuAD 2.0 using Transformer-XL</a>  (<a href="posters/15840135.pdf">poster</a>) </td><td>Julien Hedou, Ianis Bougdal-Lambert</td></tr>
+    <tr><td><a href="reports/default/15846205.pdf">Question Answering on SQuAD 2.0</a>  (<a href="posters/15846205.pdf">poster</a>) </td><td>Boxiao Pan, Gael Colas, Shervine Amidi</td></tr>
+    <tr><td><a href="reports/default/15846591.pdf">Question Answering on SQuAD 2.0</a>  (<a href="posters/15846591.pdf">poster</a>) </td><td>Chaonan Ye, Wanling Liu</td></tr>
+    <tr><td><a href="reports/default/15744353.pdf">Question Answering on SQuAD 2.0</a>  (<a href="posters/15744353.pdf">poster</a>) </td><td>Liz Guo, Lantao Mei</td></tr>
+    <tr><td><a href="reports/default/15839661.pdf">Question Answering on SQuAD 2.0</a>  (<a href="posters/15839661.pdf">poster</a>) </td><td>Mayukh Majumdar</td></tr>
+    <tr><td><a href="reports/default/15816213.pdf">Question Answering on SQuAD 2.0</a>  (<a href="posters/15816213.pdf">poster</a>) </td><td>Mengyu Li, Boyao Sun, Qiwen Wang</td></tr>
+    <tr><td><a href="reports/default/15792151.pdf">Question Answering on SQuAD with BERT</a>  (<a href="posters/15792151.pdf">poster</a>) </td><td>Zhangning Hu</td></tr>
+    <tr><td><a href="reports/default/15705934.pdf">Question Answering on SQuAD</a>  (<a href="posters/15705934.pdf">poster</a>) </td><td>Conor McAvity</td></tr>
+    <tr><td><a href="reports/default/15763476.pdf">Question Answering with BERT and Answer Verification</a>  (<a href="posters/15763476.pdf">poster</a>) </td><td>Kevin Culberg</td></tr>
+    <tr><td><a href="reports/default/15791528.pdf">Question Answering with Hierarchical Attention Fusion Layers & Multi-Task Learning</a>  (<a href="posters/15791528.pdf">poster</a>) </td><td>Tyler Ma Yep, Woody Zhouyuan Wang</td></tr>
+    <tr><td><a href="reports/default/15740989.pdf">Question Answering with SQuAD 2.0</a>  (<a href="posters/15740989.pdf">poster</a>) </td><td>Eli Joshua Echt-Wilson, Kathryn Rydberg</td></tr>
+    <tr><td><a href="reports/default/15785677.pdf">Question Answering with Self-Attention and Residuals</a>  (<a href="posters/15785677.pdf">poster</a>) </td><td>Luyao Hou</td></tr>
+    <tr><td><a href="reports/default/15838187.pdf">Question Representation and Mapping in Transformers (QeRMIT)</a>  (<a href="posters/15838187.pdf">poster</a>) </td><td>Mark Chang, Di Ai</td></tr>
+    <tr><td><a href="reports/default/15812785.pdf">Question and Answering on SQuAD 2.0: BERT Is All You Need</a>  (<a href="posters/15812785.pdf">poster</a>) </td><td>Sam Schwager, John Solitario</td></tr>
+    <tr><td><a href="reports/default/15789918.pdf">Questions and Answers using the SQuAD 2.0 dataset and the QANet architecture</a>  (<a href="posters/15789918.pdf">poster</a>) </td><td>Srinivas Raghavan</td></tr>
+    <tr><td><a href="reports/default/15790766.pdf">RE-Net: A Character-Based Model Replicating R-Net</a>  (<a href="posters/15790766.pdf">poster</a>) </td><td>Aditya Iswara, Arvind Subramanian</td></tr>
+    <tr><td><a href="reports/default/15719086.pdf">Reading Comprehension for SQuAD 2.0 using U-Net</a>  (<a href="posters/15719086.pdf">poster</a>) </td><td>Qingyun Wan</td></tr>
+    <tr><td><a href="reports/default/15792214.pdf">Really Paying Attention: A BERT+BiDAF Ensemble Model for Question-Answering</a>  (<a href="posters/15792214.pdf">poster</a>) </td><td>Andrew L Ying</td></tr>
+    <tr><td><a href="reports/default/15742986.pdf">Recurrency-Free Question Answering with Unanswerable Questions</a>  (<a href="posters/15742986.pdf">poster</a>) </td><td>Daniel Semeniuta, Ian Stuart Hodge, Michael Hazard</td></tr>
+    <tr><td><a href="reports/default/15718571.pdf">Research of LSTM Additions on Top of SQuAD BERT Hidden Transform Layers</a>  (<a href="posters/15718571.pdf">poster</a>) </td><td>Oscar Josue Matus, Adam Joseph Thorne, Zac Douglas Farnsworth</td></tr>
+    <tr><td><a href="reports/default/15701585.pdf">Ryan QA</a>  (<a href="posters/15701585.pdf">poster</a>) </td><td>Ryan Tyler Rice</td></tr>
+    <tr><td><a href="reports/default/15744366.pdf">SQuAD 2.0 (QANet, Character Embeddings and Token Features, Hyperparameter Tuning)</a>  (<a href="posters/15744366.pdf">poster</a>) </td><td>Eric Redondo, Bernardo Casares Rosa, Eric Nielsen</td></tr>
+    <tr><td><a href="reports/default/15785042.pdf">SQuAD 2.0 Project Report</a>  (<a href="posters/15785042.pdf">poster</a>) </td><td>Phillip Hoovestol, Konrad Morzkowski, Liyang Sun</td></tr>
+    <tr><td><a href="reports/default/15791990.pdf">SQuAD 2.0 with BERT</a>  (<a href="posters/15791990.pdf">poster</a>) </td><td>Kevin Lalande</td></tr>
+    <tr><td><a href="reports/default/15708284.pdf">SQuAD Model Comparison</a>  (<a href="posters/15708284.pdf">poster</a>) </td><td>Jiehan Zhu</td></tr>
+    <tr><td><a href="reports/default/15782330.pdf">SQuAD Question Answering with Transformers</a>  (<a href="posters/15782330.pdf">poster</a>) </td><td>Chitradip Mandal</td></tr>
+    <tr><td><a href="reports/default/15759479.pdf">SQuAD to BioASQ: analysis of general to specific</a>  (<a href="posters/15759479.pdf">poster</a>) </td><td>Karen Ouyang</td></tr>
+    <tr><td><a href="reports/default/15744482.pdf">SQuAD with SDNet and BERT</a>  (<a href="posters/15744482.pdf">poster</a>) </td><td>Taresh Kumar Sethi, Derek Anda Huang, Eli Jaycob Pugh</td></tr>
+    <tr><td><a href="reports/default/15743071.pdf">SQuAD: Eliminate What You Don't Know</a>  (<a href="posters/15743071.png">poster</a>) </td><td>Jessica Zhao, Ashwin Sreenivas, Todd Macdonald</td></tr>
+    <tr><td><a href="reports/default/15846857.pdf">SQuAD: Integrating PCE and Non-PCE approaches</a>  (<a href="posters/15846857.pdf">poster</a>) </td><td>Oghenetegiri Sido</td></tr>
+    <tr><td><a href="reports/default/15831492.pdf">Semi-Supervised Question Answering: Generative Augmentation in SQuAD2.0</a>  (<a href="posters/15831492.pdf">poster</a>) </td><td>Alex Lu</td></tr>
+    <tr><td><a href="reports/default/15814490.pdf">Syll2Vec: A Phonetic Approach in Reading Comprehension</a></td><td>Xiao Lu</td></tr>
+    <tr><td><a href="reports/default/15791958.pdf">The Death of Feature Engineering? BERT with Linguistic Features on SQuAD 2.0</a>  (<a href="posters/15791958.pdf">poster</a>) </td><td>Yue Zhang, Jiawei Li</td></tr>
+    <tr><td><a href="reports/default/15709657.pdf">The Effect of Embeddings on SQuAD v2.0</a></td><td>Luis Antonio Perez</td></tr>
+    <tr><td><a href="reports/default/15832832.pdf">The Role of Data in Bert Question-Answering</a>  (<a href="posters/15832832.pdf">poster</a>) </td><td>Xian (Carrie) Wu</td></tr>
+    <tr><td><a href="reports/default/15742598.pdf">Transformer with CSAN for Question Answering: SQuAD 2.0</a>  (<a href="posters/15742598.pdf">poster</a>) </td><td>Simerjot Kaur</td></tr>
+    <tr><td><a href="reports/default/15791637.pdf">Transformer-Based Model for Question and Answering</a>  (<a href="posters/15791637.pdf">poster</a>) </td><td>Jennifer She, Emma Chen</td></tr>
+    <tr><td><a href="reports/default/15848527.pdf">Who is Ernie? Just ask Bert!</a>  (<a href="posters/15848527.pdf">poster</a>) </td><td>Barthold Albrecht, Yanzhuo Wang, Xiaofang Zhu</td></tr>
+    <tr><td><a href="reports/default/15846789.pdf">Wisdom of Ignorance: Bert-wBiDAF for SQuAD2</a>  (<a href="posters/15846789.pdf">poster</a>) </td><td>Siyi Tang, Ruge Zhao, Meixian Zhu</td></tr>
+  </table>
+</div>
+
+
+<!-- jQuery and Boostrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

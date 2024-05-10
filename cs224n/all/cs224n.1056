@@ -1,0 +1,1116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+
+  <head>
+    <title>CS 224N / Ling 237</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link href="nlp.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <table border="0" width="100%" cellpadding="5" cellspacing="0" class="navbar">
+      <tr height="100">
+
+        <td width="100" align="center" valign="center">
+	  <a href="http://nlp.stanford.edu/">
+	    <img src="img/nlp-logo-navbar.jpg" border="0" align="center">
+	  </a>
+	</td>
+
+	<td width="*" align="left" valign="center">
+          <table border="0" cellpadding="5" cellspacing="0">
+
+	    <tr height="25">
+	      <td>
+	        <p>&nbsp;</p>
+	      </td>
+	    </tr>
+
+	    <tr height="50">
+	      <td align="left" valign="center">
+	        <p class="title">
+	          CS 224N / Ling 237 &nbsp;&mdash;&nbsp;
+                  Natural Language Processing
+	        </p>
+	      </td>
+	    </tr>
+
+            <tr height="25"> 
+              <td align="left" valign="center">
+                <p class="navbar">
+
+		  <a class="navbar" href="#description">description</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="#syllabus">syllabus</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="policies.html">policies</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="#homeworks">homeworks</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="#handouts">handouts</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="#staff">staff</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="#links">links</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="faq.html">FAQs</a>
+
+                </p>
+              </td>
+            </tr>
+
+          </table>
+	</td>
+	
+      </tr>
+    </table>
+
+    <img src="img/spacer.gif" width="10" height="10" alt="">
+
+
+<!-- THE ACTUAL PAGE CONTENTS START HERE //-->
+
+<table width="100%" cellpadding="10" cellspacing="0">
+  <tr valign="top">
+
+    <!-- left bar: main content -->
+    <td width="75%">
+
+      <!-- ------------------------------------------------------- -->
+
+      <a name="announcements"><h1>Announcements</h1></a>
+
+      <table class="p" cellpadding="0" cellspacing="0">
+
+        <!-- use <span class="crimson"> ... </span> to make things crimson -->
+      
+        <tr valign="top">
+          <td align="right">5/17/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#hw4">HW4 parent annotation, speed targets</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">5/4/05</td>
+          <td width="20"></td>
+          <td>
+            Final project proposals due Monday &mdash; see
+            <a href="handouts/cs224n-fp.pdf">handout</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">5/4/05</td>
+          <td width="20"></td>
+          <td>
+            No section this Friday
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">5/3/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#hw3mem">Memory issues for HW3</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">5/1/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#stepsize">"<code>stepSize underflow</code>" on HW3</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">5/1/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#morehw3">More questions on HW3</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/29/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#typohw3">Typo in HW3 formula for <i>G</i>(&lambda;)</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/26/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#indexl"><code>IndexLinearizer</code>, features, etc.</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/19/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#moredata">More data for HW2?</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/19/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#knight31">Questions about Knight section 31</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/18/05</td>
+          <td width="20"></td>
+          <td>
+            HW2 due date pushed back to Friday 4/22
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/17/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#testtrain">Starter code combines test and training sentences</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/13/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#fplang">Do I have to do my final project in Java?</a>
+          </td>
+        </tr>
+      
+        <tr valign="top">
+          <td align="right">4/10/05</td>
+          <td width="20"></td>
+          <td>
+	    Need more memory in Java?  Use <code>-Xmx</code> flag:
+            <code>java -Xmx1000m HelloWorld</code>.
+          </td>
+        </tr>
+      
+        <tr valign="top">
+          <td align="right">4/9/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#close">Closing streams in <code>readSpeechNBestLists()</code></a>
+          </td>
+        </tr>
+      
+        <tr valign="top">
+          <td align="right">4/7/05</td>
+          <td width="20"></td>
+          <td>
+            Looking for a homework partner?  Try posting to the <a
+            href="news:su.class.cs224n">class newsgroup</a>.
+          </td>
+        </tr>
+      
+        <tr valign="top">
+          <td align="right">4/5/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#unk">Smoothing and unknown words</a>
+          </td>
+        </tr>
+      
+        <tr valign="top">
+          <td align="right">4/2/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQ: <a href="faq.html#bllip">Larger dataset for HW1</a>
+          </td>
+        </tr>
+      
+        <tr valign="top">
+          <td align="right">3/30/05</td>
+          <td width="20"></td>
+          <td>
+            New FAQs:
+              <a href="faq.html#java15">How is Java 1.5 different from 1.4?</a>,
+              <a href="faq.html#java15mac">Using Java 1.5 on the Mac</a>
+          </td>
+        </tr>
+      
+      </table>
+
+      <!-- ------------------------------------------------------- -->
+
+      <br>
+      <a name="description"><h1>Course Description</h1></a>
+      
+        <p>
+          This course is designed to introduce students to the fundamental
+          concepts and ideas in natural language processing (NLP), and to
+          get them up to speed with current research in the area. It
+          develops an in-depth understanding of both the algorithms
+          available for the processing of linguistic information and the
+          underlying computational properties of natural
+          languages. Word-level, syntactic, and semantic processing from
+          both a linguistic and an algorithmic perspective are
+          considered. The focus is on modern quantitative techniques in
+          NLP: using large corpora, statistical models for acquisition,
+          disambiguation, and parsing. Also, it examines and constructs
+          representative systems.
+        </p>
+
+        <h2>Prerequisites</h2>
+
+          <ul>
+            <li>
+              Adequate experience with programming and formal structures
+              (e.g., CS106 and CS103X).
+            </li>
+            <li>
+              Programming projects will be written in Java, so knowledge of
+              Java (or a willingness to learn on your own) is required.
+            </li>
+            <li>
+              Knowledge  of standard  concepts  in artificial  intelligence
+              and/or  computational linguistics  (e.g.,  CS121/221 or  Ling
+              138/238).
+            </li>
+            <li>
+              Basic familiarity with logic, vector spaces, and probability.
+            </li>
+          </ul>
+
+        <h2>Intended Audience</h2>
+
+          <p>
+            Graduate students and advanced undergraduates specializing in
+            computer science, linguistics, or symbolic systems.
+          </p>
+
+        <h2>Textbook and Readings</h2>
+
+          <p>
+            The most used book will be:
+          </p>
+
+          <ul>
+            <li>
+              Christopher Manning and Hinrich Sch&uuml;tze, 
+              <i>Foundations of Statistical Natural Language Processing.</i>
+              MIT Press, 1999.<br>
+	      <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0262133601">Buy
+              at Amazon</a> ($67 new)!<br>
+              <b>Read the text
+              <a href="http://cognet.mit.edu/library/books/view?isbn=0262133601">
+              online</a>!</b>
+            </li>
+          </ul>
+
+          <p>
+            We will distribute the most vital parts.  It's referred to
+            as M&amp;S below. Please see <a 
+            href="http://nlp.stanford.edu/fsnlp/">http://nlp.stanford.edu/fsnlp/</a>
+            for supplementary information about the text, including errata,
+            and pointers to online resources.
+          </p>
+
+          <p>
+            Other useful reference texts for NLP are:
+          </p>
+
+          <ul>
+            <li>
+              James Allen. 1995.
+              <i>Natural Language Understanding</i>.
+              Benjamin/Cummings, 2ed.
+            </li>
+
+            <li>
+              Gerald Gazdar and Chris Mellish. 1989.
+              <i>Natural Language Processing in X</i>.
+              Addison-Wesley.
+            </li>
+
+            <li>
+              Dan Jurafsky and James Martin. 2000.
+              <i>Speech and Language Processing</i>.
+              Prentice Hall.
+            </li>
+          </ul>
+
+          <p>
+            Papers will occasionally be distributed and
+            discussed during the course of the class.
+          </p>
+
+          <p>
+            Copies of in-class hand-outs, such as readings and homework
+            assignments, will be posted on the <a
+            href="#syllabus">syllabus</a>, and hard copies will also be
+            available outside Gates 158 (in front of Prof. Manning's
+            office) while supplies last.
+          </p>
+
+
+        <h2>Homework and Grading</h2>
+
+	  <p>
+	    There will be four homeworks centered around substantial
+	    programming assignments, each exploring a core NLP task.
+	  </p>
+
+	  <p>
+	    In addition, there will be a final programming project on a
+	    topic of your own choosing.  A short, ungraded project proposal
+	    will be due on Monday 5/9/05.  Final project write-ups will be
+	    due on the last day of class, Wednesday 6/1/05.  Students will
+	    give short project presentations during the time slot allocated
+	    for the final exam, on Tuesday 6/7/05.  You may find it helpful to
+	    look at <a href="http://nlp.stanford.edu/courses/cs224n/">final
+	    projects from previous years</a>.
+	  </p>
+
+          <p>
+            Course grades will be based 2/3 on homeworks (1/6 each) and 1/3
+            on the final project.
+          </p>
+
+          <p>
+            Be sure to read the <a href="policies.html">policies on late
+            days and collaboration</a>.
+          </p>
+
+        <h2>Section</h2>
+
+          <p>
+            Sections will be held most weeks to go over background
+            material, or to address issues related to the programming
+            assignments.  Sections are optional, but students are
+            encouraged to attend for a better understanding of
+            background material and the assignments.
+          </p>
+
+
+
+      <!-- ------------------------------------------------------- -->
+
+      <br>
+      <a name="syllabus"><h1>Syllabus</h1></a>
+
+      <table class="p" cellpadding="10">
+      
+        <tr valign="top">
+          <td>Wed<br>3/30/05</td>
+          <td>
+            <b>Introduction</b>
+            [slides:
+              <a href="handouts/lecture-01-slides.ppt.tar.gz">ppt</a>,
+              <a href="handouts/lecture-01-slides.pdf.tar.gz">pdf</a>]<br>
+            Overview of NLP.  Statistical machine translation. Language models
+	    and their role in speech processing.  
+            Course introduction and administration.<br>
+            <i>Good background reading:</i> M&amp;S 1.0-1.4, 4.1-4.2, 
+               <a href="policies.html#collab">Homework Collaboration Policy</a><br>
+            <i>Optional reading:</i> Ken Church's tutorial
+	    <a href="http://www.stanford.edu/class/cs224n/new_handouts/kwc-unix-for-poets.pdf">
+	    Unix for Poets</a>
+            [<a href="http://www.stanford.edu/class/cs224n/handouts/kwc-unix-for-poets.ps">ps</a>, <a href="http://www.stanford.edu/class/cs224n/handouts/kwc-unix-for-poets.pdf">pdf</a>]<br>
+	    <span class="gray">
+	    (If your knowledge of probability theory is limited, also
+	    read M&amp;S 2.0-2.1.7.  If that's too condensed, read the
+	    probability chapter of an intro statistics textbook,
+	    e.g. Rice, <i>Mathematical Statistics and Data
+	    Analysis</i>, ch. 1.)
+	    </span><br>
+	    <span class="green"><i>Homework 1 distributed today</i></span>
+          </td>
+        </tr>
+      
+        <tr valign="top">
+          <td>Mon<br>4/4/05</td>
+          <td>
+            <b><i>N</i>-gram Language Models and Information Theory</b>
+            [slides: <a href="handouts/fsnlp-statest-slides-6.ps">ps</a>
+          <a href="http://megahal.alioth.debian.org/Best.html">MegaHal</a>]<br>
+            <i>n</i>-gram models.  Entropy, relative entropy, cross
+            entropy, mutual information, perplexity.  Statistical
+            estimation and smoothing for language models.<br>
+	    <i>Assigned reading:</i> M&amp;S 2.2<br>
+
+            <i>Optional reading:</i> Joshua Goodman (2001),
+	    <a href="http://research.microsoft.com/~joshuago/longcombine.pdf">
+	    A Bit of Progress in Language Modeling, Extended Version</a>
+            [<a href="http://research.microsoft.com/~joshuago/longcombine.pdf">pdf</a>, 
+             <a href="http://research.microsoft.com/~joshuago/longcombine.ps">ps</a>]<br>
+
+
+            <i>Optional reading:</i> Stanley Chen and Joshua Goodman (1998),
+	    <a href="http://research.microsoft.com/~joshuago/tr-10-98.pdf">
+	    An empirical study of smoothing techniques for language modeling</a>
+            [<a href="http://research.microsoft.com/~joshuago/tr-10-98.pdf">pdf</a>, 
+             <a href="http://research.microsoft.com/~joshuago/tr-10-98.ps">ps</a>]<br>
+
+          </td>
+        </tr>
+      
+        <tr valign="top">
+          <td>Wed<br>4/6/05</td>
+          <td>
+            <b>Statistical Machine Translation (MT), Alignment Models</b>
+            [slides: <a href="handouts/Chris-Knight-mt-lecture2.pdf">pdf</a>
+             <a href="handouts/Chris-Knight-mt-lecture2.ps">ps</a>]<br>
+	    <i>Assigned reading:</i> Kevin Knight,
+	    <a href="http://www.clsp.jhu.edu/ws99/projects/mt/wkbk.rtf">
+	    A Statistical MT Tutorial Workbook</a>
+	    [<a href="http://www.clsp.jhu.edu/ws99/projects/mt/wkbk.rtf">rtf</a>].
+	    MS., August 1999.<br>
+	    <i>Further reading:</i> M&amp;S 13<br>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Fri<br>4/8/05</td>
+          <td>
+            <b>Section 1</b>
+            [notes:
+            <a href="handouts/section1.xls">xls</a>,
+            <a href="handouts/section1.pdf">pdf</a>]<br>
+            Smoothing: absolute discounting, proving you have a proper
+            probability distribution, Good-Turing implementation.
+            Information theory examples and intuitions.  Java
+            implementation issues.
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Mon<br>4/11/05</td>
+          <td>
+            <b>Statistical Alignment Models and Expectation Maximization
+	    (EM)</b>
+            [slides:
+            <a href="handouts/fsnlp-em-slides-6.pdf">pdf</a>,
+            spreadsheet:
+            <a href="handouts/ComesAcrossLambdaEM.xls">xls</a>]<br>
+	    EM and its use in statistical MT alignment models.<br>
+	    <i>Reference reading:</i> Geoffrey J. McLachlan and
+	    Thriyambakam Krishnan. 1997. <i>The EM Algorithm and
+	    Extensions</i>. Wiley<br>
+
+	    <span class="green"><i>Homework 2 distributed today</i></span><br>
+	    <span class="crimson"><i>Homework 1 due today</i></span>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Wed<br>4/13/05</td>
+          <td>
+            <b>Putting together a complete statistical MT system.</b>
+            [slides:
+            <a href="handouts/Chris-Knight-mt-lecture3.pdf">pdf</a>]<br>
+	    Decoding and A* Search.  Recent work in statistical MT.<br>
+	    <i>Further reading:</i> Brown, Della Pietra, Della Pietra, and Mercer,
+	    <a href="http://citeseer.ist.psu.edu/576330.html">The Mathematics of Statistical Machine Translation: Parameter Estimation</a>
+            [<a href="http://acl.ldc.upenn.edu/J/J93/J93-2003.pdf">pdf</a>,
+	     <a href="http://citeseer.ist.psu.edu/576330.html">pdf</a>].
+	    <i>Computational Linguistics</i>.<br>
+Ulrich Germann, Michael Jahr, Kevin Knight, Daniel Marcu, and Kenji
+Yamada. 2001.
+<a href="http://www.isi.edu/natural-language/projects/rewrite/decoder.pdf">Fast
+Decoding and Optimal Decoding for Machine Translation</a>. ACL.<br>
+	    K. Yamada and K. Knight. 2002. 
+	    <a href="http://www.isi.edu/natural-language/projects/rewrite/syndec.ps">A Decoder for Syntax-Based Statistical MT</a>.  ACL.
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Fri<br>4/15/05</td>
+          <td>
+            <b>Section 2</b>
+            [notes:
+            <a href="handouts/section2.xls">xls</a>]<br>
+	    The EM algorithm.
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Mon<br>4/18/05</td>
+          <td>
+            <b>Word Sense Disambiguation (WSD) and Na&iuml;ve Bayes (NB) Models</b>
+            [slides: <a href="handouts/fsnlp-wsd-slides-6.pdf">pdf</a>]<br>
+	    Information sources, performance bounds, dictionary methods,
+	    supervised machine learning methods, Na&iuml;ve Bayes
+	    classifiers.<br> 
+	    <i>Assigned Reading: </i> M&amp;S Ch. 7.<br>
+	    <i>Reference:</i>
+            <a href="http://acl.ldc.upenn.edu/J/J98/"><i>Computational
+            Linguistics</i> 24(1)</a>,
+          1998. Special issue on Word Sense Disambiguation.<br>
+          <a href="http://acl.ldc.upenn.edu/acl2004/senseval/">Proceedings
+          of Senseval-3: The Third 
+          International Workshop on the Evaluation of Systems for the
+          Semantic Analysis of Text</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Wed<br>4/20/05</td>
+          <td>
+            <b>Maximum Entropy Classifiers</b>
+            [slides: <a href="handouts/ACL2003-MaxentTutorial-cs224n.pdf">pdf</a>]<br>
+	    <i>Assigned Reading:</i> class slides.<br>
+	    <i>Other references: </i> Adwait Ratnaparkhi.
+            <a href="ftp://ftp.cis.upenn.edu/pub/ircs/tr/97-08.ps.Z">A
+            Simple Introduction to Maximum Entropy Models for Natural Language
+            Processing.</a>
+            Technical Report 97-08, Institute for Research in Cognitive Science,
+            University of Pennsylvania.<br>
+            M&amp;S section 16.2<br>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Fri<br>4/22/05</td>
+          <td>
+            <b>Section 3</b>
+            [notes: <a href="handouts/section3.txt">txt</a>]<br>
+	    Corpora and other resources.<br>
+	    <span class="crimson"><i>Homework 2 due today</i></span>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Mon<br>4/25/05</td>
+          <td>
+            <b>Maximum Entropy Classifiers, Part II</b>
+            [slides: <a href="handouts/ACL2003-MaxentTutorial-cs224n.pdf">pdf</a>]<br>
+	    <i>Assigned Reading:</i> class slides.<br>
+	    <i>Other references: </i> Adwait Ratnaparkhi.
+            <a href="ftp://ftp.cis.upenn.edu/pub/ircs/tr/97-08.ps.Z">A
+            Simple Introduction to Maximum Entropy Models for Natural Language
+            Processing.</a>
+            Technical Report 97-08, Institute for Research in Cognitive Science,
+            University of Pennsylvania.<br>
+            M&amp;S section 16.2<br>
+	    Adam Berger, 
+            <a href="http://www-2.cs.cmu.edu/afs/cs/user/aberger/www/html/tutorial/tutorial.html">A Brief Maxent Tutorial</a><br>
+	    <span class="green"><i>Homework 3 distributed today</i></span>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Wed<br>4/27/05</td>
+          <td>
+	    <b>Part of Speech Tagging and Sequence Inference</b>
+            [slides: <a href="handouts/fsnlp-tag-slides-6.pdf">pdf</a>]</br>
+	    Parts of speech and the tagging problem: sources of
+	    evidence; easy and difficult cases.
+	    Probabilistic sequence inference: Hidden Markov Models
+	    (HMMs), Conditional Markov Models (CMMs), and the Viterbi
+	    algorithm.<br>
+	    <i>Assigned reading:</i>  M&amp;S Ch. 10, pp. 341-356.<br>
+	    <i>Further reading on HMMs:</i> M&amp;S Ch. 9.</br>
+	    <i>HMM POS tagger:</i> Thorsten Brants, <a
+	    href="http://acl.ldc.upenn.edu/A/A00/A00-1031.pdf">TnT - A
+	    Statistical Part-of-Speech Tagger</a>, ANLP 2000.<br>
+            <i>CMM POS tagger:</i> Kristina Toutanova and Christopher
+	    D. Manning. 2000. 
+            <a href="http://nlp.stanford.edu/~manning/papers/emnlp2000.ps">Enriching the
+Knowledge Sources Used in a Maximum Entropy Part-of-Speech
+Tagger</a>. EMNLP 2000.
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Fri<br>4/29/05</td>
+          <td>
+            <b>Section 4</b><br>
+            Maximum entropy models, HMMs
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Mon<br>5/2/05</td>
+          <td>
+            <b>Named Entity Recognition (NER) and Information Extraction (IE)</b>
+            [slides: <a href="handouts/InfoExtract-cs224n-2005.pdf">pdf</a>]<br>
+	    <i>Evaluation reading:</i> M&amp;S 8.1<br>
+	    <i>HMMs for IE reading:</i>
+	    Dayne Freitag and Andrew McCallum (2000),
+	    <a
+	    href="http://citeseer.ist.psu.edu/freitag00information.html">
+	    Information Extraction with HMM Structures Learned by
+	    Stochastic Optimization</a>, AAAI-2000<br>
+	    <i>Maxent NER reading:</i> Jenny
+	    Finkel et al., 2005. <a
+	    href="http://nlp.stanford.edu/~manning/papers/bmc_BioInf.pdf">Exploring the Boundaries: Gene and Protein Identification
+in Biomedical Text</a><br>
+	    <i>Background IE reading</i>:
+	    Ion Muslea (1999), 
+	    <a href="http://www.ai.sri.com/~muslea/PS/ml4ie-aaai99.pdf">
+	    Extraction Patterns for Information
+	    Extraction Tasks: A Survey</a>
+	    [<a href="http://www.ai.sri.com/~muslea/PS/ml4ie-aaai99.pdf">pdf</a>,
+	     <a href="http://www.ai.sri.com/~muslea/PS/ml4ie-aaai99.ps">ps</a>],
+	    <i>AAAI-99 Workshop on Machine Learning for Information Extraction</i>.<br>
+	    <i>Background IE reading</i>:
+Douglas E. Appelt. 1999. <a
+href="http://www.ai.sri.com/~appelt/ie-tutorial/IJCAI99.pdf">Introduction
+to Information Extraction Technology</a>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Wed<br>5/4/05</td>
+          <td>
+            <b>Parsing for Context-Free Grammars (CFGs)</b>
+            [slides: <a href="handouts/fsnlp-parse-slides-6.pdf">pdf</a>]<br>
+	    Top-down parsing, bottom-up parsing, empty constituents, left
+	    recursion.<br>
+	    <i>Background reading:</i> M&amp;S 3 (if you haven't done
+	    any linguistics courses) or J&amp;M ch. 9<br>
+	    <i>Optional reading:</i> J&amp;M ch. 10<br>
+            <span class="green"><i><a
+            href="handouts/cs224n-fp.pdf">Final project guide</a> 
+            distributed today</i></span>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Fri<br>5/6/05</td>
+          <td>
+            <span class="gray">no section today</span><br>
+	    <span class="crimson"><i>Homework 3 due today</i></span>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Mon<br>5/9/05</td>
+          <td>
+            <b>Dynamic Programming for Parsing</b>
+	    [handout: <a href="handouts/Generalized-CKY.pdf">pdf</a>]<br>
+	    Dynamic programming methods, chart parsing, the CKY algorithm.<br>
+<!--	    <i>Assigned reading:</i> Gazdar and Mellish (1989),
+	    pp. 179-199 [handout], tabular parsing handout<br> -->
+	    <i>Optional reading:</i> J&amp;M ch. 10<br>
+	    <span class="green"><i>Homework 4 distributed today</i></span><br>
+	    <span class="crimson"><i>Final project proposals due today</i></span>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Wed<br>5/11/05</td>
+          <td>
+            <b>Probabilistic Context-Free Grammars (PCFGs)</b>
+     [slides: 
+     <a href="handouts/fsnlp-probparse-slides-2005-6.pdf">pdf</a> (probparse),
+     <a href="handouts/ProbParsingSearch.pdf">pdf</a> (search),
+     <a href="handouts/ACL 2003 - Accurate Unlexicalized Parsing.pdf">pdf</a>
+      (unlexicalized)]<br>
+	    PCFGs, finding the most likely parse, refining PCFGs
+	    Other questions for PCFGs: the inside-outside algorithm,
+	    and learning PCFGs.<br>
+	    <i>Assigned reading:</i> M&amp;S Ch. 11
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Fri<br>5/13/05</td>
+          <td>
+            <b>Section 5</b><br>
+            Parsing, PCFGs
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Mon<br>5/16/05</td>
+          <td>
+            <b>Modern Statistical Parsers</b> [slides: see last time]<br>
+	    Parsing for disambiguation, weakening independence assumptions,
+	    lexicalization, search methods, Charniak's parser, probabilistic
+	    left corner grammars, parser evaluation.<br>
+	    <i>Assigned reading:</i> M&amp;S 8.3, 12<br>
+	    <i>Optional readings:</i>
+	    <li style="display: block;">Eugene Charniak (2000), 
+	      <a href="http://www.cs.brown.edu/people/ec/papers/shortMeP.ps.gz">
+	      A Maximum-Entropy-Inspired Parser</a>, <i>Proceedings of NAACL-2000</i>.</li>
+	    <li style="display: block;">Eugene Charniak (1997), 
+	      <a href="http://www.cs.brown.edu/people/ec/papers/aimag97.ps">
+	      Statistical techniques for natural language parsing</a>, 
+	      <i>AI Magazine</i>.</li>
+	    <li style="display: block;">Eugene Charniak (1997), 
+	      <a href="http://www.cs.brown.edu/people/ec/papers/aaai97.ps">
+	      Statistical parsing with a context-free grammar and word
+	      statistics</a>, <i>Proceedings of the Fourteenth National
+	      Conference on Artificial Intelligence</i>. AAAI Press/MIT
+	      Press, Menlo Park (1997).</li>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Wed<br>5/18/05</td>
+          <td>
+            <b>Question Answering (QA)</b>
+	    [handout: <a href="handouts/cs224n-QA.pdf">pdf</a>]<br>
+	    TREC-style robust QA, natural language database interfaces<br>
+	    <i>Assigned reading:</i>
+	    Marius Pasca, Sanda M. Harabagiu.
+	    <a href="http://www.utdallas.edu/~sanda/papers/sigir01.ps.gz">
+	    High Performance Question/Answering</a>. SIGIR 2001: 366-374.
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Fri<br>5/20/05</td>
+          <td>
+            <span class="gray">no section today</span><br>
+	    <span class="crimson"><i>Homework 4 due today</i></span>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Mon<br>5/23/05</td>
+          <td>
+            <b>Compositional Semantics</b><br>
+            Semantic representations, lambda calculus, compositionality,
+	    syntax/semantics interfaces, logical reasoning.<br>
+	    <i>Assigned reading:</i>
+	    <a href="http://cs224n.stanford.edu/handouts/cl-semantics-new.pdf">
+	    An Informal but Respectable Approach to Computational Semantics</a>
+	    [<a href="http://cs224n.stanford.edu/handouts/cl-semantics-new.pdf">pdf</a>,
+	     <a href="http://cs224n.stanford.edu/handouts/cl-semantics-new.ps">ps</a>]
+	  </td>
+
+
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Wed<br>5/25/05</td>
+          <td>
+            <b>Compositional Semantics</b><br>
+	    <i>Assigned reading:</i>
+	    I. Androutsopoulos et al.,
+            <a href="http://citeseer.ist.psu.edu/androutsopoulos95natural.html">
+            Language Interfaces to Databases</a> 
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td><span class="gray">Mon<br>5/30/05</span></td>
+          <td>
+            <span class="gray">
+            <b>Memorial Day</b><br>
+            no class
+            </span>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Wed<br>6/1/05</td>
+          <td>
+            <b>Dialog &amp; Discourse Systems</b><br>
+	    Rhetorical structure, planning and requests.<br>
+	    <i>Assigned reading:</i> handout<br>
+	    <i>Optional reading:</i> Gazdar &amp; Mellish ch. 10<br>
+	    <span class="crimson"><i>Final projects due today</i></span>
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Tue<br>6/7/05</td>
+          <td>
+            <b>Final Project Presentations</b>
+          </td>
+        </tr>
+
+
+      </table>
+
+    <!-- end left bar -->
+
+    <!-- middle spacer -->
+    <td>
+      <img border="0" src="img/spacer.gif" width="10" height="1">
+    </td>
+    <!-- end middle spacer -->
+
+    <!-- right bar -->
+    <td width="25%" align="left">
+
+      <p align="left">
+        <img src="img/gates-200.jpg">
+      </p>
+
+      <h3>Course Information</h3>
+
+      <br>
+      <table cellspacing="0" cellpadding="0" width="100%" border="0">
+        <tr> 
+	  <td><b>Lectures:</b></td> <td>MW 11:00-12:15</td>
+	</tr>
+        <tr> 
+	  <td><b>Location:</b></td> 
+	  <td>
+	    <a href="http://campus-map.stanford.edu/campus_map/results.jsp?bldg=gates">
+	      Gates B12
+	    </a>
+	  </td>
+	</tr>
+	<tr>
+	  <td height="8">
+	    <img src="img/spacer.gif" width="1" height="6" alt="">
+	  </td>
+	</tr>
+        <tr> 
+	  <td><b>Section:</b></td> <td>F 11:00-12:15</td>
+	</tr>
+        <tr>
+	  <td><b>Location:</b></td>
+	  <td>
+	    <a href="http://campus-map.stanford.edu/campus_map/results.jsp?bldg=200">
+	      Bldg. 200-217
+	    </a>
+	  </td>
+	</tr>
+	<tr>
+	  <td height="8">
+	    <img src="img/spacer.gif" width="1" height="6" alt="">
+	  </td>
+	</tr>
+        <tr>
+	  <td><b>Professor:</b></td>
+	  <td><a href="http://nlp.stanford.edu/~manning/">Chris Manning</a></td>
+	</tr>
+      </table>
+
+      <!-- ------------------------------------------------------- -->
+
+      <h3>Electronic Communications</h3>
+      
+      <p>
+        <b>Web:</b>
+        <a href="http://cs224n.stanford.edu">http://cs224n.stanford.edu</a>
+      </p>
+
+      <p>
+        <b>Newsgroup:</b>
+        <a href="news:su.class.cs224n">su.class.cs224n</a>
+      </p>
+
+      <p>
+        <b>Questions mailing list:</b><br>
+        <a href="mailto:cs224n-spr0405-staff@lists.stanford.edu">
+        cs224n-spr0405-staff@lists.stanford.edu</a><br>
+        Send your questions here!
+      </p>
+
+      <p>
+        <b>Announcements mailing list:</b><br>
+        cs224n-spr0405-students@lists.stanford.edu
+      </p>
+
+      <p>
+        Enrolled students are automatically subscribed.  Others wishing to
+        receive announcements should send an email to <a
+        href="mailto:majordomo@lists.stanford.edu">majordomo@lists.stanford.edu</a>
+        with message body "<tt>subscribe cs224n-spr0405-guests</tt>".
+      </p>
+
+      <!-- ------------------------------------------------------- -->
+
+      <a name="homeworks"><h3>Homeworks</h3></a>
+      
+      <p>
+        <a href="hw/hw1.pdf">Homework 1</a> (due 4/11/05)<br>
+        <a href="hw/hw2.pdf">Homework 2</a> (due 4/20/05)<br>
+        <a href="hw/hw3.pdf">Homework 3</a> (due 5/4/05)<br>
+        <a href="hw/hw4.pdf">Homework 4</a> (due 5/18/05)<br>
+        <a href="handouts/cs224n-fp.pdf">Final project</a>
+      </p>
+
+      <p>
+        <a href="policies.html#late">Late Day Policy</a><br>
+        <a href="policies.html#regrading">Regrading Policy</a><br>
+        <a href="policies.html#collab">Homework Collaboration Policy</a>
+      </p>
+
+      <!-- ------------------------------------------------------- -->
+
+      <a name="handouts"><h3>Handouts</h3></a>
+
+      <p>
+
+        Lecture slides: intro
+        [<a href="handouts/lecture-01-slides.ppt.tar.gz">ppt</a>,
+        <a href="handouts/lecture-01-slides.pdf.tar.gz">pdf</a>]<br>
+
+        Lecture slides: <i>n</i>-grams
+        [<a href="handouts/fsnlp-statest-slides-6.ps">ps</a>]<br>
+
+        M&amp;S Chapters 1 & 4
+        [<a href="restricted/fsnlp-chap1and4.ps">ps</a>]<br>
+
+        M&amp;S Chapter 3
+        [<a href="restricted/fsnlp-lingess.pdf">pdf</a>]<br>
+
+        M&amp;S Chapter 6
+        [<a href="restricted/fsnlp-statest.ps">ps</a>]<br>
+
+        M&amp;S Chapter 10
+        [<a href="restricted/fsnlp-tag.pdf">pdf</a>]<br>
+
+        M&amp;S Chapters 11 & 12
+        [<a href="restricted/fsnlp-probparse-chapters.pdf">pdf</a>]<br>
+
+        Section notes: smoothing
+        [<a href="handouts/section1.xls">xls</a>,
+         <a href="handouts/section1.pdf">pdf</a>]<br>
+
+        Section notes: EM
+        [<a href="handouts/section2.xls">xls</a>]<br>
+
+        Lecture slides: WSD
+        [<a href="handouts/fsnlp-wsd-slides-6.pdf">pdf</a>]<br>
+
+        Lecture slides: MaxEnt
+        [<a href="handouts/ACL2003-MaxentTutorial-cs224n.pdf">pdf</a>]<br>
+
+        Section notes: corpora etc.
+        [<a href="handouts/section3.txt">txt</a>]<br>
+
+      </p>
+
+      <!-- ------------------------------------------------------- -->
+
+      <a name="staff"><h3>Staff</h3></a>
+
+      <script language="JavaScript">
+        <!--
+
+          function mailToObfuscator(domain, organization, username) {
+            dest = 'mai' + 'lto:' + name + '@' + company + '.' + domain;
+            window.location.replace(dest);
+          }
+
+        //-->
+      </script>
+
+      <br>
+      <table cellpadding="0" cellspacing="0" border="0">
+	<tr><td>
+        <a href="http://nlp.stanford.edu/~manning/">
+          <img src="http://nlp.stanford.edu/~manning/images/chrism2.jpg"
+	       alt="Chris Manning" border="0"></a><br>
+        </td></tr>
+      </table>
+      <p>
+        <b>Professor: <a href="http://nlp.stanford.edu/~manning/">Chris Manning</a></b><br>
+        Office: Gates 158<br>
+        Office Hours: M 4-5, W 2-3<br>
+        Phone: 650-723-7683<br>
+        Fax: 650-725-2588<br>
+        Email: <a href="javascript:mailToObfuscator('edu','cs.stanford','manning')">
+	         manning@cs.stanford.edu
+               </a>
+      </p>
+
+      <br>
+      <table cellpadding="0" cellspacing="0" border="0">
+	<tr><td>
+          <a href="http://nlp.stanford.edu/~wcmac/">
+            <img src="http://nlp.stanford.edu/~wcmac/i/wcmac-20050317-100.jpg"
+	         alt="Bill MacCartney" border="0"></a>
+        </td></tr>
+      </table>
+      <p>
+        <b>TA: <a href="http://nlp.stanford.edu/~wcmac/">Bill MacCartney</a></b><br>
+        Office: Gates 114<br>
+        Office Hours: Tu Th 11-12, W 1-2<br>
+        Phone: 650-723-3796<br>
+        Email: <a href="javascript:mailToObfuscator('edu','cs.stanford','wcmac')">
+                 <img src="http://nlp.stanford.edu/~wcmac/i/wcmac-email-color.jpg"
+                      alt="my domain is cs.stanford.edu and my username is wcmac"
+		      border="0">
+               </a>
+      </p>
+
+<br>
+      <table cellpadding="0" cellspacing="0" border="0">
+	<tr><td>
+          <a href="http://www.stanford.edu/~guyi/">
+            <img src= "http://www.stanford.edu/~guyi/errey2.jpg"
+	          alt="Guy Isely" border="0"></a>
+        </td></tr>
+      </table>
+      <p>
+        <b>TA: <a href="http://www.stanford.edu/~guyi/">Guy Isely</a></b><br>
+        Office: Gates B24A<br>
+        Office Hours: M F 10-11<br>
+        Email: <a href="javascript:mailToObfuscator('edu','stanford','wcmac')">
+                 guyi@stanford.edu
+               </a>
+      </p>
+
+      <p>
+        <b>Admin: Colleen Scott-Fields</b><br>
+        Office: Gates 150<br>
+        Phone: 650-723-0748<br>
+        Email: <a href="javascript:mailToObfuscator('edu','cs.stanford','colleen8')">
+	         colleen8@cs.stanford.edu
+               </a>
+      </p>
+
+      <!-- ------------------------------------------------------- -->
+
+      <a name="links"><h3>Links</h3></a>
+
+      <p>
+        <a href="http://nlp.stanford.edu/">The Stanford NLP Group</a><br>
+        <a href="http://www.stanford.edu/dept/linguistics/corpora/">Linguistic Corpora at Stanford</a><br>
+        <a href="http://www-nlp.stanford.edu/links/statnlp.html">Statistical NLP links</a><br>
+        <a href="http://www-nlp.stanford.edu/fsnlp/probparse/">Probabilistic parser links</a><br>
+        <a href="http://java.sun.com/developer/technicalArticles/releases/j2se15/">Java 1.5 Overview</a><br>
+        <a href="http://java.sun.com/j2se/1.5.0/docs/relnotes/features.html">Java 1.5 New Features</a>
+      </p>
+
+
+
+
+    </td>
+    <!-- end right bar -->
+
+  </tr>
+</table>
+
+
+<!-- END OF PAGE CONTENTS ----------------------------- //-->
+
+    <br>
+    <table class="footer" border="0" width="100%" cellpadding="0">
+      <tr>
+        <td width="14"><p class="small">&nbsp;</p></td>
+        <td align="left">
+	</td>
+        <td align="right">
+          <p class="small">
+	    Site design by <a href="http://nlp.stanford.edu/~wcmac/">Bill MacCartney</a>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+

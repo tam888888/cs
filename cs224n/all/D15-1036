@@ -1,0 +1,151 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Evaluation methods for unsupervised word embeddings - ACL Anthology</title><meta name=generator content="Hugo 0.118.2"><link href=/aclicon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css><meta content="Evaluation methods for unsupervised word embeddings" name=citation_title><meta content="Tobias Schnabel" name=citation_author><meta content="Igor Labutov" name=citation_author><meta content="David Mimno" name=citation_author><meta content="Thorsten Joachims" name=citation_author><meta content="Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing" name=citation_conference_title><meta content="2015/9" name=citation_publication_date><meta content="https://aclanthology.org/D15-1036.pdf" name=citation_pdf_url><meta content="298" name=citation_firstpage><meta content="307" name=citation_lastpage><meta content="10.18653/v1/D15-1036" name=citation_doi><meta property="og:title" content="Evaluation methods for unsupervised word embeddings"><meta property="og:image" content="https://aclanthology.org/thumb/D15-1036.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/D15-1036"><meta property="og:description" content="Tobias Schnabel, Igor Labutov, David Mimno, Thorsten Joachims. Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing. 2015."><link rel=canonical href=https://aclanthology.org/D15-1036></head><body><nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient-light shadow-sm py-0 mb-3 mb-md-4 mb-xl-5"><div id=navbar-container class=container><a class=navbar-brand href=/><img src=/images/acl-logo.svg width=56 alt="ACL Logo">
+<span class="d-inline pl-2">ACL Anthology</span></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent><ul class="navbar-nav flex-grow-1 pr-md-2"><li class=nav-item><a class=nav-link href=/faq/>FAQ<span class=sr-only>(current)</span></a></li><li class=nav-item><a class=nav-link href=/info/corrections/>Corrections<span class=sr-only>(current)</span></a></li><li class=nav-item><a class=nav-link href=/info/contrib/>Submissions<span class=sr-only>(current)</span></a></li><li class=nav-item><a class=nav-link href=https://github.com/acl-org/acl-anthology/><i class="fab fa-github pr-1"></i>Github</a></li></ul><form class="form-inline my-2 my-lg-0 flex-nowrap" action=/search/? method=get><input id=acl-search-box class="form-control mr-sm-2" name=q type=search placeholder=Search... aria-label=Search>
+<button class="btn btn-outline-primary" type=submit><i class="fas fa-search"></i></button></form></div></div></nav><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://aclanthology.org/D15-1036.pdf>Evaluation methods for unsupervised word embeddings</a></h2><p class=lead><a href=/people/t/tobias-schnabel/>Tobias Schnabel</a>,
+<a href=/people/i/igor-labutov/>Igor Labutov</a>,
+<a href=/people/d/david-mimno/>David Mimno</a>,
+<a href=/people/t/thorsten-joachims/>Thorsten Joachims</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><dl><dt>Anthology ID:</dt><dd>D15-1036</dd><dt>Volume:</dt><dd><a href=/volumes/D15-1/>Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing</a></dd><dt>Month:</dt><dd>September</dd><dt>Year:</dt><dd>2015</dd><dt>Address:</dt><dd>Lisbon, Portugal</dd><dt>Editors:</dt><dd><a href=/people/l/lluis-marquez/>Lluís Màrquez</a>,
+<a href=/people/c/chris-callison-burch/>Chris Callison-Burch</a>,
+<a href=/people/j/jian-su/>Jian Su</a></dd><dt>Venue:</dt><dd><a href=/venues/emnlp/>EMNLP</a></dd><dt>SIG:</dt><dd><a href=/sigs/sigdat/>SIGDAT</a></dd><dt>Publisher:</dt><dd>Association for Computational Linguistics</dd><dt>Note:</dt><dd></dd><dt>Pages:</dt><dd>298–307</dd><dt>Language:</dt><dd></dd><dt>URL:</dt><dd><a href=https://aclanthology.org/D15-1036>https://aclanthology.org/D15-1036</a></dd><dt>DOI:</dt><dd><a href=https://doi.org/10.18653/v1/D15-1036 title="To the current version of the paper by DOI">10.18653/v1/D15-1036</a></dd><dt class=acl-button-row>Bibkey:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citePaperBibkey><i class="far fa-clipboard"></i><span id=citePaperBibkey class="pl-2 text-monospace">schnabel-etal-2015-evaluation</span></button></dd><dt>Cite (ACL):</dt><dd><span id=citeACL>Tobias Schnabel, Igor Labutov, David Mimno, and Thorsten Joachims. 2015. <a href=https://aclanthology.org/D15-1036>Evaluation methods for unsupervised word embeddings</a>. In <i>Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing</i>, pages 298–307, Lisbon, Portugal. Association for Computational Linguistics.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt>Cite (Informal):</dt><dd><span id=citeRichText><a href=https://aclanthology.org/D15-1036>Evaluation methods for unsupervised word embeddings</a> (Schnabel et al., EMNLP 2015)</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeRichText><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd><dt>PDF:</dt><dd><a href=https://aclanthology.org/D15-1036.pdf>https://aclanthology.org/D15-1036.pdf</a></dd><dt class=acl-button-row>Video:</dt><dd class=acl-button-row><a href=https://aclanthology.org/D15-1036.mp4 class="btn btn-attachment btn-sm"><i class="fas fa-video"></i>&nbsp;https://aclanthology.org/D15-1036.mp4</a></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://aclanthology.org/D15-1036.pdf title="Open PDF of 'Evaluation methods for unsupervised word embeddings'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
+<a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Evaluation+methods+for+unsupervised+word+embeddings" title="Search for 'Evaluation methods for unsupervised word embeddings' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a>
+<a class="btn btn-attachment d-flex flex-wrap justify-content-center" href=https://aclanthology.org/D15-1036.mp4 title="Open video for 'Evaluation methods for unsupervised word embeddings'"><span class="align-self-center px-1"><i class="fas fa-video"></i></span>
+<span class=px-1>Video</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@inproceedings{schnabel-etal-2015-evaluation,
+    title = &#34;Evaluation methods for unsupervised word embeddings&#34;,
+    author = &#34;Schnabel, Tobias  and
+      Labutov, Igor  and
+      Mimno, David  and
+      Joachims, Thorsten&#34;,
+    editor = &#34;M{\`a}rquez, Llu{\&#39;\i}s  and
+      Callison-Burch, Chris  and
+      Su, Jian&#34;,
+    booktitle = &#34;Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing&#34;,
+    month = sep,
+    year = &#34;2015&#34;,
+    address = &#34;Lisbon, Portugal&#34;,
+    publisher = &#34;Association for Computational Linguistics&#34;,
+    url = &#34;https://aclanthology.org/D15-1036&#34;,
+    doi = &#34;10.18653/v1/D15-1036&#34;,
+    pages = &#34;298--307&#34;,
+}
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/D15-1036.bib><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
+&lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
+&lt;mods ID=&#34;schnabel-etal-2015-evaluation&#34;&gt;
+    &lt;titleInfo&gt;
+        &lt;title&gt;Evaluation methods for unsupervised word embeddings&lt;/title&gt;
+    &lt;/titleInfo&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tobias&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schnabel&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Igor&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Labutov&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mimno&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thorsten&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Joachims&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;originInfo&gt;
+        &lt;dateIssued&gt;2015-09&lt;/dateIssued&gt;
+    &lt;/originInfo&gt;
+    &lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+    &lt;relatedItem type=&#34;host&#34;&gt;
+        &lt;titleInfo&gt;
+            &lt;title&gt;Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing&lt;/title&gt;
+        &lt;/titleInfo&gt;
+        &lt;name type=&#34;personal&#34;&gt;
+            &lt;namePart type=&#34;given&#34;&gt;Lluís&lt;/namePart&gt;
+            &lt;namePart type=&#34;family&#34;&gt;Màrquez&lt;/namePart&gt;
+            &lt;role&gt;
+                &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;editor&lt;/roleTerm&gt;
+            &lt;/role&gt;
+        &lt;/name&gt;
+        &lt;name type=&#34;personal&#34;&gt;
+            &lt;namePart type=&#34;given&#34;&gt;Chris&lt;/namePart&gt;
+            &lt;namePart type=&#34;family&#34;&gt;Callison-Burch&lt;/namePart&gt;
+            &lt;role&gt;
+                &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;editor&lt;/roleTerm&gt;
+            &lt;/role&gt;
+        &lt;/name&gt;
+        &lt;name type=&#34;personal&#34;&gt;
+            &lt;namePart type=&#34;given&#34;&gt;Jian&lt;/namePart&gt;
+            &lt;namePart type=&#34;family&#34;&gt;Su&lt;/namePart&gt;
+            &lt;role&gt;
+                &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;editor&lt;/roleTerm&gt;
+            &lt;/role&gt;
+        &lt;/name&gt;
+        &lt;originInfo&gt;
+            &lt;publisher&gt;Association for Computational Linguistics&lt;/publisher&gt;
+            &lt;place&gt;
+                &lt;placeTerm type=&#34;text&#34;&gt;Lisbon, Portugal&lt;/placeTerm&gt;
+            &lt;/place&gt;
+        &lt;/originInfo&gt;
+        &lt;genre authority=&#34;marcgt&#34;&gt;conference publication&lt;/genre&gt;
+    &lt;/relatedItem&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;schnabel-etal-2015-evaluation&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.18653/v1/D15-1036&lt;/identifier&gt;
+    &lt;location&gt;
+        &lt;url&gt;https://aclanthology.org/D15-1036&lt;/url&gt;
+    &lt;/location&gt;
+    &lt;part&gt;
+        &lt;date&gt;2015-09&lt;/date&gt;
+        &lt;extent unit=&#34;page&#34;&gt;
+            &lt;start&gt;298&lt;/start&gt;
+            &lt;end&gt;307&lt;/end&gt;
+        &lt;/extent&gt;
+    &lt;/part&gt;
+&lt;/mods&gt;
+&lt;/modsCollection&gt;
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/D15-1036.xml><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Conference Proceedings
+%T Evaluation methods for unsupervised word embeddings
+%A Schnabel, Tobias
+%A Labutov, Igor
+%A Mimno, David
+%A Joachims, Thorsten
+%Y Màrquez, Lluís
+%Y Callison-Burch, Chris
+%Y Su, Jian
+%S Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing
+%D 2015
+%8 September
+%I Association for Computational Linguistics
+%C Lisbon, Portugal
+%F schnabel-etal-2015-evaluation
+%R 10.18653/v1/D15-1036
+%U https://aclanthology.org/D15-1036
+%U https://doi.org/10.18653/v1/D15-1036
+%P 298-307
+
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/D15-1036.endf><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Evaluation methods for unsupervised word embeddings](https://aclanthology.org/D15-1036) (Schnabel et al., EMNLP 2015)</p><ul class=mt-2><li><a href=https://aclanthology.org/D15-1036>Evaluation methods for unsupervised word embeddings</a> (Schnabel et al., EMNLP 2015)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Tobias Schnabel, Igor Labutov, David Mimno, and Thorsten Joachims. 2015. <a href=https://aclanthology.org/D15-1036>Evaluation methods for unsupervised word embeddings</a>. In <i>Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing</i>, pages 298–307, Lisbon, Portugal. Association for Computational Linguistics.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1"><span class="float-right mt-2 ml-2"><a rel=license href=http://creativecommons.org/licenses/by/4.0/><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by/4.0/88x31.png></a></span>
+ACL materials are Copyright ©&nbsp;1963&ndash;2024 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under the <a href=https://creativecommons.org/licenses/by-nc-sa/3.0/>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International License</a>. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on a <a href=https://creativecommons.org/licenses/by/4.0/>Creative Commons Attribution 4.0 International License</a>.</p><p class="text-muted small px-1">The ACL Anthology is managed and built by the <a href=/info/credits/>ACL Anthology team</a> of volunteers.</p><p class="text-muted small px-1"><i>Site last built on 09 May 2024 at 01:14 UTC with <a href=https://github.com/acl-org/acl-anthology/tree/c28bbfd1fbe4b49ddb919da0c808b45487d7b7ff>commit c28bbfd</a>.</i></p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script>
+<script>$(function(){$('[data-toggle="tooltip"]').tooltip(),$("#toggle-all-abstracts")&&($("#toggle-all-abstracts").click(function(){var e=$("#toggle-all-abstracts");e.attr("disabled",!0),e.attr("data-toggle-state")=="hide"?($(".abstract-collapse").collapse("show"),e.attr("data-toggle-state","show")):($(".abstract-collapse").collapse("hide"),e.attr("data-toggle-state","hide")),e.attr("disabled",!1)}),$("#toggle-all-abstracts").attr("disabled",!1))})</script><script src=/js/clipboard.min.js></script>
+<script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var t=$(e.trigger);t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check"),e.clearSelection(),setTimeout(function(){t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check")},2e3)};var e,t=new ClipboardJS(".btn-clipboard");t.on("success",success_fn),$(".btn-clipboard").removeClass("d-none"),e=new ClipboardJS(".btn-clipboard-outside",{text:function(e){var t=e.getAttribute("data-clipboard-target");return $(t).text()}}),e.on("success",success_fn),$(".btn-clipboard-outside").removeClass("d-none")}})</script></body></html>

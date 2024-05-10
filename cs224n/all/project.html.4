@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+  <title>Stanford CS 224N | Project Reports</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  <!-- Google Analytics -->
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60458624-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+<!-- <script src="header.js"></script> -->
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand brand" href="index.html">CS224n Home</a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html#coursework">Coursework</a></li>
+        <li><a href="index.html#schedule">Schedule</a></li>
+        <li><a href="office_hours.html">Office Hours</a></li>
+        <li><a href="https://canvas.stanford.edu/courses/111053/external_tools/3367">Lecture Videos</a></li>
+        <li><a href="project.html">Project Reports</a></li>
+        <li><a href="https://piazza.com/stanford/winter2020/cs224n">Piazza</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<div id="header" style="text-align:center">
+  <a href="http://nlp.stanford.edu/">
+    <img src="images/stanford-nlp-logo-new.jpg" class="logo-left">
+  </a>
+  <a href="http://stanford.edu/">
+    <img src="images/stanfordlogo.jpg" class="logo-right">
+  </a>
+  <h1>CS224n: Natural Language Processing with Deep Learning</h1>
+  <h3>Stanford / Winter 2020</h3>
+  <div style="clear:both;"></div>
+</div>
+
+<div class="sec">
+<div class="container sec" id="overview">
+  <h2>Final Project Reports for 2020</h2>
+  <p>
+    There were two options for the course project. Students either chose their own topic (<a href="#custom">"Custom Project"</a>), or took part in a competition to build Question Answering models for the <a href=https://rajpurkar.github.io/SQuAD-explorer/>SQuAD</a> 2.0 challenge (<a href="#default">"Default Project"</a>). This year saw fewer final projects than past years due to challenges caused by COVID-19.
+  </p>
+  <p>
+    You can find links to previous years' reports under <i>Previous Offerings</i> on the <a href="index.html#content">homepage</a>.
+  </p>
+</div>
+</div>
+
+<div class="sechighlight">
+<div class="container sec" id="prizes">
+  <h2>Prize Winners</h2>
+  Congratulations to the following teams, who produced exceptional prize-winning projects! Thank you also to our sponsors, who generously donated prizes.
+
+  <h4>Prizes for Best Custom Project Reports</h4>
+  <ul>
+      <li>
+        <a href="reports/custom/report50.pdf">Generative Pre-Training Language Models with Auxiliary Conditional Summaries</a>, Phillip Keonho Kim, Kevin Chen, Kelly He
+      </li>
+      <li>
+        <a href="reports/custom/report12.pdf">Exploring TEXTFOOLER’s Syntactically- and  Semantically-Sound Distributed Adversarial Attack Methodology</a>, Josiah David Wong
+      </li>
+      <li>
+        <a href="reports/custom/report01.pdf">Efficient Language Modeling of Long-Term Dependencies</a>, Manan Ajay Shah
+      </li>
+      <li>
+        <a href="reports/custom/report18.pdf">Tidy analysis of TyDi: Analysing knowledge sharing in Multilingual Domain</a> Akshat Jindal, Chetanya Rastogi
+      </li>
+  </ul>
+
+  <h4>Prizes for Best Default Project Reports</h4>
+  <ul>
+      <li>
+        <a href="reports/default/report04.pdf">Extended QANet on SQuAD 2.0</a> Guillaume Adrien Nervo, Pablo Emile Veyrat
+      </li>
+      <li>
+        <a href="reports/default/report18.pdf">Lightweight neural network development via knowledge distillation of deep neural network</a> Naoki Yamamura
+      </li>
+      <li>
+        <a href="reports/default/report15.pdf">Avengers: Achieving Superhuman Performance for Question Answering on SQuAD 2.0 Using Multiple Data Augmentations, Randomized Mini-Batch Training and Architecture Ensembling</a> Li Yi
+      </li>
+      <li>
+        <a href="reports/default/report27.pdf">Gestalt: a Stacking Ensemble for SQuAD2.0</a> Mohamed G Mahmoud
+      </li>
+  </ul>
+
+</div>
+</div>
+
+<div class="container sec" id="custom">
+  <h2>Custom Projects</h2>
+  <table class="table">
+    <colgroup>
+      <col style="width:60%">
+      <col style="width:40%">
+    </colgroup>
+    <tr class="active">
+      <th>Project Name</th><th>Authors</th>
+    </tr>
+    <tr><td><a href="reports/custom/report02.pdf">Context-Based Models for Sarcasm Detection</a> </td><td>Nicholas Nestor Benavides, Angelo Reyes Ramos</td></tr>
+    <tr><td><a href="reports/custom/report03.pdf">Wikipedia Simplifier</a> </td><td>Daniel Kharitonov</td></tr>
+    <tr><td><a href="reports/custom/report04.pdf">Measuring Impact and Consumption of Local News in a Changing Environment</a> </td><td>Yu-chen Tuan, Austin Pennington, Anish Saha</td></tr>
+    <tr><td><a href="reports/custom/report05.pdf">Inclusivity-Exclusivity Inference Using Recurrent Neural Networks</a> </td><td>Santosh Murugan, Elissa Yiyi Li</td></tr>
+    <tr><td><a href="reports/custom/report06.pdf">Enhancing Arabic Diacritization with Word-Ending Specific Models</a> </td><td>Ahmed Abdallah Shuaibi, Hassan Hossam Fahmy</td></tr>
+    <tr><td><a href="reports/custom/report07.pdf">Music Recommendation for Podcast Scripts: Detecting Emotion from Text</a> </td><td>Anne Liu Lee, Shreya Ravi, Alex Ping Tsun</td></tr>
+    <tr><td><a href="reports/custom/report08.pdf">Couplet Scoring and Prediction using ALBERT</a> </td><td>Ju Huo</td></tr>
+    <tr><td><a href="reports/custom/report09.pdf">Can FOMC Minutes Predict the Federal Funds Rate?</a> </td><td>Ye Ye</td></tr>
+    <tr><td><a href="reports/custom/report10.pdf">DeepSumm - Deep Code Summaries using Neural Transformer Architecture</a> </td><td>Vivek Kumar Gupta</td></tr>
+    <tr><td><a href="reports/custom/report11.pdf">DeepClassic: Music Generation with Neural Networks</a> </td><td>Raphael Andreas Rene Abbou</td></tr>
+    <tr><td><a href="reports/custom/report13.pdf">How much does pre-trained information help? Partially re-initializing BERT during fine-tuning to analyze the contribution of layers</a> </td><td>Davide Giovanardi, Trisha Singh</td></tr>
+    <tr><td><a href="reports/custom/report14.pdf">Sentence Boundary Detection in Legal Texts</a> </td><td>Krithika Iyer</td></tr>
+    <tr><td><a href="reports/custom/report15.pdf">Keyword-based Code Auto-Complete</a> </td><td>Rui Aguiar, Faraz Fadavi Akhavan Bonab</td></tr>
+    <tr><td><a href="reports/custom/report16.pdf">Evaluation Metrics for Split and Rephrase</a> </td><td>Rui Yan</td></tr>
+    <tr><td><a href="reports/custom/report19.pdf">Idiomatic Language Translation and Transfer Learning</a> </td><td>David Andres Estrada-Arias, Jupinder Parmar</td></tr>
+    <tr><td><a href="reports/custom/report20.pdf">Improvement of deep learning techniques for ICD-9 code classification using MIMIC-III medical notes</a> </td><td>Derek Russell Jow, Anthony Li, Soham Uday Gadgil</td></tr>
+    <tr><td><a href="reports/custom/report21.pdf">DrCoding: Using Transformers to Predict ICD-9 Codes from Discharge Summaries</a> </td><td>Tom Jin</td></tr>
+    <tr><td><a href="reports/custom/report22.pdf">You Don’t Sound Like Me: Analyzing Hiring Based on Pre-hire Language Use</a> </td><td>Samaksh Ajay Goyal</td></tr>
+    <tr><td><a href="reports/custom/report23.pdf">Detecting Bias in Lending Data with NLP Models</a> </td><td>Orion Earl Darley, Senthil Selvaraj</td></tr>
+    <tr><td><a href="reports/custom/report24.pdf">Speech Recognition for Accented English</a> </td><td>Sasha Harrison, Claire Marika Pajot</td></tr>
+    <tr><td><a href="reports/custom/report25.pdf">Predicting ICD-9 Codes from Medical Notes - Does the Magic of BERT Applies Here?</a> </td><td>Yiyun Chen</td></tr>
+    <tr><td><a href="reports/custom/report26.pdf">Multilingual Customized Bert for Zero Shot Sequence Classification</a> </td><td>Yuehao Wu</td></tr>
+    <tr><td><a href="reports/custom/report27.pdf">Combining NLP and Computer Vision to Help Blind People</a> </td><td>Volha Leusha</td></tr>
+    <tr><td><a href="reports/custom/report28.pdf">Synth-tax: Modification of BERT Syntax Representations via Structural Probes</a> </td><td>Benjamin Louis Newman, Julia Xiaozhe Gong, Kai-Siang Ang</td></tr>
+    <tr><td><a href="reports/custom/report29.pdf">ClinicalBertSum: RCT Summarization by Using Clinical BERT Embeddings</a> </td><td>Xiaomeng Jin, Zihan Wang, Mingyi Lu</td></tr>
+    <tr><td><a href="reports/custom/report30.pdf">What errors are made by TyDi QA systems?</a> </td><td>Nivedita Rahurkar</td></tr>
+    <tr><td><a href="reports/custom/report31.pdf">More Abstractive Summarization with Pointer-Generator Networks</a> </td><td>Michael Andres Lin</td></tr>
+    <tr><td><a href="reports/custom/report33.pdf">Generate Symbolic Plans for Long-Horizon Robot Manipulation Tasks</a> </td><td>Karen Yang</td></tr>
+    <tr><td><a href="reports/custom/report34.pdf">DAMsL: A meta-learning based approach for dialogue state tracking</a> </td><td>Avanika Narayan, Josh Hedtke</td></tr>
+    <tr><td><a href="reports/custom/report35.pdf">Improving Language Generation with Sentence Coherence Objective</a> </td><td>Jie Yang, Ruixiao Sun, Mehrdad Yousefzadeh</td></tr>
+    <tr><td><a href="reports/custom/report36.pdf">Document Classification with DocBERT, et. Al.</a> </td><td>Dale Angus</td></tr>
+    <tr><td><a href="reports/custom/report37.pdf">BERT Goes to College: Understanding the Role of Pretrained Layers During Finetuning</a> </td><td>Daniel Huang, Jacky Lin, Shan Zhou</td></tr>
+    <tr><td><a href="reports/custom/report38.pdf">Inside-Out Code Auto-Completion</a> </td><td>Lauren Gillespie, Gabriel Poesia Reis e Silva, Scott Viteri</td></tr>
+    <tr><td><a href="reports/custom/report39.pdf">Ensemble-Learning for Sustainable NLP</a> </td><td>Surya Narayanan Hari, Elena Berman</td></tr>
+    <tr><td><a href="reports/custom/report40.pdf">Man vs. Machine: Master Debating with Argumentative Dialogue</a> </td><td>Jason Jin Zhao</td></tr>
+    <tr><td><a href="reports/custom/report41.pdf">What is a Fact?</a> </td><td>Juliette Elizabeth Love, Kevin Ji, Moritz Pascal Stephan</td></tr>
+    <tr><td><a href="reports/custom/report42.pdf">Deep learning-based detection of Dysarthric speech disability</a> </td><td>Siddhartha Prakash</td></tr>
+    <tr><td><a href="reports/custom/report43.pdf">Fine-Tuned BERT for the Detection of Political Ideology</a> </td><td>Maria Del Mar Castanos, Alexandre Simoes Gomes Junior</td></tr>
+    <tr><td><a href="reports/custom/report44.pdf">Modeling Long-Distance Dependencies with Second-Order LSTMs</a> </td><td>Yifeng Lin, Sam Alan Spinner, Noa Flora Bendit-Shtull</td></tr>
+    <tr><td><a href="reports/custom/report45.pdf">Hierarchical Reward Shaping Reinforcement Learning for Paragraph Generation</a> </td><td>Heejung Chung, Alex Nam</td></tr>
+    <tr><td><a href="reports/custom/report46.pdf">Plot Holes and Text Topology</a> </td><td>Egor Alimpiev, Vivek Robert Myers</td></tr>
+    <tr><td><a href="reports/custom/report47.pdf">Simple Transformers for PHI De-identification</a> </td><td>Aditya Khandelwal, Arjun Soin</td></tr>
+    <tr><td><a href="reports/custom/report48.pdf">Evaluating a relationship between mental health and wearable sensors using NLP</a> </td><td>Artem Alex Trotsyuk</td></tr>
+    <tr><td><a href="reports/custom/report49.pdf">Typologically Diverse QA: How many training examples do you need for a new language anyway?</a> </td><td>Caterina Wu, Tassica Linmei Lim, Tatiana Wu</td></tr>
+    <tr><td><a href="reports/custom/report51.pdf">A Comparative Study of Neural Question Generation Models</a> </td><td>Ankit Dwivedi, Arunothia Marappan</td></tr>
+    <tr><td><a href="reports/custom/report52.pdf">Know When To Abstain: Calibrating Question Answering System under Domain Shift</a> </td><td>Wanze Xie, Ruocheng Wang</td></tr>
+    <tr><td><a href="reports/custom/report53.pdf">A Close Examination of Factual Correctness Evaluation in Abstractive Summarization</a> </td><td>Yuhui Zhang</td></tr>
+    <tr><td><a href="reports/custom/report54.pdf">Second-order RNNs: Resurgence of Recurrence</a> </td><td>Shreya Singh, Sundararajan Renganathan</td></tr>
+  </table>
+</div>
+
+<div class="container sec" id="default">
+  <h2>Default Projects</h2>
+  <table class="table">
+    <colgroup>
+      <col style="width:60%">
+      <col style="width:40%">
+    </colgroup>
+    <tr class="active">
+      <th>Project Name</th><th>Authors</th>
+    </tr>
+    <tr><td><a href="reports/default/report01.pdf">Reimplementing QANet</a> </td><td>Adrian Ng</td></tr>
+    <tr><td><a href="reports/default/report02.pdf">Applying Computer Vision Methodologies to Combat Adversarial Inputs for QA Reading Comprehension</a> </td><td>Stephanie Danielle Brito, Derek Bryan McCreight</td></tr>
+    <tr><td><a href="reports/default/report03.pdf">Question Answering on SQuAD 2.0</a> </td><td>Han Wu, Kevin Han, Yuqi Jin</td></tr>
+    <tr><td><a href="reports/default/report05.pdf">Understanding and Improving Performance of QA Systems on Adversarial Evaluation</a> </td><td>Shai Limonchik, Andy Lapastora</td></tr>
+    <tr><td><a href="reports/default/report06.pdf">Question Answering with Gated Attention and Multitask Learning</a> </td><td>Mingyang Ling, Lam Wing Chan</td></tr>
+    <tr><td><a href="reports/default/report07.pdf">Applying and Adapting the Reformer as a Computationally Efficient Approach to the SQuAD 2.0 Question-Answering Task</a> </td><td>Hugo Clifford Kitano, Taide Ding</td></tr>
+    <tr><td><a href="reports/default/report08.pdf">SQuAD 2.0 Based on ALBERT and Ensemble</a> </td><td>Yanpei Tian</td></tr>
+    <tr><td><a href="reports/default/report09.pdf">Ensemble ALBERT on SQuAD 2.0</a> </td><td>Veronica Peng, Renee Li, Allan Li</td></tr>
+    <tr><td><a href="reports/default/report10.pdf">Intermediate Pretrained Contextual Embedding Models With Applications in Question Answering</a> </td><td>Ryan Silva</td></tr>
+    <tr><td><a href="reports/default/report11.pdf">ALBERT Premium for SQuAD 2.0</a> </td><td>Yibing Du, Yanhao Jiang</td></tr>
+    <tr><td><a href="reports/default/report12.pdf">Answerability Verification in SQuAD</a> </td><td>Thatcher Solomon Freeman, Albert Zuo</td></tr>
+    <tr><td><a href="reports/default/report13.pdf">Tackling SQuAD 2.0 with Ensemble Methods and Data Augmentation</a> </td><td>Elijah Amir Freeman, Emanuel Pinilla, Nikka Michelle Mofid</td></tr>
+    <tr><td><a href="reports/default/report16.pdf">QANet implementation with multiple embedding methods for SQuAD</a> </td><td>Ying Guo, Jiachen Xu</td></tr>
+    <tr><td><a href="reports/default/report17.pdf">Compressed SQuAD 2.0 Model With BERT</a> </td><td>Wenli Looi, Andrew Lawrence Deng</td></tr>
+    <tr><td><a href="reports/default/report19.pdf">A PyTorch implementation of QANet</a> </td><td>Dat Pham Nguyen</td></tr>
+    <tr><td><a href="reports/default/report20.pdf">Rare and novel words in SQuAD 2.0: An application of the form-context-model</a> </td><td>Axel Gross-Klussmann</td></tr>
+    <tr><td><a href="reports/default/report21.pdf">Transformer-Based Models for SQuAD 2.0</a> </td><td>Yuyan Wang, Lingjue Xie, Alex Xiaotong Gui</td></tr>
+    <tr><td><a href="reports/default/report22.pdf">Machine Reading Comprehension with Abstention Verification</a> </td><td>Rakesh Kumar Grewal, Mara Rachel Finkelstein, Abhishek Rawat</td></tr>
+    <tr><td><a href="reports/default/report23.pdf">Question Answering on Adversarial SQuAD 2.0</a> </td><td>Ryan Guan</td></tr>
+    <tr><td><a href="reports/default/report24.pdf">Neural Question Generation: Transformed</a> </td><td>Jeffrey Hu</td></tr>
+    <tr><td><a href="reports/default/report25.pdf">Bert</a> </td><td>Mohith Rajendra</td></tr>
+    <tr><td><a href="reports/default/report26.pdf">FusionNet: working smarter, not harder with SQuAD</a> </td><td>Sebastian Hurubaru, Francois Xavier Alain Henri Chesnay</td></tr>
+    <tr><td><a href="reports/default/report28.pdf">Transferability of Contextual Representations for Question Answering</a> </td><td>Pranav Bhardwaj, Travis McGuire</td></tr>
+  </table>
+</div>
+
+
+<!-- jQuery and Boostrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

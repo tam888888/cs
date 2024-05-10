@@ -1,0 +1,615 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+
+  <head>
+    <title>CS 224N / Ling 280</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link href="cs224n.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <table border="0" width="100%" cellpadding="5" cellspacing="0" class="navbar">
+      <tr height="100">
+
+        <td width="100" align="center" valign="center">
+	  <a href="http://nlp.stanford.edu/">
+	    <img src="img/nlp-logo-navbar.jpg" border="0" align="center">
+	  </a>
+	</td>
+
+	<td width="*" align="left" valign="center">
+          <table border="0" cellpadding="5" cellspacing="0">
+
+	    <tr height="25">
+	      <td>
+	        <p>&nbsp;</p>
+	      </td>
+	    </tr>
+
+	    <tr height="50">
+	      <td align="left" valign="center">
+	        <p class="title">
+	          CS 224N / Ling 280 &nbsp;&mdash;&nbsp;
+                  Natural Language Processing
+	        </p>
+	      </td>
+	    </tr>
+
+            <tr height="25"> 
+              <td align="left" valign="center">
+                <p class="navbar">
+
+		  <a class="navbar" href="index.html">home</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="syllabus.html">syllabus/handouts</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="assignments.html">assignments</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="#links">links</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="faq.html">FAQs</a>
+		  <img src="img/middot.gif" align="center">
+
+		  <a class="navbar" href="help.html">help/contact</a>
+
+                </p>
+              </td>
+            </tr>
+
+          </table>
+	</td>
+	
+      </tr>
+    </table>
+
+    <img src="img/spacer.gif" width="10" height="10" alt="">
+
+
+<!-- THE ACTUAL PAGE CONTENTS START HERE //-->
+
+<table width="100%" cellpadding="10" cellspacing="0">
+  <tr valign="top">
+
+    <!-- left bar: main content -->
+    <td width="75%">
+
+      <!-- ------------------------------------------------------- -->
+
+      <a name="announcements"><h1>Announcements</h1></a>
+
+      <table class="p" cellpadding="0" cellspacing="0">
+
+        <!-- use <span class="crimson"> ... </span> to make things crimson -->
+     <tr valign="top">
+          <td align="right">6/06/07</td>
+          <td width="20"></td>
+          <td>
+	  		**Final Project Presentations are in 380-380C**  Make sure to send your ppt slides to Jenny in advance. 
+	  </td>
+        </tr>
+
+   
+	<tr valign="top">
+          <td align="right">5/08/07</td>
+          <td width="20"></td>
+          <td>
+           <a href="faq.html#scoring">How do I interpret the output of the
+            scoring script?</a>
+	  </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">5/07/07</td>
+          <td width="20"></td>
+          <td>
+           <a href="faq.html#datum">Ah!  I don't understand this whole feature index thing in PA3.</a>
+	  </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/28/07</td>
+          <td width="20"></td>
+          <td>
+           <a href="faq.html#distortion">What's the deal with distortion for Model 2?</a>
+	  </td>
+        </tr>
+
+	<tr valign="top">
+          <td align="right">4/24/07</td>
+          <td width="20"></td>
+          <td>
+           <a href="faq.html#pa2nums">What numbers should I be getting for PA2?</a>
+	  </td>
+        </tr>
+
+	<tr valign="top">
+          <td align="right">4/24/07</td>
+          <td width="20"></td>
+          <td>
+            What should <a href="faq.html#getalprob">getAlignmentProb()</a> return?
+	  </td>
+        </tr>
+	<tr valign="top">
+          <td align="right">4/18/07</td>
+          <td width="20"></td>
+          <td>
+            <a href="assignments.html#pa2">PA2</a> is now available.  Enjoy!
+	  </td>
+        </tr>
+	<tr valign="top">
+          <td align="right">4/18/07</td>
+          <td width="20"></td>
+          <td>
+            Check out the new <a href="faq.html#knight31">FAQ</a> on Kevin Knight's tutorial, as well as <a href="http://www.cs.colorado.edu/~martin/slp2.html#Chapter24">chapter 24</a> of J&M
+          </td>
+        </tr>
+        <tr valign="top">
+          <td align="right">4/13/07</td>
+          <td width="20"></td>
+          <td>
+            Do I have to create my own <a href=faq.html#validate>validation set</a> for PA1?
+          </td>
+        </tr>
+        <tr valign="top">
+          <td align="right">4/13/07</td>
+          <td width="20"></td>
+          <td>
+              PA1 and PA2 deadlines have been pushed back to Wed, 4/18 and 5/2 respectively.  Thank the Professor for having a kind heart.
+          </td>
+        </tr>
+        <tr valign="top">
+          <td align="right">4/13/07</td>
+          <td width="20"></td>
+          <td>
+              Make sure to read handouts for lectures and section, posted n the <a href="syllabus.html">syllabus page</a>.
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/13/07</td>
+          <td width="20"></td>
+          <td>
+              <a href="faq.html">Check out the new FAQs</a>?
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/9/07</td>
+          <td width="20"></td>
+          <td>
+              <a href="faq.html#pa1nums">What numbers should I be getting for PA1</a>?
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/9/07</td>
+          <td width="20"></td>
+          <td>
+            Having trouble compiling/running PA1?  Check out the  <a href="faq.html#compile">FAQ</a>.
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td align="right">4/1/07</td>
+          <td width="20"></td>
+          <td>
+            Looking for a programming partner?  Try posting to the <a
+            href="news:su.class.cs224n">class newsgroup</a>.
+          </td>
+        </tr>
+      
+      </table>
+
+      <!-- ------------------------------------------------------- -->
+
+      <br/><br/>
+      <a name="description"><h1>Course Description</h1></a>
+      
+        <p>
+          This course is designed to introduce students to the fundamental
+          concepts and ideas in natural language processing (NLP), and to
+          get them up to speed with current research in the area. It
+          develops an in-depth understanding of both the algorithms
+          available for the processing of linguistic information and the
+          underlying computational properties of natural
+          languages. Word-level, syntactic, and semantic processing from
+          both a linguistic and an algorithmic perspective are
+          considered. The focus is on modern quantitative techniques in
+          NLP: using large corpora, statistical models for acquisition,
+          disambiguation, and parsing. Also, it examines and constructs
+          representative systems.
+        </p>
+
+        <h2>Prerequisites</h2>
+
+          <ul>
+            <li>
+              Adequate experience with programming and formal structures
+              (e.g., CS106B/X and CS103B/X).
+            </li>
+            <li>
+              Programming projects will be written in Java 1.5, so knowledge of
+              Java (or a willingness to learn on your own) is required.
+            </li>
+            <li>
+              Knowledge  of standard  concepts  in artificial  intelligence
+              and/or  computational linguistics  (e.g.,  CS121/221 or  Ling
+              180).
+            </li>
+            <li>
+              Basic familiarity with logic, vector spaces, and probability.
+            </li>
+          </ul>
+
+        <h2>Intended Audience</h2>
+
+          <p>
+            Graduate students and advanced undergraduates specializing in
+            computer science, linguistics, or symbolic systems.
+          </p>
+
+        <h2>Textbook and Readings</h2>
+
+          <p>
+            The most used book will be:
+          </p>
+
+          <ul>
+            <li>
+              Christopher Manning and Hinrich Sch&uuml;tze, 
+              <i>Foundations of Statistical Natural Language Processing.</i>
+              MIT Press, 1999.<br/>
+
+              Buy it at the Stanford Bookstore or
+	      <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0262133601">
+                Amazon
+              </a> ($77 new)<br/>
+              <b>Read the text
+              <a href="http://cognet.mit.edu/library/books/view?isbn=0262133601">
+              online</a>!</b>
+            </li>
+          </ul>
+
+          <p>
+            It's referred to as M&amp;S below. Please see <a
+            href="http://nlp.stanford.edu/fsnlp/">http://nlp.stanford.edu/fsnlp/</a>
+            for supplementary information about the text, including errata,
+            and pointers to online resources.
+          </p>
+
+          <p>
+            Other useful reference texts for NLP are:
+          </p>
+
+          <ul>
+            <li>
+              James Allen. 1995.
+              <i>Natural Language Understanding</i>.
+              Benjamin/Cummings, 2ed.
+            </li>
+
+            <li>
+              Gerald Gazdar and Chris Mellish. 1989.
+              <i>Natural Language Processing in X</i>.
+              Addison-Wesley.
+            </li>
+
+            <li>
+              Dan Jurafsky and James Martin. 2000.
+              <i>Speech and Language Processing</i>.
+              Prentice Hall.<br>
+              &nbsp;&nbsp;(selected chapters from 2ed available at  <a href=http://www.cs.colorado.edu/~martin/slp2.html>http://www.cs.colorado.edu/~martin/slp2.html</a>)
+            </li>
+	    <li>
+	      Frederick Jelinek. 1998.
+	      <i>Statistical Methods for Speech Recognition</i>.
+	      MIT Press.
+          </ul>
+
+          <p>
+            Papers will occasionally be distributed and
+            discussed during the course of the class.
+          </p>
+
+          <p>
+            Copies of in-class hand-outs, such as readings and programming
+            assignments, will be posted on the <a
+            href="syllabus.html">syllabus</a>, and hard copies will also be
+            available outside Gates 158 (in front of Prof. Manning's
+            office) while supplies last.
+          </p>
+
+
+        <h2>Assignments and Grading</h2>
+
+	  <p>
+	    There will be three substantial <a
+	    href="assignments.html#pa">programming assignments</a>, each
+	    exploring a core NLP task.
+	  </p>
+
+	  <p>
+	    In addition, there will be a <a
+	    href="assignments.html#fp">final programming project</a> on a
+	    topic of your own choosing.  
+	  </p>
+
+          <p>
+            Course <a href="assignments.html#grades">grades</a> will be
+            based 60% on programming assignments (20% each) and 40% on the
+            final project.
+          </p>
+
+          <p>
+            Be sure to read the policies on <a
+            href="assignments.html#late">late days</a> and <a
+            href="assignments.html#collab">collaboration</a>.
+          </p>
+
+        <h2>Section</h2>
+
+          <p>
+            Sections will be held most weeks to go over background
+            material, or to address issues related to the programming
+            assignments.  Sections are optional, but students are
+            encouraged to attend for a better understanding of background
+            material and the assignments.
+          </p>
+
+
+
+
+    <!-- end left bar -->
+
+    <!-- middle spacer -->
+    <td>
+      <img border="0" src="img/spacer.gif" width="10" height="1">
+    </td>
+    <!-- end middle spacer -->
+
+    <!-- right bar -->
+    <td width="25%" align="left">
+
+      <p align="left">
+        <img src="img/gates-200.jpg">
+      </p>
+
+      <h3>Course Information</h3>
+
+      <br/>
+      <table cellspacing="0" cellpadding="0" width="100%" border="0">
+        <tr> 
+	  <td><b>Lectures:</b></td> <td>MW 11:00-12:15</td>
+	</tr>
+        <tr> 
+	  <td><b>Location:</b></td> 
+	  <td>
+	    <a href="http://campus-map.stanford.edu/index.cfm?ID=01-200">
+	      200-203
+	    </a>
+	  </td>
+	</tr>
+	<tr>
+	  <td height="8">
+	    <img src="img/spacer.gif" width="1" height="6" alt="">
+	  </td>
+	</tr>
+        <tr> 
+	  <td><b>Section:</b></td> <td>F 11:00-12:15</td>
+	</tr>
+        <tr>
+	  <td><b>Location:</b></td>
+	  <td>
+	    <a href="http://campus-map.stanford.edu/index.cfm?ID=07-450">
+	      Gates B12
+	    </a>
+	  </td>
+	</tr>
+	<tr>
+	  <td height="8">
+	    <img src="img/spacer.gif" width="1" height="6" alt="">
+	  </td>
+	</tr>
+        <tr>
+	  <td><b>Professor:</b></td>
+	  <td><a href="http://nlp.stanford.edu/~manning/">Chris Manning</a></td>
+	</tr>
+      </table>
+
+      <!-- ------------------------------------------------------- -->
+
+      <h3>Electronic Communications</h3>
+      
+      <p>
+        <b>Web:</b>
+        <a href="http://cs224n.stanford.edu">http://cs224n.stanford.edu</a>
+      </p>
+
+      <p>
+        <b>Newsgroup:</b>
+        <a href="news:su.class.cs224n">su.class.cs224n</a><br/>
+        
+      </p>
+
+      <p>
+        <b>Staff mailing list:</b><br/>
+        <a href="mailto:cs224n-spr0607-staff@lists.stanford.edu">
+        cs224n-spr0607-staff@lists.stanford.edu</a><br/>
+      </p>
+
+      <p>
+        <b>Announcements mailing list:</b><br/>
+        cs224n-spr0607-students@lists.stanford.edu
+      </p>
+
+      <p>
+        Enrolled students are automatically subscribed.<br/>  
+	Others wishing to receive announcements should<br/> 
+	go to mailman.stanford.edu, and subscribe to <br/>
+	"<tt>cs224n-spr0607-guests</tt>". 
+      </p>
+
+      <!-- ------------------------------------------------------- -->
+
+      <a name="assignments"><h3>Assignments</h3></a>
+      
+      <p>
+        <a href="assignments.html#pa1">Assignment 1</a> (due 4/18/07)<br/>
+        <a href="assignments.html#pa2">Assignment 2</a> (due 5/2/07)<br/>
+        <a href="assignments.html#pa3">Assignment 3</a> (due 5/16/07)<br/>
+        <a href="assignments.html#fp">Final project</a>
+      </p>
+
+      <p>
+        <a href="assignments.html#collab">Collaboration Policy</a><br/>
+        <a href="assignments.html#late">Late Day Policy</a><br/>
+        <a href="assignments.html#regrading">Regrading Policy</a>
+      </p>
+
+      <!-- ------------------------------------------------------- -->
+
+      <!--
+
+      <a name="handouts"><h3>Handouts</h3></a>
+
+      <p>
+
+        Lecture slides: intro
+        [<a href="handouts/lecture-01-slides.ppt.tar.gz">ppt</a>,
+        <a href="handouts/lecture-01-slides.pdf.tar.gz">pdf</a>]<br/>
+
+        Lecture slides: <i>n</i>-grams
+        [<a href="handouts/fsnlp-statest-slides-6.ps">ps</a>]<br/>
+
+        M&amp;S Chapters 1 & 4
+        [<a href="restricted/fsnlp-chap1and4.ps">ps</a>]<br/>
+
+        M&amp;S Chapter 3
+        [<a href="restricted/fsnlp-lingess.pdf">pdf</a>]<br/>
+
+        M&amp;S Chapter 6
+        [<a href="restricted/fsnlp-statest.ps">ps</a>]<br/>
+
+        M&amp;S Chapter 10
+        [<a href="restricted/fsnlp-tag.pdf">pdf</a>]<br/>
+
+        M&amp;S Chapters 11 & 12
+        [<a href="restricted/fsnlp-probparse-chapters.pdf">pdf</a>]<br/>
+
+        Section notes: smoothing
+        [<a href="handouts/section1.xls">xls</a>,
+         <a href="handouts/section1.pdf">pdf</a>]<br/>
+
+        Section notes: EM
+        [<a href="handouts/section2.xls">xls</a>]<br/>
+
+        Lecture slides: WSD
+        [<a href="handouts/fsnlp-wsd-slides-6.pdf">pdf</a>]<br/>
+
+        Lecture slides: MaxEnt
+        [<a href="handouts/ACL2003-MaxentTutorial-cs224n.pdf">pdf</a>]<br/>
+
+        Section notes: corpora etc.
+        [<a href="handouts/section3.txt">txt</a>]<br/>
+
+      </p>
+
+      -->
+
+      <!-- ------------------------------------------------------- -->
+
+      <!--
+
+      <a name="staff"><h3>Staff</h3></a>
+
+      <br/>
+      <table cellpadding="0" cellspacing="0" border="0">
+	<tr><td>
+        <a href="http://nlp.stanford.edu/~manning/">
+          <img src="http://nlp.stanford.edu/~manning/images/chrism2.jpg"
+	       alt="Chris Manning" border="0"></a><br/>
+        </td></tr>
+      </table>
+      <p>
+        <b>Professor: <a href="http://nlp.stanford.edu/~manning/">Chris Manning</a></b><br/>
+        Office: Gates 158<br/>
+        Office Hours: TBA<br/>
+        Phone: 650-723-7683<br/>
+        Fax: 650-725-2588<br/>
+        Email: manning@cs.stanford.edu
+      </p>
+
+      <br/>
+      <table cellpadding="0" cellspacing="0" border="0">
+	<tr><td>
+          <a href="http://nlp.stanford.edu/~wcmac/">
+            <img src="http://nlp.stanford.edu/~wcmac/i/wcmac-20050317-100.jpg"
+	         alt="Bill MacCartney" border="0"></a>
+        </td></tr>
+      </table>
+      <p>
+        <b>TA: <a href="http://nlp.stanford.edu/~wcmac/">Bill MacCartney</a></b><br/>
+        Office: Gates 114<br/>
+        Office Hours: TBA<br/>
+        Phone: 650-723-3796<br/>
+        Email: <img src="http://nlp.stanford.edu/~wcmac/i/wcmac-email-color.jpg"
+                    alt="my domain is cs.stanford.edu and my username is wcmac"
+		    border="0">
+      </p>
+
+      <p>
+        <b>Admin: Colleen Scott-Fields</b><br/>
+        Office: Gates 150<br/>
+        Phone: 650-723-0748<br/>
+        Email: colleen8@cs.stanford.edu
+      </p>
+
+      -->
+
+      <!-- ------------------------------------------------------- -->
+
+      <a name="links"><h3>Links</h3></a>
+
+      <p>
+        <a href="http://nlp.stanford.edu/">The Stanford NLP Group</a><br/>
+        <a href="http://www.stanford.edu/dept/linguistics/corpora/">Linguistic Corpora at Stanford</a><br/>
+        <a href="http://www-nlp.stanford.edu/links/statnlp.html">Statistical NLP links</a><br/>
+        <a href="http://www-nlp.stanford.edu/fsnlp/probparse/">Probabilistic parser links</a><br/>
+        <a href="http://java.sun.com/developer/technicalArticles/releases/j2se15/">Java 1.5 Overview</a><br/>
+        <a href="http://java.sun.com/j2se/1.5.0/docs/relnotes/features.html">Java 1.5 New Features</a>
+      </p>
+
+
+
+
+    </td>
+    <!-- end right bar -->
+
+  </tr>
+</table>
+
+
+<!-- END OF PAGE CONTENTS ----------------------------- //-->
+
+    <br/>
+    <table class="footer" border="0" width="100%" cellpadding="0">
+      <tr>
+        <td width="14"><p class="small">&nbsp;</p></td>
+        <td align="left">
+	</td>
+        <td align="right">
+          <p class="small">
+	    Site design by <a href="http://nlp.stanford.edu/~wcmac/">Bill MacCartney</a>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+

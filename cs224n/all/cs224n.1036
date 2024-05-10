@@ -1,0 +1,190 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.73 [en] (Win98; U) [Netscape]">
+   <title>CS 224N / Ling 237 -- Natural Language Processing</title>
+</head>
+<body bgcolor="#FFFFFF">
+&nbsp;
+<table WIDTH="100%" >
+<tr>
+<td><img SRC="images/stanford.seal64.gif" ALT="STANFORD" ></td>
+
+<td WIDTH="100%"><font size=+2>CS 224N -- Ling 237</font>
+<br><font size=+2>Natural Language Processing&nbsp;</font>
+<br><font size=+2>Spring <strike>2003</strike> 
+<font color="#aa0000">2004</font></font></td>
+</tr>
+</table>
+
+<hr><!--
+<TABLE bgColor=#990000 border=0 cellPadding=3 cellSpacing=0 width="100%">
+  <TR>
+    <TD><B><FONT color=#ffffff size=+1>Announcements</FONT></B> </TD>
+    <TD align=right><FONT color=#ffffff size=+1><B>(updated 
+      3/30/2001)</FONT></B> </TD></TR>
+</TABLE>
+-->
+<table BORDER=0 CELLPADDING=3 WIDTH="100%" BGCOLOR="#990000" >
+<tr>
+<td><b><font color="#FFFFFF"><font size=+1>Course Information</font></font></b></td>
+</tr>
+</table>
+
+<p><em><b>Lecture:</b> 4/3 units, MW 1:15-2:30 <a
+href="http://campus-map.stanford.edu/campus_map/results.jsp?bldg=gates"><span
+style='font-style:normal'>Gates B08</span></a> <!-- <A
+href="http://www-pcd.stanford.edu/cgi-bin/map/map.html?160">160-161J</A>
+--></em><br>
+   <em><b>Section:</b> 0 units, TBA<!--
+W 5:00-6:00 <a
+href="http://www.stanford.edu/home/map/search_map.cgi?keyword=380"><span
+style='font-style:normal'>380-380Y</span></a> 
+-->
+</em></p>
+
+<p>
+<strong><font color="#aa0000">Note: everything below relates to the
+course as taught in 2003.  The course in 2004 will be similar, but with
+a little more emphasis on language and deeper processing.  A new
+syllabus will be posted by Wednesday.  You can also collect it in
+class.</font></strong></p> 
+
+<h3>
+Announcements</h3>
+
+<u1>
+<li>
+[Apr 13, 2003] Common doubts on the homeworks are answered on the 
+<a href="http://www.stanford.edu/class/cs224n/new_handouts/cs224n-2003-faqs.html">
+FAQs page</a>
+</li>
+<li>
+[Apr 16, 2003] You can find links to past projects here: 
+<a href="http://nlp.stanford.edu/courses/cs224n/2000/">2000</a>
+&nbsp; &nbsp;
+<a href="http://nlp.stanford.edu/courses/cs224n/2001/">2001</a>
+&nbsp; &nbsp;
+<a href="http://nlp.stanford.edu/courses/cs224n/2002/">2002</a>
+&nbsp; &nbsp;
+</li>
+
+
+<li> [May 27, 2003]
+An (improved) version of the programming project 2 results is 
+<a href="new_handouts/wsd.html">here</a></li>
+</ul>
+
+
+<h3>
+Useful Information and Handouts</h3>
+
+<ul>
+<li>
+<a href="new_handouts/cs224n-2003-01-course-info.html">Course Information</a></li>
+
+<li>
+<a href="new_handouts/cs224n-2003-02-syllabus.html">Syllabus &amp;
+Assignment Due Dates</a></li>
+
+<li>
+<a href="new_handouts/cs224n-2003-03-handouts.html">Handouts, Problem Sets,
+Solutions, Links</a></li>
+
+<li>
+<a href="new_handouts/cs224n-2003-stats.html">Statistics for Problem Sets, Programming 
+Assignments</a></li>
+
+<li>
+<a href="new_handouts/cs224n-2003-faqs.html">Frequently Asked Questions</a></li>
+
+<br>&nbsp;
+&nbsp;</ul>
+
+<h3>
+Course Description</h3>
+This course is designed to introduce students to the fundamental concepts
+and ideas in natural language processing (NLP), and to get them up to speed
+with current research in the area. It develops an in-depth understanding
+of both the algorithms available for the processing of linguistic information
+and the underlying computational properties of natural languages. Word-level,
+syntactic, and semantic processing from both a linguistic and an algorithmic
+perspective are considered. The focus is on modern quantitative techniques
+in NLP: using large corpora, statistical models for acquisition, disambiguation,
+and parsing. Also, it examines and constructs representative systems.
+<h3>
+Prerequisites</h3>
+
+<ul>
+<li>
+Adequate experience with programming and formal structures (e.g., CS106
+and CS103X).</li>
+
+<li>
+Programming projects will be written in Java, so knowledge of Java (or a willingness
+to learn on your own) is required.</li>
+
+<li>
+Knowledge of standard concepts in artificial intelligence and/or computational
+linguistics (e.g., CS121/221 or Ling 138/238).</li>
+
+<li>
+Basic familiarity with logic, vector spaces, and probability.</li>
+</ul>
+
+<h3>
+Intended Audience</h3>
+Graduate students and advanced undergraduates specializing in computer
+science, linguistics, or symbolic systems.
+<h3>
+Section</h3>
+Sections will be held most weeks to go over background material, or to
+work through problems of the sort found in written and programming assignments.
+Students are strongly encouraged to attend sections for a better understanding
+of background material and the assignments.
+<p>
+<table BORDER=0 CELLPADDING=3 WIDTH="100%" BGCOLOR="#990000" >
+<tr>
+<td><b><font color="#FFFFFF"><font size=+1>Required Materials</font></font></b></td>
+</tr>
+</table>
+
+<h3>
+Textbook and Readings</h3>
+The required text is
+<ul>
+<li>
+Christopher Manning and Hinrich Sch&uuml;tze,&nbsp;<italic>Foundations
+of Statistical Natural Language Processing.</italic> MIT Press, 1999. ($60
+in the bookstore.)</li>
+</ul>
+Please see <a href="http://nlp.stanford.edu/fsnlp/">http://nlp.stanford.edu/fsnlp/</a>
+for supplementary information about the text, including errata, and pointers
+to online resources.
+<p>Additional useful reference texts for NLP are:
+<ul>
+<li>James Allen. 1995. <i>Natural Language
+	    Understanding</i>. Benjamin/Cummings, 2ed.</li>
+<li>Gerald Gazdar and Chris Mellish. 1989. <i>Natural Language
+	    Processing in <b>X</b></i>. Addison-Wesley.
+<li>
+Dan Jurafsky and James Martin. 2000. <i>Speech and Language Processing</i>.
+Prentice Hall.
+</li>
+</ul>
+Additional papers will occaisionally be distributed and discussed during
+the course of the class.
+<p>Copies of in-class hand-outs, such as homework assignments and problem
+set solutions, will be posted <a href="new_handouts/cs224n-2003-03-handouts.html">here</a>, and 
+hard
+copies will also be available outside Gates 419 (in front of Prof Manning's room) while
+supplies last.
+
+<hr>
+<font size=-1>
+Send comments <a href="mailto:rajatr@stanford.edu">here</a>
+</font>
+
+</body>
+</html>

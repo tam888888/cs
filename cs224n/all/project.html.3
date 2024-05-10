@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+  <title>Stanford CS 224N | Project Reports</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  <!-- Google Analytics -->
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60458624-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+<!-- <script src="header.js"></script> -->
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand brand" href="index.html">CS224n Home</a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html#coursework">Coursework</a></li>
+        <li><a href="index.html#schedule">Schedule</a></li>
+        <li><a href="office_hours.html">Office Hours</a></li>
+        <li><a href="https://canvas.stanford.edu/courses/128266/external_tools/5384">Lecture Videos</a></li>
+        <li><a href="project.html">Project Reports</a></li>
+        <li><a href="https://edstem.org/us/join/M9fgcH">Ed Forum</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<div id="header" style="text-align:center">
+  <a href="http://nlp.stanford.edu/">
+    <img src="images/stanford-nlp-logo-new.jpg" class="logo-left">
+  </a>
+  <a href="http://stanford.edu/">
+    <img src="images/stanfordlogo.jpg" class="logo-right">
+  </a>
+  <h1>CS224n: Natural Language Processing with Deep Learning</h1>
+  <h3>Stanford / Winter 2021</h3>
+  <div style="clear:both;"></div>
+</div>
+
+<div class="sec">
+<div class="container sec" id="overview">
+  <h2>Final Project Reports for 2021</h2>
+  <p>
+  There were three options for the course final project. Students either chose their own topic as a <a href="#custom">custom final project</a>, or else they took part in one of the options for the <a href="#default">default final projects</a>, involving building question-answering systems.
+This year, we had two default final project options: Either people could build from scratch (regular, IID) question-answering models for the <a href=https://rajpurkar.github.io/SQuAD-explorer/>SQuAD</a> 2.0 challenge or in the Robust QA track, students started with 3 question-answering datasets (SQuAD, Natural Questions, and NewsQA) and a pre-trained, transformer QA system and worked to produce a system that worked robustly on  (OOD) test sets from additional domains.
+  </p>
+  <p>
+    You can find links to previous years' reports under <i>Previous Offerings</i> on the <a href="index.html#content">homepage</a>.
+  </p>
+</div>
+</div>
+
+<div class="sechighlight">
+<div class="container sec" id="prizes">
+  <h2>Prize Winners</h2>
+  Congratulations to the following teams, who produced exceptional prize-winning projects!
+
+  <h4>Prizes for Best Custom Project Reports</h4>
+  <ul>
+      <li>
+        <a href="reports/final_reports/report079.pdf">Automatically Neutralizing Ableist Language in Text</a> (<a href="reports/final_summaries/summary079.html">summary</a>), Tiffany Liu, Tyler Shibata
+      </li>
+      <li>
+        <a href="reports/final_reports/report058.pdf">Quant-Noisier: Second-Order Quantization Noise</a> (<a href="reports/final_summaries/summary058.html">summary</a>), Sergio Charles, William Ellsworth, Lyron Co Ting Keh
+      </li>
+      <li>
+        <a href="reports/final_reports/report060.pdf">GLARE: Generative Left-to-right AdversaRial Examples</a> (<a href="reports/final_summaries/summary060.html">summary</a>), Ryan Andrew Chi, Nathan Kim, Zander Lack
+      </li>
+      <li>
+        <a href="reports/final_reports/report087.pdf">ChePT - Applying Deep Neural Transformer Models to Chess Move Prediction and Self-Commentary</a> (<a href="reports/final_summaries/summary087.html">summary</a>), Colton Swingle, Harry Mellsop, Alex Langshur
+      </li>
+      <li>
+        <a href="reports/final_reports/report065.pdf">Exploring RoBERTa's theory of mind through textual entailment</a> (<a href="reports/final_summaries/summary065.html">summary</a>), Michael Cohen
+      </li>
+      <li>
+        <a href="reports/final_reports/report005.pdf">Predicting Doctor's Impression For Radiology Reports with Abstractive Text Summarization</a> (<a href="reports/final_summaries/summary005.html">summary</a>), Xiyuan Chen, Silvia Gong, Will Zhuk
+      </li>
+  </ul>
+
+  <h4>Prizes for Best Default Project Reports (IID SQuAD track)</h4>
+  <ul>
+      <li>
+        <a href="reports/final_reports/report202.pdf">Investigating the effectiveness of Transformers and Performers on SQuAD 2.0</a> (<a href="reports/final_summaries/summary202.html">summary</a>), Derek Chong
+      </li>
+      <li>
+        <a href="reports/final_reports/report269.pdf">QANet+: Improving QANet for Question Answering</a> (<a href="reports/final_summaries/summary269.html">summary</a>), Moo Jin Kim, Christopher Frederic Wolff
+      </li>
+      <li>
+        <a href="reports/final_reports/report250.pdf">QaN I have Your Attention? Exploring Attention in Question-Answering Model Architectures</a> (<a href="reports/final_summaries/summary250.html">summary</a>), Paula Kusumaputri
+      </li>
+  </ul>
+
+  <h4>Prizes for Best Default Project Reports (Robust QA track)</h4>
+  <ul>
+      <li>
+        <a href="reports/final_reports/report152.pdf">Improving Out-of-Domain Question Answering with Auxiliary Loss and Sequential Layer Unfreezing</a> (<a href="reports/final_summaries/summary152.html">summary</a>), Kai Eiji Okada, Jason Qin
+      </li>
+      <li>
+        Robustness via Data Augmentation and Fine Tuning, Noah Hashmi
+      </li>
+      <li>
+        <a href="reports/final_reports/report225.pdf">Domain Adaptive Adversarial Feature Disentanglement for Neural Question Answering</a> (<a href="reports/final_summaries/summary225.html">summary</a>), Yichen Li, Wei Ren, Xuran Wang
+      </li>
+  </ul>
+
+</div>
+</div>
+
+<div class="container sec" id="custom">
+  <h2>Custom Final Projects</h2>
+
+  <p><a href="reports/final_summaries/custom.html">All custom report summaries</a></p>
+
+  <table class="table">
+    <colgroup>
+      <col style="width:60%">
+      <col style="width:40%">
+    </colgroup>
+    <tr class="active">
+      <th>Project Name</th><th>Authors</th>
+    </tr>
+    <tr><td><a href="reports/final_reports/report000.pdf">Aspect-Target Sentiment Classification for Cyberbullying Detection</a> (<a href="reports/final_summaries/summary000.html">summary</a>)</td><td>Joseph Wang, Kevin Chen, Sharan Ramjee</td></tr>
+    <tr><td><a href="reports/final_reports/report001.pdf">A Neural Model for Text Segmentation</a> (<a href="reports/final_summaries/summary001.html">summary</a>)</td><td>Ana Sofia Nicholls, Gene Tanaka</td></tr>
+    <tr><td><a href="reports/final_reports/report002.pdf">Consistent Estimation of the Average Treatment Effect with Text as Confounder</a> (<a href="reports/final_summaries/summary002.html">summary</a>)</td><td>Evan Matthew Munro</td></tr>
+    <tr><td><a href="reports/final_reports/report003.pdf">Music Genre Classification using Song Lyrics</a> (<a href="reports/final_summaries/summary003.html">summary</a>)</td><td>Andrea H Dahl, Anna Boonyanit</td></tr>
+    <tr><td><a href="reports/final_reports/report004.pdf">Cyclical Pre-Training for Cryptocurrency Price Predictions</a> (<a href="reports/final_summaries/summary004.html">summary</a>)</td><td>Andrew Mark Simpson</td></tr>
+    <tr><td><a href="reports/final_reports/report005.pdf">Predicting Doctor's Impression For Radiology Reports with Abstractive Text Summarization</a> (<a href="reports/final_summaries/summary005.html">summary</a>)</td><td>Silvia Gong, Will Zhuk, Xiyuan Chen</td></tr>
+    <tr><td><a href="reports/final_reports/report006.pdf">Zero-Shot Cross-Lingual Discrete Reasoning</a> (<a href="reports/final_summaries/summary006.html">summary</a>)</td><td>Yang Tian, Yu Fan</td></tr>
+    <tr><td><a href="reports/final_reports/report008.pdf">SOTA Attention Mechanism and Activation Functions on XLNet</a> (<a href="reports/final_summaries/summary008.html">summary</a>)</td><td>Haozheng Du</td></tr>
+    <tr><td><a href="reports/final_reports/report009.pdf">Understanding Gender-coded Wording in Job Postings with Word-vectors and BERT</a> (<a href="reports/final_summaries/summary009.html">summary</a>)</td><td>Mengmeng Ji</td></tr>
+    <tr><td><a href="reports/final_reports/report010.pdf">Wall Street vs r/wallstreetbets: Exploring the Predictive Power of Retail Investors on Equity Prices</a> (<a href="reports/final_summaries/summary010.html">summary</a>)</td><td>Anshul Prakash Gupta</td></tr>
+    <tr><td><a href="reports/final_reports/report011.pdf">Peripheral Artery Disease Prediction using Medical Notes</a> (<a href="reports/final_summaries/summary011.html">summary</a>)</td><td>Ilies Ghanzouri</td></tr>
+    <tr><td><a href="reports/final_reports/report012.pdf">Dissecting Language's Effect on Bottleneck Models</a> (<a href="reports/final_summaries/summary012.html">summary</a>)</td><td>Easton Xu, Vincent Li</td></tr>
+    <tr><td><a href="reports/final_reports/report013.pdf">Model Compression for Chinese-English Neural Machine Translation</a> (<a href="reports/final_summaries/summary013.html">summary</a>)</td><td>Ryan David Cunningham</td></tr>
+    <tr><td><a href="reports/final_reports/report015.pdf">Conversational and Image Recognition Chatbot</a> (<a href="reports/final_summaries/summary015.html">summary</a>)</td><td>Shengyang Su</td></tr>
+    <tr><td><a href="reports/final_reports/report016.pdf">Government Document Classification</a> (<a href="reports/final_summaries/summary016.html">summary</a>)</td><td>Andrew Tang</td></tr>
+    <tr><td><a href="reports/final_reports/report017.pdf">Sentence-BERT for Interpretable Topic Modeling in Web Browsing Data</a> (<a href="reports/final_summaries/summary017.html">summary</a>)</td><td>Natalie Marie Cygan</td></tr>
+    <tr><td><a href="reports/final_reports/report018.pdf">Comparing Task-Specific Ensembles to General Language Models in Distinguishing Elaborated and Compact Language Codes within CoCA-CoLA</a> (<a href="reports/final_summaries/summary018.html">summary</a>)</td><td>Abraham Oshotse</td></tr>
+    <tr><td><a href="reports/final_reports/report019.pdf">Abstractive Summarization of Long Medical Documents with Transformers</a> (<a href="reports/final_summaries/summary019.html">summary</a>)</td><td>Luciano Gonzalez, Sabrina Rong Lu, William Blake Buchanan</td></tr>
+    <tr><td><a href="reports/final_reports/report020.pdf">Learning Links Between Low Level and Preferred Medical Terminology with GNNs</a> (<a href="reports/final_summaries/summary020.html">summary</a>)</td><td>Sophia Kivelson</td></tr>
+    <tr><td><a href="reports/final_reports/report021.pdf">iReason: Multimodal Commonsense Reasoning using Videos and Natural Language with Interpretability</a> (<a href="reports/final_summaries/summary021.html">summary</a>)</td><td>Aman Chadha</td></tr>
+    <tr><td><a href="reports/final_reports/report023.pdf">CASCADE + BERT: Using Context Embeddings and Transformers to Predict Sarcasm</a> (<a href="reports/final_summaries/summary023.html">summary</a>)</td><td>Langston Gary Nashold</td></tr>
+    <tr><td><a href="reports/final_reports/report025.pdf">Extracting, and not extracting, knowledge from language models for fact-checking</a> (<a href="reports/final_summaries/summary025.html">summary</a>)</td><td>Charlie Curnin</td></tr>
+    <tr><td><a href="reports/final_reports/report027.pdf">Enhancing Cherokee-English Translation System</a> (<a href="reports/final_summaries/summary027.html">summary</a>)</td><td>Bhagirath P Mehta, David Tran</td></tr>
+    <tr><td><a href="reports/final_reports/report028.pdf">Carl: An Empathetic Chatbot</a> (<a href="reports/final_summaries/summary028.html">summary</a>)</td><td>Grant Sheen</td></tr>
+    <tr><td><a href="reports/final_reports/report029.pdf">Assessment of Neural Machine Translation Performance Based on a new Sentence Embedding Cosine Similarity Metric</a> (<a href="reports/final_summaries/summary029.html">summary</a>)</td><td>Sadegh Aryanpanah</td></tr>
+    <tr><td><a href="reports/final_reports/report030.pdf">NLP for Stock Market Prediction with Reddit Data</a> (<a href="reports/final_summaries/summary030.html">summary</a>)</td><td>Muxi Xu</td></tr>
+    <tr><td><a href="reports/final_reports/report031.pdf">Exploring Knowledge Transfer in Clinical Natural Language Processing Tasks</a> (<a href="reports/final_summaries/summary031.html">summary</a>)</td><td>Wenji Zhang</td></tr>
+    <tr><td><a href="reports/final_reports/report032.pdf">Selectively Editable Language Models</a> (<a href="reports/final_summaries/summary032.html">summary</a>)</td><td>Spencer Flick Braun</td></tr>
+    <tr><td><a href="reports/final_reports/report033.pdf">Improving Medical Knowledge in the Automated Chest Radiograph Report</a> (<a href="reports/final_summaries/summary033.html">summary</a>)</td><td>Ethan Schonfeld</td></tr>
+    <tr><td><a href="reports/final_reports/report035.pdf">Fine-tuning of Transformer Models for High Quality Screenplay Generation</a> (<a href="reports/final_summaries/summary035.html">summary</a>)</td><td>Anchit Narain, Anthony Tu Le, Jordan Patrick Byrd</td></tr>
+    <tr><td><a href="reports/final_reports/report036.pdf">ALBERT: Domain Specific Pretraining on Alternative Social Media to Improve Hate Speech Classification</a> (<a href="reports/final_summaries/summary036.html">summary</a>)</td><td>Jackson Eilers, Julia Wang, Oliver Brady</td></tr>
+    <tr><td><a href="reports/final_reports/report037.pdf">BioXtract: Learning Biomedical Knowledge From General and Random Data</a> (<a href="reports/final_summaries/summary037.html">summary</a>)</td><td>Gilbert Lopez Rosal, Jimmy Khiem Trong Le, Mark Eric Endo</td></tr>
+    <tr><td><a href="reports/final_reports/report038.pdf">Race-Blind Charging</a> (<a href="reports/final_summaries/summary038.html">summary</a>)</td><td>Madison Coots</td></tr>
+    <tr><td><a href="reports/final_reports/report039.pdf">Text Ads Generation Using Deep Neural Network</a> (<a href="reports/final_summaries/summary039.html">summary</a>)</td><td>Weijian Ma</td></tr>
+    <tr><td><a href="reports/final_reports/report040.pdf">Intelligent Text Compression</a> (<a href="reports/final_summaries/summary040.html">summary</a>)</td><td>Blake Pagon, Ella Hofmann-Coyle, Mauricio Wulfovich</td></tr>
+    <tr><td><a href="reports/final_reports/report041.pdf">SleepTalk: Textual DeepDream for NLP Model Interpretability</a> (<a href="reports/final_summaries/summary041.html">summary</a>)</td><td>David Yue, Finsam L Samson</td></tr>
+    <tr><td><a href="reports/final_reports/report042.pdf">Evaluating Extractive Text Summarization with BERTSUM</a> (<a href="reports/final_summaries/summary042.html">summary</a>)</td><td>Sihguat Torres</td></tr>
+    <tr><td><a href="reports/final_reports/report043.pdf">Understanding Emotion Classification In Audio Data</a> (<a href="reports/final_summaries/summary043.html">summary</a>)</td><td>Allison Lettiere, Emily Yuqi Huang, Gaurab Banerjee</td></tr>
+    <tr><td><a href="reports/final_reports/report044.pdf">Clinical Note Generation to Address Physician Burnout</a> (<a href="reports/final_summaries/summary044.html">summary</a>)</td><td>Jiying Zou</td></tr>
+    <tr><td><a href="reports/final_reports/report045.pdf">Evaluating BERT on Question Exhaustivity Inference</a> (<a href="reports/final_summaries/summary045.html">summary</a>)</td><td>Dhara Yu</td></tr>
+    <tr><td><a href="reports/final_reports/report046.pdf">BigBirdFLY: Financial Long text You can read</a> (<a href="reports/final_summaries/summary046.html">summary</a>)</td><td>Dhavalkumar Anurasbhai Dangaria, Riccardo Giacomelli, Wilfrido Martinez-Alonso</td></tr>
+    <tr><td><a href="reports/final_reports/report047.pdf">Whiskey GPTaster</a> (<a href="reports/final_summaries/summary047.html">summary</a>)</td><td>Akram Sbaih</td></tr>
+    <tr><td><a href="reports/final_reports/report048.pdf">Question Answering System Implementation Using QANet Architecture</a> (<a href="reports/final_summaries/summary048.html">summary</a>)</td><td>Chafik Taiebennefs</td></tr>
+    <tr><td><a href="reports/final_reports/report049.pdf">Low or no resource domain adaptation for task specific semantic parser</a> (<a href="reports/final_summaries/summary049.html">summary</a>)</td><td>Sinchan Bhattacharya</td></tr>
+    <tr><td><a href="reports/final_reports/report050.pdf">DeepAiNet: Deep NLP-based Representations for a Generalizable Anime Recommender System</a> (<a href="reports/final_summaries/summary050.html">summary</a>)</td><td>Michael Sun, Robert Yang, Tai Duc Vu</td></tr>
+    <tr><td><a href="reports/final_reports/report051.pdf">What Did You Just Say? Toward Detecting Imperceptible Audio Adversarial Attacks</a> (<a href="reports/final_summaries/summary051.html">summary</a>)</td><td>John Mistele, Ryan B Cao</td></tr>
+    <tr><td><a href="reports/final_reports/report053.pdf">I Have(n't) Read And Agree To The Terms Of Service</a> (<a href="reports/final_summaries/summary053.html">summary</a>)</td><td>German Enik, Hannah Zhang, Varun Tandon</td></tr>
+    <tr><td><a href="reports/final_reports/report054.pdf">CheXGB: Combining Graph Neural Networks and BERT for automated radiology report labeling</a> (<a href="reports/final_summaries/summary054.html">summary</a>)</td><td>Damir Vrabac, Viswesh Krishna</td></tr>
+    <tr><td><a href="reports/final_reports/report056.pdf">Recursive Transformer: A Novel Neural Architecture for Generalizable Mathematical Reasoning</a> (<a href="reports/final_summaries/summary056.html">summary</a>)</td><td>Isabelle K Lee, Jerry Chen, Rohan Deshpande</td></tr>
+    <tr><td><a href="reports/final_reports/report057.pdf">Seeking Higher Truths and Higher Accuracies with Multilingual GAN-BERT</a> (<a href="reports/final_summaries/summary057.html">summary</a>)</td><td>Charan Ramesh Babu, Gil Lorch Kornberg, James Thieu</td></tr>
+    <tr><td><a href="reports/final_reports/report058.pdf">Quant-Noisier: Second-Order Quantization Noise</a> (<a href="reports/final_summaries/summary058.html">summary</a>)</td><td>Lyron Ong-Siong Co Ting Keh, Sergio Charles, William Ellsworth</td></tr>
+    <tr><td><a href="reports/final_reports/report060.pdf">GLARE: Generative Left-to-right AdversaRial Examples</a> (<a href="reports/final_summaries/summary060.html">summary</a>)</td><td>Nathan Gyoohyun Kim, Ryan Andrew Chi, Zander Lack</td></tr>
+    <tr><td><a href="reports/final_reports/report062.pdf">Document Matching for Job Descriptions</a> (<a href="reports/final_summaries/summary062.html">summary</a>)</td><td>Yao Jun Lum</td></tr>
+    <tr><td><a href="reports/final_reports/report063.pdf">Template-free organic retrosynthesis with syntax-directed molecular transformer networks</a> (<a href="reports/final_summaries/summary063.html">summary</a>)</td><td>David J Toomer</td></tr>
+    <tr><td><a href="reports/final_reports/report064.pdf">MedDRA2Vec: Training Medical Graph Embeddings for Clinical NLP</a> (<a href="reports/final_summaries/summary064.html">summary</a>)</td><td>Ariel Kelly Leong, Ayushi Tandel</td></tr>
+    <tr><td><a href="reports/final_reports/report065.pdf">Exploring RoBERTa's theory of mind through textual entailment</a> (<a href="reports/final_summaries/summary065.html">summary</a>)</td><td>Michael Cohen</td></tr>
+    <tr><td><a href="reports/final_reports/report068.pdf">Six Approaches to Improve BERT for Claim Verification as Applied to the Fact Extraction and Verification Challenge (FEVER) Dataset</a> (<a href="reports/final_summaries/summary068.html">summary</a>)</td><td>Anica Oesterle, Daniel Jun, Jonathan Ling</td></tr>
+    <tr><td><a href="reports/final_reports/report069.pdf">Analysis of Bias in U.S. History Textbooks Using BERT</a> (<a href="reports/final_summaries/summary069.html">summary</a>)</td><td>Grace Sally Lam, Marilyn M Zhang</td></tr>
+    <tr><td><a href="reports/final_reports/report070.pdf">Toxicity Detection: Does the Target Really Matter?</a> (<a href="reports/final_summaries/summary070.html">summary</a>)</td><td>Roland Dominique Pascal Duffau</td></tr>
+    <tr><td><a href="reports/final_reports/report071.pdf">Translating Natural Language Questions to SQL Queries</a> (<a href="reports/final_summaries/summary071.html">summary</a>)</td><td>Omkar Ajay Salpekar</td></tr>
+    <tr><td><a href="reports/final_reports/report072.pdf">Data Augmentation and Ensembling for FriendsQA</a> (<a href="reports/final_summaries/summary072.html">summary</a>)</td><td>Canwen Jiao, Nina Du</td></tr>
+    <tr><td><a href="reports/final_reports/report073.pdf">Ranked Keywords to Story Generation</a> (<a href="reports/final_summaries/summary073.html">summary</a>)</td><td>WenXin Dong</td></tr>
+    <tr><td><a href="reports/final_reports/report074.pdf">Predicting Hedge Fund Holdings from 10K/Q text Analysis</a> (<a href="reports/final_summaries/summary074.html">summary</a>)</td><td>Oussama Fadil</td></tr>
+    <tr><td><a href="reports/final_reports/report075.pdf">Multilingual CheXbert: Radiology Report Labeling in Spanish</a> (<a href="reports/final_summaries/summary075.html">summary</a>)</td><td>Adriel Saporta, Emily Amanda Ross</td></tr>
+    <tr><td><a href="reports/final_reports/report076.pdf">Are Captions All You Need? Investigating Image Captions for Multimodal Tasks</a> (<a href="reports/final_summaries/summary076.html">summary</a>)</td><td>Victor de Souza Lima e Silva</td></tr>
+    <tr><td><a href="reports/final_reports/report077.pdf">Classifying Emotions in Real-Time</a> (<a href="reports/final_summaries/summary077.html">summary</a>)</td><td>Arnav S Joshi, Ore Popoola</td></tr>
+    <tr><td><a href="reports/final_reports/report078.pdf">GameWiki: Aspect Extraction for Video Games</a> (<a href="reports/final_summaries/summary078.html">summary</a>)</td><td>Sirisha Akkanapragada</td></tr>
+    <tr><td><a href="reports/final_reports/report079.pdf">Automatically Neutralizing Ableist Language in Text</a> (<a href="reports/final_summaries/summary079.html">summary</a>)</td><td>Tiffany Liu, Tyler Shibata</td></tr>
+    <tr><td><a href="reports/final_reports/report080.pdf">Transformers for Textual Reasoning and Question Answering</a> (<a href="reports/final_summaries/summary080.html">summary</a>)</td><td>Dominik Joshua Damjakob, Justin Wong, Xinyu Hu</td></tr>
+    <tr><td><a href="reports/final_reports/report081.pdf">PopNet: Evaluating the Use of LSTMs and GPT-2 for Generating Pop Lyrics From Song Titles</a> (<a href="reports/final_summaries/summary081.html">summary</a>)</td><td>Eunji Lee, Jason Ryan Ah Chuen, Katherine Jean Wu</td></tr>
+    <tr><td><a href="reports/final_reports/report082.pdf">Fake News Detection and Classification with Multimodal Learning</a> (<a href="reports/final_summaries/summary082.html">summary</a>)</td><td>Charles Bai, Elaine Liu, Yiqi Chen</td></tr>
+    <tr><td><a href="reports/final_reports/report083.pdf">Moral Style Transfer</a> (<a href="reports/final_summaries/summary083.html">summary</a>)</td><td>Matthew Tran Radovan, Mustafa Ahmed Khan, Sasankh Munukutla</td></tr>
+    <tr><td><a href="reports/final_reports/report084.pdf">Applying Transformers and NLP Computational Techniques to America in One Room</a> (<a href="reports/final_summaries/summary084.html">summary</a>)</td><td>Haroun Habib Ahmed</td></tr>
+    <tr><td><a href="reports/final_reports/report085.pdf">How Low Can You Go? A Case Study in Extremely Low-Resource NMT</a> (<a href="reports/final_summaries/summary085.html">summary</a>)</td><td>Anfal Shahab Siddiqui, Daniel Yicheng Zhang</td></tr>
+    <tr><td><a href="reports/final_reports/report086.pdf">Annotating Sparse Risk Factors in Clinical Records with BERT</a> (<a href="reports/final_summaries/summary086.html">summary</a>)</td><td>May Yang Jiang</td></tr>
+    <tr><td><a href="reports/final_reports/report087.pdf">ChePT - Applying Deep Neural Transformer Models to Chess Move Prediction and Self-Commentary</a> (<a href="reports/final_summaries/summary087.html">summary</a>)</td><td>Alex Langshur, Colton Orion Swingle, Harry Mellsop</td></tr>
+    <tr><td><a href="reports/final_reports/report088.pdf">Translating Code-Switched Texts From Bilingual Speakers</a> (<a href="reports/final_summaries/summary088.html">summary</a>)</td><td>Kalyani Ramadurgam, Surabhi Gopal Mundada</td></tr>
+    <tr><td><a href="reports/final_reports/report089.pdf">Data Augmentation for ASR using CycleGAN-VC</a> (<a href="reports/final_summaries/summary089.html">summary</a>)</td><td>Claire Pajot, Hikaru Hotta, Sofian Zalouk</td></tr>
+    <tr><td><a href="reports/final_reports/report091.pdf">Learning Representations of Eligibility Criteria in Clinical Trials Using Transformers</a> (<a href="reports/final_summaries/summary091.html">summary</a>)</td><td>Josiah Gebreyesus Aklilu, Kevin Wu</td></tr>
+    <tr><td><a href="reports/final_reports/report093.pdf">Fine-Tuning Transformer-XL on Clinical Natural Language Processing</a> (<a href="reports/final_summaries/summary093.html">summary</a>)</td><td>Xianghao Zhan, Yiheng Li</td></tr>
+    <tr><td><a href="reports/final_reports/report096.pdf">Investigating Techniques for Improving NMT Systems for Low Resource Languages</a> (<a href="reports/final_summaries/summary096.html">summary</a>)</td><td>Alex Lee, Pranav Kushagra Vaid</td></tr>
+    <tr><td><a href="reports/final_reports/report100.pdf">Pseudocode to Code Translation Using Transformers</a> (<a href="reports/final_summaries/summary100.html">summary</a>)</td><td>Austin Brotman, Kaan Ertas, Nazli Ugur Koyluoglu</td></tr>
+    <tr><td><a href="reports/final_reports/report101.pdf">Adversarial Approaches to Debiasing Word Embeddings</a> (<a href="reports/final_summaries/summary101.html">summary</a>)</td><td>Benjamin Cheung Liu, Gordon Chi</td></tr>
+    <tr><td><a href="reports/final_reports/report103.pdf">Summarizations and Dragons</a> (<a href="reports/final_summaries/summary103.html">summary</a>)</td><td>David Patrick Ryan</td></tr>
+    <tr><td><a href="reports/final_reports/report104.pdf">Hierarchical, Feature-Based Text Generation</a> (<a href="reports/final_summaries/summary104.html">summary</a>)</td><td>Caitlin Elizabeth Hogan</td></tr>
+    <tr><td><a href="reports/final_reports/report105.pdf">Exploring the Limits of the Wake-Sleep Algorithm on a Low-Resource Language</a> (<a href="reports/final_summaries/summary105.html">summary</a>)</td><td>Abisola Olawale</td></tr>
+    <tr><td><a href="reports/final_reports/report106.pdf">Continuous Integrate-and-Fire Speech-Text Fusion for Spoken Question Answering</a> (<a href="reports/final_summaries/summary106.html">summary</a>)</td><td>Jeff Brown</td></tr>
+    <tr><td><a href="reports/final_reports/report107.pdf">Using Recurrent Convolutional Neural Network (RCNN) to Predict S&P 500 Movements</a> (<a href="reports/final_summaries/summary107.html">summary</a>)</td><td>Carolyn Kao, Xiaoye Yuan</td></tr>
+    <tr><td><a href="reports/final_reports/report108.pdf">Identify Semantically Similar Queries in Virtual Assistant Dialogues</a> (<a href="reports/final_summaries/summary108.html">summary</a>)</td><td>Weiwei Zhang</td></tr>
+    <tr><td><a href="reports/final_reports/report109.pdf">CloneBot: Personalized Dialogue-Response Predictions</a> (<a href="reports/final_summaries/summary109.html">summary</a>)</td><td>Hoon Pyo Jeon, Tyler Yehuda Weitzman</td></tr>
+
+
+</table>
+</div>
+
+<div class="container sec" id="default">
+  <h2>Default Final Projects</h2>
+
+  <p><a href="reports/final_summaries/default.html">All default report summaries</a></p>
+
+  <table class="table">
+    <colgroup>
+      <col style="width:60%">
+      <col style="width:40%">
+    </colgroup>
+    <tr class="active">
+      <th>Project Name</th><th>Authors</th>
+    </tr>
+    <tr><td><a href="reports/final_reports/report110.pdf">Effect of Character- and Subword-Embeddings on BiDAF Performance</a> (<a href="reports/final_summaries/summary110.html">summary</a>)</td><td>Andy Kim</td></tr>
+    <tr><td><a href="reports/final_reports/report111.pdf">Building a QA system (IID SQuAD track)</a> (<a href="reports/final_summaries/summary111.html">summary</a>)</td><td>Daniel Xia</td></tr>
+    <tr><td><a href="reports/final_reports/report112.pdf">Improving QA System Out of Domain Performance Using Data Augmentation</a> (<a href="reports/final_summaries/summary112.html">summary</a>)</td><td>Amelia Saner Gilson, Lauren Pendo</td></tr>
+    <tr><td><a href="reports/final_reports/report113.pdf">RobustQA</a> (<a href="reports/final_summaries/summary113.html">summary</a>)</td><td>Swee Kiat Lim</td></tr>
+    <tr><td><a href="reports/final_reports/report115.pdf">Building a QA system (IID SQuAD track)</a> (<a href="reports/final_summaries/summary115.html">summary</a>)</td><td>Ruoyan Chen, Yi Wen</td></tr>
+    <tr><td><a href="reports/final_reports/report116.pdf">Fine Grained Gating on SQUAD</a> (<a href="reports/final_summaries/summary116.html">summary</a>)</td><td>Aaron Sidney Kaufer</td></tr>
+    <tr><td><a href="reports/final_reports/report117.pdf">Domain Adversarial Training for QA Systems</a> (<a href="reports/final_summaries/summary117.html">summary</a>)</td><td>Brynne Hurst, Danny Evan Schwartz, Xiaohong Wang</td></tr>
+    <tr><td><a href="reports/final_reports/report118.pdf">Robust Question Answering with Task Adaptive Pretraining and Data Augmentation</a> (<a href="reports/final_summaries/summary118.html">summary</a>)</td><td>Fang Guo, Qitong Cao</td></tr>
+    <tr><td><a href="reports/final_reports/report119.pdf">Task-Adaptive Pretraining, Domain Sampling, and Data Augmentation Improve Generalized Question Answering</a> (<a href="reports/final_summaries/summary119.html">summary</a>)</td><td>David Huang</td></tr>
+    <tr><td><a href="reports/final_reports/report120.pdf">Robust Question Answering using Domain Adversarial Training</a> (<a href="reports/final_summaries/summary120.html">summary</a>)</td><td>Bryan William Zhu</td></tr>
+    <tr><td><a href="reports/final_reports/report122.pdf">Question Answering with Self-Attention</a> (<a href="reports/final_summaries/summary122.html">summary</a>)</td><td>George Sarmonikas</td></tr>
+    <tr><td><a href="reports/final_reports/report124.pdf">An Unsupervised Pretraining Task for the BiDAF Model</a> (<a href="reports/final_summaries/summary124.html">summary</a>)</td><td>Julius Thomas Stener</td></tr>
+    <tr><td><a href="reports/final_reports/report125.pdf">Building a Robust QA system using an Adversarially Trained Ensemble</a> (<a href="reports/final_summaries/summary125.html">summary</a>)</td><td>Kevin Lee</td></tr>
+    <tr><td><a href="reports/final_reports/report126.pdf">QANet for SQuAD 2.0</a> (<a href="reports/final_summaries/summary126.html">summary</a>)</td><td>Venkat Papa Rao Yerramsetti</td></tr>
+    <tr><td><a href="reports/final_reports/report127.pdf">Extending QANet with Transformer-XL</a> (<a href="reports/final_summaries/summary127.html">summary</a>)</td><td>Sheng Li</td></tr>
+    <tr><td><a href="reports/final_reports/report128.pdf">An Analysis on the Effect of Domain Representations in Question Answering Models</a> (<a href="reports/final_summaries/summary128.html">summary</a>)</td><td>Nicholas David Vasko</td></tr>
+    <tr><td><a href="reports/final_reports/report129.pdf">Improving QA Robustness through Modified Adversarial Training</a> (<a href="reports/final_summaries/summary129.html">summary</a>)</td><td>Jeffrey Stern Propp, Nebyou Temesgen Zewde</td></tr>
+    <tr><td><a href="reports/final_reports/report130.pdf">Reformed QANet - Optimizing the Spatial Complexity of QANet</a> (<a href="reports/final_summaries/summary130.html">summary</a>)</td><td>Alexander Kyle Fuster, Andrew Louis Hojel, Diana Yasmine Voevodsky</td></tr>
+    <tr><td><a href="reports/final_reports/report131.pdf">DistiIBERT Augmented with Mixture of Local and Global Experts</a> (<a href="reports/final_summaries/summary131.html">summary</a>)</td><td>Joshua Vernon Tanner, Philipp Mark Julius Reineke</td></tr>
+    <tr><td><a href="reports/final_reports/report132.pdf">Domain-agnostic DistiIBERT for robust QA</a> (<a href="reports/final_summaries/summary132.html">summary</a>)</td><td>Medina Orduna Baitemirova</td></tr>
+    <tr><td><a href="reports/final_reports/report133.pdf">DAM-Net: Robust QA System with Data Augmentation and Multitask Learning</a> (<a href="reports/final_summaries/summary133.html">summary</a>)</td><td>Siyun Li, Xi Yan, Yige Liu</td></tr>
+    <tr><td><a href="reports/final_reports/report136.pdf">Building a QA system (IID SQuAD track)</a> (<a href="reports/final_summaries/summary136.html">summary</a>)</td><td>Meenakshi Balagopal</td></tr>
+    <tr><td><a href="reports/final_reports/report137.pdf">Examining the Effectiveness of a Mixture of Experts Model with Static Fine-tuned Experts on QA Robustness</a> (<a href="reports/final_summaries/summary137.html">summary</a>)</td><td>Jack Z Xiao, Matthew Franklin Kolodner</td></tr>
+    <tr><td><a href="reports/final_reports/report139.pdf">BiDAF Question Ansering with Character Embedding, Self-Attention, and Weighted Loss</a> (<a href="reports/final_summaries/summary139.html">summary</a>)</td><td>Stephen C Ren</td></tr>
+    <tr><td><a href="reports/final_reports/report140.pdf">Invertigation of BiDAF and implementation of QANet for Question Answering</a> (<a href="reports/final_summaries/summary140.html">summary</a>)</td><td>Jiefu Deng</td></tr>
+    <tr><td><a href="reports/final_reports/report141.pdf">Gaining More from Less Data in out-of-domain Question Answering Models</a> (<a href="reports/final_summaries/summary141.html">summary</a>)</td><td>Mohammed Salman</td></tr>
+    <tr><td><a href="reports/final_reports/report142.pdf">BiDAF with Dependency Parse Tree for Question Answering in SQUAD 2</a> (<a href="reports/final_summaries/summary142.html">summary</a>)</td><td>Mohammad Mahbubuzzaman</td></tr>
+    <tr><td><a href="reports/final_reports/report145.pdf">Exploring First Order Gradient Approximation Meta Learning for Robust QA Systems</a> (<a href="reports/final_summaries/summary145.html">summary</a>)</td><td>Christian Alexander Gabor</td></tr>
+    <tr><td><a href="reports/final_reports/report146.pdf">Self-Attention in Question Answering</a> (<a href="reports/final_summaries/summary146.html">summary</a>)</td><td>William Junjie Wang</td></tr>
+    <tr><td><a href="reports/final_reports/report147.pdf">Faster Attention for Question Answering</a> (<a href="reports/final_summaries/summary147.html">summary</a>)</td><td>Jack Beasley</td></tr>
+    <tr><td><a href="reports/final_reports/report148.pdf">Efficiency of Dynamic Coattention with Character Level Embeddings</a> (<a href="reports/final_summaries/summary148.html">summary</a>)</td><td>George Charles Younger, Michael Lin, Semir Shafi</td></tr>
+    <tr><td><a href="reports/final_reports/report149.pdf">Question Answering on SQuAD2.0</a> (<a href="reports/final_summaries/summary149.html">summary</a>)</td><td>Aditya Kumar Srivastava, Anirudh Rao</td></tr>
+    <tr><td><a href="reports/final_reports/report150.pdf">Improving Out-of-Domain Question Answering with Mixture of Experts</a> (<a href="reports/final_summaries/summary150.html">summary</a>)</td><td>Danni Ma, Haofeng Chen</td></tr>
+    <tr><td><a href="reports/final_reports/report151.pdf">Tackling SQuAD 2.0 Using Character Embeddings, Coattention and QANet</a> (<a href="reports/final_summaries/summary151.html">summary</a>)</td><td>Devansh Sharma, Lucas Milind Haarmann</td></tr>
+    <tr><td><a href="reports/final_reports/report152.pdf">Improving Out-of-Domain Question Answering with Auxiliary Loss and Sequential Layer Unfreezing</a> (<a href="reports/final_summaries/summary152.html">summary</a>)</td><td>Jason Qin, Kai Eiji Okada</td></tr>
+    <tr><td><a href="reports/final_reports/report154.pdf">Exploring Combinations of Character Embeddings and Coattention</a> (<a href="reports/final_summaries/summary154.html">summary</a>)</td><td>Derek Chung</td></tr>
+    <tr><td><a href="reports/final_reports/report155.pdf">Question Answering on SQuAD 2.0 using QANet with Performer FastAttention</a> (<a href="reports/final_summaries/summary155.html">summary</a>)</td><td>Arpad Jozsef Tamasi</td></tr>
+    <tr><td><a href="reports/final_reports/report156.pdf">Question Answering by QANet and Transformer-XL</a> (<a href="reports/final_summaries/summary156.html">summary</a>)</td><td>Chi Wang</td></tr>
+    <tr><td><a href="reports/final_reports/report157.pdf">Extending BiDAF and QANet NLP on SQuAD 2.0</a> (<a href="reports/final_summaries/summary157.html">summary</a>)</td><td>Minakshi Mukherjee, Suvasis Mukherjee</td></tr>
+    <tr><td><a href="reports/final_reports/report158.pdf">Building a Robust QA System that Knows When it Doesn't Know</a> (<a href="reports/final_summaries/summary158.html">summary</a>)</td><td>Diptimaya Mishra, Kumar Kumar Kallurupalli</td></tr>
+    <tr><td><a href="reports/final_reports/report159.pdf">Improving Domain Generalization for Question Answering</a> (<a href="reports/final_summaries/summary159.html">summary</a>)</td><td>Alanna Nicole Flores, Jaymee Sheng, Lilia V Chang</td></tr>
+    <tr><td><a href="reports/final_reports/report161.pdf">Improving Out-of-Domain Question Answering Performance with Adversarial Training</a> (<a href="reports/final_summaries/summary161.html">summary</a>)</td><td>Jack Lee</td></tr>
+    <tr><td><a href="reports/final_reports/report162.pdf">Building Robust QA System with Few Sample Tuning</a> (<a href="reports/final_summaries/summary162.html">summary</a>)</td><td>David Yin, LIang Yi</td></tr>
+    <tr><td><a href="reports/final_reports/report163.pdf">Comparing Mixture of Experts and Domain Adversarial Training with Data Augmentation in Out-of-Domain Question Answering</a> (<a href="reports/final_summaries/summary163.html">summary</a>)</td><td>Irena Gao, Nathan S Marks, Ricky Joshua Toh Wen Xian</td></tr>
+    <tr><td><a href="reports/final_reports/report164.pdf">Rediscovering R-NET: An Improvement and In-Depth Analysis on SQUAD 2.0</a> (<a href="reports/final_summaries/summary164.html">summary</a>)</td><td>Jacob Tyler Wagner, Minju Kim</td></tr>
+    <tr><td><a href="reports/final_reports/report167.pdf">Reimplementing Dynamic Chunk Reader</a> (<a href="reports/final_summaries/summary167.html">summary</a>)</td><td>Elijah Wright Spiegel, Nathan James Gugel</td></tr>
+    <tr><td><a href="reports/final_reports/report168.pdf">ALP-Net: Robust few-shot Question-Answering with Adversarial Training, Meta Learning, Data Augmentation and Answer Length Penalty</a> (<a href="reports/final_summaries/summary168.html">summary</a>)</td><td>Ran Duan, Yijing Bai, Zhen Li</td></tr>
+    <tr><td><a href="reports/final_reports/report169.pdf">Improving Question Answering on SQuAD 2.0: Exploring the QANet Architecture</a> (<a href="reports/final_summaries/summary169.html">summary</a>)</td><td>Aayush Amit Agrawal, Jiwon Lee, Laikh Tewari</td></tr>
+    <tr><td><a href="reports/final_reports/report170.pdf">Bidirectional Attention Flow with Self-Attention</a> (<a href="reports/final_summaries/summary170.html">summary</a>)</td><td>Yan Liu</td></tr>
+    <tr><td><a href="reports/final_reports/report171.pdf">QANet without Backtranslation on SQUAD 2.0</a> (<a href="reports/final_summaries/summary171.html">summary</a>)</td><td>Jacky Huang</td></tr>
+    <tr><td><a href="reports/final_reports/report173.pdf">"Pointed" Question-Answering</a> (<a href="reports/final_summaries/summary173.html">summary</a>)</td><td>Shyamoli Sanghi</td></tr>
+    <tr><td><a href="reports/final_reports/report174.pdf">SQuAD: To QANet and Beyond</a> (<a href="reports/final_summaries/summary174.html">summary</a>)</td><td>Darkhan Baimyrza</td></tr>
+    <tr><td><a href="reports/final_reports/report175.pdf">Experimenting with BiDAF Embeddings and Coattention</a> (<a href="reports/final_summaries/summary175.html">summary</a>)</td><td>Chris Tan, Makena Sierra Low</td></tr>
+    <tr><td><a href="reports/final_reports/report176.pdf">Adversarial Training Methods for Cross-Domain Question Answering</a> (<a href="reports/final_summaries/summary176.html">summary</a>)</td><td>Gino Tesei</td></tr>
+    <tr><td><a href="reports/final_reports/report177.pdf">Context Demonstrations and Backtranslation Augmentation Techniques For a More Robust QA System</a> (<a href="reports/final_summaries/summary177.html">summary</a>)</td><td>Andrea Marie Collins, Ha H.N. Tran, Sammy Ibrahim Mohammed</td></tr>
+    <tr><td><a href="reports/final_reports/report178.pdf">Building a QA System (IID SQuAD track)</a> (<a href="reports/final_summaries/summary178.html">summary</a>)</td><td>Bo Yu</td></tr>
+    <tr><td><a href="reports/final_reports/report179.pdf">CS224N Default Final Project Report: Building a QA System Using BiDAF and Subword Modeling Techniques</a> (<a href="reports/final_summaries/summary179.html">summary</a>)</td><td>Nina Prabhu, Yanichka Ariunbold</td></tr>
+    <tr><td><a href="reports/final_reports/report180.pdf">SQuAD 2.0: Improving Performance with Optimization and Feature Engineering</a> (<a href="reports/final_summaries/summary180.html">summary</a>)</td><td>Brian MacDonald Powell, Robert Andrew Schmidt</td></tr>
+    <tr><td><a href="reports/final_reports/report182.pdf">Building a Robust QA System Via Diverse Backtranslation</a> (<a href="reports/final_summaries/summary182.html">summary</a>)</td><td>Nikhil Varun Raghuraman, Pranav Ramkumar Sriram</td></tr>
+    <tr><td><a href="reports/final_reports/report183.pdf">Question Answering with Binary Objective</a> (<a href="reports/final_summaries/summary183.html">summary</a>)</td><td>Johnson Xin Jia</td></tr>
+    <tr><td><a href="reports/final_reports/report184.pdf">Extended BiDAF with Character-Level Embedding</a> (<a href="reports/final_summaries/summary184.html">summary</a>)</td><td>Alyssa Bautista Romanos, Gabe Joaquin Saldivar, Kavita Anjali Selva</td></tr>
+    <tr><td><a href="reports/final_reports/report185.pdf">SQuAD - Refined Implementation of Contextually Enriching Passage Sequences (SQUAD-RICEPS)</a> (<a href="reports/final_summaries/summary185.html">summary</a>)</td><td>Daniel Kai Classon, Ryan Dominic Peng, Thomas Wentao Jiang</td></tr>
+    <tr><td><a href="reports/final_reports/report186.pdf">Building a Robust QA system with Data Augmentation</a> (<a href="reports/final_summaries/summary186.html">summary</a>)</td><td>Robert Hu, Trinity Gaw Donohugh</td></tr>
+    <tr><td><a href="reports/final_reports/report187.pdf">Implementations of R-NET and Character-level Embeddings on SQUAD</a> (<a href="reports/final_summaries/summary187.html">summary</a>)</td><td>Luan Jiang</td></tr>
+    <tr><td><a href="reports/final_reports/report189.pdf">Stanford CS224N SQuAD IID Default Project</a> (<a href="reports/final_summaries/summary189.html">summary</a>)</td><td>Ben Iver Rocklin, Paul Mure, Tracy Cai</td></tr>
+    <tr><td><a href="reports/final_reports/report190.pdf">Building a QA system (Robust QA track)</a> (<a href="reports/final_summaries/summary190.html">summary</a>)</td><td>Ozi Anyanwu, Robert Thomas Heckerman, William Park</td></tr>
+    <tr><td><a href="reports/final_reports/report191.pdf">Building a Robust QA system</a> (<a href="reports/final_summaries/summary191.html">summary</a>)</td><td>Andrew Namil Hwang, Maxwell James Pike, Pujan Sanjay Patel</td></tr>
+    <tr><td><a href="reports/final_reports/report192.pdf">RobustQA: Benchmarking Techniques for Domain-Agnostic Question Answering System</a> (<a href="reports/final_summaries/summary192.html">summary</a>)</td><td>Yijie Sun, Zelin Li, Zhu Shen</td></tr>
+    <tr><td><a href="reports/final_reports/report193.pdf">Dataset Augmentation and Mixture-Of-Experts Working In Concert For Few-Shot Domain Adaptation Transfer Learning</a> (<a href="reports/final_summaries/summary193.html">summary</a>)</td><td>Leif Jurvetson, Rafael Xavier Esteves</td></tr>
+    <tr><td><a href="reports/final_reports/report194.pdf">Longer-term dependency learning using Transformers-XL on SQuAD 2.0</a> (<a href="reports/final_summaries/summary194.html">summary</a>)</td><td>Belinda Chufan Mo</td></tr>
+    <tr><td><a href="reports/final_reports/report195.pdf">BiDAF with Character and Subword Embeddings for SQuAD</a> (<a href="reports/final_summaries/summary195.html">summary</a>)</td><td>Yining Zhu</td></tr>
+    <tr><td><a href="reports/final_reports/report196.pdf">Improved QA systems for SQUAD 2.0</a> (<a href="reports/final_summaries/summary196.html">summary</a>)</td><td>Akshay Nalla, Chloe He, Pablo Gabriel Diaz-Hyland</td></tr>
+    <tr><td><a href="reports/final_reports/report197.pdf">Meta Learning on Topics as Tasks for Robust QA Performance</a> (<a href="reports/final_summaries/summary197.html">summary</a>)</td><td>Arafat Mohammed, Josh Nkoy</td></tr>
+    <tr><td><a href="reports/final_reports/report198.pdf">Building a QA System (IID SQuAD Track)</a> (<a href="reports/final_summaries/summary198.html">summary</a>)</td><td>Aniruddh Ramrakhyani</td></tr>
+    <tr><td><a href="reports/final_reports/report199.pdf">Building QA Robustness Through Data Augmentation</a> (<a href="reports/final_summaries/summary199.html">summary</a>)</td><td>Jake Ryan Chao, Ryan Phuoc-Luan Tran</td></tr>
+    <tr><td><a href="reports/final_reports/report200.pdf">The Efficient BiIDAF</a> (<a href="reports/final_summaries/summary200.html">summary</a>)</td><td>Srivardhamanan Appavoo</td></tr>
+    <tr><td><a href="reports/final_reports/report201.pdf">Embedding and Attending: Two Hearts that Beat as One</a> (<a href="reports/final_summaries/summary201.html">summary</a>)</td><td>Manuka Valentina Stratta, Raymond Yao</td></tr>
+    <tr><td><a href="reports/final_reports/report202.pdf">Investigating the effectiveness of Transformers and Performers on SQuAD 2.0</a> (<a href="reports/final_summaries/summary202.html">summary</a>)</td><td>Derek Chong</td></tr>
+    <tr><td><a href="reports/final_reports/report204.pdf">DA-Bert: Achieving Question-Answering Robustness via Data Augmentation</a> (<a href="reports/final_summaries/summary204.html">summary</a>)</td><td>Andre Maurice Turati, Jose Calinawan Francisco, Vineet V Edupuganti</td></tr>
+    <tr><td><a href="reports/final_reports/report206.pdf">Exploring the Architecture of QANet</a> (<a href="reports/final_summaries/summary206.html">summary</a>)</td><td>Joseph Christian Pagadora, Steve Gan</td></tr>
+    <tr><td><a href="reports/final_reports/report207.pdf">Question Answering with Co-attention and Transformer</a> (<a href="reports/final_summaries/summary207.html">summary</a>)</td><td>Xintong Yu, Xiran Shi</td></tr>
+    <tr><td><a href="reports/final_reports/report208.pdf">Meta-learning with few-shot models Analysis Final Project</a> (<a href="reports/final_summaries/summary208.html">summary</a>)</td><td>Andy Chow</td></tr>
+    <tr><td><a href="reports/final_reports/report209.pdf">Extending a BiDAF model with DCN for Question Answering</a> (<a href="reports/final_summaries/summary209.html">summary</a>)</td><td>Anooshree Lauren Sengupta, Hanna Yip, Michelle Xing</td></tr>
+    <tr><td><a href="reports/final_reports/report210.pdf">QANet for Question Answering on SQuAD2.0</a> (<a href="reports/final_summaries/summary210.html">summary</a>)</td><td>Remy Zawislak</td></tr>
+    <tr><td><a href="reports/final_reports/report211.pdf">Robust QA with Model Agnostic Meta Learning</a> (<a href="reports/final_summaries/summary211.html">summary</a>)</td><td>Raghav Ganesh Samavedam</td></tr>
+    <tr><td><a href="reports/final_reports/report212.pdf">Exploring Improvements to the SQuAD 2.0 BiDAF Model</a> (<a href="reports/final_summaries/summary212.html">summary</a>)</td><td>Aakanksha Saxena, Bihan Jiang, Lauren Yang</td></tr>
+    <tr><td><a href="reports/final_reports/report213.pdf">Domain-Adversarial Training For Robust Question-Answering</a> (<a href="reports/final_summaries/summary213.html">summary</a>)</td><td>Aditi Talati</td></tr>
+    <tr><td><a href="reports/final_reports/report214.pdf">Sesame Street Ensemble: A Mixture of DistiIBERT Experts</a> (<a href="reports/final_summaries/summary214.html">summary</a>)</td><td>Tyler Alan Consigny</td></tr>
+    <tr><td><a href="reports/final_reports/report215.pdf">QA System with QANet</a> (<a href="reports/final_summaries/summary215.html">summary</a>)</td><td>Mengman Nie, Yiwen Liu</td></tr>
+    <tr><td><a href="reports/final_reports/report216.pdf">Improving the Robustness of QA Systems through Data Augmentation and Mixture of Experts</a> (<a href="reports/final_summaries/summary216.html">summary</a>)</td><td>Mei Hao, Ruying Gao, Zhengqiu Lou</td></tr>
+    <tr><td><a href="reports/final_reports/report217.pdf">Towards a Robust Question Answering System through Domain-adaptive Pretraining and Data Augmentation</a> (<a href="reports/final_summaries/summary217.html">summary</a>)</td><td>Feng Chen</td></tr>
+    <tr><td><a href="reports/final_reports/report218.pdf">QA System Using Feature Engineering and Self-Attention (IID SQuAD track)</a> (<a href="reports/final_summaries/summary218.html">summary</a>)</td><td>Alex Maximilian Oseguera, Jay Saleh</td></tr>
+    <tr><td><a href="reports/final_reports/report219.pdf">Coattention, Dynamic Pointing Decoders & QANet for Question Answering</a> (<a href="reports/final_summaries/summary219.html">summary</a>)</td><td>Jeffrey Sun, Mehrad Mohammadi Khalesi Fard, Zhen Li</td></tr>
+    <tr><td><a href="reports/final_reports/report220.pdf">Default Final Project: RobustQA Track</a> (<a href="reports/final_summaries/summary220.html">summary</a>)</td><td>Rui Hu</td></tr>
+    <tr><td><a href="reports/final_reports/report221.pdf">Robust Question Answering Through Data Augmentation and TAPT</a> (<a href="reports/final_summaries/summary221.html">summary</a>)</td><td>Dunia Hakim</td></tr>
+    <tr><td><a href="reports/final_reports/report222.pdf">Transformer Exploration</a> (<a href="reports/final_summaries/summary222.html">summary</a>)</td><td>Aidan John Donohue, Blake Jefferson Brandon</td></tr>
+    <tr><td><a href="reports/final_reports/report223.pdf">Extended QA System on SQuAD 2.0</a> (<a href="reports/final_summaries/summary223.html">summary</a>)</td><td>Jialin Zhu, Lingyan Hao, Yi Wei</td></tr>
+    <tr><td><a href="reports/final_reports/report224.pdf">Character Embedding and Self Attention Mechanism with SQuAD</a> (<a href="reports/final_summaries/summary224.html">summary</a>)</td><td>Tsun-Han Huang, WEI HSU CHAO</td></tr>
+    <tr><td><a href="reports/final_reports/report225.pdf">Domain Adaptive Adversarial Feature Disentanglement for Neural Question Answering</a> (<a href="reports/final_summaries/summary225.html">summary</a>)</td><td>Yichen Li,, Wei Ren, Xuran Wang</td></tr>
+    <tr><td><a href="reports/final_reports/report226.pdf">Data Augmentation for Robust QA System</a> (<a href="reports/final_summaries/summary226.html">summary</a>)</td><td>Pengfei Xing</td></tr>
+    <tr><td><a href="reports/final_reports/report227.pdf">Improving the Performance of Previous QA Models</a> (<a href="reports/final_summaries/summary227.html">summary</a>)</td><td>Cheng-Min Chiang, Yen-Yu Chang</td></tr>
+    <tr><td><a href="reports/final_reports/report228.pdf">Building a QA System using R-net</a> (<a href="reports/final_summaries/summary228.html">summary</a>)</td><td>Tianyi Liu</td></tr>
+    <tr><td><a href="reports/final_reports/report229.pdf">Robust QA System with Task-Adaptive Pretraining, Data Augmentation, and Hyperparameter Tuning</a> (<a href="reports/final_summaries/summary229.html">summary</a>)</td><td>Emily You, Kun Qian, Xingzi Xu</td></tr>
+    <tr><td><a href="reports/final_reports/report230.pdf">RobustQA: Adversarial Training with Hyperparameter Tuning</a> (<a href="reports/final_summaries/summary230.html">summary</a>)</td><td>Virat Saurabh Singh</td></tr>
+    <tr><td><a href="reports/final_reports/report231.pdf">Multi-Task Learning and Domain-Specific Models to Improve Robustness of QA System</a> (<a href="reports/final_summaries/summary231.html">summary</a>)</td><td>Anmol Gupta, Meredith Xu</td></tr>
+    <tr><td><a href="reports/final_reports/report232.pdf">Building a QA system (IID SQuAD track)</a> (<a href="reports/final_summaries/summary232.html">summary</a>)</td><td>Naoufal Layad, Youssef aitousarrah</td></tr>
+    <tr><td><a href="reports/final_reports/report233.pdf">Robust QA with Task-Adaptive Pretraining</a> (<a href="reports/final_summaries/summary233.html">summary</a>)</td><td>Jeong O Jeong</td></tr>
+    <tr><td><a href="reports/final_reports/report234.pdf">Mixture of Experts and Back-Translation to improve QA robustness</a> (<a href="reports/final_summaries/summary234.html">summary</a>)</td><td>Gokul Dharan, Hoang Ngoc Vy Thai</td></tr>
+    <tr><td><a href="reports/final_reports/report235.pdf">A Dynamic Chunk Reader with Character Level Embeddings for Question Answering</a> (<a href="reports/final_summaries/summary235.html">summary</a>)</td><td>Timothy Leo Wu</td></tr>
+    <tr><td><a href="reports/final_reports/report236.pdf">Robust QA System with xEDA: Final Report</a> (<a href="reports/final_summaries/summary236.html">summary</a>)</td><td>Alexander William Donovan, Kazuki Mogi</td></tr>
+    <tr><td><a href="reports/final_reports/report237.pdf">Robust QA on out of domain dataset over pretraining and fine tuning</a> (<a href="reports/final_summaries/summary237.html">summary</a>)</td><td>Yueheng Li</td></tr>
+    <tr><td><a href="reports/final_reports/report238.pdf">Recurrence, Transformers, and Beam Search - Oh My!</a> (<a href="reports/final_summaries/summary238.html">summary</a>)</td><td>Callan Alden Hoskins, Griffin Crosby Young</td></tr>
+    <tr><td><a href="reports/final_reports/report239.pdf">BiDAF with Explicit Token Linguistic Features</a> (<a href="reports/final_summaries/summary239.html">summary</a>)</td><td>Sifan Ye</td></tr>
+    <tr><td><a href="reports/final_reports/report240.pdf">Building a QA system (IID SQuAD track)</a> (<a href="reports/final_summaries/summary240.html">summary</a>)</td><td>Han Zhang, Fenglu Hong</td></tr>
+    <tr><td><a href="reports/final_reports/report241.pdf">SQuAD 2.0 with BiDAF++ and QANet</a> (<a href="reports/final_summaries/summary241.html">summary</a>)</td><td>Xiaoteng Lu, Yiwen Jin</td></tr>
+    <tr><td><a href="reports/final_reports/report242.pdf">Meta Learning with Data Augmentation for Robust Out-of-domain Question Answering</a> (<a href="reports/final_summaries/summary242.html">summary</a>)</td><td>Ken Wang, Lisen Deng</td></tr>
+    <tr><td><a href="reports/final_reports/report243.pdf">BiDAF with Self-Attention for SQUAD 2.0</a> (<a href="reports/final_summaries/summary243.html">summary</a>)</td><td>Michelle Huang</td></tr>
+    <tr><td><a href="reports/final_reports/report244.pdf">Better Learning with Lesser Data: Meta-Learning with DistiIBERT</a> (<a href="reports/final_summaries/summary244.html">summary</a>)</td><td>Cheuk Hei Yuen, Linxing Yao, Simeng Qu</td></tr>
+    <tr><td><a href="reports/final_reports/report245.pdf">Answer Pointer Inspired BiDAF And QANet For Machine Comprehension</a> (<a href="reports/final_summaries/summary245.html">summary</a>)</td><td>Bingxian Chen, Fang Qin, Weiyun Jiang</td></tr>
+    <tr><td><a href="reports/final_reports/report246.pdf">Robust Question Answering: Adversarial Learning</a> (<a href="reports/final_summaries/summary246.html">summary</a>)</td><td>Mohak Goyal, Prathyusha Burugupalli, Veer Siraj Shah</td></tr>
+    <tr><td><a href="reports/final_reports/report247.pdf">Importance Weighting for Robust QA</a> (<a href="reports/final_summaries/summary247.html">summary</a>)</td><td>Elinor Brondwine</td></tr>
+    <tr><td><a href="reports/final_reports/report248.pdf">Question-Answering with QANet for SQUAD 2.0</a> (<a href="reports/final_summaries/summary248.html">summary</a>)</td><td>Luke Daniel Miller, Martin Luke Altenburg, Swathi Vish Iyer</td></tr>
+    <tr><td><a href="reports/final_reports/report249.pdf">Combining QANet and Retro-Reader Models</a> (<a href="reports/final_summaries/summary249.html">summary</a>)</td><td>Atem John Aguer, Isaac Kipchirchir Cheruiyot, Michael Cao</td></tr>
+    <tr><td><a href="reports/final_reports/report250.pdf">QaN I have Your Attention? Exploring Attention in Question-Answering Model Architectures</a> (<a href="reports/final_summaries/summary250.html">summary</a>)</td><td>Paula Anindita Pragati</td></tr>
+    <tr><td><a href="reports/final_reports/report251.pdf">Robust Question Answering via In-domain Adversarial Training and Out-domain Data Augmentation</a> (<a href="reports/final_summaries/summary251.html">summary</a>)</td><td>Kun Guo, Yiyun Gu, Zecheng Zhang</td></tr>
+    <tr><td><a href="reports/final_reports/report252.pdf">Comparing Model Size and Attention Layer Design Impact on Question-Answer Tasks</a> (<a href="reports/final_summaries/summary252.html">summary</a>)</td><td>Roshini Ravi, Sean William Konz</td></tr>
+    <tr><td><a href="reports/final_reports/report253.pdf">Pretraining of Transformers on Question Answering without External Data</a> (<a href="reports/final_summaries/summary253.html">summary</a>)</td><td>Jeffrey David Shen</td></tr>
+    <tr><td><a href="reports/final_reports/report254.pdf">Data Augmentation: Can BERT Do The Work For You?</a> (<a href="reports/final_summaries/summary254.html">summary</a>)</td><td>Hidy Han</td></tr>
+    <tr><td><a href="reports/final_reports/report255.pdf">RobustQA Using Data Augmentation</a> (<a href="reports/final_summaries/summary255.html">summary</a>)</td><td>Rebecca Pattichis</td></tr>
+    <tr><td><a href="reports/final_reports/report256.pdf">More Explorations with Adversarial Training in Building Robust QA System</a> (<a href="reports/final_summaries/summary256.html">summary</a>)</td><td>Xiyu Wang</td></tr>
+    <tr><td><a href="reports/final_reports/report258.pdf">Probability-Mixing: Semi-Supervised Learning in Question-Answering with Data Augmentation</a> (<a href="reports/final_summaries/summary258.html">summary</a>)</td><td>Dian Huang</td></tr>
+    <tr><td><a href="reports/final_reports/report260.pdf">The Unanswerable Gap: An Exploration of Approaches for Question Answering on SQuAD 2.0</a> (<a href="reports/final_summaries/summary260.html">summary</a>)</td><td>Eghosa Omorinola Amadin, Ruth-Ann Hazel Armstrong</td></tr>
+    <tr><td><a href="reports/final_reports/report261.pdf">Self-attention and convolution for question answering on SQuAD 2.0: revisiting QANet</a> (<a href="reports/final_summaries/summary261.html">summary</a>)</td><td>Joachim Andre Sasson, Oualid El Hajouji</td></tr>
+    <tr><td><a href="reports/final_reports/report262.pdf">Exploration of Attention and Transformers for Question and Answering</a> (<a href="reports/final_summaries/summary262.html">summary</a>)</td><td>Sing Kwan Ng</td></tr>
+    <tr><td><a href="reports/final_reports/report263.pdf">Building a Robust QA System</a> (<a href="reports/final_summaries/summary263.html">summary</a>)</td><td>Ximing Wang</td></tr>
+    <tr><td><a href="reports/final_reports/report264.pdf">Attention-aware attention (A^3): combining coattention and self-attention for question answering</a> (<a href="reports/final_summaries/summary264.html">summary</a>)</td><td>Alban Axel Zammit, Pierre Joseph Marcel Chambon</td></tr>
+    <tr><td><a href="reports/final_reports/report265.pdf">Improve DistilIBERT-based Question Answering model performance on out-of-domain datasets by Mixing Right Experts</a> (<a href="reports/final_summaries/summary265.html">summary</a>)</td><td>Kaikai Sheng</td></tr>
+    <tr><td><a href="reports/final_reports/report266.pdf">Improved Robustness in Question-Answering via Multiple Techniques</a> (<a href="reports/final_summaries/summary266.html">summary</a>)</td><td>Coco Ding, Jiankai Xiao</td></tr>
+    <tr><td><a href="reports/final_reports/report267.pdf">QANet on SQUAD 2.0</a> (<a href="reports/final_summaries/summary267.html">summary</a>)</td><td>Siyuan Yuan</td></tr>
+    <tr><td><a href="reports/final_reports/report268.pdf">Multi-Phase Adaptive Pretraining on DistilBERT for Compact Domain Adaptation</a> (<a href="reports/final_summaries/summary268.html">summary</a>)</td><td>Anthony Acosta Perez</td></tr>
+    <tr><td><a href="reports/final_reports/report269.pdf">QANet+: Improving QANet for Question Answering</a> (<a href="reports/final_summaries/summary269.html">summary</a>)</td><td>Christopher Frederic Wolff, Moo Jin Kim</td></tr>
+    <tr><td><a href="reports/final_reports/report270.pdf">Robust Question Answering System</a> (<a href="reports/final_summaries/summary270.html">summary</a>)</td><td>Helena Huang</td></tr>
+    <tr><td><a href="reports/final_reports/report271.pdf">Augmenting BiDAF with Per-Token Features</a> (<a href="reports/final_summaries/summary271.html">summary</a>)</td><td>Viet Nguyen</td></tr>
+    <tr><td><a href="reports/final_reports/report272.pdf">Improving Robustness of Question-Answering System Using Domain-adaptive Pretraining, Adversarial Training, Data Augmentation and Finetuning</a> (<a href="reports/final_summaries/summary272.html">summary</a>)</td><td>Ju Zhang, Zhengzhi Lou</td></tr>
+
+  </table>
+</div>
+
+<!-- jQuery and Boostrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

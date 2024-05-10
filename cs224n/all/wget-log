@@ -1,0 +1,20 @@
+--2024-05-10 10:47:50--  http://library.stanford.edu/sfx?genre=book
+Resolving library.stanford.edu (library.stanford.edu)... 76.76.21.21
+Connecting to library.stanford.edu (library.stanford.edu)|76.76.21.21|:80... connected.
+HTTP request sent, awaiting response... 308 Permanent Redirect
+Location: https://library.stanford.edu/sfx?genre=book [following]
+--2024-05-10 10:47:50--  https://library.stanford.edu/sfx?genre=book
+Connecting to library.stanford.edu (library.stanford.edu)|76.76.21.21|:443... connected.
+HTTP request sent, awaiting response... 308 Permanent Redirect
+Location: https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford?genre=book [following]
+--2024-05-10 10:47:51--  https://sfx-01stanford.hosted.exlibrisgroup.com/01stanford?genre=book
+Resolving sfx-01stanford.hosted.exlibrisgroup.com (sfx-01stanford.hosted.exlibrisgroup.com)... 66.151.7.136
+Connecting to sfx-01stanford.hosted.exlibrisgroup.com (sfx-01stanford.hosted.exlibrisgroup.com)|66.151.7.136|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘sfx?genre=book’
+
+sfx?genre=book                                             [<=>                                                                                                                        ]       0  --.-KB/s               sfx?genre=book                                             [ <=>                                                                                                                       ]  22.45K  --.-KB/s    in 0.05s   
+
+2024-05-10 10:47:52 (462 KB/s) - ‘sfx?genre=book’ saved [22991]
+

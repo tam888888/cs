@@ -1,0 +1,201 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.73 [en] (Win98; U) [Netscape]">
+   <title>CS 224N / Ling 237 -- Natural Language Processing</title>
+</head>
+<body bgcolor="#FFFFFF">
+&nbsp;
+<table WIDTH="100%" >
+<tr>
+<td><img SRC="images/stanford.seal64.gif" ALT="STANFORD" ></td>
+
+<td WIDTH="100%"><font size=+2>CS 224N -- Ling 237</font>
+<br><font size=+2>Natural Language Processing&nbsp;</font>
+<br><font size=+2>Spring 2002</font></td>
+</tr>
+</table>
+
+<hr><!--
+<TABLE bgColor=#990000 border=0 cellPadding=3 cellSpacing=0 width="100%">
+  <TR>
+    <TD><B><FONT color=#ffffff size=+1>Announcements</FONT></B> </TD>
+    <TD align=right><FONT color=#ffffff size=+1><B>(updated 
+      3/30/2001)</FONT></B> </TD></TR>
+</TABLE>
+-->
+<table BORDER=0 CELLPADDING=3 WIDTH="100%" BGCOLOR="#990000" >
+<tr>
+<td><b><font color="#FFFFFF"><font size=+1>Course Information</font></font></b></td>
+</tr>
+</table>
+
+<p><em><b>Lecture:</b> 4/3 units, MW 12:50-2:05 <a
+href="http://www.stanford.edu/home/map/search_map.cgi?keyword=Gates"><span
+style='font-style:normal'>Gates B12</span></a> <!-- <A
+href="http://www-pcd.stanford.edu/cgi-bin/map/map.html?160">160-161J</A>
+--></em><br>
+   <em><b>Section:</b> 0 units, W 5:00-6:00 <a
+href="http://www.stanford.edu/home/map/search_map.cgi?keyword=380"><span
+style='font-style:normal'>380-380Y</span></a> </em></p>
+
+<h3>
+Announcements</h3>
+
+<u1>
+<li>
+<p>The final project deadline has been extended to <b>Wednesday, June 5</b>. However, because
+of time constraints for getting your final grades submitted, we are requiring that no more than
+5 late days can be used on the final project. This means that the absolute final deadline is
+<b>Monday, June 10</b>. To calculate the late days available for your group, take (the integer lower bound of) 
+the mean number of late days for the people in your group. That is, if you have 2 people in your group,
+and one person has 4 late days left, and the other person has 1 late day left, then you may use
+2 late days for your final project.
+</p>
+
+<li>
+<p>The data and the eval.pl script that were used for the checkpoint can be found at 
+/afs/ir/class/cs224n/wsdp/bin/check_cases. If you received a message about "too many lines
+in STDIN" or "not enough lines in STDIN", then your script is making an error, and you should fix it
+before the final project deadline. Most likely, if you receive "not enough lines in STDIN", you are assuming that there is an extra
+line at the top of the .test files -- this may be because you are using InstanceSet directly with the
+test files, even though it is designed to handle training files, which have this extra line
+at the top. Before you submit your final project, please test it using this eval.pl script to 
+ensure that you have not made any such errors.
+</p>
+
+ 
+
+<li>
+<p>Some of you have been asking about a Java interface to WordNet. I have installed JWordNet in the class directory, at 
+/afs/ir/class/cs224n/bin/JWordnet. There are some example programs in the directory. To run them, you must first set the
+WNHOME environment variable (setenv WNHOME /afs/ir/data/linguistic-data/lib/wordnet-1.7). When you run the program,
+you must explicitly give environment variable. To run the "hyponym" program, for example, type (from the JWordNet directory) 
+"java -DWNHOME=$WNHOME hyponym dog". This will give you all of the hyponyms for the word dog.
+</p>
+
+
+<li>
+<p>The first homework assignment is due at 5pm on Monday, April 16. 
+If you do not hand in the assignment in class, you should give it to Chris Manning (Gates 418)
+or Sara Weden (Gates 419). If neither of them are in their offices, please write the time
+that you submitted it on top of the assignment and slide it under Professor Manning's door.</p>
+
+<li>
+<p>The section will be held on Wednesdays from 5-6pm. The location will be determined soon
+and posted here early next week. Our apologies to the few people who are not available at this time.
+We chose the time with the fewest conflicts, but unfortunately, we could not accommodate everyone's schedule.
+If you are unable to attend section, please feel free to make use of TA office hours to catch up on material 
+covered in section.</p>
+
+<li>
+<p>The section will be held in building <a
+href="http://www.stanford.edu/home/map/search_map.cgi?keyword=380"><span
+style='font-style:normal'>380</span></a>, room 380Y.</p>
+
+<br>&nbsp;
+&nbsp;</ul>
+
+
+<h3>
+Useful Information and Handouts</h3>
+
+<ul>
+<li>
+<a href="handouts/cs224n-2001-01-course-info.html">Course Information</a></li>
+
+<li>
+<a href="handouts/cs224n-2002-02-syllabus.html">Syllabus &amp;
+Assignment Due Dates</a></li>
+
+<li>
+<a href="handouts/cs224n-2001-03-handouts.html">Handouts, Problem Sets,
+Solutions, Links</a></li>
+
+<li>
+<a href="handouts/cs224n-2002-stats.html">Statistics for Problem Sets, Programming 
+Assignments</a></li>
+
+<li>
+<a href="handouts/cs224n-2002-faqs.html">Frequently Asked Questions</a></li>
+
+<br>&nbsp;
+&nbsp;</ul>
+
+<h3>
+Course Description</h3>
+This course is designed to introduce students to the fundamental concepts
+and ideas in natural language processing (NLP), and to get them up to speed
+with current research in the area. It develops an in-depth understanding
+of both the algorithms available for the processing of linguistic information
+and the underlying computational properties of natural languages. Word-level,
+syntactic, and semantic processing from both a linguistic and an algorithmic
+perspective are considered. The focus is on modern quantitative techniques
+in NLP: using large corpora, statistical models for acquisition, disambiguation,
+and parsing. Also, it examines and constructs representative systems.
+<h3>
+Prerequisites</h3>
+
+<ul>
+<li>
+Adequate experience with programming and formal structures (e.g., CS106
+and CS103X).</li>
+
+<li>
+Programming projects will be written in Java, so knowledge of Java (or a willingness
+to learn on your own) is required.</li>
+
+<li>
+Knowledge of standard concepts in artificial intelligence and/or computational
+linguistics (e.g., CS121/221 or Ling 138/238).</li>
+
+<li>
+Basic familiarity with logic, vector spaces, and probability.</li>
+</ul>
+
+<h3>
+Intended Audience</h3>
+Graduate students and advanced undergraduates specializing in computer
+science, linguistics, or symbolic systems.
+<h3>
+Section</h3>
+Sections will be held most weeks to go over background material, or to
+work through problems of the sort found in written and programming assignments.
+Students are strongly encouraged to attend sections for a better understanding
+of background material and the assignments.
+<p>
+<table BORDER=0 CELLPADDING=3 WIDTH="100%" BGCOLOR="#990000" >
+<tr>
+<td><b><font color="#FFFFFF"><font size=+1>Required Materials</font></font></b></td>
+</tr>
+</table>
+
+<h3>
+Textbook and Readings</h3>
+The required text is
+<ul>
+<li>
+Christopher Manning and Hinrich Sch&uuml;tze,&nbsp;<italic>Foundations
+of Statistical Natural Language Processing.</italic> MIT Press, 1999. ($60
+in the bookstore.)</li>
+</ul>
+Please see <a href="http://nlp.stanford.edu/fsnlp/">http://nlp.stanford.edu/fsnlp/</a>
+for supplementary information about the text, including errata, and pointers
+to online resources.
+<p>As an additional optional text, you will also find in the bookstore
+<ul>
+<li>
+Jurafsky and Martin,&nbsp;<italic>Speech and Language Processing.</italic>
+Prentice Hall 2000. ($61.) It gives a broad coverage of all areas of speech
+and language processing.</li>
+</ul>
+Additional papers will occaisionally be distributed and discussed during
+the course of the class.
+<p>Copies of in-class hand-outs, such as homework assignments and problem
+set solutions, will be posted <a href="handouts/cs224n-2001-03-handouts.html">here</a>, and 
+hard
+copies will also be available in the "handout hangout" in Gates 1B while
+supplies last.
+</body>
+</html>

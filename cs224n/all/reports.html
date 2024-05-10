@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS224n: Natural Language Processing with Deep Learning</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css's>
+
+  <!-- Google Analytics -->
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60458624-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<div id="header">
+  <a href="http://nlp.stanford.edu/">
+    <img src="http://nlp.stanford.edu/sentiment/images/nlp-logo.gif" style="height:50px; float: left; margin-left: 20px;">
+  </a>
+  <a href="index.html">
+  <h1>CS224n: Natural Language Processing with Deep Learning</h1>
+  </a>
+  <div style="clear:both;"></div>
+</div>
+
+
+
+<div class="sechighlight">
+<div class="container sec">
+  <h1>Course Project Reports for 2018</h1>
+</div>
+</div>
+
+<div class="container sec">
+<p>
+  There were two options for the course project. Students either chose their own topic ("Custom Project"), or took part in a competition to build Question Answering models for the <a href=https://rajpurkar.github.io/SQuAD-explorer/>SQuAD</a> challenge ("Default Project"). You can see the in-class SQuAD challenge leaderboard <a href="http://cs224n-win18-leaderboard.westus.cloudapp.azure.com/test">here</a>.
+</p>
+
+<h3>Prize Winners</h3>
+  Congratulations to our prize winners for having exceptional class projects!<br>
+
+<h4>Prizes Round 1 (based on the poster session)</h4>
+Custom Projects
+<ol>
+    <li><a href="reports/998.pdf">Attention, I'm Trying to Speak: Speech Synthesis</a> by Akash Mahajan</li>
+    <li><a href="reports/6856059.pdf">Attention On Attention: Architectures for Visual Question Answering (VQA)</a> by Jasdeep Singh and Vincent Ying</li>
+    <li><a href="reports/997.pdf">Word2Bits - Quantized Word Vectors</a> by Maximilian Lam</li>
+</ol>
+
+Default Projects
+<ol>
+    <li><a href="reports/6878267.pdf">Question Answering On SQuAD Dataset</a> by Junjie Dong, Zihuan Diao, and Jiaxing Geng</li>
+    <li><a href="reports/6908723.pdf">Adversarial SQuAD</a> by Amita Kamath and Akhila Yerukola</li>
+    <li><a href="reports/6880078.pdf">Machine Comprehension Using Bidirectional Attention</a> by Amirhossein Kiani, Behrooz Ghorbani</li>
+</ol>
+
+
+Audience Selection Prize
+<ol>
+    <li><a href="reports/6835575.pdf">Exploring and Mitigating Gender Bias in GloVe Word Embeddings</a> by Francesca Vera</li>
+</ol>
+
+<h4>Prizes Round 2 (based on the reports)</h4>
+Custom Projects
+<ol>
+    <li><a href="reports/6907893.pdf">Yup’ik Eskimo and Machine Translation of Low-Resource Polysynthetic Languages</a> by Christopher Liu and Laura Domine</li>
+    <li>Pragmatic Training for Reference Games by Bill McDowell</li>
+    <li><a href="reports/6881946.pdf">Representing Words with Only Subword Information</a> by Alexia Wenxin Xu </li>
+</ol>
+
+Default Projects
+<ol>
+    <li><a href="reports/6908250.pdf">Iterative reasoning with bi-directional attention ﬂow for machine comprehension</a> by Anand Dhoot and Anchit Gupta</li>
+    <li><a href="reports/6907011.pdf">Diverse Ensembling for Question Answering</a> by Ben Cohen-Wang and Edward Lee</li>
+    <li><a href="reports/6880391.pdf">Question Answering On SQuAD</a> by Cagan Alkan and Beliz Gunel</li>
+</ol>
+</div>
+
+<div class="container sec">
+<h3>Custom Projects</h3>
+<table class="table">
+  <tr class="active">
+    <th>Project Name</th><th>Authors</th>
+  </tr>
+  <tr><td><a href="reports/6909280.pdf">Visual Question Answering</a></td><td>Stefanie Anna Baby, Ashwini Pokle</td></tr>
+  <tr><td><a href="reports/6838118.pdf">Pointer-Generator Network Summarization On TextRank-Preprocessed Documents</a></td><td>Long Viet Tran</td></tr>
+  <tr><td><a href="reports/6839297.pdf">Automatic Lyrics-Based Music Genre Classiﬁcation</a></td><td>Zhao Kezhen, Ruoxi Zhang, Peiling Lu</td></tr>
+  <tr><td><a href="reports/6896582.pdf">Exploring neural architectures for NER</a></td><td>Vincent Billaut, marcthib@stanford.edu</td></tr>
+  <tr><td><a href="reports/6838669.pdf">Neural Abstractive Summarization On Gigaword</a></td><td>Chenduo Huang, Matthew Donghyun Kim</td></tr>
+  <tr><td><a href="reports/6838795.pdf">Deep Learning Approaches to Classifying Types of Toxicity in Wikipedia Comments</a></td><td>Howard Small, Ashe Marie Magalhaes</td></tr>
+  <tr><td><a href="reports/6909170.pdf">Exploring Deep Learning in Combating Internet Toxicity</a></td><td>Sushan Bhattarai</td></tr>
+  <tr><td><a href="reports/6904815.pdf">Playlist Title Generation Using Sequence to Sequence</a></td><td>Sofia Samaniego De La Fuente</td></tr>
+  <tr><td><a href="reports/6879557.pdf">Detecting Depression Through Tweets</a></td><td>Aileen Wang, Diveesh Singh</td></tr>
+  <tr><td><a href="reports/6839354.pdf">Predicting Myers-Briggs Type Indicator With Text</a></td><td>Ian Knight</td></tr>
+  <tr><td><a href="reports/6909159.pdf">Dank Learning: Generating Memes Using Deep Neural Networks</a></td><td>Lawrence Peirson, Emine Meltem Tolunay</td></tr>
+  <tr><td><a href="reports/6906148.pdf">Language Modeling with Generative Adversarial Networks</a></td><td>Mehrad Moradshahi, Utkarsh Contractor</td></tr>
+  <tr><td><a href="reports/6834909.pdf">Toxic Comment Categorization using Bidirectional LSTMs with Attention</a></td><td>Anthony Ho, Michael Anthony Baumer</td></tr>
+  <tr><td><a href="reports/6909194.pdf">Movie Recommedation System Enhanced by Natural Language Processing</a></td><td>Jiaxi Chen, Ziran Zhang</td></tr>
+  <tr><td><a href="reports/6880837.pdf">Predicting Company Ratings through Glassdoor Reviews</a></td><td>Fabian Frederik Frank, Tyler Whittle</td></tr>
+  <tr><td><a href="reports/6878681.pdf">State-of-the-art abstractive summarization</a></td><td>Stelios Serghiou, Apurva Pancholi, Peter Li</td></tr>
+  <tr><td><a href="reports/6880237.pdf">Learning a New(s) Model: An exploration of LSTM classiﬁcation and Language Modeling of News Articles</a></td><td>Luladay Price, Stephone Christian</td></tr>
+  <tr><td><a href="reports/6908905.pdf">When Glove meets GAN: Adversarial Language Generation Using Dense Vector Embeddings</a></td><td>Junkyo Suh, Edwin Yuan, Manish Pandey</td></tr>
+  <tr><td><a href="reports/6856482.pdf">Paying attention to toxic comments online</a></td><td>Emily Ellis Kuehler, Manav Kohli, John Palowitch</td></tr>
+  <tr><td><a href="reports/6834331.pdf">Cache Attention for Recurrent Language Modeling</a></td><td>Colin Gaffney</td></tr>
+  <tr><td><a href="reports/6916528.pdf">Training Dialog Agents to Negotiate</a></td><td>Kerem Goksel</td></tr>
+  <tr><td><a href="reports/6838544.pdf">Predicting the Side Effects of Drugs</a></td><td>Camilo Ruiz</td></tr>
+  <tr><td><a href="reports/6907848.pdf">Never Stop Learning</a></td><td>Lawrence Stratton</td></tr>
+  <tr><td><a href="reports/6909201.pdf">Stacked Attention for Visual Question Answering</a></td><td>Bingbin Liu, Weini Yu</td></tr>
+  <tr><td><a href="reports/6880213.pdf">Are you sure of your answer? Think again.</a></td><td>Lakshmi Manoharan, Arjun Parthipan</td></tr>
+  <tr><td><a href="reports/6908582.pdf">End-to-End Task-Oriented Dialogue Agents</a></td><td>Derek Chen</td></tr>
+  <tr><td><a href="reports/6880227.pdf">Neural Models for Email Response Prediction</a></td><td>Tucker James Leavitt</td></tr>
+  <tr><td><a href="reports/6837517.pdf">CS224N: Detecting and Classifying Toxic Comments</a></td><td>Kevin Dara Khieu, Neha Narwal</td></tr>
+  <tr><td><a href="reports/6909349.pdf">Conditional MaskGAN and evaluation via classification</a></td><td>Hanoz Bhathena, Renke Cai</td></tr>
+  <tr><td><a href="reports/6858026.pdf">Shakespeare and Satoshi - De-anonymizing Writing Using BiLSTMs with Attention</a></td><td>Varun Ramesh, Jean-Luc Watson</td></tr>
+  <tr><td><a href="reports/6861359.pdf">Deep Neural Networks for Added Emphasis</a></td><td>Jon Kotker, Niraj Jayant</td></tr>
+  <tr><td><a href="reports/6909353.pdf">Def2Vec: Learning Word Vectors from Deﬁnitions</a></td><td>Tony Duan, Andrey Kurenkov</td></tr>
+  <tr><td><a href="reports/6909240.pdf">Classy Classiﬁcation: Classifying and Generating Expert Wine Review</a></td><td>Frederick William Lawrence Robson, Loren Karl Amdahl-Culleton</td></tr>
+  <tr><td><a href="reports/6909257.pdf">Colors in Context: An Implementation</a></td><td>Alec Joseph Brickner</td></tr>
+  <tr><td><a href="reports/6857623.pdf">Using General Adversarial Networks for Marketing: A Case Study of Airbnb</a></td><td>John Kamalu, Richard Diehl Martinez</td></tr>
+  <tr><td><a href="reports/6880081.pdf">IMAGAN: Learning Images from Captions</a></td><td>Samir Sen, Trevor Tsue, Karan Singhal</td></tr>
+  <tr><td><a href="reports/6908288.pdf">ERASeD: Exposing Racism And Sexism using Deep Learning</a></td><td>Jayadev Bhaskaran, Suvadip Paul</td></tr>
+  <tr><td><a href="reports/6870500.pdf">Generalizing word vectors in a multi model approach</a></td><td>Kareem Hegazy</td></tr>
+  <tr><td><a href="reports/6846198.pdf">Predicting Gender of Poets with Deep Learning Methods</a></td><td>Samuel Mignot</td></tr>
+  <tr><td><a href="reports/6838601.pdf">Toxic Comment detection with bi-directional LSTM</a></td><td>Xiaoyan Wu</td></tr>
+  <tr><td><a href="reports/6879446.pdf">Predicting and Generating Discussion Inspiring Comments</a></td><td>Yunhe Wang, Junwon Park</td></tr>
+  <tr><td><a href="reports/6866023.pdf">Solving Math Word Problems</a></td><td>Ryan Anthony Wong</td></tr>
+  <tr><td><a href="reports/6899271.pdf">Improving the Neural Dependency Parser</a></td><td>Chuanbo Pan, Jeffrey Barratt, Shane Barratt</td></tr>
+  <tr><td><a href="reports/6880085.pdf">Natural Language Guided Reinforcement Learning for Playing Snake in Arbitrary Dimensions</a></td><td>Alexander Seutin</td></tr>
+  <tr><td><a href="reports/6838098.pdf">Predicting Funny Yelp Reviews</a></td><td>Christina Ashley Pan, John Martin Poothokaran</td></tr>
+  <tr><td><a href="reports/6907018.pdf">Generating SQL queries from natural language</a></td><td>Ikshu Bhalla, Archit Gupta</td></tr>
+  <tr><td><a href="reports/6838634.pdf">Context is Everything: Finding Meaning Statistically in Semantic Spaces</a></td><td>Eric Zelikman</td></tr>
+  <tr><td><a href="reports/6838502.pdf">Unsupervised Domain Adaptation for Sentiment Classiﬁcation using Pseudo-Labels</a></td><td>Ruishan Liu, Liyue Shen</td></tr>
+  <tr><td><a href="reports/6869979.pdf">Predicting Entailment through Neural Attention and Binary Parsing</a></td><td>Natalie Ng, Matthew Jay Katzman, Christina Montefalcon Ramsey</td></tr>
+  <tr><td><a href="reports/6851458.pdf">Dialogue Generation using Reinforcement Learning and Neural Language Models</a></td><td>Carson K Lam, Marcella Cindy Prasetio</td></tr>
+</table>
+</div>
+
+<div class="container sec">
+<h3>Default Projects</h3>
+<table class="table">
+  <tr class="active">
+    <th>Project Name</th><th>Authors</th>
+  </tr>
+  <tr><td><a href="reports/6879600.pdf">Step by Step approach to build a model for SQuAD</a></td><td>Anjan Dwaraknath</td></tr>
+  <tr><td><a href="reports/6909065.pdf">Answering Questions with CharCNN and Bi-directional Attention Flow</a></td><td>Connie Xiao, Cindy Ding Jiang</td></tr>
+  <tr><td><a href="reports/6908933.pdf">Question Answering System with Deep Learning</a></td><td>Jake Spracher, Takahiro Fushimi, Robert M Schoenhals</td></tr>
+  <tr><td><a href="reports/6878771.pdf">Character CNN and Self—Attention for SQuAD</a></td><td>Jianqing Yang</td></tr>
+  <tr><td><a href="reports/6887262.pdf">Recurrent Neural Networks with Attention for Question Answering</a></td><td>Ben Hannel</td></tr>
+  <tr><td><a href="reports/6908232.pdf">BiDAF-inspired Preferential Multi-perspective Matching for Question Answering Task</a></td><td>Yuxing Chen, Kexin Yu</td></tr>
+  <tr><td><a href="reports/6899276.pdf">Reading Comprehension with SQuAD Dataset</a></td><td>Wei Kang</td></tr>
+  <tr><td><a href="reports/6837546.pdf">Improved Question Answering On the SQuAD Dataset Using Attention Mechanisms</a></td><td>Kelly Shen</td></tr>
+  <tr><td><a href="reports/6879058.pdf">Attention Mechanism in Machine Comprehension</a></td><td>Yingnan Xiao</td></tr>
+  <tr><td><a href="reports/6889787.pdf">Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System</a></td><td>Heguang Liu</td></tr>
+  <tr><td><a href="reports/6856268.pdf">Attention-Based Neural Network For Question Answering</a></td><td>Zhengyang Tang, Songze Li</td></tr>
+  <tr><td><a href="reports/6908776.pdf">Evaluating Different Techniques On SQuAD</a></td><td>Xinyu Xu, Zhangyuan Wang</td></tr>
+  <tr><td><a href="reports/6909330.pdf">R-NET with BiDAF for Reading Comprehension</a></td><td>Jingwei Ji, Zibo Gong</td></tr>
+  <tr><td><a href="reports/6880358.pdf">Bidirectional attention ﬂow for Question Answering</a></td><td>Ana-Maria Istrate</td></tr>
+  <tr><td><a href="reports/6837893.pdf">The Quest for High-Performance Question Answering Neural Net Models</a></td><td>Lauren Blake</td></tr>
+  <tr><td><a href="reports/6873230.pdf">A Comparison of RNN and Transformer—based Question Answering Systems</a></td><td>Adam Jensen, Diana Moncoqut</td></tr>
+  <tr><td><a href="reports/6894581.pdf">Ensemble Leaning for Stanford Question Answering Challenge</a></td><td>Yuzhou Liu</td></tr>
+  <tr><td><a href="reports/6897645.pdf">R—NET based Neural Network for Machine Reading Comprehension</a></td><td>abhishek bharani, VenkataBalaji Kollu</td></tr>
+  <tr><td><a href="reports/6909173.pdf">Bi-Directional Attention & Self Attention for SQUAD</a></td><td>LI DENG, Zhiling Huang</td></tr>
+  <tr><td><a href="reports/6891204.pdf">Machine Reading Comprehension On the SQuAD Dataset Using R-NET</a></td><td>Jason Mian Luo, William Zeng</td></tr>
+  <tr><td><a href="reports/6879950.pdf">Improving SQuAD Baseline Using BiDAF Reﬁnements and Experimenting with Semi-Supervised Learnin</a></td><td>Allison Koenecke, Varun Vasudevan</td></tr>
+  <tr><td><a href="reports/6906111.pdf">SQuAD GOALS Guided Objective Advanced Learning System</a></td><td>Derek Phillips</td></tr>
+  <tr><td><a href="reports/6881208.pdf">Question Answering using BiDAF and DrQA</a></td><td>Fu Rui, Xuan Yang</td></tr>
+  <tr><td><a href="reports/6908695.pdf">Question Answering with Attentions Ensemble</a></td><td>Zihan Lin, Jason Zhu, Teng Zhang</td></tr>
+  <tr><td><a href="reports/6838402.pdf">Q&A on the SQuAD dataset</a></td><td>Matej Kosec, Liz Wen Yao</td></tr>
+  <tr><td><a href="reports/6908789.pdf">A Study of Attention in Deep Learning Models for Question Answering</a></td><td>William Locke</td></tr>
+  <tr><td><a href="reports/6866116.pdf">Question Answering On the SQuAD Dataset</a></td><td>Stephanie Vincci Tang, Ivan Suarez Robles</td></tr>
+  <tr><td><a href="reports/6908151.pdf">High Performance SQuAD and Transfer Learning</a></td><td>Alexandre Gauthier, Jeff Chen</td></tr>
+  <tr><td><a href="reports/6856772.pdf">Question Answering on SQuAD Dataset with BiDAF and Self-Attention</a></td><td>Junwei Yang</td></tr>
+  <tr><td><a href="reports/6837773.pdf">Improved Question Answering on the SQuAD Dataset Using Attention Mechanisms</a></td><td>Vincent Sheu</td></tr>
+  <tr><td><a href="reports/6878499.pdf">Reading Comprehension Neutral Network with Attention and Post Attention Modeling.</a></td><td>Xu Zhao, Zhi Liu</td></tr>
+  <tr><td><a href="reports/6878193.pdf">CS224N Default Final Project Write-Up</a></td><td>Mark Holmstrom</td></tr>
+  <tr><td><a href="reports/6909109.pdf">Paying Attention to SQuAD: Exploring Bidirectional Attention Flow</a></td><td>Lucy Li, Heather Rae Blundell</td></tr>
+  <tr><td><a href="reports/6904179.pdf">Machine Comprehension on SQuAD BiDAF vs Coattention</a></td><td>Minh-An Quinn</td></tr>
+  <tr><td><a href="reports/6906694.pdf">Question Answering with Attention</a></td><td>Stephanie Dong, Ziyi Li</td></tr>
+  <tr><td><a href="reports/6887856.pdf">An Exploration of Question-Answering Modules</a></td><td>Margaret Gan Guo, Wen Torng</td></tr>
+  <tr><td><a href="reports/6883382.pdf">An Ensemble Model for SQuAD</a></td><td>Yuze He, Priyanka Dwivedi</td></tr>
+  <tr><td><a href="reports/6904975.pdf">The SQuAD Challenge - Machine Comprehension on the Stanford Question Answering Dataset</a></td><td>Rohit Prakash Apte</td></tr>
+  <tr><td><a href="reports/6909131.pdf">Question Answering using Bidirectional Attention Flow and Co-Attention</a></td><td>Apoorva Dornadula, Parth Shah</td></tr>
+  <tr><td><a href="reports/6856452.pdf">Question Answering</a></td><td>Omar Sow</td></tr>
+  <tr><td><a href="reports/6908928.pdf">Exploring Techniques for Neural Question Answering</a></td><td>Gabriel Bianconi, Mahesh Agrawal</td></tr>
+  <tr><td><a href="reports/6909140.pdf">Question answering using weighted-loss Bi-Directional Attention Flow on SQuAD Dataset</a></td><td>mengjiec@stanford.edu</td></tr>
+  <tr><td><a href="reports/6837016.pdf">An Exploration of State of the Art Techniques for Question Answering Systems</a></td><td>James Payette</td></tr>
+  <tr><td><a href="reports/6908966.pdf">Reading Comprehension using Bi-Directional Attention Network</a></td><td>Pratik Kumar, Neel Mani Singh</td></tr>
+  <tr><td><a href="reports/6859184.pdf">Neural Question Answering</a></td><td>Aneesh Pappu, Rohun Saxena</td></tr>
+  <tr><td><a href="reports/6906708.pdf">Combining Bidirectional Attention Flow and Attention Pooling Pointer Networks for High Performance on the SQuAD Challeng</a></td><td>Kiko Ilagan, Anoop Manjunath</td></tr>
+  <tr><td><a href="reports/6905975.pdf">Reading Comprehension and Question Answering with Bidirectional Attention Flow</a></td><td>Andrew Huang, Michael Ko</td></tr>
+  <tr><td><a href="reports/6898475.pdf">Investigations in Question Answering Architectures</a></td><td>Patrick Cho, Sudarshan Seshadri</td></tr>
+  <tr><td><a href="reports/6879936.pdf">The Impact of Attention Mechanisms on Question Answering Performance</a></td><td>Joe M Paggi, Benjamin Parks</td></tr>
+  <tr><td><a href="reports/6897658.pdf">Machine Comprehension on SQuAD BiDAF vs Coattention</a></td><td>Ramin Ahmari</td></tr>
+  <tr><td><a href="reports/6859311.pdf">Towards an Integrated QA Model</a></td><td>Fangzhou Liu</td></tr>
+  <tr><td><a href="reports/6882071.pdf">Implementation of R-NET Machine Comprehension Model for Question Answering</a></td><td>Sabarish Sankaranarayanan</td></tr>
+  <tr><td><a href="reports/6904508.pdf">Question Answering on the SQuAD Dataset</a></td><td>Laëtitia Shao, Ben Zhou</td></tr>
+  <tr><td><a href="reports/6887464.pdf">Applying Bi-Directional Attention Flow to SQuAD</a></td><td>Jestin Ma, Jialin ding</td></tr>
+  <tr><td><a href="reports/6908241.pdf">A Bidirectional Attention-Based Approach to Machine Comprehension and Question Answering</a></td><td>Kevin Chen</td></tr>
+  <tr><td><a href="reports/6904810.pdf">Question Answering System with Question Type Modelling</a></td><td>Ksenia Ponomareva</td></tr>
+  <tr><td><a href="reports/6909293.pdf">Machine Comprehension on SQuAD using Bi-Directional Attention Flow</a></td><td>Daisy Ding</td></tr>
+  <tr><td><a href="reports/6873360.pdf">CS224N: Question-Answering Utilizing Bidirectional Attention Flow</a></td><td>Wesley Chan Olmsted, Trevor Danielson</td></tr>
+  <tr><td><a href="reports/6880867.pdf">R-Net with Multiplicative Attention</a></td><td>Rooz Mahdavian, Pierce Barrett Freeman</td></tr>
+  <tr><td><a href="reports/6879368.pdf">Question Answering with Coattention Encoding and Answer Pointer Network</a></td><td>Yinghao Xu</td></tr>
+  <tr><td><a href="reports/6909235.pdf">CS224N Final Report</a></td><td>Allen Zhao, Dirk Hofland</td></tr>
+  <tr><td><a href="reports/6838521.pdf">Computational Reading Comprehension through Self-Attention and Convolution</a></td><td>Neil Movva, Samir Menon</td></tr>
+  <tr><td><a href="reports/6859730.pdf">Exploring Attention Mechanisms for Reading Comprehension</a></td><td>Noah Makow</td></tr>
+  <tr><td><a href="reports/6896656.pdf">Machine Comprehension Systems on SQuAD Dataset</a></td><td>Megha Jhunjhunwala, Shantanu Thakoor</td></tr>
+  <tr><td><a href="reports/6882606.pdf">Question Answering Using Bi-Directional Attention Flow with Position Encoder</a></td><td>Denis</td></tr>
+  <tr><td><a href="reports/6907927.pdf">C8224N Final SQuAD Improvements</a></td><td>Ryan Almodovar, VIVEK MISRA</td></tr>
+  <tr><td><a href="reports/6906993.pdf">SQuAD Challenge</a></td><td>Matthew Creme, Mackenzie James Pearson, Raphael Lenain</td></tr>
+  <tr><td><a href="reports/6880365.pdf">SQuAD With LSTM and BiDAF</a></td><td>Ethson Villegas, Danielle Siy</td></tr>
+  <tr><td><a href="reports/6909166.pdf">Combining Attention Approaches for the SQuAD Challenge</a></td><td>Luke James Blackshaw Asperger</td></tr>
+  <tr><td><a href="reports/6898977.pdf">Multi-layer GRU using character level information for SQUAD challenge</a></td><td>Jake Yoon</td></tr>
+  <tr><td><a href="reports/6838241.pdf">Machine Comprehension with BiDAF</a></td><td>Shim Young Lee</td></tr>
+  <tr><td><a href="reports/6909307.pdf">Lightweight Convolutional Approaches to Reading Comprehension for SQuAD</a></td><td>Ben Penchas, Tobin Bell</td></tr>
+  <tr><td><a href="reports/6909331.pdf">Question Answering System with Bidirectional Attention Flow</a></td><td>Hsu-kuang Chiu, Ting-Wei Su</td></tr>
+  <tr><td><a href="reports/6855080.pdf">Bidirectional Attention Flow with LSTM Networks for Question Answering</a></td><td>James Li</td></tr>
+  <tr><td><a href="reports/6879054.pdf">Bi-Directional Attention Flow and CO-Attention Models for Question Answering on the SQuA</a></td><td>Rafael Musa</td></tr>
+  <tr><td><a href="reports/6854122.pdf">Analyzing Modeling Layers for the SQuAD Challenge</a></td><td>Tim Anderson</td></tr>
+  <tr><td><a href="reports/6880002.pdf">CS224N SQuAD Challenge with Bidirectional Attention Flow and Context Features</a></td><td>David Lee-Heidenreich, Adrien Truong</td></tr>
+  <tr><td><a href="reports/6905758.pdf">A Bi-directional Attention Flow Model for the SQuAD Dataset</a></td><td>Cody Keola Kala, Horace Chu</td></tr>
+  <tr><td><a href="reports/6895380.pdf">Machine Comprehension with BiDAF and Answer Pointer</a></td><td>Zehui Wang, Xiaoxue Zang</td></tr>
+  <tr><td><a href="reports/6906561.pdf">Question Answering with Deep Learning</a></td><td>Jackie Yau, Hao Wu</td></tr>
+  <tr><td><a href="reports/6878498.pdf">Reading Comprehension on the SQuAD Dataset</a></td><td>David Xue, Bill Zhu (Legal Name: Zheqing Zhu)</td></tr>
+  <tr><td><a href="reports/6909233.pdf">Machine Comprehension on SQuAD using Bi-Directional Attention Flow</a></td><td>Ruohan Zhan</td></tr>
+  <tr><td><a href="reports/6895215.pdf">An Approach to Machine Reading Comprehension on SQuAD</a></td><td>Jiafu Wu, Alan Flores-Lopez</td></tr>
+  <tr><td><a href="reports/6934370.pdf">Question Answering With Deep Bidirectional Attention Flow and FusionNet</a></td><td>Silviana Ciurea-Ilcus, Michal Kim Wegrzynski</td></tr>
+  <tr><td><a href="reports/6896685.pdf">SQUAD Challenge : A Hybrid Model for Question Answering</a></td><td>Onur Cezmi Mutlu, Hacer Umay Geyikci</td></tr>
+  <tr><td><a href="reports/6908479.pdf">Natural language Question Answering using Curriculum Learning</a></td><td>Abhijeet Shenoi, Aarti Bagul</td></tr>
+  <tr><td><a href="reports/6857497.pdf">Exploring Attention in Question Answering Models</a></td><td>Anav Sood, Ethan Zi-Yu Shen</td></tr>
+  <tr><td><a href="reports/6891034.pdf">A Multi-Attention Reading Comprehension Model for SQuAD Dataset</a></td><td>Shuyang Shi, Tong Yang</td></tr>
+  <tr><td><a href="reports/6882087.pdf">Deep Question Answering on SQuAD</a></td><td>Mitchell Dawson</td></tr>
+  <tr><td><a href="reports/6908911.pdf">CS224N Final Project SQUAD Challenge</a></td><td>Saahil Agrawal, Nicholas Johnson</td></tr>
+  <tr><td><a href="reports/6837725.pdf">SQuAD Challenge using BiLSTM and Bidirectional Attention Flow</a></td><td>Mojtaba Sharifzadeh</td></tr>
+  <tr><td><a href="reports/6871894.pdf">SQuAD Model Exploration: BiDAF and Input Feature</a></td><td>Ben Barnett, Jeffrey Dong Chen</td></tr>
+  <tr><td><a href="reports/6906590.pdf">Question Answering with the SQuAD</a></td><td>Wayne Lu</td></tr>
+  <tr><td><a href="reports/6899812.pdf">Question Answering on the SQuAD Dataset</a></td><td>Yongshang Wu, Hao Wang</td></tr>
+  <tr><td><a href="reports/6909289.pdf">Building a Question Answering System with a Character Level Convolutional Neural Network and Attention Layers — Is it a good idea?</a></td><td>Praveen Govindraj</td></tr>
+  <tr><td><a href="reports/6860231.pdf">Pay More Attention: Neural Architectures for Question-Answering</a></td><td>Zia Hasan, SebastianFiscer</td></tr>
+  <tr><td><a href="reports/6909183.pdf">Question Answering model using BiDAF</a></td><td>Shawn Hu, Ran Gross</td></tr>
+  <tr><td><a href="reports/6890551.pdf">Reading Comprehension with Neural Networks</a></td><td>Andrew Weitz</td></tr>
+  <tr><td><a href="reports/6883038.pdf">Question Answering on the SQuAD Dataset</a></td><td>Hyun Sik Kim</td></tr>
+  <tr><td><a href="reports/6897532.pdf">Question answering on the SQuAD dataset with bidirectional attention ﬂow</a></td><td>Brahm Capoor, Varun Nambikrishnan</td></tr>
+  <tr><td><a href="reports/6909042.pdf">Question Answering with Bi-directional Attention and Character Embedding</a></td><td>Yuting Sun, xiangcao liu</td></tr>
+  <tr><td><a href="reports/6857043.pdf">Ask BiDAF</a></td><td>Mitchell Douglass, Caelin Tran, Griffin Slade Koontz</td></tr>
+  <tr><td><a href="reports/6906662.pdf">A Bi-directional Attention Flow (BiDAF) Model for the Stanford Question Answering Dataset (SQUAD)</a></td><td>Charles Hale, Helen Xiong</td></tr>
+  <tr><td><a href="reports/6850621.pdf">Question Answering on SQuAD</a></td><td>Jake Smola, Evan</td></tr>
+  <tr><td><a href="reports/6905745.pdf">Coattention-Based Neural Network for SQuAD Question Answering</a></td><td>Xizhi Han, Yue Hui</td></tr>
+  <tr><td><a href="reports/6873963.pdf">Bi-Directional Attention and Beyond: Double BiDAF with Residual Connections for Question Answering</a></td><td>Pedro Montebello Milani</td></tr>
+  <tr><td><a href="reports/6907849.pdf">Machine Reading Comprehension on SQuAD with Relevance Encoder</a></td><td>Feng Liu, Qixiang Zhang</td></tr>
+  <tr><td><a href="reports/6853494.pdf">Question Answering</a></td><td>Bowen Deng</td></tr>
+  <tr><td><a href="reports/6883098.pdf">Question Answering with Various Attention Mechanisms</a></td><td>Yinghao Sun</td></tr>
+  <tr><td><a href="reports/6909117.pdf">Exploring speed and memory trade-offs for achieving optimum performance on SQuAD dataset</a></td><td>Renat</td></tr>
+  <tr><td><a href="reports/6906006.pdf">Question Answering System with the Dynamic Coattention Network</a></td><td>Yi Sun</td></tr>
+  <tr><td><a href="reports/6836033.pdf">A Modular Architecture for Machine Comprehension</a></td><td>William Arthur Clary</td></tr>
+  <tr><td><a href="reports/6838047.pdf">Reading Comprehension with the SQuAD</a></td><td>Hugo Andres Valdivia, Miguel Garcia</td></tr>
+  <tr><td><a href="reports/6897178.pdf">Machine Comprehension with Bi-directional and Self—attention Flow</a></td><td>Ji Yu, Tianpei Qian</td></tr>
+  <tr><td><a href="reports/6856729.pdf">CS224N Project Report: Bidirectional Attention Flow and Self Attention Mechanisms for Machine Comprehensio</a></td><td>Jervis Jerome Muindi, Richard Ruiqi Yang</td></tr>
+  <tr><td><a href="reports/6878956.pdf">SQuAD Reading Comprehension Task - C8224n Final Project</a></td><td>Adva Wolf</td></tr>
+  <tr><td><a href="reports/6909266.pdf">Machine Reading Comprehension On SQuAD</a></td><td>Tian Tan, Don Mai</td></tr>
+  <tr><td><a href="reports/6879317.pdf">A Hybrid Deep Learning System for Machine Comprehension</a></td><td>Gang Wu</td></tr>
+  <tr><td><a href="reports/6918042.pdf">A Deep Learning System for the Stanford Question Answering Dataset (SQuAD)</a></td><td>AmirMahdi Ahmadinejad</td></tr>
+  <tr><td><a href="reports/6884108.pdf">Machine Learning Optimization for SQuAD</a></td><td>Julian Sinohe Villalpando</td></tr>
+  <tr><td><a href="reports/6906383.pdf">Final Project Report: SQuAD</a></td><td>Winston Taojie Wang, Michael Chung</td></tr>
+  <tr><td><a href="reports/6879646.pdf">Question Answering System on the Stanford Question Answering Dataset (SQuAD)</a></td><td>Richard Akira Heru</td></tr>
+  <tr><td><a href="reports/6878269.pdf">Final default project: questions answering with deep learning</a></td><td>Denis Ulanov, David Uvalle</td></tr>
+  <tr><td><a href="reports/6900523.pdf">Exploring Deep Learning Solutions for Question-Answering and Reading Comprehension Tasks</a></td><td>Rodrigo Grabowsky, Kimberly Wijaya</td></tr>
+  <tr><td><a href="reports/6886477.pdf">BiDirectional Attention for Machine Comprehension</a></td><td>Anand Venkatesan, Ananthakrishnan Ganesan</td></tr>
+  <tr><td><a href="reports/6907048.pdf">Replicating Advances in Question-Answering with Deep Learning and Complex Attention</a></td><td>Stuart Cornuelle</td></tr>
+  <tr><td><a href="reports/6876561.pdf">Reading Comprehension On SQuAD: An Insight into BiDAF</a></td><td>Vivekkumar Patel, Shreyash Pandey</td></tr>
+  <tr><td><a href="reports/6915383.pdf">CS 224N Default Final Project: Question Answering</a></td><td>Raghunath Krishnamurthy</td></tr>
+  <tr><td><a href="reports/6906578.pdf">The SQuAD Challenge - results of several</a></td><td>Rajeeva Gaur, satyam</td></tr>
+  <tr><td><a href="reports/6879602.pdf">Question Answering with Hybrid Attention Network</a></td><td>Yicheng Li, Xiuye Gu</td></tr>
+  <tr><td><a href="reports/6879499.pdf">Machine Comprehension using Deep Learning</a></td><td>Sharman W Tan, Henry Lin</td></tr>
+  <tr><td><a href="reports/6918297.pdf">Machine Reading Comprehension for the SQuAD Dataset using Deep Learning</a></td><td>Chung Fat Wong</td></tr>
+  <tr><td><a href="reports/6878775.pdf">Question Answering with Bi-directional Attention Flow and Self—Attention</a></td><td>Olivier Pham, Yuguan Xing</td></tr>
+  <tr><td><a href="reports/6856586.pdf">Question Answering On the SQuAD Dataset</a></td><td>Jonas Shomorony</td></tr>
+  <tr><td><a href="reports/6879303.pdf">Default Final Project for C8224N - Self—Attention</a></td><td>Jaak Joonas Uudmae</td></tr>
+  <tr><td><a href="reports/6908914.pdf">GE-BiDAF: A Question Answering model for SQuAD</a></td><td>binbin xiong, Minfa Wang</td></tr>
+  <tr><td><a href="reports/999.pdf">SquaD Reading Comprehension</a></td><td>Xinyi Jiang</td></tr>
+  <tr><td><a href="reports/996.pdf">Machine Comprehension using BiDAF</a></td><td>Bimal Parakkal</td></tr>
+</table>
+
+</div>
+<!-- jQuery and Boostrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

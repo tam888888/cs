@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <title>Stanford CS 224N | Project Reports</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60458624-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- <script src="header.js"></script> -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand brand" href="index.html">CS224N Home</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html#coursework">Coursework</a></li>
+            <li><a href="index.html#schedule">Schedule</a></li>
+            <li><a href="office_hours.html">Office Hours</a></li>
+            <li><a href="project.html">Final projects</a></li>
+            <li><a href="https://canvas.stanford.edu/courses/164570/external_tools/3367">Lecture Videos</a></li>
+            <li><a href="https://edstem.org/us/courses/51053">Ed Forum</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Header -->
+    <div id="header" style="text-align:center">
+      <a href="http://nlp.stanford.edu/">
+      <img src="images/stanford-nlp-logo-new.jpg" class="logo-left">
+      </a>
+      <a href="http://stanford.edu/">
+      <img src="images/stanfordlogo.jpg" class="logo-right">
+      </a>
+      <h1>CS224N: Natural Language Processing with Deep Learning</h1>
+      <h3>Stanford / Winter 2024</h3>
+      <div style="clear:both;"></div>
+    </div>
+    <div>
+      <div class="container sec">
+        <div class="row">
+          <div class="col-xs-9">
+            <h2>Final poster session</h2>
+            We thank our sponsor, Sky9 Capital, for supporting the poster session!
+            <br>
+            The poster session was held at the AOERC basketball courts from 7-10 PM on March 18th, 2024.
+          </div>
+          <div class="col-xs-3" style="text-align: center">
+            <img style="width:35%" src="images/sky9.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sechighlight">
+      <div class="container sec">
+        <h2>Outstanding Projects</h2>
+        <h3>Student choice for best poster</h3>
+        <ul>
+          <li>
+            <strong><a href="final-projects/JavokhirBArifovNathanaelJamesCadicamoPhilipAndrewBaillargeon.pdf">
+            The Beat Goes On: Symbolic Music Generation with Text Controls</a></strong>.
+            Javokhir B Arifov, Nathanael James Cadicamo, Philip Andrew Baillargeon
+          </li>
+          <li>
+            <strong><a href="final-projects/DanteEmanuelDanelianLiamMichaelSmithMayaBedge.pdf">Identifying and Neutralizing Gender Bias from Text</a></strong>.
+            Dante Emanuel Danelian, Liam Michael Smith, Maya Bedge
+          </li>
+          <li>
+            <strong><a href="final-projects/ArnavSomayajiKrishnamoorthiKlaraBjorkAndraThomasRheaMalhotra.pdf">Lyricade: An Integrated Acoustic Signal-Processing Transformer for Lyric Generation</a></strong>.
+            Arnav Somayaji Krishnamoorthi, Klara Bjork Andra-Thomas, Rhea Malhotra
+          </li>
+        </ul>
+        <h3>Outstanding custom project reports</h3>
+        <ul class="outstandingprojects">
+          <li>
+            <strong><a href="final-projects/JoshuaDeGuzmanFajardo.pdf">An Inside Look Into How LLMs Fail to Express Complete Certainty: Are LLMs Purposely Lying?</a></strong>
+            Joshua De Guzman Fajardo
+          </li>
+          <li>
+            <strong><a href="final-projects/KatherineLi.pdf">Count Your Words Before They Hatch: Investigating Word Count Control</a></strong>.
+            Katherine Li
+          </li>
+          <li>
+            <strong><a href="final-projects/DanteEmanuelDanelianLiamMichaelSmithMayaBedge.pdf">Identifying and Neutralizing Gender Bias from Text</a></strong>.
+            Dante Emanuel Danelian, Liam Michael Smith, Maya Bedge
+          </li>
+          <li>
+            <strong><a href="final-projects/ArtyomShaposhnikovRobertoGarciaTorresShubhraMishra.pdf">Self-Improvement for Math Problem-Solving in Small Language Models</a></strong>.
+            Artyom Shaposhnikov, Roberto Garcia Torres, Shubhra Mishra
+          </li>
+          <li>
+            <strong><a href="final-projects/CaiaMaiCostelloJasonDanielLazar.pdf">Increasing the Efficiency of the Sophia Optimizer: Continuous Adaptive Information Averaging</a></strong>.
+            Caia Mai Costello, Jason Daniel Lazar
+          </li>
+          <li>
+            <strong><a href="final-projects/AlexMuzioAlexSunChuranHe.pdf">SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts</a></strong>.
+            Alex Muzio, Alex Sun, Churan He
+          </li>
+          <li>
+            <strong><a href="final-projects/MingjianJiang.pdf">Claim-level Uncertainty Estimation through Graph</a></strong>.
+            Mingjian Jiang
+          </li>
+          <li>
+            <strong><a href="final-projects/AmanLadiaTirthDharmeshSurti.pdf">CapNet: Making Science More Accessible via a Neural Caption Generator</a></strong>.
+            Aman Ladia, Tirth Dharmesh Surti
+          </li>
+          <li>
+            <strong><a href="final-projects/MichaelJosephRyan.pdf">20 Questions: Efficient Adaptation for Individualized LLM Personalization</a></strong>.
+            Michael Joseph Ryan
+          </li>
+          <li>
+            <strong><a href="final-projects/ManhDDaoTingLinTrevorWilliamCarrell.pdf">Improving Low-Resource POS Tagging with Transfer Learning: A Case in Cantonese</a></strong>.
+            Manh D Dao, Ting Lin, Trevor William Carrell
+          </li>
+          <li>
+            <strong>Probing to Interpret the Mysterious Phenomenon of In-Context Learning in LLMs</strong>.
+            Junyi Tao
+          </li>
+          <li>
+            <strong><a href="final-projects/AndrewCShiSohamGovandeTaeukKang.pdf">Fine-tuning CodeLlama-7B on Synthetic Training Data for Fortran Code Generation using PEFT</a></strong>.
+            Andrew C Shi, Soham Govande, Taeuk Kang
+          </li>
+          <li>
+            <strong><a href="final-projects/ElsaBismuthJanMichaelKrauseLucasALeanza.pdf">Clinically relevant summarization of multimodal emergency medical data</a></strong>.
+            Elsa Bismuth, Jan Michael Krause, Lucas A Leanza
+          </li>
+          <li>
+            <strong><a href="final-projects/ShiyuZhao.pdf">Agent Retrieval on Textual and Relational Knowledge Bases</a></strong>.
+            Shiyu Zhao
+          </li>
+          <li>
+            <strong>Searching your Backpack: Information Retrieval with Backpack Language Models</strong>.
+            Brian Christopher Johnson
+          </li>
+          <li>
+            <strong><a href="final-projects/ArjunJainDevanshuLadsariaRishiRajVerma.pdf">Automated Extraction of ICD-10 Diagnosis Codes from Clinical Notes</a></strong>.
+            Arjun Jain, Devanshu Ladsaria, Rishi Raj Verma
+          </li>
+          <li>
+            <strong><a href="final-projects/BassemAkoushHashemElezabi.pdf">Prototype-then-Refine: A Neurosymbolic Approach for Improved Logical Reasoning with LLMs</a></strong>.
+            Bassem Akoush, Hashem Elezabi
+          </li>
+          <li>
+            <strong><a href="final-projects/JirayuBurapacheep.pdf">Enhancing Factuality in Language Models through Knowledge-Guided Decoding</a></strong>.
+            Jirayu Burapacheep
+          </li>
+          <li>
+            <strong><a href="final-projects/ZhoujieDing.pdf">On Fairness Implications and Evaluations of Low-Rank Adaptation of Large Language Models</a></strong>.
+            Zhoujie Ding
+          </li>
+          <li>
+            <strong><a href="final-projects/AakashMishraAustinAnilPatelNeilNie.pdf">Towards Natural Language Reasoning for Unified Robotics Description Format Files</a></strong>.
+            Aakash Mishra, Austin Anil Patel, Neil Nie
+          </li>
+          <li>
+            <strong><a href="final-projects/NishantGopinathSiYiMa.pdf">AI-Driven Fashion Cataloging: Transforming Images into Textual Descriptions</a></strong>.
+            Nishant Gopinath, Si Yi Ma
+          </li>
+          <li>
+            <strong><a href="final-projects/ElizabethZhuSherryXie.pdf">Model Mixture: Merging Task-Specific Language Models</a></strong>.
+            Elizabeth Zhu, Sherry Xie
+          </li>
+        </ul>
+        <h3>Outstanding default project reports</h3>
+        <ul class="outstandingprojects">
+          <li>
+            <strong><a href="final-projects/RamgopalVenkateswaran.pdf">Methods to Improve Downstream Generalization of minBERT</a></strong>.
+            Ramgopal Venkateswaran
+          </li>
+          <li>
+            <strong><a href="final-projects/HaijingZhang.pdf">Multi-BERT: A Multi-Task BERT Approach with the Variation of Projected Attention Layer</a></strong>.
+            Haijing Zhang
+          </li>
+          <li>
+            <strong><a href="final-projects/FebieJaneLinJackPLe.pdf">BERT and Beyond: A Study of Multitask Learning Strategies for NLP</a></strong>.
+            Febie Jane Lin, Jack P Le
+          </li>
+          <li>
+            <strong><a href="final-projects/PannSripitakThanawanAtchariyachanvanit.pdf">Enhanced TreeBERT: High-Performance, Computationally Efficient Multi-Task Model</a></strong>.
+            Pann Sripitak, Thanawan Atchariyachanvanit
+          </li>
+          <li>
+            <strong><a href="final-projects/MeganDassRiyaDulepetShreyaDSouza.pdf">Beyond Fine-tuning: Iterative Ensemble Strategies for Enhanced BERT Generalizability</a></strong>.
+            Megan Dass, Riya Dulepet, Shreya D'Souza
+          </li>
+          <li>
+            <strong><a href="final-projects/HaoyiDuanYaohuiZhang.pdf">Semantic Symphonies: BERTrilogy and BERTriad Ensembles</a></strong>.
+            Haoyi Duan, Yaohui Zhang
+          </li>
+          <li>
+            <strong><a href="final-projects/NachatJatusripitakPawanWirawarn.pdf">Good Things Come to Those Who Weight: Effective Pairing Strategies for Multi-Task Fine-Tuning</a></strong>.
+            Nachat Jatusripitak, Pawan Wirawarn
+          </li>
+          <li>
+            <strong><a href="final-projects/ChijiokeMgbahurikeIddahMlauziKwameOcran.pdf">Jack of All Trades, Master of Some: Improving BERT for Multitask Learning</a></strong>.
+            Chijioke Mgbahurike, Iddah Mlauzi, Kwame Ocran
+          </li>
+          <li>
+            <strong><a href="final-projects/MichaelLiuMichaelPhillipHayashiRobertoLobatoLopez.pdf">SMART loss vs DeBERTa</a></strong>.
+            Michael Liu, Michael Phillip Hayashi, Roberto Lobato Lopez
+          </li>
+          <li>
+            <strong><a href="final-projects/CarrieGuErickaLiuZixinLi.pdf">QuarBERT: Optimizing BERT with Multitask Learning and Quartet Ensemble</a></strong>.
+            Carrie Gu, Ericka Liu, Zixin Li
+          </li>
+          <li>
+            <strong><a href="final-projects/HaoyuWang.pdf">MT-DNN with SMART Regularisation and Task-Specific Head to Capture the Pairwise and Contextually Significant Words Interplay</a></strong>.
+            Haoyu Wang
+          </li>
+          <li>
+            <strong><a href="final-projects/JamesJMoriceSamuelEdwardKwok.pdf">Few-Shot Prompt-Tuning: An Extension to a Finetuning Alternative</a></strong>.
+            James J Morice, Samuel Edward Kwok
+          </li>
+          <li>
+            <strong><a href="final-projects/JietingQiuShwetaAgrawal.pdf">AdaptBert: Parameter Efficient Multitask Bert</a></strong>.
+            Jieting Qiu, Shweta Agrawal
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container sec">
+      <h2>Custom Projects</h2>
+      <table class="table">
+        <colgroup>
+          <col style="width:60%">
+          <col style="width:40%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <td><a href="final-projects/GiuliaZoeSocolofRitikaKacholia.pdf">Fast, Interpretable AI-Generated Text Detection Using Style Embeddings</a></td>
+            <td>Giulia Zoe Socolof, Ritika Kacholia</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AmanLadiaTirthDharmeshSurti.pdf">CapNet: Making Science More Accessible via a Neural Caption Generator</a></td>
+            <td>Aman Ladia, Tirth Dharmesh Surti</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ElijahSongNathanAndrewChi.pdf">Do LLMs exhibit Nominal Compound Understanding, or just Nominal Understanding?</a></td>
+            <td>Elijah Song, Nathan Andrew Chi</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AmarkumarKallappaGadkariEstebanJoseBarreroHernandezGeraldChavinKang.pdf">Using Language Model for Emission Factor Mapping</a></td>
+            <td>Amarkumar Kallappa Gadkari, Esteban Jose Barrero-Hernandez, Gerald Chavin Kang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AdityaBoraNikhilSuresh.pdf">Affective Emotional Layer for Conversational LLM Agents</a></td>
+            <td>Aditya Bora, Nikhil Suresh</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/DavidYuanEvelynSong.pdf">Synthesized Strategy for Mental Health Support</a></td>
+            <td>David Yuan, Evelyn Song</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JennaSaraMansuetoLukeCBabbitt.pdf">Text2Gloss: Translation into Sign Language Gloss with Transformers</a></td>
+            <td>Jenna Sara Mansueto, Luke C Babbitt</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BellaCrouch.pdf">BondBERT: An ensemble-based model for named entity recognition in materials science texts</a></td>
+            <td>Bella Crouch</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JavokhirBArifovNathanaelJamesCadicamoPhilipAndrewBaillargeon.pdf">The Beat Goes On: Symbolic Music Generation with Text Controls</a></td>
+            <td>Javokhir B Arifov, Nathanael James Cadicamo, Philip Andrew Baillargeon</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JamesPoetzscher.pdf">Near-Infinite Sub-Quadratic Convolutional Attention</a></td>
+            <td>James Poetzscher</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JasonShuYangWang.pdf">Llama-UL2: Emerging New Capabilities with Continued Pretraining using UL2</a></td>
+            <td>Jason Shu-Yang Wang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/KaiMicaFronsdal.pdf">Feedback or Autonomy? Analyzing LLMs’ Ability to Self-Correct</a></td>
+            <td>Kai Mica Fronsdal</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EthanTrepka.pdf">Brain-to-Text</a></td>
+            <td>Ethan Trepka</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/SachalSohanSrivastavaMalick.pdf">Finetuning Provides a Window Into Transformer Circuits</a></td>
+            <td>Sachal Sohan Srivastava-Malick</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ParthSarinPatriciaWeiVyomaRaman.pdf">Funding Sources and Values of NLP Research</a></td>
+            <td>Parth Sarin, Patricia Wei, Vyoma Raman</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/HannahRachelLevinJuanPabloTrianaMartinezSamirAgarwala.pdf">Understanding Complex Emotions in Sentences</a></td>
+            <td>Hannah Rachel Levin, Juan Pablo Triana Martinez, Samir Agarwala</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ArnavSomayajiKrishnamoorthiKlaraBjorkAndraThomasRheaMalhotra.pdf">Lyricade: An Integrated Acoustic Signal-Processing Transformer for Lyric Generation</a></td>
+            <td>Arnav Somayaji Krishnamoorthi, Klara Bjork Andra-Thomas, Rhea Malhotra</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BihanLiuMikeYang.pdf">Training a Chinese RapStar: Applying Rapformer Model to Generate Chinese Rap Lyrics</a></td>
+            <td>Bihan Liu, Mike Yang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MichaelJosephRyan.pdf">20 Questions: Efficient Adaptation for Individualized LLM Personalization</a></td>
+            <td>Michael Joseph Ryan</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/SukrutOak.pdf">LLMs for Google Maps</a></td>
+            <td>Sukrut Oak</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChiTrungNguyen.pdf">BERT one-shot movie recommender system</a></td>
+            <td>Chi Trung Nguyen</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/DanielLiYang.pdf">Over-Complicating GPT</a></td>
+            <td>Daniel Li Yang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MerveTekgurler.pdf">Semantics of Empire: A Neural Machine Translation Approach for Ottoman Turkish Texts</a></td>
+            <td>Merve Tekgurler</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChiYoTsaiJayMartin.pdf">Outrageously Fast LLMs: Faster Inference and Fine-Tuning with Moefication and LoRA</a></td>
+            <td>Chi Yo Tsai, Jay Martin</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JeanRodmondJuniorLaguerreVickyWu.pdf">Speaking the Language of Sight</a></td>
+            <td>Jean Rodmond Junior Laguerre, Vicky Wu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/DavidDai.pdf">Reliable Ambient Intelligence Through Large Language Models</a></td>
+            <td>David Dai</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/LauraFiuzaDubugras.pdf">Predicting Big Brother Brasil 2024 Evictions Through Sentiment Analysis of Tweets</a></td>
+            <td>Laura Fiuza Dubugras</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/KatherineLi.pdf">Count Your Words Before They Hatch: Investigating Word Count Control</a></td>
+            <td>Katherine Li</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JoyceChuyiChenMeganMou.pdf">Novelty: Optimizing StreamingLLM for Novel Plot Generation</a></td>
+            <td>Joyce Chuyi Chen, Megan Mou</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ManoloAlvarez.pdf">Multimodal MoE for InfographicsVQA</a></td>
+            <td>Manolo Alvarez</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MiguelGerenaRiveraakaylahackson.pdf">Patent Acceptance Prediction With Large Language Models</a></td>
+            <td>Miguel Gerena Rivera, Akayla Hackson</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/FletcherLeeNewell.pdf">Salience-Based Adversarial Attacks for Empirical Evaluation of NLP Classification Robustness</a></td>
+            <td>Fletcher Lee Newell</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EthanYiKoKaysonTakaHansenPengHaoLu.pdf">Computing semantic textual similarity through transformer-based encoders and combining multiple content similarity measures</a></td>
+            <td>Ethan Yi Ko, Kayson Taka Hansen, Peng Hao Lu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/NishantGopinathSiYiMa.pdf">AI-Driven Fashion Cataloging: Transforming Images into Textual Descriptions</a></td>
+            <td>Nishant Gopinath, Si Yi Ma</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AmanKansalSaanviChawlashreyashankar.pdf">A Multi-tiered Approach to Debiasing Language Models</a></td>
+            <td>Aman Kansal, Saanvi Chawla, Shreya Shankar</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AbdulwahabOmira.pdf">Deciphering the Dynamics of Reddit Comment Popularity</a></td>
+            <td>Abdulwahab Omira</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/YijiaWang.pdf">Natural Language Enhanced Neural Program Synthesis for Abstract Reasoning Task</a></td>
+            <td>Yijia Wang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ArtyomShaposhnikovRobertoGarciaTorresShubhraMishra.pdf">Self-Improvement for Math Problem-Solving in Small Language Models</a></td>
+            <td>Artyom Shaposhnikov, Roberto Garcia Torres, Shubhra Mishra</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/YvetteYinyinLin.pdf">Guided Image Concept Decomposition using Textual Inversion</a></td>
+            <td>Yvette Yinyin Lin</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/DominicJosephDeMarcoEricMartzReginaTHTa.pdf">From Beethoven to Beyoncé: A Deep Learning Approach to Music Genre Classification</a></td>
+            <td>Dominic Joseph DeMarco, Eric Martz, Regina T.H. Ta</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/DanteEmanuelDanelianLiamMichaelSmithMayaBedge.pdf">Identifying and Neutralizing Gender Bias from Text</a></td>
+            <td>Dante Emanuel Danelian, Liam Michael Smith, Maya Bedge</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BrendanMurphy.pdf">Efficient Alignment of Medical Language Models using Direct Preference Optimization</a></td>
+            <td>Brendan Murphy</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AgamMohanSinghBhatia.pdf">Boosting Embodied Reasoning in LLMs in Multi-agent Mixed Incentive Environments</a></td>
+            <td>Agam Mohan Singh Bhatia</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AugustWyattBurtonJonathanDanielMerchan.pdf">Virgilian Poetry Generation with LSTM Networks</a></td>
+            <td>August Wyatt Burton, Jonathan Daniel Merchan</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ShiyuZhao.pdf">Agent Retrieval on Textual and Relational Knowledge Bases</a></td>
+            <td>Shiyu Zhao</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BrianXuHenryJinWeng.pdf">High-fidelity Human Representation for Large Language Models</a></td>
+            <td>Brian Xu, Henry Jin Weng</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/RashonPoole.pdf">Improving Human-LLM Interactions by Redesigning the Chatbot</a></td>
+            <td>Rashon Poole</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/TonySun.pdf">GRAPHGEM: Improving Graph Reasoning in Language Models with Synthetic Data</a></td>
+            <td>Tony Sun</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/KarthikVinaySeetharamanYashMehta.pdf">Mathematical Reasoning Through LLM Finetuning</a></td>
+            <td>Karthik Vinay Seetharaman, Yash Mehta</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/KushalThaman.pdf">Effects of Pre-training and Fine-tuning Time on the Linear Connectivity of Language Models for Natural Language Inference</a></td>
+            <td>Kushal Thaman</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ZixiLiu.pdf">Cross-Lingual Summarization of Notice to Air Missions (NOTAMs)</a></td>
+            <td>Zixi Liu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ColeSimmons.pdf">GILgaMeSH: Glyph-Interpreting Language Models for Sumerian History</a></td>
+            <td>Cole Simmons</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BrianManuelMunozMushengLin.pdf">A Good Novelist Should be a Good Coder: From Language Critics to Automatic Code Generation</a></td>
+            <td>Brian Manuel Munoz, Mu-sheng Lin</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/DanielGuoLucasEmmanuelBrennanAlmaraz.pdf">Wrestling Mamba: Exploring Early Fine-Tuning Dynamics on Mamba and Transformer Architectures</a></td>
+            <td>Daniel Guo, Lucas Emmanuel Brennan-Almaraz</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JoshuaDeGuzmanFajardo.pdf">An Inside Look Into How LLMs Fail to Express Complete Certainty: Are LLMs Purposely Lying?</a></td>
+            <td>Joshua De Guzman Fajardo</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/SidPotti.pdf">Spatial-Enhanced Summarization of Placement Preferences For Robot-Action Personalization</a></td>
+            <td>Sid Potti</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ArnavGuptaAyaanNaveedMalikMacVincentSomtochukwuAghaOko.pdf">RoSA Text Style Transfer & Evaluation</a></td>
+            <td>Arnav Gupta, Ayaan Naveed Malik, MacVincent Somtochukwu Agha-Oko</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/HamedHekmatMichaelNBrockmanNinaBoord.pdf">SUPaHOT: Universally Scalable and Private Method to Demystify FHIR Health Records</a></td>
+            <td>Hamed Hekmat, Michael N Brockman, Nina Boord</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JingruoSunTianyuDuYuzeSui.pdf">The Development of Facticity—from Preliminary Findings to Accepted Implicit Knowledge: Case Studies</a></td>
+            <td>Jingruo Sun, Tianyu Du, Yuze Sui</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ShirleyCheng.pdf">Short Text Classification of Political Reddit Posts</a></td>
+            <td>Shirley Cheng</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BrianParkNikitaBhardwajSimoneYiYiHsu.pdf">Predicting Patent Litigation Risk Using RoBERTa and Metadata Augmentation Techniques</a></td>
+            <td>Brian Park, Nikita Bhardwaj, Simone Yi-Yi Hsu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JessicaChudnovskySalmanAbdullahSudharsanSundar.pdf">Puzzle in a Haystack: Understanding & Enhancing Long Context Reasoning</a></td>
+            <td>Jessica Chudnovsky, Salman Abdullah, Sudharsan Sundar</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EinJun.pdf">Graph-based Logical Reasoning for Legal Judgement</a></td>
+            <td>Ein Jun</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BofeiZhu.pdf">Enabling Cross-Linguistic Compatibility in Image Generation: Text Embedding Alignment Techniques for CLIP Models</a></td>
+            <td>Bofei Zhu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JakobNordhagen.pdf">Autoformalization with Backtranslation: Training an Automated Mathematician</a></td>
+            <td>Jakob Nordhagen</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/IrfanNafiLukeJongsungParkRayHotate.pdf">Tree-Based Retrieval Using Gaussian Statistics</a></td>
+            <td>Irfan Nafi, Luke Jongsung Park, Ray Hotate</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/KhoaHoang.pdf">Predicting Protein-Protein Interaction via Protein Textual Description using Large Language Model</a></td>
+            <td>Khoa Hoang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChetAnandBhateja.pdf">Information Dense Question Answering for RLHF</a></td>
+            <td>Chet Anand Bhateja</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/RyanLiYutongZhangZhiyuXie.pdf">Evaluating the Culture-awareness in Pre-trained Language Model</a></td>
+            <td>Ryan Li, Yutong Zhang, Zhiyu Xie</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EnokChoeJubenRana.pdf">Stanford CS Course + Quarter Classification based on CARTA Reviews</a></td>
+            <td>Enok Choe, Juben Rana</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AngelaYiRanajitGangopadhyayYihanZhou.pdf">Robotics Tasks Generation through Factorization</a></td>
+            <td>Angela Yi, Ranajit Gangopadhyay, Yihan Zhou</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MirandaLinLiNicBecker.pdf">Learning Strategic Play with Language Agents in Text-Adventure Games</a></td>
+            <td>Miranda Lin Li, Nic Becker</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/SandipPal.pdf">Detect failure root cause and predict faults from software logs</a></td>
+            <td>Sandip Pal</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MikeTimmermanOnatDalmazTimNiklausReinhart.pdf">Direct Clinician Preference Optimization: Clinical Text Summarization via Expert Feedback-Integrated LLMs</a></td>
+            <td>Mike Timmerman, Onat Dalmaz, Tim Niklaus Reinhart</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/SajidOmarFarookZouberouSayibou.pdf">Exploring Unsupervised Machine Translation for Highly Under resourced Languages(Hausa)</a></td>
+            <td>Sajid Omar Farook, Zouberou Sayibou</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ArjunJainDevanshuLadsariaRishiRajVerma.pdf">Automated Extraction of ICD-10 Diagnosis Codes from Clinical Notes</a></td>
+            <td>Arjun Jain, Devanshu Ladsaria, Rishi Raj Verma</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/SiyaGoelThuLeTiaVasudeva.pdf">Detecting Misinformation in News Articles via Natural Language Processing</a></td>
+            <td>Siya Goel, Thu Le, Tia Vasudeva</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ElizabethZhuSherryXie.pdf">Model Mixture: Merging Task-Specific Language Models</a></td>
+            <td>Elizabeth Zhu, Sherry Xie</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BassemAkoushHashemElezabi.pdf">Prototype-then-Refine: A Neurosymbolic Approach for Improved Logical Reasoning with LLMs</a></td>
+            <td>Bassem Akoush, Hashem Elezabi</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AnaviBaddepudiEmmaWangIshanKhare.pdf">Minimal Clues for Maximal Understanding: Solving Linguistic Puzzles with RNNs, Transformers, and LLMs</a></td>
+            <td>Anavi Baddepudi, Emma Wang, Ishan Khare</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AllisonGumanNikhilPanditUdayanMandal.pdf">Difficulty-Controllable Text Generation Aligned to Human Preferences</a></td>
+            <td>Allison Guman, Nikhil Pandit, Udayan Mandal</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/GabraelLevine.pdf">Optimized Linear Attention for TPU Hardware</a></td>
+            <td>Gabrael Levine</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MingjianJiang.pdf">Claim-level Uncertainty Estimation through Graph</a></td>
+            <td>Mingjian Jiang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ArthurCerqueiraCampello.pdf">Extracting Material Measurement Knowledge Graphs from Academic Research Papers</a></td>
+            <td>Arthur Cerqueira Campello</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ArantxaRamosdelValleMarcelArzhangHeshmatiRoedMatthewNoto.pdf">GaS – Graph and Sequence Modeling for Web Agent Pathing</a></td>
+            <td>Arantxa Ramos del Valle, Marcel Arzhang Heshmati Roed, Matthew Noto</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChaeYoungLee.pdf">SpamResponder: Automatic Response System for Voice Phishing</a></td>
+            <td>Chae Young Lee</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ManhDDaoTingLinTrevorWilliamCarrell.pdf">Improving Low-Resource POS Tagging with Transfer Learning: A Case in Cantonese</a></td>
+            <td>Manh D Dao, Ting Lin, Trevor William Carrell</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AndrewCShiSohamGovandeTaeukKang.pdf">Fine-tuning CodeLlama-7B on Synthetic Training Data for Fortran Code Generation using PEFT</a></td>
+            <td>Andrew C Shi, Soham Govande, Taeuk Kang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AbhinavLalwaniIshikaaLunawat.pdf">Logic-LangChain: Translating Natural Language to First Order Logic for Logical Fallacy Detection</a></td>
+            <td>Abhinav Lalwani, Ishikaa Lunawat</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/SooWeiKoh.pdf">Comparative Analysis of Preference-Informed Alignment Techniques for Language Model Alignment</a></td>
+            <td>Soo Wei Koh</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JulianCheng.pdf">How you can convince ChatGPT the world is flat</a></td>
+            <td>Julian Cheng</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JayGuptaLawrenceYChai.pdf">Exploring Machine Unlearning in Large Language Models</a></td>
+            <td>Jay Gupta, Lawrence Y Chai</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AllenKiriroathChauAryanSiddiqui.pdf">MediGANdist: Improving Smaller Model’s Medical Reasoning via GAN-inspired Distillation</a></td>
+            <td>Allen Kiriroath Chau, Aryan Siddiqui</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MengzeGaoYonatanUrman.pdf">PromptCom: Cost Optimization of Language Models Based on Prompt Complexity</a></td>
+            <td>Mengze Gao, Yonatan Urman</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AdamUsmaniBangaThomasSounack.pdf">Extractive Question Answering On Large Structural Engineering Documents</a></td>
+            <td>Adam Usmani Banga, Thomas Sounack</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AmyShilinGuanAzureSiyiZhouClaireLynnShao.pdf">Task-Agnostic Low-Rank Dialectal Adapters for Speech-Text Models</a></td>
+            <td>Amy Shilin Guan, Azure Siyi Zhou, Claire Lynn Shao</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AshnaKhetanIsabelPazReyesSiehLayaBalajiIyer.pdf">NatuRel: Advancing Relational Understanding in Vision-Language Models with Natural Language Variations</a></td>
+            <td>Ashna Khetan, Isabel Paz Reyes Sieh, Laya Balaji Iyer</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/KamyarJohnSalahiPranavGurusankarSathyaEdamadaka.pdf">More Effectively Searching Trees of Thought for Increased Reasoning Ability in Large Language Models</a></td>
+            <td>Kamyar John Salahi, Pranav Gurusankar, Sathya Edamadaka</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/CorneliaWeinzierlSreethuSuraSugunaVarshiniVelury.pdf">Improving performance in large language models through diversity of thoughts</a></td>
+            <td>Cornelia Weinzierl, Sreethu Sura, Suguna Varshini Velury</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/CaiaMaiCostelloJasonDanielLazar.pdf">Increasing the Efficiency of the Sophia Optimizer: Continuous Adaptive Information Averaging</a></td>
+            <td>Caia Mai Costello, Jason Daniel Lazar</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EmilyYiduoChenNathanNMohitNicoleTong.pdf">Unstructured Data Abstraction utilizing Selective Prediction-Oriented Neural Networks in Healthcare Settings</a></td>
+            <td>Emily Yiduo Chen, Nathan N. Mohit, Nicole Tong</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JenniferJingXuLaurenYumiKong.pdf">Claim Verification for Fictional Narratives with Large Language Models</a></td>
+            <td>Jennifer Jing Xu, Lauren Yumi Kong</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JirayuBurapacheep.pdf">Enhancing Factuality in Language Models through Knowledge-Guided Decoding</a></td>
+            <td>Jirayu Burapacheep</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/YoungCholSong.pdf">Temporal Grounding of Activities using Multimodal Large Language Models</a></td>
+            <td>Young Chol Song</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JackRyan.pdf">AI Lie Detection: Is the Hype Justified?</a></td>
+            <td>Jack Ryan</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/IvySunSiqiMaYiranFan.pdf">A Comparative Study of Deep Learning Architectures for Long Text Classification in Mental Health</a></td>
+            <td>Ivy Sun, Siqi Ma, Yiran Fan</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AakashMishraAustinAnilPatelNeilNie.pdf">Towards Natural Language Reasoning for Unified Robotics Description Format Files</a></td>
+            <td>Aakash Mishra, Austin Anil Patel, Neil Nie</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AlexMuzioAlexSunChuranHe.pdf">SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts</a></td>
+            <td>Alex Muzio, Alex Sun, Churan He</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ZhengWang.pdf">Compression Ratio Controlled Text Summarization</a></td>
+            <td>Zheng Wang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EthanDuncanHeLiHellmanMariaAngelikaNikitaSpencerLouisPaul.pdf">Multi-Agent Frameworks in Domain-Specific Question Answering Tasks</a></td>
+            <td>Ethan Duncan He-Li Hellman, Maria Angelika-Nikita, Spencer Louis Paul</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AlanLiBinxuLi.pdf">Understanding Visual Shortcomings of Multimodal Large Language Model Through Training Data Distribution</a></td>
+            <td>Alan Li, Binxu Li</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ElsaBismuthJanMichaelKrauseLucasALeanza.pdf">Clinically relevant summarization of multimodal emergency medical data</a></td>
+            <td>Elsa Bismuth, Jan Michael Krause, Lucas A Leanza</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AndrewTinLokLee.pdf">LLMs with Low-Resource Translation: Syriac-to-English Case Study</a></td>
+            <td>Andrew Tin-Lok Lee</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MatthewDing.pdf">Llama2.pi: Running LLMs on the Bleeding Edge</a></td>
+            <td>Matthew Ding</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/HongMengYamYuchengJiang.pdf">“Not All Information is Created Equal”: Leveraging Metadata for Enhanced Knowledge Curation</a></td>
+            <td>Hong Meng Yam, Yucheng Jiang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/LucasPBosmanWilliamTobyDenton.pdf">GeoPolitical Risk Predictor</a></td>
+            <td>Lucas P Bosman, William Toby Denton</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MubarakAliSeyedIbrahimPratyushMuthukumar.pdf">Multimodal Social Media Sentiment Analysis</a></td>
+            <td>Mubarak Ali Seyed Ibrahim, Pratyush Muthukumar</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JamesJMoriceSamuelEdwardKwok.pdf">Few-Shot Prompt-Tuning: An Extension to a Finetuning Alternative</a></td>
+            <td>James J Morice, Samuel Edward Kwok</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ZhoujieDing.pdf">On Fairness Implications and Evaluations of Low-Rank Adaptation of Large Language Models</a></td>
+            <td>Zhoujie Ding</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/RishiAlluriUpamanyuDassVattam.pdf">Predicting Yelp Star Ratings: An Analysis of Different Models and Fine-Tuned RoBERTa Model</a></td>
+            <td>Rishi Alluri, Upamanyu Dass-Vattam</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Default Projects</h2>
+      <table class="table">
+        <colgroup>
+          <col style="width:60%">
+          <col style="width:40%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <td><a href="final-projects/AlexeyAlexandrovichTuzikovNaijingGuoTatianaVeremeenko.pdf">SMARTer BERT</a></td>
+            <td>Alexey Alexandrovich Tuzikov, Naijing Guo, Tatiana Veremeenko</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/KarthikJetty.pdf">Using Stochastic Layer Dropping as a Regularization Tool to Improve Downstream Prediction Accuracy</a></td>
+            <td>Karthik Jetty</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JietingQiuShwetaAgrawal.pdf">AdaptBert: Parameter Efficient Multitask Bert</a></td>
+            <td>Jieting Qiu, Shweta Agrawal</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/GabrielaCortesIrisTFuVictoriaHsieh.pdf">An Exploration of Fine-Tuning Techniques on minBERT Optimizations</a></td>
+            <td>Gabriela Cortes, Iris T Fu, Victoria Hsieh</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MattAlexanderKaplanPreritChoudharySinaMohammadi.pdf">Three Heads are Better than One: Implementing Multiple Models with Task-Specific BERT Heads</a></td>
+            <td>Matt Alexander Kaplan, Prerit Choudhary, Sina Mohammadi</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BradleyHuShannonXiao.pdf">Multitask BERT</a></td>
+            <td>Bradley Hu, Shannon Xiao</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AubreyWangCandiceWangZiranZhou.pdf">2-Tier SimCSE: Elevating BERT for Robust Sentence Embeddings</a></td>
+            <td>Aubrey Wang, Candice Wang, Ziran Zhou</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/RajVPabari.pdf">Sentence-BERT-inspired Improvements to minBERT</a></td>
+            <td>Raj V Pabari</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JeremyLinfieldSeanBai.pdf">minBERT and Downstream Tasks Optimization with Disentangled Attention</a></td>
+            <td>Jeremy Linfield, Sean Bai</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ZachPeterRotzal.pdf">Choose Your PALs Wisely</a></td>
+            <td>Zach Peter Rotzal</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/NachatJatusripitakPawanWirawarn.pdf">Good Things Come to Those Who Weight: Effective Pairing Strategies for Multi-Task Fine-Tuning</a></td>
+            <td>Nachat Jatusripitak, Pawan Wirawarn</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/HaoyiDuanYaohuiZhang.pdf">Semantic Symphonies: BERTrilogy and BERTriad Ensembles</a></td>
+            <td>Haoyi Duan, Yaohui Zhang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/TetsuyaHayashi.pdf">MinBERT and PALs: Multi-Task Leaning for Downstream Tasks</a></td>
+            <td>Tetsuya Hayashi</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AugustinBoissierMaximePedron.pdf">minBERT Multi Tasks</a></td>
+            <td>Augustin Boissier, Maxime Pedron</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AnnieZZhuGuiDavidKhaingSuMon.pdf">Simple Contrastive Learning for Multitask Finetuning</a></td>
+            <td>Annie Z Zhu, Gui David, Khaing Su Mon</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/TiankaiYan.pdf">minBERT, NLP Tasks, and More</a></td>
+            <td>Tiankai Yan</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/WeichengSongXinyuHuZhiyinPan.pdf">Exploring Pretraining, Finetuning and Regularization for Multitask Learning of minBERT</a></td>
+            <td>Weicheng Song, Xinyu Hu, Zhiyin Pan</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BryantPerkinsDylanRyanDipasupil.pdf">Enhancing BERT for NLP Tasks: Pretraining, Fine-tuning, and Model Augmentation</a></td>
+            <td>Bryant Perkins, Dylan Ryan Dipasupil</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AnnaLittle.pdf">Loss Weighting in Multi-Task Language Learning</a></td>
+            <td>Anna Little</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EdwinAntonioPua.pdf">Optimizing minBERT on Downstream Tasks Using Pretraining and Siamese Network Architecture</a></td>
+            <td>Edwin Antonio Pua</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AlexLin.pdf">Learning by Prediction and Diversity with BERT</a></td>
+            <td>Alex Lin</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/IsabelMichel.pdf">Exploring Challenges in Multi-task BERT Optimization</a></td>
+            <td>Isabel Michel</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AyeshaKhawajaRachelSinaiClintonYasmineFatimaMabene.pdf">SMARTCS: Additional Pretraining and Robust Finetuning on BERT</a></td>
+            <td>Ayesha Khawaja, Rachel Sinai Clinton, Yasmine Fatima Mabene</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JacquelinePangPaulWoringer.pdf">Even Language Models Have to Multitask in This Economy</a></td>
+            <td>Jacqueline Pang, Paul Woringer</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ErikLunaIvanMirandaLiongson.pdf">BERTogether: Multitask Ensembling with Hyperparameter Optimization</a></td>
+            <td>Erik Luna, Ivan Miranda Liongson</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/DayoungKimWanbinSong.pdf">Implementation of BERT with Projected Attention Layers and Its Effectiveness</a></td>
+            <td>Dayoung Kim, Wanbin Song</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/CarlShan.pdf">Experiments in Improving NLP Multitask Performance</a></td>
+            <td>Carl Shan</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChinmayKeshavaLalgudiMedhanieIsaiasIrgau.pdf">ExTraBERT: Exclusive Training for BERT Language Models</a></td>
+            <td>Chinmay Keshava Lalgudi, Medhanie Isaias Irgau</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/DonaldStephens.pdf">Enhancing MinBert Embeddings for Multiple Downstream Tasks</a></td>
+            <td>Donald Stephens</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/LongDPham.pdf">minBERT: Contrastive Learning Method</a></td>
+            <td>Long D Pham</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BjornEngdahlMatthiasHeubi.pdf">An examination of multitask training strategies for different BERT downstream tasks</a></td>
+            <td>Bjorn Engdahl, Matthias Heubi</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MeganDassRiyaDulepetShreyaDSouza.pdf">Beyond Fine-tuning: Iterative Ensemble Strategies for Enhanced BERT Generalizability</a></td>
+            <td>Megan Dass, Riya Dulepet, Shreya D'Souza</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/NathanielThomasGrudzinski.pdf">Progressive Layer Sharing on BERT</a></td>
+            <td>Nathaniel Thomas Grudzinski</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MadhumitaVijayDangeYuwenYang.pdf">Improving minBERT and Its Downstream Tasks</a></td>
+            <td>Madhumita Vijay Dange, Yuwen Yang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AnilYildiz.pdf">GradAttention: Attention-Based Gradient Surgery for Multitask Fine-Tuning</a></td>
+            <td>Anil Yildiz</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ParasMalhotra.pdf">OptiMinBERT: A Comparative Study on the Efficacy of Multitask Versus Specialist Neural Networks</a></td>
+            <td>Paras Malhotra</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EricZhuParkerThomasKasiewicz.pdf">Regular(izing) BERT</a></td>
+            <td>Eric Zhu, Parker Thomas Kasiewicz</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AlexKwonJimmingHe.pdf">Margin for Error: Exploration of a Dynamic Margin for Cosine-Similarity Embedding Loss and Gradient Surgery to Enhance minBERT on Downstream Tasks</a></td>
+            <td>Alex Kwon, Jimming He</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ArmandoAlejandroBordaParkerJosephStewart.pdf">MinBERT Task Prioritization, Cross-Attention and Other Extensions for Downstream Tasks</a></td>
+            <td>Armando Alejandro Borda, Parker Joseph Stewart</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/LiuxinYangYichunQian.pdf">Less is More: Exploring BERT and Beyond for Multitask Learning</a></td>
+            <td>Liuxin Yang, Yichun Qian</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JamesJosephHennessySuxiLi.pdf">Exploring LoRA Adaptation of minBERT Model on Downstream NLP Tasks</a></td>
+            <td>James Joseph Hennessy, Suxi Li</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/WeilunChen.pdf">SMART Multitask MinBERT</a></td>
+            <td>Weilun Chen</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/WenlongJi.pdf">MinBERT and Downstream Tasks</a></td>
+            <td>Wenlong Ji</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MichaelQuiSungHoang.pdf">Learning with PALs: Enhancing BERT for Multi-Task Learning</a></td>
+            <td>Michael Qui Sung Hoang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/RahulThapaRohitKhurana.pdf">Improving minBERT Embeddings Through Multi-Task Learning</a></td>
+            <td>Rahul Thapa, Rohit Khurana</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/KokhinurKalandarovaMharEisenSantosTenorioSamPrietoSerrano.pdf">BERTina Aguilera: Extensions in a Bottle</a></td>
+            <td>Kokhinur Kalandarova, Mhar Eisen Santos Tenorio, Sam Prieto Serrano</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AkshitGoelLinyinLyuNouryaACohen.pdf">Implementation of minBERT and contrastive learning to improve Sentence Embeddings</a></td>
+            <td>Akshit Goel, Linyin Lyu, Nourya A Cohen</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/NiallThomasKehoePranavSaiRavella.pdf">Finetuning minBERT for Downstream Tasks with Multitasking</a></td>
+            <td>Niall Thomas Kehoe, Pranav Sai Ravella</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChristinaTsangouri.pdf">MultiBERT: Enhanced Multi-Task Fine-Tuning on minBERT</a></td>
+            <td>Christina Tsangouri</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BrendanLeeAdamsMcLaughlinChristoDimitrovHristovWilliamShaneHealy.pdf">Enhanced Sentence we Embeddings with SimCSE</a></td>
+            <td>Brendan Lee Adams McLaughlin, Christo Dimitrov Hristov, William Shane Healy</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/RyanJamesDwyer.pdf">A Bilingual BERT Model Ensemble for English-based Multitask Fine-tuning</a></td>
+            <td>Ryan James Dwyer</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MenggePuYawenGuo.pdf">Pretrain and Fine-tune BERT for Multiple NLP Tasks</a></td>
+            <td>Mengge Pu, Yawen Guo</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JaneneRachanaKimLucyZimmermanRachelLiu.pdf">Combining Contrastive Learning with Adaptive Attention and Experimental Dropout to Improve mini-BERT Performance</a></td>
+            <td>Janene Rachana Kim, Lucy Zimmerman, Rachel Liu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MinhVu.pdf">Minhbert</a></td>
+            <td>Minh Vu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/CatGonzalesFergesenClarisseYuHokia.pdf">Implementing RO-BERT from Scratch: A BERT Model Fine-Tuned through Regularized Optimization for Improved Performance on Sentence-Level Downstream Tasks</a></td>
+            <td>Cat Gonzales Fergesen, Clarisse Yu Hokia</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JulianRodriguezCardenasMayLevin.pdf">UmBERTo: Enhancing Performance in NLP Tasks through Model Expansion, SMARTLoss, and Ensemble Techniques</a></td>
+            <td>Julian Rodriguez Cardenas, May Levin</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AdrianLGamarraLafuenteAviUdash.pdf">Effects of Appropriate Modeling of Tasks and Hyperparameters on Downstream Tasks</a></td>
+            <td>Adrian L Gamarra Lafuente, Avi Udash</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ManasvenGroverXiyuanWang.pdf">MiniBERT: Training Jointly on Multiple Tasks</a></td>
+            <td>Manasven Grover, Xiyuan Wang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/YingboLi.pdf">Finetune minBERT for Multi-Tasks Learning</a></td>
+            <td>Yingbo Li</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/KyuilLee.pdf">BERTology: Improving Sentence Embeddings for Multi-Task Success</a></td>
+            <td>Kyuil Lee</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EliotKrzysztofJones.pdf">Not-So-SMART BERT</a></td>
+            <td>Eliot Krzysztof Jones</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EstebanWanhoeWuNicoleGarciaSimbaXu.pdf">Multi-Tasking BERT: The Swiss Army Knife of NLP</a></td>
+            <td>Esteban Wanhoe Wu, Nicole Garcia, Simba Xu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BenitaWongTinaWu.pdf">Exploring LSTM minBERT with DCT</a></td>
+            <td>Benita Wong, Tina Wu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AnicetDushimeWaMungu.pdf">BERT Extension Using Sentence-BERT for Sentence Embedding</a></td>
+            <td>Anicet Dushime Wa Mungu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/GraceYangXianchenYang.pdf">Extending Min-BERT for Multi-Task Prediction Capabilities</a></td>
+            <td>Grace Yang, Xianchen Yang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChunweiChanShuojiaFu.pdf">Multitask Learning for BERT Model</a></td>
+            <td>Chunwei Chan, Shuojia Fu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/CarlosEmmanuelleAyalaBellido.pdf">Optimizing minBERT for Downstream Tasks using Multitask Fine-Tuning</a></td>
+            <td>Carlos Emmanuelle Ayala Bellido</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EmilyBroadhurstMichaelMaffezzoli.pdf">Enhancing BERT through Multitask Fine-Tuning, Multiple Negatives Ranking and Cosine-Similarity</a></td>
+            <td>Emily Broadhurst, Michael Maffezzoli</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/QianZhong.pdf">minBERT and Downstream Tasks</a></td>
+            <td>Qian Zhong</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ParisZhangYimingNi.pdf">Enhancing Multi-Task Learning on BERT</a></td>
+            <td>Paris Zhang, Yiming Ni</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/HaomingZouMingheZhang.pdf">BERT’s Odyssey: Enhancing BERT for Multifaceted Downstream Tasks</a></td>
+            <td>Haoming Zou, Minghe Zhang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/FanglinLuGerardusdeBruijnRachelRuijiaYang.pdf">Efficient Multi-Task MinBERT for Three Default Tasks and Question Answering</a></td>
+            <td>Fanglin Lu, Gerardus de Bruijn, Rachel Ruijia Yang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/HamzahDaud.pdf">BERT but BERT-er</a></td>
+            <td>Hamzah Daud</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChuLinFuhuXiao.pdf">BERT Mastery: Explore Multitask Learning</a></td>
+            <td>Chu Lin, Fuhu Xiao</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChristopherNguyen.pdf">minBERT using PALs with Gradient Episodic Memory</a></td>
+            <td>Christopher Nguyen</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChijiokeMgbahurikeIddahMlauziKwameOcran.pdf">Jack of All Trades, Master of Some: Improving BERT for Multitask Learning</a></td>
+            <td>Chijioke Mgbahurike, Iddah Mlauzi, Kwame Ocran</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MelGuo.pdf">Multi-task Learning and Fine-tuning with BERT</a></td>
+            <td>Mel Guo</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/PannSripitakThanawanAtchariyachanvanit.pdf">Enhanced TreeBERT: High-Performance, Computationally Efficient Multi-Task Model</a></td>
+            <td>Pann Sripitak, Thanawan Atchariyachanvanit</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JuliusHillebrand.pdf">The Best of BERT Worlds: Improving minBERT with multi-task extensions</a></td>
+            <td>Julius Hillebrand</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChanningLeeHannahGailPrausnitzWeinbaumHaomingSong.pdf">Improving BERT – Lessons from RoBERTa</a></td>
+            <td>Channing Lee, Hannah Gail Prausnitz-Weinbaum, Haoming Song</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/GauravKiranRane.pdf">A Rigorous Analysis on Bert’s Language Capabilities</a></td>
+            <td>Gaurav Kiran Rane</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/NamanGovil.pdf">minBERT and Multitask Learning Enhancements</a></td>
+            <td>Naman Govil</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/HaijingZhang.pdf">Multi-BERT: A Multi-Task BERT Approach with the Variation of Projected Attention Layer</a></td>
+            <td>Haijing Zhang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/CarrieGuErickaLiuZixinLi.pdf">QuarBERT: Optimizing BERT with Multitask Learning and Quartet Ensemble</a></td>
+            <td>Carrie Gu, Ericka Liu, Zixin Li</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/HelenAprilHeMayaWaleriaCzeneszewSidraNadeem.pdf">BERT-icus, Transform and Ensemble!</a></td>
+            <td>Helen April He, Maya Waleria Czeneszew, Sidra Nadeem</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/SaraHongSophieWu.pdf">Exploring Improvements on BERT</a></td>
+            <td>Sara Hong, Sophie Wu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ShouzhongShi.pdf">minBERT and Downstream Tasks</a></td>
+            <td>Shouzhong Shi</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AkshayDevGuptaErikRoziVincentJianlinHuang.pdf">Efficient Fine-Tuning of BERT with ELECTRA</a></td>
+            <td>Akshay Dev Gupta, Erik Rozi, Vincent Jianlin Huang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/HamadMMusa.pdf">Implementing BERT for multiple downstream tasks</a></td>
+            <td>Hamad M Musa</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChloeTrujilloMohsenMahvashmohammady.pdf">Multi Task Fine Tuning of BERT Using Adversarial Regularization and Priority Sampling</a></td>
+            <td>Chloe Trujillo, Mohsen Mahvashmohammady</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/PatrickJamesSicurello.pdf">EquiBERT: (An Attempt At) Equivariant Fine-Tuning of Pretrained Large Language Models</a></td>
+            <td>Patrick James Sicurello</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JohnnyChangKanuGroverKaushalAtulAlate.pdf">"That was smooth": Exploration of S-BERT with Multiple Negatives Ranking Loss and Smoothness-Inducing Regularization</a></td>
+            <td>Johnny Chang, Kanu Grover, Kaushal Atul Alate</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AnushaAditiKuppahallyMalaviRavindranZiyueJuliaWang.pdf">Enhancing BERT for Advanced Language Understanding: A Multitask Learning Approach with Task-Specific Tuning</a></td>
+            <td>Anusha Aditi Kuppahally, Malavi Ravindran, Ziyue (Julia) Wang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EthanSargoTiaoRikhilPareshVagadia.pdf">Triple-Batch vs Proportional Sampling: Investigating Multitask Learning Architectures on minBERT</a></td>
+            <td>Ethan Sargo Tiao, Rikhil Paresh Vagadia</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AbrahamAlappat.pdf">Extending Applications of Layer Selecting Rank Reduction</a></td>
+            <td>Abraham Alappat</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/KevinNguyenPhan.pdf">Improving BERT for Downstream Tasks</a></td>
+            <td>Kevin Nguyen Phan</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ElizabethTheresaBaena.pdf">BEAKER: Exploring Enhancements of BERT through Learning Rate Schedules, Contrastive Learning, and CosineEmbeddingLoss</a></td>
+            <td>Elizabeth Theresa Baena</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/DavidSaykinKfirShmuelDolev.pdf">Gradient Descent in Multi-Task Learning</a></td>
+            <td>David Saykin, Kfir Shmuel Dolev</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/EthanPaulFoster.pdf">SMART Surgery: Combining Finetuning Methods for Multitask BERT</a></td>
+            <td>Ethan Paul Foster</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JimmyOtienoOgada.pdf">Fine-tuning minBERT For Multi-task Classification</a></td>
+            <td>Jimmy Otieno Ogada</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/IfditaHasanOrneyRafaelPerezMartinezValerieAnnFanelle.pdf">Three Headed Mastery: minBERT as a Jack of All Trades in Multi-Task NLP</a></td>
+            <td>Ifdita Hasan Orney, Rafael Perez Martinez, Valerie Ann Fanelle</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/CarolineSantosMarquesdaSilva.pdf">Balancing Performance and Computational Efficiency: Exploring Low-Rank Adaptation for Multi-Transferring Learning</a></td>
+            <td>Caroline Santos Marques da Silva</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/IsaacIGorelikRishiDange.pdf">ExtraBERT: Applying BERT to Multiple Downstream Language Tasks</a></td>
+            <td>Isaac I. Gorelik, Rishi Dange</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/FebieJaneLinJackPLe.pdf">BERT and Beyond: A Study of Multitask Learning Strategies for NLP</a></td>
+            <td>Febie Jane Lin, Jack P Le</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/LinLin.pdf">Mini Bert Optimized for Multi Tasks</a></td>
+            <td>Lin Lin</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/RamgopalVenkateswaran.pdf">Methods to Improve Downstream Generalization of minBERT</a></td>
+            <td>Ramgopal Venkateswaran</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JordanAndyParedesShumannRXu.pdf">Maximizing MinBert for Multi-Task Learning</a></td>
+            <td>Jordan Andy Paredes, Shumann R Xu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AntonioDaviMacedoCoelhodeCastro.pdf">minBERT Multi-Task Fine-Tuning</a></td>
+            <td>Antonio Davi Macedo Coelho de Castro</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/IshitaMangla.pdf">Fine-tuning minBERT for multi-task prediction</a></td>
+            <td>Ishita Mangla</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/HarshGoyal.pdf">Grid Search for Improvements to BERT</a></td>
+            <td>Harsh Goyal</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/MichaelLiuMichaelPhillipHayashiRobertoLobatoLopez.pdf">SMART loss vs DeBERTa</a></td>
+            <td>Michael Liu, Michael Phillip Hayashi, Roberto Lobato Lopez</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/NikhilSharmaSamyCherfaoui.pdf">Extending Phrasal Paraphrase Classification Techniques to Non-Semantic NLP Tasks</a></td>
+            <td>Nikhil Sharma, Samy Cherfaoui</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JuliaKwak.pdf">Loss Weighting in Multi-Task Language Learning</a></td>
+            <td>Julia Kwak</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChaoqunJia.pdf">Task-specific attention</a></td>
+            <td>Chaoqun Jia</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/XinpeiYu.pdf">minBERT and Downstream Tasks</a></td>
+            <td>Xinpei Yu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/GeraldJohnSufleta.pdf">Integrating Cosine Similarity into minBERT for Paraphrase and Semantic Analysis</a></td>
+            <td>Gerald John Sufleta</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AlexHeZhaiAllisonJiaDevenKiritPandya.pdf">SlapBERT: Shared Layers and Projected Attention For Enhancing Multitask Learning with minBERT</a></td>
+            <td>Alex He Zhai, Allison Jia, Deven Kirit Pandya</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/HaoyuWang.pdf">MT-DNN with SMART Regularisation and Task-Specific Head to Capture the Pairwise and Contextually Significant Words Interplay</a></td>
+            <td>Haoyu Wang</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/LeythRamezToubassyReneeDuarteWhite.pdf">Speedy SBERT</a></td>
+            <td>Leyth Ramez Toubassy, Renee Duarte White</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ChanseHBhaktaJosephAnthonySeibaKasenStephensen.pdf">Using Gradient Surgery, Cosine Similarity, and Additional Data to Improve BERT on Downstream Tasks</a></td>
+            <td>Chanse H. Bhakta, Joseph Anthony Seiba, Kasen Stephensen</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/JennyXu.pdf">Multitask BERT Model with Regularized Optimization and Gradient Surgery</a></td>
+            <td>Jenny Xu</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/KhanhVTranThomasCharlesHatcherVladimirAGonzalezMigal.pdf">BitBiggerBERT: An Extended BERT Model with Custom Attention Mechanisms, Enhanced Fine-Tuning, and Dynamic Weights</a></td>
+            <td>Khanh V Tran, Thomas Charles Hatcher, Vladimir A Gonzalez Migal</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/BingqingZuYixuanLin.pdf">minBERT and Downstream Tasks Final Report</a></td>
+            <td>Bingqing Zu, Yixuan Lin</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/GeorgiosChristoglouZacharyEvansBehrman.pdf">Evaluating Contrastive Learning Strategies for Enhanced Performance in Downstream Tasks</a></td>
+            <td>Georgios Christoglou, Zachary Evans Behrman</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/ArisaSugiyamaChueDaphneLiuPoonamSahoo.pdf">A SMARTer minBERT</a></td>
+            <td>Arisa Sugiyama Chue, Daphne Liu, Poonam Sahoo</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/GabeEduardoSeirRyderThompsonMathenyShawnCharles.pdf">OptimusBERT: Exploring BERT Transformer with Multi-Task Fine-Tuning, Gradient Surgery, and Adaptive Multiple Negative Rank Loss Learning Fine-Tuning</a></td>
+            <td>Gabe Eduardo Seir, Ryder Thompson Matheny, Shawn Charles</td>
+          </tr>
+          <tr>
+            <td><a href="final-projects/AnanyaSiriVasireddyNehaVinjapuri.pdf">Optimizing minBert via Cosine Similarity and Negative Sampling</a></td>
+            <td>Ananya Siri Vasireddy, Neha Vinjapuri</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- jQuery and Boostrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
