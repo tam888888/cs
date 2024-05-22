@@ -1,0 +1,52 @@
+wget http://infolab.stanford.edu/~ullman/mmds/ch10n.pdf
+wget http://infolab.stanford.edu/~ullman/mmds/ch11.pdf
+wget http://infolab.stanford.edu/~ullman/mmds/ch12.pdf
+wget http://infolab.stanford.edu/~ullman/mmds/ch1n.pdf
+wget http://infolab.stanford.edu/~ullman/mmds/ch2n.pdf
+wget http://infolab.stanford.edu/~ullman/mmds/ch3n.pdf
+wget http://infolab.stanford.edu/~ullman/mmds/ch4.pdf
+wget http://infolab.stanford.edu/~ullman/mmds/ch5.pdf
+wget http://infolab.stanford.edu/~ullman/mmds/ch6.pdf
+wget http://infolab.stanford.edu/~ullman/mmds/ch7.pdf
+wget http://infolab.stanford.edu/~ullman/mmds/ch8.pdf
+wget http://infolab.stanford.edu/~ullman/mmds/ch9.pdf
+wget http://www.cs.cmu.edu/~kbe/tdn_kdd09.pdf
+wget https://web.stanford.edu/class/cs246/handouts/CS246_Info_Handout.pdf
+wget https://web.stanford.edu/class/cs246/handouts/CS246_LinAlg_review.pdf
+wget https://web.stanford.edu/class/cs246/handouts/CS246_Proof_Probability.pdf
+wget https://web.stanford.edu/class/cs246/homework/hw1-bundle.zip
+wget https://web.stanford.edu/class/cs246/homework/hw2-bundle.zip
+wget https://web.stanford.edu/class/cs246/homework/hw3-bundle.zip
+wget https://web.stanford.edu/class/cs246/homework/hw4-bundle.zip
+wget https://web.stanford.edu/class/cs246/slides/01-intro.pdf
+wget https://web.stanford.edu/class/cs246/slides/02-assocrules.pdf
+wget https://web.stanford.edu/class/cs246/slides/03-lsh.pdf
+wget https://web.stanford.edu/class/cs246/slides/04-lsh_theory.pdf
+wget https://web.stanford.edu/class/cs246/slides/05-clustering.pdf
+wget https://web.stanford.edu/class/cs246/slides/06-dim_red.pdf
+wget https://web.stanford.edu/class/cs246/slides/07-recsys1.pdf
+wget https://web.stanford.edu/class/cs246/slides/08-recsys2.pdf
+wget https://web.stanford.edu/class/cs246/slides/09-pagerank.pdf
+wget https://web.stanford.edu/class/cs246/slides/10-spam.pdf
+wget https://web.stanford.edu/class/cs246/slides/11-graphs.pdf
+wget https://web.stanford.edu/class/cs246/slides/12-emb.pdf
+wget https://web.stanford.edu/class/cs246/slides/13-graphemb.pdf
+wget https://web.stanford.edu/class/cs246/slides/14-gnn.pdf
+wget https://web.stanford.edu/class/cs246/slides/15-dt.pdf
+wget https://web.stanford.edu/class/cs246/slides/16-streams.pdf
+wget https://web.stanford.edu/class/cs246/slides/17-advertising.pdf
+wget https://web.stanford.edu/class/cs246/slides/18-submodular.pdf
+wget https://web.stanford.edu/class/cs246/slides/19-bandits.pdf
+wget https://web.stanford.edu/class/cs246/slides/20-scalingDL.pdf
+
+https://colab.research.google.com/drive/115k5smTNJllpJrv3fn16Z3vg6SQWnyLC?usp=sharing
+https://colab.research.google.com/drive/1B92SdhgHcniGPqZ_WhhJgZYmQmz16gBl?usp=sharing
+https://colab.research.google.com/drive/115k5smTNJllpJrv3fn16Z3vg6SQWnyLC?usp=sharing
+https://colab.research.google.com/drive/1VKQ6abw7ouKiHgRuXkSfNkkGb2xDvtnq?usp=sharing
+https://colab.research.google.com/drive/1F9_DbM919MlpY7WnlkOHdtXniQrWte9Q?usp=sharing
+https://colab.research.google.com/drive/1ntuhHz0ohwg-0CQWFU1l2oqWB4gbE72T?usp=sharing
+https://colab.research.google.com/drive/1ljjAM6zlZib8h8f9FIHTnH1YyLEg2YZZ?usp=sharing
+https://colab.research.google.com/drive/1BcQtODZuOQNuKaDj11Lq81rPg-ETxj3J?usp=sharing
+https://colab.research.google.com/drive/1dkGvHXUmgPvzDlPUKrSrHRTPe2Gk9-30?usp=sharing
+https://colab.research.google.com/drive/1nfOFUL-eXhvzDVKKZJ7ieoTwDBdcoXd6?usp=sharing
+https://colab.research.google.com/drive/16Y4mFcZsFOaMZVpYEf_KwU4MrFcQlI8i?usp=sharing
